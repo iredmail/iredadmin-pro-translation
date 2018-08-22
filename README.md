@@ -1,4 +1,4 @@
-This repository contains all language files for iRedAdmin-Pro.
+This repository contains all language files for [iRedAdmin-Pro](https://www.iredmail.org/admin_panel.html).
 
 How to help translate:
 
