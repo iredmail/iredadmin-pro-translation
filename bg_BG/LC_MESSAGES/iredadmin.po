@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-22 13:52+0200\n"
+"POT-Creation-Date: 2018-08-22 22:23+0200\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -1879,6 +1879,9 @@ msgstr ""
 msgid "Product name"
 msgstr "Име на продукта"
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr "Настройки на админ:"
 
@@ -1896,9 +1899,6 @@ msgstr "Настройки на поща:"
 
 msgid "Profile updated failed."
 msgstr "Неуспешно записване на промените."
-
-msgid "Profile updated success."
-msgstr "Промените бяха записани успешно."
 
 msgid "Purchase a new license"
 msgstr "Закуване на нов лиценз"

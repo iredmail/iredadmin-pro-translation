@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-22 13:53+0200\n"
+"POT-Creation-Date: 2018-08-22 22:23+0200\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -1797,6 +1797,9 @@ msgstr ""
 msgid "Product name"
 msgstr "產品名稱"
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr "管理員屬性："
 
@@ -1814,9 +1817,6 @@ msgstr "用戶屬性："
 
 msgid "Profile updated failed."
 msgstr "屬性更新失敗。"
-
-msgid "Profile updated success."
-msgstr "屬性更新成功。"
 
 msgid "Purchase a new license"
 msgstr "購買新許可證"

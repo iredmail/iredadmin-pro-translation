@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-LDAP-1.6.2\n"
 "Report-Msgid-Bugs-To: suds77@gmail.com\n"
-"POT-Creation-Date: 2018-08-22 13:53+0200\n"
+"POT-Creation-Date: 2018-08-22 22:23+0200\n"
 "PO-Revision-Date: 2013-07-24 09:24+0400\n"
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language: ru_RU\n"
@@ -1814,6 +1814,9 @@ msgstr ""
 msgid "Product name"
 msgstr "Название продукта"
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr "Профиль администратора:"
 
@@ -1831,9 +1834,6 @@ msgstr "Профиль пользователя:"
 
 msgid "Profile updated failed."
 msgstr "Профиль не был изменен."
-
-msgid "Profile updated success."
-msgstr "Профиль успешно изменен."
 
 msgid "Purchase a new license"
 msgstr "Обновить лицензию"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-22 13:52+0200\n"
+"POT-Creation-Date: 2018-08-22 22:23+0200\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -1797,6 +1797,9 @@ msgstr ""
 msgid "Product name"
 msgstr "제품 이름"
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr "관리자 프로필"
 
@@ -1814,9 +1817,6 @@ msgstr "사용자 프로필"
 
 msgid "Profile updated failed."
 msgstr "프로필 갱신 실패"
-
-msgid "Profile updated success."
-msgstr "프로필 갱신 성공"
 
 msgid "Purchase a new license"
 msgstr "라이선스 갱신"

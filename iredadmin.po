@@ -1770,6 +1770,9 @@ msgstr ""
 msgid "Product name"
 msgstr ""
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr ""
 
@@ -1786,9 +1789,6 @@ msgid "Profile of user:"
 msgstr ""
 
 msgid "Profile updated failed."
-msgstr ""
-
-msgid "Profile updated success."
 msgstr ""
 
 msgid "Purchase a new license"

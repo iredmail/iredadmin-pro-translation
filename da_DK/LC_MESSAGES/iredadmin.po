@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-22 13:52+0200\n"
+"POT-Creation-Date: 2018-08-22 22:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da_DK\n"
@@ -1886,6 +1886,9 @@ msgstr ""
 msgid "Product name"
 msgstr "Produkt navn"
 
+msgid "Profile has been updated."
+msgstr ""
+
 msgid "Profile of admin:"
 msgstr "Profil af admin:"
 
@@ -1903,9 +1906,6 @@ msgstr "Profil af bruger:"
 
 msgid "Profile updated failed."
 msgstr "Profil opdatering mislykkedes."
-
-msgid "Profile updated success."
-msgstr "Profil opdateret."
 
 msgid "Purchase a new license"
 msgstr "Køb en ny licens"
