@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tradução Português BR - Versão em desenvolvimento\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-22 22:23+0200\n"
+"POT-Creation-Date: 2018-08-28 22:59+0200\n"
 "PO-Revision-Date: 2014-10-21 12:34-0300\n"
 "Last-Translator: Douglas Medeiros <douglasmedeiros@tic.ufrj.br>\n"
 "Language: pt_BR\n"
@@ -1299,9 +1299,6 @@ msgid "Mailing List (Subscribable)"
 msgstr ""
 
 msgid "Mailing Lists"
-msgstr ""
-
-msgid "Mailing list"
 msgstr ""
 
 msgid "Mailing list created."

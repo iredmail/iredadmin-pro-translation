@@ -1243,9 +1243,6 @@ msgstr ""
 msgid "Mailing Lists"
 msgstr ""
 
-msgid "Mailing list"
-msgstr ""
-
 msgid "Mailing list created."
 msgstr ""
 

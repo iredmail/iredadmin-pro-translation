@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-22 22:23+0200\n"
+"POT-Creation-Date: 2018-08-28 22:59+0200\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -1278,9 +1278,6 @@ msgid "Mailing List (Subscribable)"
 msgstr ""
 
 msgid "Mailing Lists"
-msgstr ""
-
-msgid "Mailing list"
 msgstr ""
 
 msgid "Mailing list created."
