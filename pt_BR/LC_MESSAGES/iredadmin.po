@@ -2601,13 +2601,13 @@ msgstr ""
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "entregar e-mails aos servidores especificados no registo A do domínio example.com através da porta 25"
 
 msgid ""
 "relay emails to the servers specified in MX DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "entregar e-mails aos servidores especificados no registo MX do domínio example.com através da porta 25"
 
 msgid "without verifying local recipients"
-msgstr ""
+msgstr "sem verificar os destinatários locais"
 
