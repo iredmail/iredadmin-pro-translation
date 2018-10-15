@@ -2529,7 +2529,7 @@ msgstr ""
 msgid ""
 "You can enable self-service (per-domain setting) to allow users to manage"
 " their own preferences and more."
-msgstr ""
+msgstr "Pode ativar o modo de serviço gerido (configuração por domínio) para permitir a gestão por parte dos utilizadores"
 
 msgid "You can set per-domain and per-user throttling in account profile page."
 msgstr ""
@@ -2552,7 +2552,7 @@ msgstr "Você não pode criar apelidos de email sob o domínio %s."
 
 #, python-format
 msgid "You can't create mailing lists under domain %s."
-msgstr ""
+msgstr "Não pode criar mais listas de e-mail sobre o domínio %s."
 
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
@@ -2560,13 +2560,13 @@ msgstr "Você não pode criar mais apelidos de email sob o domínio %s."
 
 #, python-format
 msgid "You can't create more mailing lists under domain %s."
-msgstr ""
+msgstr "Não pode criar mais listas de e-mails sobre "
 
 msgid "Your IP address is not allowed to login as global admin."
 msgstr "Seu endereço IP não tem permissão para entrar como administrador global."
 
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
-msgstr ""
+msgstr "A sua licença não é válida. Contate support@iredmail.org para corrigir o problema."
 
 msgid "Your search returned no hits."
 msgstr "Sua procura não retornou resultados."
@@ -2587,7 +2587,7 @@ msgid "default transport"
 msgstr "Transporte padrão"
 
 msgid "discard received email"
-msgstr ""
+msgstr "descartar e-mails recebidos"
 
 msgid ""
 "forward emails to host example.com through port 25. The [] form is "
