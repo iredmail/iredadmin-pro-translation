@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_US\n"
@@ -204,9 +204,6 @@ msgstr ""
 msgid "Alias"
 msgstr ""
 
-msgid "Alias account"
-msgstr ""
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -293,11 +290,27 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr ""
 
 #, python-format
 msgid "At least %s characters."
+msgstr ""
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
 msgstr ""
 
 msgid "Attachments"
@@ -371,9 +384,6 @@ msgid "Change email address to"
 msgstr ""
 
 msgid "Change password"
-msgstr ""
-
-msgid "Check this box in order to enable other services"
 msgstr ""
 
 msgid "Choose Action"
@@ -607,9 +617,6 @@ msgstr ""
 msgid "Display Name"
 msgstr ""
 
-msgid "Display mail address in global LDAP address book"
-msgstr ""
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -656,9 +663,6 @@ msgid "Domain admin"
 msgstr ""
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
-msgstr ""
-
-msgid "Domain alias"
 msgstr ""
 
 msgid "Domain already exists. Please check both primary or alias domains."
@@ -871,13 +875,13 @@ msgstr ""
 msgid "Expired"
 msgstr ""
 
-msgid "Export account in LDIF format"
-msgstr ""
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -941,9 +945,6 @@ msgid "Forwarding addresses (saved a copy in mailbox)"
 msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
-msgstr ""
-
-msgid "Forwarding mails to other addresses"
 msgstr ""
 
 msgid "Full name"
@@ -1248,9 +1249,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr ""
 
-msgid "Mail service"
-msgstr ""
-
 msgid "Mailbox Quota"
 msgstr ""
 
@@ -1544,6 +1542,10 @@ msgid "No moderator selected."
 msgstr ""
 
 msgid "No moderators."
+msgstr ""
+
+#, python-format
+msgid "No more than %d characters."
 msgstr ""
 
 #, python-format
@@ -1957,9 +1959,6 @@ msgid "Reverse DNS Name"
 msgstr ""
 
 msgid "Revoke admin privilege"
-msgstr ""
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
@@ -2495,18 +2494,6 @@ msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
 msgid "Your search returned no hits."
-msgstr ""
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr ""
-
-msgid "at least one uppercase letter"
 msgstr ""
 
 msgid "default transport"

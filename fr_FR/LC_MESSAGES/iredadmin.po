@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: Shafeek SUMSER <shafeeks@gmail.com>\n"
 "Language: fr_FR\n"
@@ -203,9 +203,6 @@ msgstr "Avancé"
 msgid "Alias"
 msgstr "Alias"
 
-msgid "Alias account"
-msgstr "Alias de compte"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -292,12 +289,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Au moins %s caractères, mais sans dépasser %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Au moins %s caractères."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Fichiers attachés"
@@ -371,9 +384,6 @@ msgstr "Une adresse de courriel par ligne."
 
 msgid "Change password"
 msgstr "Nouveau mot de passe"
-
-msgid "Check this box in order to enable other services"
-msgstr "Cocher cette case pour activer les autres services"
 
 msgid "Choose Action"
 msgstr "Choisir une action"
@@ -606,9 +616,6 @@ msgstr "Message d'avertissement"
 msgid "Display Name"
 msgstr "Nom Affiché"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Afficher l'adresse mail dans le carnet d'adresses global LDAP"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -656,9 +663,6 @@ msgstr "Administrateurs du Domaine"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "Alias de domaine"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr ""
@@ -887,13 +891,13 @@ msgstr "Date d'expiration"
 msgid "Expired"
 msgstr "Expiré"
 
-msgid "Export account in LDIF format"
-msgstr "Exporter le compte vers"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -958,9 +962,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Transférer les courriels à d'autres adresses"
 
 msgid "Full name"
 msgstr "Nom complet"
@@ -1272,9 +1273,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Un courriel envoyé à un alias sera transféré aux membres."
 
-msgid "Mail service"
-msgstr "Service de messagerie"
-
 msgid "Mailbox Quota"
 msgstr "Quota de boite aux lettres"
 
@@ -1572,6 +1570,10 @@ msgstr "Aucun modérateur sélectionné."
 
 msgid "No moderators."
 msgstr "Modérateurs"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1993,9 +1995,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profil de l'administrateur."
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2547,18 +2546,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Votre recherche ne retourne aucun résultat."
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "Au moins %s caractères."
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "Le transport par défaut"

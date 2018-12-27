@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -205,9 +205,6 @@ msgstr "Napredno"
 msgid "Alias"
 msgstr "Vzdevek"
 
-msgid "Alias account"
-msgstr "Vzdevčni račun"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -294,12 +291,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Vsaj %s znakov, vendar ne več kot %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Vsaj %s znakov."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Priloge"
@@ -373,9 +386,6 @@ msgstr "En poštni naslov na vrstico."
 
 msgid "Change password"
 msgstr "Novo geslo"
-
-msgid "Check this box in order to enable other services"
-msgstr "Odkljukajte to polje, da omogočite druge poštne storitve."
 
 msgid "Choose Action"
 msgstr "Izberite dejanje"
@@ -608,9 +618,6 @@ msgstr "Omejitev odgovornosti"
 msgid "Display Name"
 msgstr "Prikaži ime"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Prikaži poštni naslov v globalnem LDAP imeniku"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -658,9 +665,6 @@ msgstr "Število domen"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "Domenski vzdevek"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "Domena že obstaja. Preverite, prosim, primarne in vzdevčne domene."
@@ -880,13 +884,13 @@ msgstr "Zapadli datum"
 msgid "Expired"
 msgstr "Zapadli datum"
 
-msgid "Export account in LDIF format"
-msgstr "Izvozi račun v"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -951,9 +955,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Posredovanje pošte na druge naslove"
 
 msgid "Full name"
 msgstr "Polno ime"
@@ -1265,9 +1266,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Pošta, poslana na vzdevek, bo posredovana članom."
 
-msgid "Mail service"
-msgstr "Poštna storitev"
-
 msgid "Mailbox Quota"
 msgstr "Kvota poštnega predala"
 
@@ -1564,6 +1562,10 @@ msgstr "Noben moderator ni izbran."
 
 msgid "No moderators."
 msgstr "Moderatorji"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1983,9 +1985,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profil upravitelja:"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2527,18 +2526,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Vaše iskanje je bilo brezplodno."
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "Vsaj %s znakov."
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "privzeti transport"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-LDAP-1.6.2\n"
 "Report-Msgid-Bugs-To: suds77@gmail.com\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2013-07-24 09:24+0400\n"
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language: ru_RU\n"
@@ -204,9 +204,6 @@ msgstr "Дополнительно"
 msgid "Alias"
 msgstr "Алиас"
 
-msgid "Alias account"
-msgstr "Алиас аккаунта"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -293,6 +290,10 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr ""
 "По крайней мере <strong>%s</strong> символов, но не более чем "
@@ -301,6 +302,18 @@ msgstr ""
 #, python-format
 msgid "At least %s characters."
 msgstr "Новый пароль должен содержать <strong>%s</strong> символов."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Вложения"
@@ -374,9 +387,6 @@ msgstr "Один адрес на строку"
 
 msgid "Change password"
 msgstr "Новый пароль"
-
-msgid "Check this box in order to enable other services"
-msgstr "Отметьте тут для включения других почтовых сервисов"
 
 msgid "Choose Action"
 msgstr "Выбрать действие"
@@ -609,9 +619,6 @@ msgstr "Правовая оговорка"
 msgid "Display Name"
 msgstr "Отображаемое имя"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Отображать все адреса в глобальной LDAP адресной книге"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -659,9 +666,6 @@ msgstr "Администратор домена"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "Алиас домена"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "Домен уже существует, выберите другой имя или алиас домена."
@@ -881,13 +885,13 @@ msgstr "Дата окончания"
 msgid "Expired"
 msgstr "Просрочено"
 
-msgid "Export account in LDIF format"
-msgstr "Экспорт аккаунта в"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -952,9 +956,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Пересылать сообщение других адресатам"
 
 msgid "Full name"
 msgstr "Полное имя"
@@ -1264,9 +1265,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Почта отсылаемая на алиас будет доставлена участникам."
 
-msgid "Mail service"
-msgstr "Почтовый сервис"
-
 msgid "Mailbox Quota"
 msgstr "Квота ящика"
 
@@ -1563,6 +1561,10 @@ msgstr "Нет выбранных модераторов."
 
 msgid "No moderators."
 msgstr "Модераторы"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1984,9 +1986,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Профиль администратора:"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2526,18 +2525,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Поиск не вернул результатов"
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "Новый пароль должен содержать <strong>%s</strong> символов."
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "транспорт по умолчанию"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: lverhoeven@vcn.nl\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: Luc Verhoeven <lverhoeven@vcn>\n"
 "Language: nl_NL\n"
@@ -204,9 +204,6 @@ msgstr "Geavanceerd"
 msgid "Alias"
 msgstr "Alias"
 
-msgid "Alias account"
-msgstr "Alias account"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -293,12 +290,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Ten minste %s karakters, maar niet meer dan %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Tenminste %s karakters."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Bijlagen"
@@ -372,9 +385,6 @@ msgstr "Een e-mail adres per lijn"
 
 msgid "Change password"
 msgstr "Nieuw wachtwoord"
-
-msgid "Check this box in order to enable other services"
-msgstr "Selecteer dit vakje om alle e-mail gerelateerde services in te schakelen."
 
 msgid "Choose Action"
 msgstr "Kies aktie"
@@ -607,9 +617,6 @@ msgstr "Disclaimer"
 msgid "Display Name"
 msgstr "Weergave naam"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Geef e-mail adres weer in het globale LDAP adres boek"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -657,9 +664,6 @@ msgstr "Aantal domeinen"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "Domein alias"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "Domein bestaat al. Controleer alstublieft primaire of alias domeinen."
@@ -881,13 +885,13 @@ msgstr "Datum verlopen"
 msgid "Expired"
 msgstr "Datum verlopen"
 
-msgid "Export account in LDIF format"
-msgstr "Exporteer het account naar"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -952,9 +956,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Stuur e-mails door naar andere adressen"
 
 msgid "Full name"
 msgstr "Volledige naam"
@@ -1268,9 +1269,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "E-mails verzonden naar alias accounts zullen bezorgd worden bij leden"
 
-msgid "Mail service"
-msgstr "E-mail dienst"
-
 msgid "Mailbox Quota"
 msgstr "Mailbox quota"
 
@@ -1567,6 +1565,10 @@ msgstr "Geen beheerder geselecteerd"
 
 msgid "No moderators."
 msgstr "Beheerders"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1988,9 +1990,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profiel van beheerder:"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2532,18 +2531,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Uw zoekopdracht leverde niets op."
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "Tenminste %s karakters."
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "Standaard transport"

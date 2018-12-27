@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -203,9 +203,6 @@ msgstr "추가 사항"
 msgid "Alias"
 msgstr "별칭"
 
-msgid "Alias account"
-msgstr "계정 별칭"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -292,12 +289,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "최소 %s 자 이상, 최대 %s 이하"
 
 #, python-format
 msgid "At least %s characters."
 msgstr "최소 %s 자"
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "첨부"
@@ -371,9 +384,6 @@ msgstr "한줄 당 하나의 메일 주소"
 
 msgid "Change password"
 msgstr "신규 암호"
-
-msgid "Check this box in order to enable other services"
-msgstr "다른 서비스 활성화를 위해 메일 박스를 체크합니다."
 
 msgid "Choose Action"
 msgstr "할일을 선택하세요."
@@ -606,9 +616,6 @@ msgstr "권리사항"
 msgid "Display Name"
 msgstr "표시 이름"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "LDAP 주소록에 표시되는 메일 주소"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -656,9 +663,6 @@ msgstr "도메인 관리자"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "도메인 별칭"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "도메인이 존재합니다. 주도메인 또는 도메인 별칭을 체크하세요."
@@ -872,13 +876,13 @@ msgstr "완료 일시"
 msgid "Expired"
 msgstr "완료됨"
 
-msgid "Export account in LDIF format"
-msgstr "계정 내보내기"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -943,9 +947,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "메일을 다른 주소로 전달"
 
 msgid "Full name"
 msgstr "이름"
@@ -1253,9 +1254,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "메일 별칭으로 전송된 메일은 구성원에게 전달됩니다."
 
-msgid "Mail service"
-msgstr "메일 서비스"
-
 msgid "Mailbox Quota"
 msgstr "메일 박스 용량"
 
@@ -1552,6 +1550,10 @@ msgstr "승인자가 선택되지 않았습니다."
 
 msgid "No moderators."
 msgstr "승인자"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1965,9 +1967,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "관리자 프로필"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2503,18 +2502,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "검색 결과가 없습니다."
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "최소 %s 자"
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "기본 전송"

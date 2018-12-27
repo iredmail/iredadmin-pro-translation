@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iRedAdmin Pro 1.6.2\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2017-10-04 17:30+0200\n"
 "Last-Translator: Francesco <frankonet@infinito.it>\n"
 "Language: it_IT\n"
@@ -210,9 +210,6 @@ msgstr "Avanzate"
 msgid "Alias"
 msgstr "Alias"
 
-msgid "Alias account"
-msgstr "Account alias"
-
 msgid "Alias addresses:"
 msgstr "Indirizzi alias:"
 
@@ -303,12 +300,28 @@ msgid "Assigned groups:"
 msgstr "Gruppi assegnati:"
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Almeno %s caratteri, ma non più di %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Almeno %s caratteri."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Allegati"
@@ -382,9 +395,6 @@ msgstr "Cambia indirizzo di posta in"
 
 msgid "Change password"
 msgstr "Cambia password"
-
-msgid "Check this box in order to enable other services"
-msgstr "Selezionare quest'opzione per abilitare altri servizi"
 
 msgid "Choose Action"
 msgstr "Scegli Azione"
@@ -635,9 +645,6 @@ msgstr "Disclaimer"
 msgid "Display Name"
 msgstr "Visualizza Nome"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Visualizza indirizzo mail nella rubrica LDAP globale"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "Non applicare il greylisting ai messaggi inviati dai domini elencati"
 
@@ -687,9 +694,6 @@ msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
 "L'amministratore del dominiio non può assegnare più della massima quota "
 "disco a un utente."
-
-msgid "Domain alias"
-msgstr "Alias del dominio"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr ""
@@ -913,13 +917,13 @@ msgstr "Data di scadenza"
 msgid "Expired"
 msgstr "Scaduta"
 
-msgid "Export account in LDIF format"
-msgstr "Esporta account in formato LDIF"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -986,9 +990,6 @@ msgstr "Indirizzi di inoltro (salvando una copia nella casella di posta)"
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr "Indirizzi di inoltro (senza salvare una copia nella casella di posta)"
-
-msgid "Forwarding mails to other addresses"
-msgstr "Inoltro messaggi ad altri indirizzi"
 
 msgid "Full name"
 msgstr "Nome completo"
@@ -1314,9 +1315,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "I messaggi inviati agli alias saranno inoltrati ai membri."
 
-msgid "Mail service"
-msgstr "Servizio di posta"
-
 msgid "Mailbox Quota"
 msgstr "Quota disco casella di posta"
 
@@ -1628,6 +1626,10 @@ msgstr "Nessun moderatore selezionato."
 
 msgid "No moderators."
 msgstr "Nessun moderatore."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -2074,9 +2076,6 @@ msgstr "Nome DNS inverso"
 
 msgid "Revoke admin privilege"
 msgstr "Revoca il privilegio di amministratore"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr "SOGo Groupware (Calendario, Contatti, Attività)"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Calendario, Contatti, Attività, ActiveSync)"
@@ -2662,18 +2661,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Nessun risultato per la ricerca effettuata."
-
-msgid "at least one digit number"
-msgstr "almeno un numero"
-
-msgid "at least one letter"
-msgstr "almeno una lettera"
-
-msgid "at least one special character:"
-msgstr "almeno un carattere speciale:"
-
-msgid "at least one uppercase letter"
-msgstr "almeno una lettera maiuscola"
 
 msgid "default transport"
 msgstr "Trasporto di default"

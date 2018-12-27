@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2014-03-17 12:00+0100\n"
 "Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
 "Language: hu_HU\n"
@@ -204,9 +204,6 @@ msgstr "Haladó"
 msgid "Alias"
 msgstr "Alias"
 
-msgid "Alias account"
-msgstr "Alias fiók"
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -295,12 +292,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Legalább %s karakter, de nem több mint %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Legalább %s karakter."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Csatolmányok"
@@ -374,9 +387,6 @@ msgstr "Soronként egy levelezési cím."
 
 msgid "Change password"
 msgstr "Új jelszó"
-
-msgid "Check this box in order to enable other services"
-msgstr "Jelölje be ezt annak érdekében, hogy engedélyezzen egyéb szolgáltatásokat"
 
 msgid "Choose Action"
 msgstr "Válassz tevékenységet"
@@ -609,9 +619,6 @@ msgstr "Nyilatkozat"
 msgid "Display Name"
 msgstr "Megjelenítési név"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Levelezési cím megjelenítése a Globális LDAP címjegyzékben"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "Szürkelista engedélyezése a kiválasztott fiókon"
 
@@ -659,9 +666,6 @@ msgstr "Domain admin"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
-
-msgid "Domain alias"
-msgstr "Domain alias"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr ""
@@ -883,13 +887,13 @@ msgstr "Lejárati dátum"
 msgid "Expired"
 msgstr "Lejárt"
 
-msgid "Export account in LDIF format"
-msgstr "Fiók exportálása"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -954,9 +958,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Levelek továbbítása más címre"
 
 msgid "Full name"
 msgstr "Teljes név"
@@ -1273,9 +1274,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Aliasnak küldött levél továbbitódik a tagoknak."
 
-msgid "Mail service"
-msgstr "Levelező szolgáltatás"
-
 msgid "Mailbox Quota"
 msgstr "Levelesláda kvótája"
 
@@ -1572,6 +1570,10 @@ msgstr "Nincs moderátor kiválasztva."
 
 msgid "No moderators."
 msgstr "Moderátorok"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -2000,9 +2002,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Admin profilja:"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2554,18 +2553,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "A keresés nem hozott eredményt."
-
-msgid "at least one digit number"
-msgstr ""
-
-msgid "at least one letter"
-msgstr ""
-
-msgid "at least one special character:"
-msgstr "Legalább %s karakter."
-
-msgid "at least one uppercase letter"
-msgstr ""
 
 msgid "default transport"
 msgstr "alapértelmezett transzport"

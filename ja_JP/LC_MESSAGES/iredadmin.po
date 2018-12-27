@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2018-02-07 16:00+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -204,9 +204,6 @@ msgstr "拡張設定"
 msgid "Alias"
 msgstr "エイリアス"
 
-msgid "Alias account"
-msgstr "エイリアスアカウント"
-
 msgid "Alias addresses:"
 msgstr "エイリアスアドレス:"
 
@@ -293,12 +290,28 @@ msgid "Assigned groups:"
 msgstr "グループの割り当て:"
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "%s 文字以上, %s 文字未満."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "最低 %s 文字以上."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "添付ファイル"
@@ -372,9 +385,6 @@ msgstr "メールアドレスを次のものに変更"
 
 msgid "Change password"
 msgstr "パスワードを変更"
-
-msgid "Check this box in order to enable other services"
-msgstr "他のサービスを有効にする場合、チェックを入れる"
 
 msgid "Choose Action"
 msgstr "実施内容を選択"
@@ -607,9 +617,6 @@ msgstr "免責事項"
 msgid "Display Name"
 msgstr "表示名"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "LDAPの全体アドレス帳でメールアドレスを表示"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr ""
 
@@ -657,9 +664,6 @@ msgstr "ドメインの管理者"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "ドメン管理者はメールユーザにクォータ最大値を超える割り当てをできません."
-
-msgid "Domain alias"
-msgstr "ドメインのエイリアス"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "ドメインは既にあります. 異なる名前を指定してください."
@@ -871,13 +875,13 @@ msgstr "期限切れ日"
 msgid "Expired"
 msgstr "期限切れ"
 
-msgid "Export account in LDIF format"
-msgstr "LDIF形式でアカウント情報をエクスポート"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -942,9 +946,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "メールを他のアドレスに転送する"
 
 msgid "Full name"
 msgstr "フルネーム"
@@ -1248,9 +1249,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr ""
 
-msgid "Mail service"
-msgstr "メールサービス"
-
 msgid "Mailbox Quota"
 msgstr "メールボックスのクォータ(上限サイズ)"
 
@@ -1547,6 +1545,10 @@ msgstr "モデレーターが選択されていません."
 
 msgid "No moderators."
 msgstr "モデレーターがありません."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1960,9 +1962,6 @@ msgstr "DNSの逆引き名"
 
 msgid "Revoke admin privilege"
 msgstr "管理者権限を剥奪"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr "SOGo グループウェア (カレンダー, 連絡先, タスク)"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo グループウェア (カレンダー, 連絡先, タスク, ActiveSync)"
@@ -2498,18 +2497,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "検索結果 なし"
-
-msgid "at least one digit number"
-msgstr "最低 1 数字以上"
-
-msgid "at least one letter"
-msgstr "最低 1 文字以上"
-
-msgid "at least one special character:"
-msgstr "最低 %s 文字以上:"
-
-msgid "at least one uppercase letter"
-msgstr "最低 1 文字以上の大文字"
 
 msgid "default transport"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -204,9 +204,6 @@ msgstr "進階設定"
 msgid "Alias"
 msgstr "郵件別名"
 
-msgid "Alias account"
-msgstr "帳號別名"
-
 msgid "Alias addresses:"
 msgstr "別名地址"
 
@@ -293,12 +290,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "必須是 %s - %s 個字元。"
 
 #, python-format
 msgid "At least %s characters."
 msgstr "至少 %s 個字元。"
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "附件"
@@ -372,9 +385,6 @@ msgstr "郵件地址更改為"
 
 msgid "Change password"
 msgstr "新密碼"
-
-msgid "Check this box in order to enable other services"
-msgstr "勾選這個選項來啟用所有郵件相關服務"
 
 msgid "Choose Action"
 msgstr "選擇操作"
@@ -607,9 +617,6 @@ msgstr "免責聲明"
 msgid "Display Name"
 msgstr "顯示名稱"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "在全域 LDAP 通訊錄中顯示該帳號的郵件地址"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "不對以下網域發送的郵件啟用灰名單"
 
@@ -657,9 +664,6 @@ msgstr "域管理员"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "域管理員不能將超過最大郵箱容量分配給郵件用戶"
-
-msgid "Domain alias"
-msgstr "郵件網域別名"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "網域已存在，請檢查郵件網域名稱及別名。"
@@ -873,13 +877,13 @@ msgstr "到期日"
 msgid "Expired"
 msgstr "已過期"
 
-msgid "Export account in LDIF format"
-msgstr "將帳號導出為"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -944,9 +948,6 @@ msgstr "轉發地址（已在郵箱中保存副本）"
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr "轉發地址（不保存郵箱中的副本）"
-
-msgid "Forwarding mails to other addresses"
-msgstr "將郵件轉發到其它地址"
 
 msgid "Full name"
 msgstr "全名"
@@ -1253,9 +1254,6 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "發送給別名的郵件將會被轉發給成員。"
 
-msgid "Mail service"
-msgstr "郵件服務"
-
 msgid "Mailbox Quota"
 msgstr "郵箱空間配額"
 
@@ -1552,6 +1550,10 @@ msgstr "沒有選擇任何管理員。"
 
 msgid "No moderators."
 msgstr "管理員"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1967,9 +1969,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "撤銷管理員權限"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr "SOGo Groupware（日曆，通訊錄，任務）"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2507,18 +2506,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "沒有符合搜尋條件的記錄。"
-
-msgid "at least one digit number"
-msgstr "至少一個數字號碼"
-
-msgid "at least one letter"
-msgstr "至少一個字母"
-
-msgid "at least one special character:"
-msgstr "至少一個特殊字元。"
-
-msgid "at least one uppercase letter"
-msgstr "至少一個大寫字母"
 
 msgid "default transport"
 msgstr "默認的 transport"

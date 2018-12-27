@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -205,9 +205,6 @@ msgstr "Разширени"
 msgid "Alias"
 msgstr "Препращане"
 
-msgid "Alias account"
-msgstr "Невалиден акаунт."
-
 msgid "Alias addresses:"
 msgstr ""
 
@@ -294,12 +291,28 @@ msgid "Assigned groups:"
 msgstr ""
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Паролата трябва да съдържа най-малко %s символа, но не повече от %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Най-малко %s символа."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Прикачени файлове"
@@ -373,9 +386,6 @@ msgstr "Промени имейл адреса на"
 
 msgid "Change password"
 msgstr "Промяна на парола"
-
-msgid "Check this box in order to enable other services"
-msgstr ""
 
 msgid "Choose Action"
 msgstr "-Избери действие-"
@@ -634,9 +644,6 @@ msgstr ""
 msgid "Display Name"
 msgstr "Име за показване"
 
-msgid "Display mail address in global LDAP address book"
-msgstr ""
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "Активирай greylisting за избраните акаинти"
 
@@ -686,9 +693,6 @@ msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr ""
 "Домейн админа не може да задава по-голяма квота от максималната зададена "
 "за поща при създаване на нова такава"
-
-msgid "Domain alias"
-msgstr "Добави препращане"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "Домейна съществува. Провери добавените или паркираните домейни."
@@ -908,13 +912,13 @@ msgstr "Дата на изтичане"
 msgid "Expired"
 msgstr "Изтекъл"
 
-msgid "Export account in LDIF format"
-msgstr ""
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -979,9 +983,6 @@ msgstr ""
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr ""
-
-msgid "Forwarding mails to other addresses"
-msgstr "Препрати писмата към адрес"
 
 msgid "Full name"
 msgstr ""
@@ -1302,9 +1303,6 @@ msgstr ""
 "Писмата изпратени до списъка за препращане ще бъдат препратени към "
 "членовете."
 
-msgid "Mail service"
-msgstr "Самообслужване"
-
 msgid "Mailbox Quota"
 msgstr "Квота"
 
@@ -1619,6 +1617,10 @@ msgstr "Не е избран модератор."
 
 msgid "No moderators."
 msgstr "Модератори"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -2059,9 +2061,6 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Премахване на админ права"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2616,18 +2615,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Търсенето не върна никакви резултати."
-
-msgid "at least one digit number"
-msgstr "цифра"
-
-msgid "at least one letter"
-msgstr "малка латинска буква"
-
-msgid "at least one special character:"
-msgstr "специален знак"
-
-msgid "at least one uppercase letter"
-msgstr "ГОЛЯМА латинска буква"
 
 msgid "default transport"
 msgstr "Основен транспорт"

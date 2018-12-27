@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da_DK\n"
@@ -209,9 +209,6 @@ msgstr "Avanceret"
 msgid "Alias"
 msgstr "Alias"
 
-msgid "Alias account"
-msgstr "Alias konto"
-
 msgid "Alias addresses:"
 msgstr "Alias adresser:"
 
@@ -300,12 +297,28 @@ msgid "Assigned groups:"
 msgstr "Tildelte grupper:"
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "Mindst %s tegn, men ikke mere end %s."
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Mindst %s tegn."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "Vedhæftede filer"
@@ -379,9 +392,6 @@ msgstr "Skift e-mailadresse til"
 
 msgid "Change password"
 msgstr "Skift adgangskode"
-
-msgid "Check this box in order to enable other services"
-msgstr "Markér dette felt for at aktivere andre tjenester"
 
 msgid "Choose Action"
 msgstr "Vælg handling"
@@ -625,9 +635,6 @@ msgstr "Ansvarsfraskrivelse"
 msgid "Display Name"
 msgstr "Vist navn"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "Vis e-mailadresse i den globale LDAP-adressebog"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "Anvend ikke greylisting på e-mails sendt fra domæner opført herunder"
 
@@ -681,9 +688,6 @@ msgstr "Domæne admin"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "Domæne admin kan ikke tildele mere end maksimal kvote til en bruger."
-
-msgid "Domain alias"
-msgstr "Domæne alias"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "Domæne findes allerede. Kontroller både primære og alias domæner."
@@ -916,13 +920,13 @@ msgstr "Udløbsdato"
 msgid "Expired"
 msgstr "Udløbet"
 
-msgid "Export account in LDIF format"
-msgstr "Eksport konto i LDIF format"
-
 msgid "Export accounts"
 msgstr ""
 
 msgid "Export all managed accounts"
+msgstr ""
+
+msgid "Export statistics of admins"
 msgstr ""
 
 msgid "External Members"
@@ -987,9 +991,6 @@ msgstr "Videresend adresser (gem en kopi i postkasse)"
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr "Videresend adresser (uden at gemme en kopi i postkasse)"
-
-msgid "Forwarding mails to other addresses"
-msgstr "Videresend mails til andre adresser"
 
 msgid "Full name"
 msgstr "Fulde navn"
@@ -1320,9 +1321,6 @@ msgstr "Mail afsendelse"
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Mail sendt til alias bliver videresendt til medlemmerne."
 
-msgid "Mail service"
-msgstr "Mail service"
-
 msgid "Mailbox Quota"
 msgstr "Postkasse kvote"
 
@@ -1623,6 +1621,10 @@ msgstr "Ingen moderator valgt."
 
 msgid "No moderators."
 msgstr "Ingen moderatorer."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -2068,9 +2070,6 @@ msgstr "Reverse DNS Navn"
 
 msgid "Revoke admin privilege"
 msgstr "Tilbagekald admin privilegium"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr "SOGo Groupware (Kalender, Kontakter, Opgaver)"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalender, Kontakter, Opgaver, ActiveSync)"
@@ -2649,18 +2648,6 @@ msgstr ""
 
 msgid "Your search returned no hits."
 msgstr "Din søgning gav ingen hits."
-
-msgid "at least one digit number"
-msgstr "mindst et numerisk tegn"
-
-msgid "at least one letter"
-msgstr "mindst et bogstav"
-
-msgid "at least one special character:"
-msgstr "mindst en speciel tegn:"
-
-msgid "at least one uppercase letter"
-msgstr "mindst et stort bogstav"
 
 msgid "default transport"
 msgstr "standard transport"

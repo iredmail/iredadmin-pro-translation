@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 22:59+0200\n"
+"POT-Creation-Date: 2018-12-27 10:15+0800\n"
 "PO-Revision-Date: 2017-01-18 15:27+0000\n"
 "Last-Translator: Zhang Huangbin\n"
 "Language: zh_Hans_CN\n"
@@ -202,9 +202,6 @@ msgstr "高级设置"
 msgid "Alias"
 msgstr "邮件别名"
 
-msgid "Alias account"
-msgstr "帐号别名"
-
 msgid "Alias addresses:"
 msgstr "别名地址："
 
@@ -291,12 +288,28 @@ msgid "Assigned groups:"
 msgstr "分配的组："
 
 #, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
 msgid "At least %s characters, but no more than %s."
 msgstr "必须是 %s - %s 个字符。"
 
 #, python-format
 msgid "At least %s characters."
 msgstr "至少 %s 个字符。"
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
 
 msgid "Attachments"
 msgstr "附件"
@@ -370,9 +383,6 @@ msgstr "将邮件地址改为"
 
 msgid "Change password"
 msgstr "修改密码"
-
-msgid "Check this box in order to enable other services"
-msgstr "勾选这个选项以启用所有邮件相关的服务"
 
 msgid "Choose Action"
 msgstr "选择操作"
@@ -605,9 +615,6 @@ msgstr "免责声明"
 msgid "Display Name"
 msgstr "显示名称"
 
-msgid "Display mail address in global LDAP address book"
-msgstr "在全局 LDAP 地址簿中显示该帐号的邮件地址"
-
 msgid "Do not apply greylisting on emails sent from domains listed below"
 msgstr "对选中的帐号启用灰名单"
 
@@ -655,9 +662,6 @@ msgstr "域管理员"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "域管理员无法为用户设置超过最大值的邮箱容量"
-
-msgid "Domain alias"
-msgstr "域别名"
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr "域已存在，请检查域名或域别名。"
@@ -873,14 +877,14 @@ msgstr "过期时间"
 msgid "Expired"
 msgstr "已过期"
 
-msgid "Export account in LDIF format"
-msgstr "将帐号导出为"
-
 msgid "Export accounts"
 msgstr "导出账号"
 
 msgid "Export all managed accounts"
 msgstr "导出管理的所有账号"
+
+msgid "Export statistics of admins"
+msgstr ""
 
 msgid "External Members"
 msgstr "外部成员"
@@ -944,9 +948,6 @@ msgstr "转发地址（保留邮件在原邮箱）"
 
 msgid "Forwarding addresses (without saving a copy in mailbox)"
 msgstr "转发地址（不保留邮件在原邮箱）"
-
-msgid "Forwarding mails to other addresses"
-msgstr "将邮件转发到其它地址"
 
 msgid "Full name"
 msgstr "全名"
@@ -1250,9 +1251,6 @@ msgstr "邮件投递"
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "发送给别名的邮件将会被转发给成员。"
 
-msgid "Mail service"
-msgstr "邮件服务"
-
 msgid "Mailbox Quota"
 msgstr "邮箱容量"
 
@@ -1549,6 +1547,10 @@ msgstr "没有选择任何管理员。"
 
 msgid "No moderators."
 msgstr "管理员"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
@@ -1966,9 +1968,6 @@ msgstr "反解 DNS 主机名"
 
 msgid "Revoke admin privilege"
 msgstr "移除管理员权限"
-
-msgid "SOGo Groupware (Calendar, Contacts, Tasks)"
-msgstr "SOGo Groupware（日历、联系人、任务）"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo 套件（日历、联系人、任务、ActiveSync）"
@@ -2506,18 +2505,6 @@ msgstr "无效 license。请联系 support@iredmail.org。"
 
 msgid "Your search returned no hits."
 msgstr "没有匹配的结果。"
-
-msgid "at least one digit number"
-msgstr "至少一个数字"
-
-msgid "at least one letter"
-msgstr "至少一个字母"
-
-msgid "at least one special character:"
-msgstr "至少一个特殊字符："
-
-msgid "at least one uppercase letter"
-msgstr "至少一个大写字母"
 
 msgid "default transport"
 msgstr "默认的 transport"
