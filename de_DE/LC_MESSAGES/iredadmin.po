@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2018-12-27 17:12+0800\n"
 "PO-Revision-Date: 2017-11-02 12:34+0100\n"
 "Last-Translator: Peter <info@nuw.biz>\n"
 "Language: de_DE\n"
@@ -250,7 +250,7 @@ msgid "All domains under your control."
 msgstr "Alle verwalteten Domains."
 
 msgid "All emails"
-msgstr ""
+msgstr "Alle E-Mails"
 
 msgid "All sub-domains"
 msgstr "Alle Subdomains"
@@ -271,7 +271,7 @@ msgstr "Fast fertig."
 
 #, python-format
 msgid "Already exceed max number of account limit (%d)."
-msgstr ""
+msgstr "Kontolimit bereits überschritten (%d)."
 
 msgid "Already reaches account limit (mail aliases)."
 msgstr "Kontolimit erreicht (Mail Aliase)."
@@ -353,10 +353,10 @@ msgid "Backup MX"
 msgstr "Backup MX"
 
 msgid "Bad Header"
-msgstr "Nachrichten-Kopf - Bad Header"
+msgstr "Unzulässiger Nachrichten-Kopf"
 
 msgid "Bad Mime"
-msgstr ""
+msgstr "Unzulässiger MIME Typ"
 
 msgid "Bad-header checking"
 msgstr "Bad-Header-Prüfung"
@@ -365,7 +365,7 @@ msgid "Banned"
 msgstr "Gesperrt"
 
 msgid "Banned file type checking"
-msgstr "Überprüfen verbotene Dateitypen"
+msgstr "Überprüfen verbotener Dateitypen"
 
 msgid "Blacklisted recipients"
 msgstr "Geblockte Empfänger"
@@ -377,7 +377,7 @@ msgid "Blacklists"
 msgstr "Blacklists"
 
 msgid "Block or quarantine marked spam when score is >="
-msgstr ""
+msgstr "Spam blockieren oder in Quarantäne, falls score >="
 
 msgid "CIDR formatted range of IP addresses"
 msgstr "IP-Adressraum (CIDR-Notation)"
@@ -584,7 +584,7 @@ msgid "Delivery Attempts"
 msgstr "Zustellversuche"
 
 msgid "Digest"
-msgstr ""
+msgstr "Digest"
 
 msgid "Directory of mailbox storage"
 msgstr "Verzeichnis des Postfachspeichers"
@@ -645,7 +645,7 @@ msgid "Disallow to manage quarantined mails"
 msgstr "Verwaltung von Quarantäne-Mails verbieten"
 
 msgid "Disallow to view log of inbound/outbound mails"
-msgstr "Protokoll der eingehenden/ausgehenden Mails nicht anzeigen lassen"
+msgstr "Protokoll der eingehenden/ausgehenden E-Mails nicht anzeigen lassen"
 
 msgid "Disclaimer"
 msgstr "Haftungsausschluss"
@@ -713,8 +713,8 @@ msgstr ""
 
 msgid "Domain already exists. Please check both primary or alias domains."
 msgstr ""
-"Ein Konto mit dem Namen existiert bereits, Bitte wählen Sie einen anderen"
-" Benutzernamen."
+"Die Domain mit dem Namen existiert bereits, Bitte Haupt- und Alias "
+"Domainnamen prüfen."
 
 msgid "Domain and its sub-domains"
 msgstr "Benutzer einer Domain und ihrer Subdomains."
@@ -808,14 +808,18 @@ msgid ""
 "will be used instead."
 msgstr ""
 "E-Mail-Adressen der Moderatoren der Mailingliste, die kontaktiert werden "
-"müssen, wenn es eine E-Mail unter moderiert gibt. Wenn leer, werden "
-"stattdessen die Besitzer der Mailingliste verwendet."
+"müssen, wenn es eine E-Mail an eine moderierte Maillingliste gesendet "
+"wird Wenn leer, werden stattdessen die Besitzer der Mailingliste "
+"verwendet."
 
 msgid ""
 "Email addresses of the mailing list moderators which need to be contacted"
 " when there is someone subscribing to the list and under moderated. If "
 "empty, mailing list moderators will be used instead."
 msgstr ""
+"E-Mail-Adressen der Moderatoren der Mailingliste, die kontaktiert "
+"werdenmüssen, wenn sich jemand zu einer modierten Liste einschreibt. "
+"Falls leer  werden die Moderatoren verwendet."
 
 #, python-format
 msgid ""
@@ -855,7 +859,7 @@ msgid "Enable"
 msgstr "Aktivieren"
 
 msgid "Enable alias account"
-msgstr "Dieses Konto aktivieren"
+msgstr "Diesen Alias aktivieren"
 
 msgid "Enable bad-header checking"
 msgstr "Bad-Header-Prüfung aktivieren"
@@ -864,7 +868,7 @@ msgid "Enable banned file type checking"
 msgstr "Aktivieren der Dateitypüberprüfung"
 
 msgid "Enable domain alias"
-msgstr "Domain Profile ausschalten"
+msgstr "Domain Alias aktivieren"
 
 msgid "Enable greylisting service"
 msgstr "Greylisting-Dienst aktivieren"
@@ -891,7 +895,7 @@ msgid "Enable this domain"
 msgstr "Diese Domain aktivieren"
 
 msgid "Enable virus checking"
-msgstr "Dieses Konto aktivieren"
+msgstr "Virus Überprüfung aktivieren"
 
 msgid "Enabled Services"
 msgstr "aktivierte Dienste"
@@ -952,7 +956,7 @@ msgid "External Members"
 msgstr "Externe Mitglieder"
 
 msgid "External moderators"
-msgstr "Moderatoren hinzufügen"
+msgstr "Externe Moderatoren"
 
 msgid "Fetching mails via IMAP"
 msgstr "E-Mails mit IMAP abholen."
@@ -1020,7 +1024,7 @@ msgid "General"
 msgstr "Allgemein"
 
 msgid "Get a newsletter signup form"
-msgstr ""
+msgstr "Newsletter Anmeldeformular erhalten"
 
 msgid "Global Admin"
 msgstr "Globaler Administrator"
@@ -1083,7 +1087,7 @@ msgid ""
 "If many clean mails were marked as spam, please slightly increase the "
 "score."
 msgstr ""
-"Wenn sehr viele Mails als Spam markiert werden, erhöhen Sie bitte den "
+"Wenn sehr viele E-Mails als Spam markiert werden, erhöhen Sie bitte den "
 "Score"
 
 msgid ""
@@ -1141,7 +1145,7 @@ msgstr ""
 "um diesen beheben zu lassen."
 
 msgid "Invalid account."
-msgstr "Ungültige Aktion."
+msgstr "Ungültiges Konto."
 
 msgid "Invalid action."
 msgstr "Ungültige Aktion."
@@ -1156,7 +1160,7 @@ msgid "Invalid mail address."
 msgstr "Ungültige E-Mail-Adresse."
 
 msgid "Invalid product id."
-msgstr "Ungültiger Request."
+msgstr "Ungültige Produkt ID."
 
 msgid "Invalid request data."
 msgstr "Ungültiger Request."
@@ -1168,11 +1172,15 @@ msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
 "restrict the mail posting and delivery."
 msgstr ""
+"Es ist besser statt dessen eine abonnierbare Mailingliste zu erstellen, "
+"um die Veröffentlichung und den Versand zu kontrollieren."
 
 msgid ""
 "It's better create a subscribable mailing list, so that you can restrict "
 "the mail posting and delivery."
 msgstr ""
+"Es ist besser eine abonniervare Maillingliste zu erstellen, um die "
+"Veröffentlichung und den Versand zu kontrollieren,"
 
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
@@ -1186,15 +1194,15 @@ msgstr "Position"
 
 #, python-format
 msgid "Keep mailbox for %d days"
-msgstr ""
+msgstr "Postfach für %d Tage aufbewahren"
 
 #, python-format
 msgid "Keep mailbox for %d months"
-msgstr ""
+msgstr "Postfach für %d Monate aufbewahren"
 
 #, python-format
 msgid "Keep mailbox for %d weeks"
-msgstr ""
+msgstr "Postfach für %d Wochen aufbewahren"
 
 #, python-format
 msgid "Keep mailbox for %d years"
@@ -1327,6 +1335,8 @@ msgid ""
 "Mail delivery restriction will be set to allow email from any sender by "
 "default."
 msgstr ""
+"Die E-Mail Versand Beschränkung erlaubt standardmäßig alle Absender "
+"Adressen"
 
 #, python-format
 msgid ""
@@ -1359,11 +1369,11 @@ msgstr "Mailingliste erstellt."
 
 #, python-format
 msgid "Mailing lists under domain: %s"
-msgstr ""
+msgstr "Mailinglisten der Domain: %s"
 
 #, python-format
 msgid "Mailing lists under domain: %s."
-msgstr ""
+msgstr "Mailinflisten der Domain: %s."
 
 #, python-format
 msgid "Mails Sent by Domain: %s"
@@ -1379,19 +1389,19 @@ msgstr ""
 "verschoben."
 
 msgid "Mails were deleted, and recipient domain(s) were blacklisted."
-msgstr "E-Mails wurden gelöscht, Empfängerdomain(s) zu Blacklist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Empfängerdomain(s) zur Blacklist hinzugefügt"
 
 msgid "Mails were deleted, and recipient domain(s) were whitelisted."
-msgstr "E-Mails wurden gelöscht, Empfängerdomain(s) zu Whitelist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Empfängerdomain(s) zur Whitelist hinzugefügt"
 
 msgid "Mails were deleted, and recipient(s) were blacklisted."
-msgstr "E-Mails wurden gelöscht, Empfänger zu Blacklist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Empfänger zur Blacklist hinzugefügt"
 
 msgid "Mails were deleted, and recipient(s) were whitelisted."
-msgstr "E-Mails wurden gelöscht, Empfänger zu Whitelist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Empfänger zur Whitelist hinzugefügt"
 
 msgid "Mails were deleted, and sender domain(s) were blacklisted."
-msgstr "E-Mails wurden gelöscht, Versenderdomain(s) zu Blacklist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Versenderdomain(s) zur Blacklist hinzugefügt"
 
 msgid "Mails were deleted, and sender domain(s) were whitelisted."
 msgstr ""
@@ -1399,7 +1409,7 @@ msgstr ""
 "gesetzt."
 
 msgid "Mails were deleted, and sender(s) were blacklisted."
-msgstr "E-Mails wurden gelöscht, Versender zu Blacklist hinzugefügt"
+msgstr "E-Mails wurden gelöscht, Versender zur Blacklist hinzugefügt"
 
 msgid "Mails were deleted, and sender(s) were whitelisted."
 msgstr "Mails wurden gelöscht und Absender wurden auf die Whitelist gesetzt."
@@ -1408,20 +1418,20 @@ msgid ""
 "Mails were deleted, recipient domain(s) and sub-domain(s) were "
 "blacklisted."
 msgstr ""
-"E-Mails wurden gelöscht, Empfängerdomain(s) inkl.Subdomains zu Blacklist "
-"hinzugefügt"
+"E-Mails wurden gelöscht, Empfängerdomain(s) inkl.Subdomains zur Blacklist"
+" hinzugefügt"
 
 msgid ""
 "Mails were deleted, recipient domain(s) and sub-domain(s) were "
 "whitelisted."
 msgstr ""
-"E-Mails wurden gelöscht, Empfängerdomain(s) inkl.Subdomains zu Whitelist "
-"hinzugefügt"
+"E-Mails wurden gelöscht, Empfängerdomain(s) inkl.Subdomains zur Whitelist"
+" hinzugefügt"
 
 msgid "Mails were deleted, sender domain(s) and sub-domain(s) were blacklisted."
 msgstr ""
-"E-Mails wurden gelöscht, Versenderdomain(s) inkl. Subdomains zu Blacklist"
-" hinzugefügt"
+"E-Mails wurden gelöscht, Versenderdomain(s) inkl. Subdomains zur "
+"Blacklist hinzugefügt"
 
 msgid "Mails were deleted, sender domain(s) and sub-domain(s) were whitelisted."
 msgstr ""
@@ -1432,14 +1442,14 @@ msgid "Mails were deleted."
 msgstr "E-Mails wurden gelöscht."
 
 msgid "Mails were released, and sender domain(s) were whitelisted."
-msgstr "E-Mails wurden freigegeben, Versenderdomain(s) zu Whitelist hinzugefügt"
+msgstr "E-Mails wurden freigegeben, Versenderdomain(s) zur Whitelist hinzugefügt"
 
 msgid "Mails were released, and sender(s) were whitelisted."
-msgstr "E-Mails wurden freigegeben, Versender zu Whitelist hinzugefügt"
+msgstr "E-Mails wurden freigegeben, Versender zur Whitelist hinzugefügt"
 
 msgid "Mails were released, sender domain(s) and sub-domains were whitelisted."
 msgstr ""
-"E-Mails wurden freigegeben, Versenderdomain(s) inkl. Subdomains zu "
+"E-Mails wurden freigegeben, Versenderdomain(s) inkl. Subdomains zur "
 "Whitelist hinzugefügt"
 
 msgid "Mails were released."
@@ -1469,7 +1479,7 @@ msgid "Mark as global admin"
 msgstr "Als Globalen Administrator markieren"
 
 msgid "Mark mail as spam when score is >="
-msgstr ""
+msgstr "E-Mail als Spam markieren, falls der score >="
 
 msgid "Mark this user as"
 msgstr "Markiere Benutzer als"
@@ -1481,7 +1491,7 @@ msgid "Max quota of mail user"
 msgstr "Maximales Quota für Benutzer"
 
 msgid "Max size of single email"
-msgstr "Maximale Größe einer einzelnen ausgehenden E-Mail"
+msgstr "Maximale Größe einer einzelnen E-Mail"
 
 msgid "Max:"
 msgstr "Max:"
@@ -1649,13 +1659,13 @@ msgid "No mailing list available."
 msgstr "Keine Mailingliste vorhanden."
 
 msgid "No members."
-msgstr "Mitglieder hinzufügen"
+msgstr "Keine Mitglieder."
 
 msgid "No moderator selected."
 msgstr "Kein Moderator ausgewählt."
 
 msgid "No moderators."
-msgstr "Moderatoren"
+msgstr "Keine Moderatoren."
 
 #, python-format
 msgid "No more than %d characters."
@@ -1663,7 +1673,7 @@ msgstr ""
 
 #, python-format
 msgid "No more than %s characters."
-msgstr "Höchtens <strong>%s</strong> Zeichen."
+msgstr "Höchstens <strong>%s</strong> Zeichen."
 
 msgid "No need to verify ownership for new domain"
 msgstr "Besitz von neuer Domain muss nicht verifizert werden"
@@ -1718,9 +1728,11 @@ msgid ""
 "Notify owner(s) when someone subscribe to or unsubscribe from the mailing"
 " list"
 msgstr ""
+"Besitzer benachrichtigen, falls jemand die Mailingliste abonniert oder "
+"verläßt"
 
 msgid "Notify sender if email is under moderated"
-msgstr ""
+msgstr "Absender benachrichtigen, falls die Mailingliste moderiert wird"
 
 msgid "Number of aliases"
 msgstr "Anzahl Aliasse"
@@ -1741,7 +1753,7 @@ msgid "Number of max mail users"
 msgstr "Maximale Anzahl an Benutzern"
 
 msgid "Number of max mailing lists"
-msgstr "Anzahl der maximalen Mailinglisten"
+msgstr "Maximale Anzahl Mailinglisten"
 
 msgid "Number of max outbound emails"
 msgstr "Maximale Anzahl ausgehender E-Mails"
@@ -1753,47 +1765,47 @@ msgid "Old password"
 msgstr "Altes Kennwort"
 
 msgid "Old records will be cleaned up regularly."
-msgstr "Alte Aufzeichnungen werden regelmäßig aufgeräumt."
+msgstr "Alte Einträge werden regelmäßig bereinigt."
 
 msgid "One IP address or CIDR network per line."
-msgstr "Eine E-Mail-Adresse pro Zeile"
+msgstr "Eine IP oder CIDR Netzwerk Definition pro Zeile"
 
 msgid "One domain per line."
-msgstr "Eine E-Mail-Adresse pro Zeile"
+msgstr "Eine Domain pro Zeile"
 
 msgid "One mail address per line."
 msgstr "Eine E-Mail-Adresse pro Zeile"
 
 msgid "One record per line."
-msgstr "Eine E-Mail-Adresse pro Zeile"
+msgstr "Ein Eintrag pro Zeile"
 
 msgid "One sender per line."
-msgstr "Eine E-Mail-Adresse pro Zeile"
+msgstr "Ein Absender pro Zeile"
 
 msgid "Oops, confirm link expired. Please re-subscribe."
-msgstr ""
+msgstr "Achtung, Bestätigungslink verfallen. Bitte neu abonnieren."
 
 msgid "Oops, confirm link is invalid."
-msgstr ""
+msgstr "Achtung, Bestätigungslink ist ungültig."
 
 msgid "Oops, invalid action."
-msgstr ""
+msgstr "Achtung, ungültige Aktion."
 
 msgid "Oops, the newsletter you want to subscribe does not exist."
-msgstr ""
+msgstr "Achtung, die gewünschte Mailingliste existiert nicht."
 
 msgid "Operation completed."
 msgstr "Vorgang abgeschlossen."
 
 msgid "Or"
-msgstr ""
+msgstr "Oder"
 
 msgid "Or create other mail accounts:"
 msgstr "Oder andere E-Mail Konten anlegen:"
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
-msgstr ""
+msgstr "Inhaber wird auf E-Mail-Adresse postmaster@%s gesetzt."
 
 msgid "Owners"
 msgstr "Inhaber"
@@ -1817,7 +1829,7 @@ msgid "Password is too short."
 msgstr "Das eingegebene Kennwort ist zu kurz."
 
 msgid "Password last change:"
-msgstr ""
+msgstr "Letzte Kennwort Änderung:"
 
 msgid "Password must contain"
 msgstr "Das Kennwort muss folgende Anforderungen erfüllen"
@@ -1903,10 +1915,10 @@ msgid "Preferred language"
 msgstr "Bevorzugte Sprache"
 
 msgid "Prefix text [SPAM] to the subject of spam"
-msgstr "Vorangestellter Text [SPAM] im Betreff"
+msgstr "Betreff mit vorangestelltem Text [SPAM]"
 
 msgid "Prefix text to mail subject"
-msgstr "Präfix Text im Betreff der E-Mail"
+msgstr "Betreff mit vorangestelltem Text"
 
 msgid "Previous Page"
 msgstr "Vorherige Seite"
@@ -1921,7 +1933,7 @@ msgid "Product name"
 msgstr "Anwendung"
 
 msgid "Profile has been updated."
-msgstr ""
+msgstr "Prifil wurde aktualisiert."
 
 msgid "Profile of admin:"
 msgstr "Administrator Profil:"
@@ -1936,7 +1948,7 @@ msgid "Profile of mailing list:"
 msgstr "Profil der Mailingliste:"
 
 msgid "Profile of user:"
-msgstr "Benutzer Profil:"
+msgstr "Profil des Benutzers:"
 
 msgid "Profile updated failed."
 msgstr "Aktualisierung des Profils fehlgeschlagen."
@@ -2021,9 +2033,7 @@ msgid "Recipient"
 msgstr "Empfänger"
 
 msgid "Record comment can be added after a #"
-msgstr ""
-"Kommentare zum Datensatz sind möglich mit Hilfe eines LEERZEICHENS als "
-"Trennsymbol"
+msgstr "Kommentare zum Datensatz sind möglich nach einem # als Trennsymbol"
 
 msgid "Records were successfully added."
 msgstr "Datensätze erfolgreich hinzugefügt"
@@ -2064,10 +2074,10 @@ msgid "Relay emails to the specified IP address through port 25"
 msgstr "Relay-E-Mails über Port 25 an die angegebene IP-Adresse"
 
 msgid "Relay outgoing email to"
-msgstr "Relay ausgehende E-Mail an"
+msgstr "Relay für ausgehende E-Mails"
 
 msgid "Relay received email to"
-msgstr "Relay erhaltene E-Mail an"
+msgstr "Relay für eingehende E-Mails"
 
 msgid "Relay without verifying local recipients"
 msgstr "Relay ohne lokale Empfänger zu überprüfen"
@@ -2116,7 +2126,7 @@ msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalender, Kontakte, Aufgaben, ActiveSync)"
 
 msgid "Sample"
-msgstr "Deaktivieren"
+msgstr "Beispiel"
 
 msgid "Sample Settings"
 msgstr "Beispieleinstellungen"
@@ -2210,15 +2220,15 @@ msgid "Sender Addresses"
 msgstr "Absenderadressen"
 
 msgid "Sender Domain"
-msgstr "Absenderdomänen"
+msgstr "Absender Domäne"
 
 msgid "Sender address format"
 msgstr "Adresse des Absenders"
 
 msgid "Sender domains listed below have not passed greylisting service yet."
 msgstr ""
-"Die unten aufgeführten Absenderdomains haben den Greylisting-Dienst noch "
-"nicht bestanden."
+"Die unten aufgeführten Absender Domains haben den Greylisting-Dienst noch"
+" nicht bestanden."
 
 msgid "Sending mails via SMTP"
 msgstr "E-Mails mit SMTP versenden"
@@ -2334,6 +2344,8 @@ msgid ""
 "Subscription and unsubscription will be disabled by default, feel free to"
 " enable them after migration."
 msgstr ""
+"Abonnement und Abmeldung sind standardmäßig deaktiviert. Nach der "
+"Migration können diese aber aktiviert werden."
 
 msgid "Subscription control"
 msgstr "Abonnementsteuerung"
@@ -2389,10 +2401,10 @@ msgstr ""
 "Sie sicher, dass es in der Datei /opt/iredapd/settings.py aktiviert ist."
 
 msgid "This is a mail alias."
-msgstr "Alle Aliasse zeigen."
+msgstr "Dies ist ein E-Mail Alias."
 
 msgid "This is a mailing list."
-msgstr "Alle Aliasse zeigen."
+msgstr "Dies ist eine Mailingliste."
 
 msgid "This is default throttling applied to all individual accounts."
 msgstr "Dieser Durchsatz wird auf alle Konten angewendet."
@@ -2409,10 +2421,10 @@ msgid "Throttle"
 msgstr "Durchsatz"
 
 msgid "Throttle inbound mails"
-msgstr "Durchsatz eingehender Mails"
+msgstr "Durchsatz eingehender E-Mails"
 
 msgid "Throttle outbound mails"
-msgstr "Durchsatz ausgehenden Mails"
+msgstr "Durchsatz ausgehenden E-Mails"
 
 msgid "Throttling"
 msgstr "Durchsatz"
@@ -2525,13 +2537,13 @@ msgid "Verify code"
 msgstr "Code überprüfen"
 
 msgid "View members"
-msgstr "Mitglieder hinzufügen"
+msgstr "Mitglieder anzeigen"
 
 msgid "View or hide mail body and headers"
 msgstr "Nachrichtenkörper und Kopfzeilen anzeigen oder verstecken"
 
 msgid "View received mails and white/blacklist senders"
-msgstr "Markierte löschen und Versender zu Whitelist hinzufügen"
+msgstr "Empfangene E-Mails und White/Blacklist Absender anzeigen"
 
 msgid "Virus"
 msgstr "Virus"
@@ -2556,11 +2568,17 @@ msgid ""
 "We need to confirm your email address. To complete the subscription "
 "process, please click the link in the email we just sent you."
 msgstr ""
+"Wir überprüfen Ihre E-Mail-Adresse. Um die Anmeldung abzuschließen, "
+"klicken Sie bitte auf den Link in der E-Mail, die wir Ihnen gesednet "
+"haben."
 
 msgid ""
 "We need to confirm your email address. To complete the unsubscription "
 "process, please click the link in the email we just sent you."
 msgstr ""
+"Wir überprüfen Ihre E-Mail-Adresse. Um die Abmeldung durchzuführen, "
+"klicken Sie bitte auf den Link in der E-Mail, die wir Ihnen gesednet "
+"haben."
 
 msgid ""
 "When smtp service on primary MX mail server is down, emails sent to this "
@@ -2579,10 +2597,10 @@ msgid "Whitelist has higher priority than blacklist."
 msgstr "Die Whitelist hat eine höhere Priorität als die Blacklist"
 
 msgid "Whitelisted recipients"
-msgstr "Whitelist"
+msgstr "Whitelist Empfänger"
 
 msgid "Whitelisted senders"
-msgstr "Whitelist"
+msgstr "Whitelist Absender"
 
 msgid "Whitelists"
 msgstr "Whitelists"
@@ -2635,6 +2653,8 @@ msgstr "Sie können weitere <strong>%d</strong> Benutzer für die Domain %s anle
 #, python-format
 msgid "You can create <strong>%d</strong> more mailing list(s) under domain %s."
 msgstr ""
+"Sie können weitere <strong>%d</strong> Mailinglisten für die Domain %s "
+"anlegen."
 
 msgid ""
 "You can embed a mailing list signup form (HTML code below) on any page of"
@@ -2642,6 +2662,10 @@ msgid ""
 "logo image, or combine it with special offers to attract new subscribers "
 "and boost engagement."
 msgstr ""
+"Sie können ein Mailinglisten Anmeldeformular (s. HTML Quelltext) auf "
+"Ihrer Website einbinden. Passen Sie das Formular gerne durch Hinzufügen "
+"Ihres Namens, Logo Bilds an oder Verbinden Sie die Anmeldung neuer "
+"Abonnenten mit speziellen Angeboten."
 
 msgid ""
 "You can enable self-service (per-domain setting) to allow users to manage"
