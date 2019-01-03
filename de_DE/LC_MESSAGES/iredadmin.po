@@ -654,10 +654,10 @@ msgid "Display Name"
 msgstr "Angezeigter Name"
 
 msgid "Do not apply greylisting on emails sent from domains listed below"
-msgstr "Greylisting für Auswahl aktivieren"
+msgstr "Greylisting für folgende Absender Domains nicht anwenden"
 
 msgid "Do not apply greylisting on listed senders"
-msgstr "Greylisting für Auswahl aktivieren"
+msgstr "Greylisting für Absender aus folgenden IP-Adressbereichen nicht anwenden"
 
 msgid "Do not archive received emails"
 msgstr "Empfangene E-Mails nicht archivieren"
@@ -741,7 +741,7 @@ msgid "Domain name or username is missed."
 msgstr "Domainname oder Benutzername wurde nicht angegeben."
 
 msgid "Domain ownership verification"
-msgstr "Domäne Eigentümer Überprüfung"
+msgstr "Domänen Eigentümer Überprüfung"
 
 msgid ""
 "Domain ownership verification is recommended if you can not fully trust "
