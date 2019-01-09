@@ -950,7 +950,7 @@ msgid "Export all managed accounts"
 msgstr "Alle verwalteten Konten exportieren"
 
 msgid "Export statistics of admins"
-msgstr ""
+msgstr "Statistiken aller Administratoren exportieren"
 
 msgid "External Members"
 msgstr "Externe Mitglieder"
