@@ -1933,7 +1933,7 @@ msgid "Product name"
 msgstr "Anwendung"
 
 msgid "Profile has been updated."
-msgstr "Prifil wurde aktualisiert."
+msgstr "Profil wurde aktualisiert."
 
 msgid "Profile of admin:"
 msgstr "Administrator Profil:"
