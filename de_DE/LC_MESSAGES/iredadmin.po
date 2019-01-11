@@ -58,11 +58,11 @@ msgstr "%s Tage, %s Stunden, %s Minuten."
 
 #, python-format
 msgid "(%d messages, %s.)"
-msgstr ""
+msgstr "(%d Nachrichten, %s.)"
 
 #, python-format
 msgid "(%d%% full, %d messages, %s.)"
-msgstr ""
+msgstr "(%d%% belegt, %d Nachrichten, %s.)"
 
 msgid "1 Day"
 msgstr "1 Tag"
@@ -305,7 +305,7 @@ msgstr "Zugeordnete Gruppen:"
 
 #, python-format
 msgid "At least %d characters."
-msgstr ""
+msgstr "Mindestens %d Zeichen."
 
 #, python-format
 msgid "At least %s characters, but no more than %s."
@@ -316,16 +316,16 @@ msgid "At least %s characters."
 msgstr "Mindestens <strong>%s</strong> Zeichen."
 
 msgid "At least one digit number"
-msgstr ""
+msgstr "Mindestens eine Zahl"
 
 msgid "At least one letter"
-msgstr ""
+msgstr "Mindestens einen Buchstaben"
 
 msgid "At least one special character:"
-msgstr ""
+msgstr "Mindestens ein Sonderzeichen"
 
 msgid "At least one uppercase letter"
-msgstr ""
+msgstr "Mindestens ein Großbuchstabe"
 
 msgid "Attachments"
 msgstr "Anhänge"
@@ -819,13 +819,15 @@ msgid ""
 msgstr ""
 "E-Mail-Adressen der Moderatoren der Mailingliste, die kontaktiert "
 "werdenmüssen, wenn sich jemand zu einer modierten Liste einschreibt. "
-"Falls leer  werden die Moderatoren verwendet."
+"Falls leer werden die Moderatoren verwendet."
 
 #, python-format
 msgid ""
 "Email addresses of the mailing list owners which need to be contacted via"
 " email %s, either by the system or by end users."
 msgstr ""
+"E-Mail-Adressen der Mailinglist Besitzer, die per Mail kontaktiert "
+"werden müssen. Entweder durch das System oder von den Benutzern."
 
 msgid "Emails"
 msgstr "E-Mails"
@@ -1669,7 +1671,7 @@ msgstr "Keine Moderatoren."
 
 #, python-format
 msgid "No more than %d characters."
-msgstr ""
+msgstr "Nicht mehr als %d Zeichen."
 
 #, python-format
 msgid "No more than %s characters."
