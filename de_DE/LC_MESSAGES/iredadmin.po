@@ -741,7 +741,7 @@ msgid "Domain name or username is missed."
 msgstr "Domainname oder Benutzername wurde nicht angegeben."
 
 msgid "Domain ownership verification"
-msgstr "Domänen Eigentümer Überprüfung"
+msgstr "Überprüfung des Domainbesitzes"
 
 msgid ""
 "Domain ownership verification is recommended if you can not fully trust "
