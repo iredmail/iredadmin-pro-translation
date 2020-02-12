@@ -582,22 +582,22 @@ msgid "Disabled"
 msgstr "已停用"
 
 msgid "Disabled accounts"
-msgstr "停用帳號"
+msgstr "停用的帳號"
 
 msgid "Disabled domain profiles"
-msgstr "停用網域屬性"
+msgstr "停用的網域設定"
 
 msgid "Disabled domains"
-msgstr "停用網域屬性"
+msgstr "停用的網域"
 
 msgid "Disabled mail services"
-msgstr ""
+msgstr "停用的郵件服務"
 
 msgid "Disabled self-service preferences"
-msgstr "停用自助服務偏好設置"
+msgstr "停用的自助服務偏好設置"
 
 msgid "Disabled user profiles"
-msgstr "停用用戶屬性"
+msgstr "停用的用戶設定"
 
 msgid ""
 "Disabling service will be applied to newly created mail user by default. "
@@ -1082,7 +1082,7 @@ msgid "Invalid request data."
 msgstr "無效的請求資料。"
 
 msgid "Is a global admin."
-msgstr "全域管理員。"
+msgstr "是全域管理員。"
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1543,7 +1543,7 @@ msgid "No mailing list available."
 msgstr ""
 
 msgid "No members."
-msgstr "查看成員"
+msgstr "沒有成員"
 
 msgid "No moderator selected."
 msgstr "沒有選擇任何管理員。"
@@ -1648,16 +1648,16 @@ msgid "One IP address or CIDR network per line."
 msgstr "每行只能填一個郵件地址。"
 
 msgid "One domain per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個域名。"
 
 msgid "One mail address per line."
-msgstr "每行只能填一個郵件地址。"
+msgstr "每行一個郵件地址。"
 
 msgid "One record per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個記錄。"
 
 msgid "One sender per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個發件人。"
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1709,7 +1709,7 @@ msgid "Password last change:"
 msgstr ""
 
 msgid "Password must contain"
-msgstr "新密碼必須包含至少 %s 個字元。"
+msgstr "密碼必須包含"
 
 msgid "Path to mailbox"
 msgstr "郵件路徑"
@@ -1760,7 +1760,7 @@ msgid "Please select at least one account."
 msgstr "請至少選擇一個帳號進行操作。"
 
 msgid "Please select at least one domain."
-msgstr "請至少選擇一個帳號進行操作。"
+msgstr "請至少選擇一個網域進行操作。"
 
 msgid ""
 "Please verify mail domains listed below, to ensure that it is an valid "
@@ -2018,10 +2018,10 @@ msgid "Selected accounts were deleted."
 msgstr "刪除所選的帳號。"
 
 msgid "Selected accounts were disabled."
-msgstr "停用所選的帳號。"
+msgstr "所選的帳號已被停用。"
 
 msgid "Selected accounts were enabled."
-msgstr "啟用所選的帳號。"
+msgstr "所選的帳號已被啟用。"
 
 msgid "Selected accounts were marked as domain admin."
 msgstr "標記所選的帳號為域管理員。"
