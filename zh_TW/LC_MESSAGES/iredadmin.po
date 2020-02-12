@@ -36,11 +36,11 @@ msgstr "找到 %d 個郵件別名。"
 
 #, python-format
 msgid "%d mailing list(s) found."
-msgstr ""
+msgstr "找到 %d 個郵寄名單"
 
 #, python-format
 msgid "%d of %d in total."
-msgstr ""
+msgstr "%d 個，共 %d 個"
 
 #, python-format
 msgid "%d user(s) found."
@@ -81,7 +81,7 @@ msgid "About quarantined mails"
 msgstr "關於已隔離郵件。"
 
 msgid "Access control"
-msgstr ""
+msgstr "存取控制"
 
 #, python-format
 msgid ""
@@ -129,7 +129,7 @@ msgid "Add"
 msgstr "新增"
 
 msgid "Add (subscribable) mailing list"
-msgstr ""
+msgstr "新增郵寄名單"
 
 msgid "Add account"
 msgstr "新增帳號"
@@ -156,7 +156,7 @@ msgid "Add mailing list"
 msgstr "新增郵件列表"
 
 msgid "Add mailing list under domain"
-msgstr ""
+msgstr "在域名下新增郵寄名單"
 
 msgid "Add new members"
 msgstr "新增成員"
@@ -174,7 +174,7 @@ msgid "Add whitelist and blacklist"
 msgstr "新增黑白名單"
 
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 msgid "Address format"
 msgstr "發件人地址"
@@ -205,13 +205,13 @@ msgid "Alias"
 msgstr "郵件別名"
 
 msgid "Alias addresses:"
-msgstr "別名地址"
+msgstr "別名地址："
 
 msgid "Alias domains"
 msgstr "網域別名"
 
 msgid "Alias domains:"
-msgstr "網域別名"
+msgstr "網域別名："
 
 msgid "Aliases"
 msgstr "別名"
@@ -238,7 +238,7 @@ msgid "All domains under your control."
 msgstr "您管理的所有郵件網域。"
 
 msgid "All emails"
-msgstr ""
+msgstr "所有電子郵件"
 
 msgid "All sub-domains"
 msgstr "所有子網域"
@@ -253,7 +253,7 @@ msgid "Allow this admin to mark other mail user as domain admin"
 msgstr "允許此管理員將其他郵件用戶標記為域管理員"
 
 msgid "Almost finished."
-msgstr ""
+msgstr "幾乎完成了"
 
 #, python-format
 msgid "Already exceed max number of account limit (%d)."
@@ -278,13 +278,13 @@ msgid "Always insert X-Spam-* headers"
 msgstr "總是插入X-Spam- *標頭"
 
 msgid "Anti Spam"
-msgstr "反垃圾郵件"
+msgstr "抗垃圾郵件"
 
 msgid "Apply"
 msgstr "套用"
 
 msgid "Archive"
-msgstr ""
+msgstr "封存"
 
 msgid "Assigned groups:"
 msgstr ""
@@ -302,16 +302,16 @@ msgid "At least %s characters."
 msgstr "至少 %s 個字元。"
 
 msgid "At least one digit number"
-msgstr ""
+msgstr "至少一個數字"
 
 msgid "At least one letter"
-msgstr ""
+msgstr "至少一個字母"
 
 msgid "At least one special character:"
-msgstr ""
+msgstr "至少一個特殊字元"
 
 msgid "At least one uppercase letter"
-msgstr ""
+msgstr "至少一個大寫字母"
 
 msgid "Attachments"
 msgstr "附件"
@@ -324,13 +324,13 @@ msgid "Available: %d (Existing: %d, Max: %d.)"
 msgstr ""
 
 msgid "BCC"
-msgstr "密送"
+msgstr "密件副本"
 
 msgid "BCC incoming emails to other address"
-msgstr "將接收到的郵件密送（BCC）到其它郵件地址"
+msgstr "將接收到的郵件用密件副本寄到其它郵件地址"
 
 msgid "BCC outgoing emails to other address"
-msgstr "將外發的郵件密送（BCC）到其它郵件地址"
+msgstr "將外發的郵件用密件副本寄到到其它郵件地址"
 
 msgid "Backup"
 msgstr "備份"
@@ -360,7 +360,7 @@ msgid "Blacklisted senders"
 msgstr "黑名單的發件者"
 
 msgid "Blacklists"
-msgstr ""
+msgstr "黑名單"
 
 msgid "Block or quarantine marked spam when score is >="
 msgstr ""
@@ -660,7 +660,7 @@ msgid "Domain activities"
 msgstr "網域活動"
 
 msgid "Domain admin"
-msgstr "域管理员"
+msgstr "網域管理员"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "域管理員不能將超過最大郵箱容量分配給郵件用戶"
@@ -1452,10 +1452,10 @@ msgid "Moderators removed success."
 msgstr "成功刪除管理員。"
 
 msgid "Monitor incoming emails via BCC"
-msgstr "通過 BCC 監控進入的郵件"
+msgstr "透過 BCC 監控進入的郵件"
 
 msgid "Monitor outgoing emails via BCC"
-msgstr "通過 BCC 監控外發的郵件"
+msgstr "透過 BCC 監控外發的郵件"
 
 msgid "Multiple addresses are NOT supported."
 msgstr "不接受指定多個地址。"
