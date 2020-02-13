@@ -36,11 +36,11 @@ msgstr "找到 %d 個郵件別名。"
 
 #, python-format
 msgid "%d mailing list(s) found."
-msgstr ""
+msgstr "找到 %d 個郵寄名單"
 
 #, python-format
 msgid "%d of %d in total."
-msgstr ""
+msgstr "%d 個，共 %d 個"
 
 #, python-format
 msgid "%d user(s) found."
@@ -63,13 +63,13 @@ msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
 msgid "1 Day"
-msgstr "1天"
+msgstr "1 天"
 
 msgid "1 Hour"
-msgstr "1小時"
+msgstr "1 小時"
 
 msgid "1 Minute"
-msgstr "1分鐘"
+msgstr "1 分鐘"
 
 msgid "About greylisting"
 msgstr "關於灰名單"
@@ -81,7 +81,7 @@ msgid "About quarantined mails"
 msgstr "關於已隔離郵件。"
 
 msgid "Access control"
-msgstr ""
+msgstr "存取控制"
 
 #, python-format
 msgid ""
@@ -129,7 +129,7 @@ msgid "Add"
 msgstr "新增"
 
 msgid "Add (subscribable) mailing list"
-msgstr ""
+msgstr "新增（可訂閱的）郵寄名單"
 
 msgid "Add account"
 msgstr "新增帳號"
@@ -156,13 +156,13 @@ msgid "Add mailing list"
 msgstr "新增郵件列表"
 
 msgid "Add mailing list under domain"
-msgstr ""
+msgstr "在域名下新增郵寄名單"
 
 msgid "Add new members"
 msgstr "新增成員"
 
 msgid "Add new moderators"
-msgstr "新增管理員"
+msgstr "新增仲裁者"
 
 msgid "Add one"
 msgstr "新增一個"
@@ -174,10 +174,10 @@ msgid "Add whitelist and blacklist"
 msgstr "新增黑白名單"
 
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 msgid "Address format"
-msgstr "發件人地址"
+msgstr "地址格式"
 
 msgid "Admin"
 msgstr "管理員"
@@ -205,13 +205,13 @@ msgid "Alias"
 msgstr "郵件別名"
 
 msgid "Alias addresses:"
-msgstr "別名地址"
+msgstr "別名地址："
 
 msgid "Alias domains"
 msgstr "網域別名"
 
 msgid "Alias domains:"
-msgstr "網域別名"
+msgstr "網域別名："
 
 msgid "Aliases"
 msgstr "別名"
@@ -238,7 +238,7 @@ msgid "All domains under your control."
 msgstr "您管理的所有郵件網域。"
 
 msgid "All emails"
-msgstr ""
+msgstr "所有電子郵件"
 
 msgid "All sub-domains"
 msgstr "所有子網域"
@@ -253,7 +253,7 @@ msgid "Allow this admin to mark other mail user as domain admin"
 msgstr "允許此管理員將其他郵件用戶標記為域管理員"
 
 msgid "Almost finished."
-msgstr ""
+msgstr "幾乎完成了"
 
 #, python-format
 msgid "Already exceed max number of account limit (%d)."
@@ -278,13 +278,13 @@ msgid "Always insert X-Spam-* headers"
 msgstr "總是插入X-Spam- *標頭"
 
 msgid "Anti Spam"
-msgstr "反垃圾郵件"
+msgstr "抗垃圾郵件"
 
 msgid "Apply"
 msgstr "套用"
 
 msgid "Archive"
-msgstr ""
+msgstr "封存"
 
 msgid "Assigned groups:"
 msgstr ""
@@ -302,16 +302,16 @@ msgid "At least %s characters."
 msgstr "至少 %s 個字元。"
 
 msgid "At least one digit number"
-msgstr ""
+msgstr "至少一個數字"
 
 msgid "At least one letter"
-msgstr ""
+msgstr "至少一個字母"
 
 msgid "At least one special character:"
-msgstr ""
+msgstr "至少一個特殊字元"
 
 msgid "At least one uppercase letter"
-msgstr ""
+msgstr "至少一個大寫字母"
 
 msgid "Attachments"
 msgstr "附件"
@@ -324,13 +324,13 @@ msgid "Available: %d (Existing: %d, Max: %d.)"
 msgstr ""
 
 msgid "BCC"
-msgstr "密送"
+msgstr "密件副本"
 
 msgid "BCC incoming emails to other address"
-msgstr "將接收到的郵件密送（BCC）到其它郵件地址"
+msgstr "將接收到的郵件用密件副本寄到其它郵件地址"
 
 msgid "BCC outgoing emails to other address"
-msgstr "將外發的郵件密送（BCC）到其它郵件地址"
+msgstr "將外發的郵件用密件副本寄到到其它郵件地址"
 
 msgid "Backup"
 msgstr "備份"
@@ -360,7 +360,7 @@ msgid "Blacklisted senders"
 msgstr "黑名單的發件者"
 
 msgid "Blacklists"
-msgstr ""
+msgstr "黑名單"
 
 msgid "Block or quarantine marked spam when score is >="
 msgstr ""
@@ -384,7 +384,7 @@ msgid "Change email address to"
 msgstr "郵件地址更改為"
 
 msgid "Change password"
-msgstr "新密碼"
+msgstr "更改密碼"
 
 msgid "Choose Action"
 msgstr "選擇操作"
@@ -582,22 +582,22 @@ msgid "Disabled"
 msgstr "已停用"
 
 msgid "Disabled accounts"
-msgstr "停用帳號"
+msgstr "停用的帳號"
 
 msgid "Disabled domain profiles"
-msgstr "停用網域屬性"
+msgstr "停用的網域設定"
 
 msgid "Disabled domains"
-msgstr "停用網域屬性"
+msgstr "停用的網域"
 
 msgid "Disabled mail services"
-msgstr ""
+msgstr "停用的郵件服務"
 
 msgid "Disabled self-service preferences"
-msgstr "停用自助服務偏好設置"
+msgstr "停用的自助服務偏好設置"
 
 msgid "Disabled user profiles"
-msgstr "停用用戶屬性"
+msgstr "停用的用戶設定"
 
 msgid ""
 "Disabling service will be applied to newly created mail user by default. "
@@ -660,7 +660,7 @@ msgid "Domain activities"
 msgstr "網域活動"
 
 msgid "Domain admin"
-msgstr "域管理员"
+msgstr "網域管理员"
 
 msgid "Domain admin cannot assign more than max quota to a mail user."
 msgstr "域管理員不能將超過最大郵箱容量分配給郵件用戶"
@@ -739,10 +739,10 @@ msgid "Email address of alias account must end with domain name(s): %s."
 msgstr "別名帳號的郵件地址必須以下列網域名稱結尾：%s。"
 
 msgid "Email address or domain names"
-msgstr "每行只能填一個郵件地址。"
+msgstr "郵件地址或網域名稱"
 
 msgid "Email address was changed."
-msgstr "每行只能填一個郵件地址。"
+msgstr "郵件地址已被更改。"
 
 msgid "Email addresses of alias accounts"
 msgstr "別名帳號的郵件地址"
@@ -816,7 +816,7 @@ msgid "Enable newsletter-style mailing list"
 msgstr ""
 
 msgid "Enable selected domain without verification"
-msgstr ""
+msgstr "啟用所選的網域且不需確認"
 
 msgid "Enable spam checking"
 msgstr "啟用垃圾郵件檢查"
@@ -825,13 +825,13 @@ msgid "Enable subscription and unsubscription from website"
 msgstr ""
 
 msgid "Enable this account"
-msgstr "啟用這個帳號"
+msgstr "啟用此帳號"
 
 msgid "Enable this domain"
-msgstr "啟用這個網域"
+msgstr "啟用此網域"
 
 msgid "Enable virus checking"
-msgstr "啟用這個帳號"
+msgstr "啟用病毒檢查"
 
 msgid "Enabled Services"
 msgstr "啟用的郵件服務"
@@ -890,7 +890,7 @@ msgid "External Members"
 msgstr "外部成員"
 
 msgid "External moderators"
-msgstr "外部管理員"
+msgstr "外部仲裁者"
 
 msgid "Fetching mails via IMAP"
 msgstr "通過 IMAP 協議收取郵件"
@@ -1049,13 +1049,13 @@ msgstr "在下方輸入內部成員或外部成員的郵件地址，多個地址
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
 "multiple addresses must be seperated by comma, space or new line."
-msgstr "在下方輸入內部管理員或外部管理員的郵件地址，多個地址必須用逗號、空格或新的一行分隔。"
+msgstr "在下方輸入內部或外部仲裁者的郵件地址，多個地址必須用逗號、空格或新的一行分隔。"
 
 msgid "Internal Members"
 msgstr "內部成員"
 
 msgid "Internal Moderators"
-msgstr "內部管理員"
+msgstr "內部仲裁者"
 
 msgid "Internal server error, please contact server admin to fix it."
 msgstr ""
@@ -1082,7 +1082,7 @@ msgid "Invalid request data."
 msgstr "無效的請求資料。"
 
 msgid "Is a global admin."
-msgstr "全域管理員。"
+msgstr "是全域管理員。"
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1404,16 +1404,16 @@ msgid "Members"
 msgstr "成員"
 
 msgid "Members and moderators"
-msgstr ""
+msgstr "成員和仲裁者"
 
 msgid "Members and moderators will be fully migrated."
-msgstr ""
+msgstr "成員和仲裁者將會被完整遷移"
 
 msgid "Members has been added to mailing list."
 msgstr ""
 
 msgid "Members will be fully migrated."
-msgstr ""
+msgstr "成員將會被完整遷移"
 
 msgid "Message"
 msgstr "訊息"
@@ -1437,25 +1437,25 @@ msgid "Mobile"
 msgstr "手機"
 
 msgid "Moderate all posts (Moderators are required)"
-msgstr ""
+msgstr "Moderate all posts（需要仲裁者）"
 
 msgid "Moderate subscriptions"
 msgstr ""
 
 msgid "Moderators"
-msgstr "管理員"
+msgstr "仲裁者"
 
 msgid "Moderators assigned success."
-msgstr "成功新增管理員。"
+msgstr "成功指派仲裁者。"
 
 msgid "Moderators removed success."
-msgstr "成功刪除管理員。"
+msgstr "成功刪除仲裁者。"
 
 msgid "Monitor incoming emails via BCC"
-msgstr "通過 BCC 監控進入的郵件"
+msgstr "透過 BCC 監控進入的郵件"
 
 msgid "Monitor outgoing emails via BCC"
-msgstr "通過 BCC 監控外發的郵件"
+msgstr "透過 BCC 監控外發的郵件"
 
 msgid "Multiple addresses are NOT supported."
 msgstr "不接受指定多個地址。"
@@ -1543,13 +1543,13 @@ msgid "No mailing list available."
 msgstr ""
 
 msgid "No members."
-msgstr "查看成員"
+msgstr "沒有成員"
 
 msgid "No moderator selected."
 msgstr "沒有選擇任何管理員。"
 
 msgid "No moderators."
-msgstr "管理員"
+msgstr "沒有仲裁者。"
 
 #, python-format
 msgid "No more than %d characters."
@@ -1645,19 +1645,19 @@ msgid "Old records will be cleaned up regularly."
 msgstr ""
 
 msgid "One IP address or CIDR network per line."
-msgstr "每行只能填一個郵件地址。"
+msgstr "每行一個 IP 位址或 CIDR 網路。"
 
 msgid "One domain per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個域名。"
 
 msgid "One mail address per line."
-msgstr "每行只能填一個郵件地址。"
+msgstr "每行一個郵件地址。"
 
 msgid "One record per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個記錄。"
 
 msgid "One sender per line."
-msgstr "一行填一個記錄。"
+msgstr "每行一個發件人。"
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1688,7 +1688,7 @@ msgid "Owners"
 msgstr ""
 
 msgid "Owners and Moderators"
-msgstr ""
+msgstr "擁有者和仲裁者"
 
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
@@ -1709,7 +1709,7 @@ msgid "Password last change:"
 msgstr ""
 
 msgid "Password must contain"
-msgstr "新密碼必須包含至少 %s 個字元。"
+msgstr "密碼必須包含"
 
 msgid "Path to mailbox"
 msgstr "郵件路徑"
@@ -1760,7 +1760,7 @@ msgid "Please select at least one account."
 msgstr "請至少選擇一個帳號進行操作。"
 
 msgid "Please select at least one domain."
-msgstr "請至少選擇一個帳號進行操作。"
+msgstr "請至少選擇一個網域進行操作。"
 
 msgid ""
 "Please verify mail domains listed below, to ensure that it is an valid "
@@ -2018,10 +2018,10 @@ msgid "Selected accounts were deleted."
 msgstr "刪除所選的帳號。"
 
 msgid "Selected accounts were disabled."
-msgstr "停用所選的帳號。"
+msgstr "所選的帳號已被停用。"
 
 msgid "Selected accounts were enabled."
-msgstr "啟用所選的帳號。"
+msgstr "所選的帳號已被啟用。"
 
 msgid "Selected accounts were marked as domain admin."
 msgstr "標記所選的帳號為域管理員。"
@@ -2063,16 +2063,16 @@ msgid "Sender"
 msgstr "發件人"
 
 msgid "Sender Addresses"
-msgstr ""
-
-msgid "Sender Domain"
-msgstr ""
-
-msgid "Sender address format"
 msgstr "發件人地址"
 
+msgid "Sender Domain"
+msgstr "發件人域名"
+
+msgid "Sender address format"
+msgstr "發件人地址格式"
+
 msgid "Sender domains listed below have not passed greylisting service yet."
-msgstr ""
+msgstr "以下列出的發件人域名尚未通過灰名單服務"
 
 msgid "Sending mails via SMTP"
 msgstr "通過 SMTP 協議發送郵件"
@@ -2103,7 +2103,7 @@ msgid "Session expired, please re-login."
 msgstr "登入資料過期，請重新登入。"
 
 msgid "Set mail forwarding"
-msgstr "啟用郵件轉發"
+msgstr "設定郵件轉發"
 
 msgid "Set to 0 for unlimited."
 msgstr "設定為 0 表示無限制。"
@@ -2121,7 +2121,7 @@ msgid "Setting"
 msgstr "設定"
 
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 msgid "Show in Global Address Book"
 msgstr "在全域 LDAP 通訊錄中顯示"
@@ -2175,7 +2175,7 @@ msgid "Subscribe to newsletter"
 msgstr ""
 
 msgid "Subscription Moderators"
-msgstr ""
+msgstr "訂閱仲裁者"
 
 msgid ""
 "Subscription and unsubscription will be disabled by default, feel free to"
@@ -2207,12 +2207,12 @@ msgid "Text to introduce this newsletter on subscription page"
 msgstr ""
 
 msgid "Thank you for subscribing."
-msgstr ""
+msgstr "感謝您的訂閱"
 
 msgid ""
 "These addresses will be assigned to newly created mail user as per-user "
 "bcc address."
-msgstr " 用戶的 bcc 設定,將套用給新建用戶。"
+msgstr " 用戶的 BCC 設定，將套用給新建用戶。"
 
 msgid "This domain is a backup MX, can not set custom relay."
 msgstr "這個域是一個備份 MX，不能自定義為 Relay。"
@@ -2230,10 +2230,10 @@ msgid ""
 msgstr ""
 
 msgid "This is a mail alias."
-msgstr "列出所有郵件別名。"
+msgstr "此為郵件別名。"
 
 msgid "This is a mailing list."
-msgstr "列出所有郵件列表。"
+msgstr "此為郵件列表。"
 
 msgid "This is default throttling applied to all individual accounts."
 msgstr "這是對所有帳號應用的默認限制。"
