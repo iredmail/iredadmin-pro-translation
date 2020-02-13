@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2011-09-22 08:40+0200\n"
 "Last-Translator: Teemu Harjula <teemu.harjula@tietovirta.fi>\n"
 "Language: fi_FI\n"
@@ -45,6 +45,10 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr "%d käyttäjä(ä) löytyi."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -124,6 +128,9 @@ msgstr "Aktiivinen tili"
 
 msgid "Active"
 msgstr "Aktiivinen"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "Lisää"
@@ -226,6 +233,9 @@ msgstr "Kaikki tilit"
 msgid "All admins"
 msgstr "Kaikki ylläpitäjät"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "Kaikki domainit"
 
@@ -277,9 +287,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr ""
 
-msgid "Anti Spam"
-msgstr "Domainien määrä"
-
 msgid "Apply"
 msgstr "Aseta"
 
@@ -316,6 +323,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "Liitteet"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "Vapaa kiintiö:"
 
@@ -350,6 +363,9 @@ msgstr ""
 msgid "Banned"
 msgstr "Kielletty"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -366,6 +382,12 @@ msgid "Block or quarantine marked spam when score is >="
 msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
+msgstr ""
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
 msgstr ""
 
 msgid "Catch-all"
@@ -395,6 +417,12 @@ msgstr "Valitse toiminnan tyyppi"
 msgid "Clean"
 msgstr ""
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -411,9 +439,6 @@ msgstr "Vahvista uusi salasana"
 
 msgid "Contact webmaster"
 msgstr "Ota yhteys ylläpitäjään"
-
-msgid "Contacts"
-msgstr "Tilin toiminnat"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Kuinka vastuuvapauslauseke otetaan käyttöön ulosmenevissä sähköposteissa."
@@ -461,6 +486,9 @@ msgstr "Etusivu"
 msgid "Date"
 msgstr "Päivä"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr ""
 
@@ -475,6 +503,12 @@ msgid "Default language for new user"
 msgstr "Oletuskiintiö uudelle käyttäjälle"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -724,6 +758,9 @@ msgstr "Domainit ja tilit"
 msgid "Dump disclaimer automatically"
 msgstr "Lisää vastuuvapauslauseke automaattisesti"
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "Muokkaa tilin profiilia"
 
@@ -841,8 +878,17 @@ msgstr "Ota tämä tili käyttöön"
 msgid "Enabled Services"
 msgstr "Käytössä olevat palvelut"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "Koko domain"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -974,8 +1020,14 @@ msgstr "Globaali ylläpitäjä"
 msgid "Global admin"
 msgstr "Globaali ylläpitäjä"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "Domainien määrä"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "Harmaalistaus"
@@ -1047,19 +1099,13 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Lisää sähköpostiosoite sisäisistä tai ulkoisista jäsenistä, useita "
-"osoitteita lisättäessä osoitteet täytyy erottaa pilkulla, välillä tai "
-"rivillä."
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Lisää sähköpostiosoite sisäisistä tai ulkoisista moderaattoreista, useita"
-" osoitteita lisättäessä osoitteet täytyy erottaa pilkulla, välillä tai "
-"rivillä."
 
 msgid "Internal Members"
 msgstr "Sisäiset jäsenet"
@@ -1082,6 +1128,9 @@ msgstr "Virheellinen domain nimi tai sähköpostiosoite."
 msgid "Invalid domain name."
 msgstr "Virheellinen domain nimi."
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "Virheellinen sähköpostiosoite."
 
@@ -1093,6 +1142,9 @@ msgstr "Virheellinen pyyntö."
 
 msgid "Is a global admin."
 msgstr "On globaali ylläpitäjä."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1107,6 +1159,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1149,8 +1204,14 @@ msgstr "Hakusana"
 msgid "Kind"
 msgstr ""
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Edellinen sivu"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "Isäntänimi"
@@ -1183,6 +1244,9 @@ msgstr ""
 msgid "License is active"
 msgstr "Tili on aktiivinen."
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "Tilin tila"
 
@@ -1207,6 +1271,12 @@ msgstr "Kirjautunut sisään tunnuksella %s"
 
 msgid "Login"
 msgstr "Kirjaudu"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "Kirjautuminen vaaditaan"
@@ -1235,9 +1305,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "Sähköpostin otsikot"
 
-msgid "Mail Logs"
-msgstr "Tietoa sähköpostilogista"
-
 msgid "Mail Users"
 msgstr "Sähköpostikäyttäjät"
 
@@ -1255,10 +1322,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
+" deleted from database permanently."
 msgstr ""
-"Sähköpostilogit saapuvista ja lähtevistä maileista tuhotaan mikäli ne "
-"ovat vanhempia kuin %d päivää"
 
 msgid "Mail posting"
 msgstr ""
@@ -1266,8 +1331,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Aliakselle lähetetyt sähköpostit edelleenohjataan sen jäsenille."
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "Sähköpostilaatikon kiintiö"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1397,6 +1471,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "Salasanan maksimi pituus"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "Jäsenen määritys onnistui."
 
@@ -1472,8 +1554,8 @@ msgstr "Seuraa lähteviä sähköposteja piilokopiolla"
 msgid "Multiple addresses are NOT supported."
 msgstr "Useaa osoitetta EI tueta."
 
-msgid "Need a random password?"
-msgstr "Satunnainen salasana?"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "Verkko"
@@ -1512,11 +1594,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "Seuraava sivu"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "Ei tiliä valittuna."
 
 msgid "No admin log."
 msgstr "Ei admin logia."
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1537,6 +1628,9 @@ msgid "No incoming mails."
 msgstr "Ei lähteviä sähköposteja."
 
 msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
 msgstr ""
 
 msgid "No mail admin available."
@@ -1659,17 +1753,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "Yksi sähköpostiosoite per rivi."
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "Yksi tietue per rivi."
 
 msgid "One mail address per line."
 msgstr "Yksi sähköpostiosoite per rivi."
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "Yksi tietue per rivi."
 
 msgid "One sender per line."
 msgstr "Yksi tietue per rivi."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1691,6 +1796,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Tai luo muita sähköpostitilejä:"
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1722,6 +1833,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "Uuden salasanan täytyy pitää sisällään ainakin %s merkkiä."
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Polku sähköpostilaatikkoon"
@@ -1783,6 +1897,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Postfix ohjesivu"
 
@@ -1831,6 +1948,9 @@ msgstr "Profiili käyttäjälle:"
 msgid "Profile updated failed."
 msgstr "Profiilin päivitys epäonnistui."
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "Uusi lisenssi"
 
@@ -1875,13 +1995,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
+"permanently."
 msgstr ""
-"Karanteenissa olevat yli %d päivää vanhat sähköpostit poistetaan "
-"tietokannasta."
 
 msgid "Quota"
 msgstr "Kiintiö"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "Vastaanotetut"
@@ -1924,6 +2045,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1972,11 +2099,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr "Poista listasta"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "Uusi lisenssi"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -1986,6 +2131,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profiili ylläpitäjälle:"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2158,6 +2315,10 @@ msgstr "Yksittäinen käyttäjä"
 msgid "Size"
 msgstr "Koko"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "Roskaposti"
 
@@ -2222,6 +2383,9 @@ msgstr "Järjestelmä"
 
 msgid "System Information"
 msgstr "Järjestelmätiedot"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "Puhelinnumero"
@@ -2294,9 +2458,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "Yhteensä"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2430,6 +2591,9 @@ msgstr "Valkoinen/musta -lista"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Valkoisella listalla on korkeampi prioriteetti kuin mustalla listalla."
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "Valkoiset listat"
 
@@ -2519,9 +2683,6 @@ msgstr "Et voi luoda enempää sähköpostialiaksia domainiin %s."
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr ""
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2538,6 +2699,9 @@ msgid ""
 "forward emails to host example.com through port 25. The [] form is "
 "required when you specify an IP address instead of a hostname, or disable"
 " MX DNS lookup."
+msgstr ""
+
+msgid "or longer than"
 msgstr ""
 
 msgid ""

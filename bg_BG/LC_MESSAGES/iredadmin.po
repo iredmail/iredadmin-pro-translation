@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -46,6 +46,10 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr "Намерени са %d пощи"
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -125,6 +129,9 @@ msgstr "Активиране на акаунт"
 
 msgid "Active"
 msgstr "Активен"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "Добави"
@@ -227,6 +234,9 @@ msgstr "Всички акаунти"
 msgid "All admins"
 msgstr "Всички админи"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "Всички домейни"
 
@@ -278,9 +288,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr "Винаги добавяй ред X-Spam-* в хедърите"
 
-msgid "Anti Spam"
-msgstr "Анти Спам"
-
 msgid "Apply"
 msgstr "Приложи"
 
@@ -317,6 +324,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "Прикачени файлове"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "Налична квота:"
 
@@ -351,6 +364,9 @@ msgstr ""
 msgid "Banned"
 msgstr "Забранени Файлове"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -368,6 +384,12 @@ msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
 msgstr "CIDR форматиран диапазон от IP адреси"
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
+msgstr ""
 
 msgid "Catch-all"
 msgstr "Catch-all"
@@ -396,6 +418,12 @@ msgstr "Изберете къде да бъде проверено"
 msgid "Clean"
 msgstr "Чисти"
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr "Коментар"
 
@@ -412,9 +440,6 @@ msgstr "Потвърди новата парола"
 
 msgid "Contact webmaster"
 msgstr "Връзка с уебмастър"
-
-msgid "Contacts"
-msgstr "Контакти"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr ""
@@ -462,6 +487,9 @@ msgstr "Табло за управление"
 msgid "Date"
 msgstr "Дата и час"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr "Адрес добавен като СК във входящите писма по подразбиране за нови пощи"
 
@@ -476,6 +504,12 @@ msgid "Default language for new user"
 msgstr "Език по подразбиране за нови потребители"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -753,6 +787,9 @@ msgstr "Домейни и Акаунти"
 msgid "Dump disclaimer automatically"
 msgstr ""
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "Редактиране на настройките за акаунт"
 
@@ -869,8 +906,17 @@ msgstr "Активирай този акаунт"
 msgid "Enabled Services"
 msgstr "Активирани услуги"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "Конкретен домейн"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -1002,8 +1048,14 @@ msgstr "Глобални Спам Политики"
 msgid "Global admin"
 msgstr "Глобален админ"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "Главен админ"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "Greylisting"
@@ -1088,12 +1140,12 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
 
 msgid "Internal Members"
@@ -1117,6 +1169,9 @@ msgstr "Невалидно домейн име или имейл адрес."
 msgid "Invalid domain name."
 msgstr "Невалидно домейн име"
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "Невалиден имейл адрес."
 
@@ -1128,6 +1183,9 @@ msgstr "Невалидни поискани данни."
 
 msgid "Is a global admin."
 msgstr "е глобален админ."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1142,6 +1200,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1184,8 +1245,14 @@ msgstr "Търсене за:"
 msgid "Kind"
 msgstr "Вид"
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Последна Страница"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "Фамилия"
@@ -1218,6 +1285,9 @@ msgstr ""
 msgid "License is active"
 msgstr "Лиценза е активен"
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "Статус на лиценза"
 
@@ -1242,6 +1312,12 @@ msgstr "Влезли сте като %s"
 
 msgid "Login"
 msgstr "Вход"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "Изисква се вход"
@@ -1270,9 +1346,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "Хедъри на съобщението"
 
-msgid "Mail Logs"
-msgstr "Лог на писмата"
-
 msgid "Mail Users"
 msgstr "Пощи"
 
@@ -1290,10 +1363,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
+" deleted from database permanently."
 msgstr ""
-"Логовете на входящите и изходящите писма, които са по-стари от %d дни ще "
-"бъдат автоматично изтрити от базата данни завинаги."
 
 msgid "Mail posting"
 msgstr ""
@@ -1303,8 +1374,17 @@ msgstr ""
 "Писмата изпратени до списъка за препращане ще бъдат препратени към "
 "членовете."
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "Квота"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1450,6 +1530,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "Максимален брой символи в паролата"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "Участника е добавен успешно."
 
@@ -1527,8 +1615,8 @@ msgstr ""
 "Не е възможно добавянето на повече от един адрес, до който да се изпраща "
 "скрито копие"
 
-msgid "Need a random password?"
-msgstr "Имаш ли нужда от случайна парола?"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "Мрежа"
@@ -1567,11 +1655,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "Следваща Страница"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "Не е избран акаунт."
 
 msgid "No admin log."
 msgstr "Не са намерени записи в лога с операциите."
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1593,6 +1690,9 @@ msgstr "Не са намерени наскоро получени писма."
 
 msgid "No letter in password."
 msgstr "Паролата трябва да съдържа малка латинска буква."
+
+msgid "No mail admin assigned."
+msgstr ""
 
 msgid "No mail admin available."
 msgstr "Все още няма добавени домейни."
@@ -1718,17 +1818,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки имейл адрес да е на НОВ ред."
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки запис да е на НОВ ред."
 
 msgid "One mail address per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки имейл адрес да е на НОВ ред."
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки запис да е на НОВ ред."
 
 msgid "One sender per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки запис да е на НОВ ред."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1750,6 +1861,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Или създай други пощи:"
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1781,6 +1898,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "Паролата трябва да съдържа"
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Директория на пощата"
@@ -1851,6 +1971,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Помощна страница на Postfix"
 
@@ -1899,6 +2022,9 @@ msgstr "Настройки на поща:"
 msgid "Profile updated failed."
 msgstr "Неуспешно записване на промените."
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "Закуване на нов лиценз"
 
@@ -1944,13 +2070,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
+"permanently."
 msgstr ""
-"Писмата поставени под карантина, които са по-стари от %d дни ще бъдат "
-"изтрити автоматично от базата данни."
 
 msgid "Quota"
 msgstr "Квота"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "Получени писма"
@@ -1993,6 +2120,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -2047,11 +2180,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr ""
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "Поднови лиценз"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -2061,6 +2212,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Премахване на админ права"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2231,6 +2394,10 @@ msgstr "Конкретна поща"
 msgid "Size"
 msgstr "Размер"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "Спам"
 
@@ -2295,6 +2462,9 @@ msgstr "Система"
 
 msgid "System Information"
 msgstr "Системна информация"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "Телефонен Номер"
@@ -2369,9 +2539,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "Общо"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2507,6 +2674,9 @@ msgstr "БЯЛ/ЧЕРЕН списък"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "БЕЛИЯ списък има по-висок приоритет от ЧЕРНИЯ."
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "БЯЛ списък на изпращачите"
 
@@ -2607,9 +2777,6 @@ msgstr "Не е възможно да създадете препращания 
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr "От Вашият IP адрес не е разрешено логване като глобален админ"
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2630,6 +2797,9 @@ msgstr ""
 "Препращане на писмата към хост example.com на порт 25. Използвайте "
 "квадратни скоби []  когато искате да окажете IP адрес, вместо домейн, или"
 " ако искате да забраните  MX проверката."
+
+msgid "or longer than"
+msgstr ""
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

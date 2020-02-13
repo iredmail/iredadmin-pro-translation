@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -45,6 +45,10 @@ msgstr "%d 個，共 %d 個"
 #, python-format
 msgid "%d user(s) found."
 msgstr "找到 %d 個用戶"
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -124,6 +128,9 @@ msgstr "啟用帳號"
 
 msgid "Active"
 msgstr "啟用"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "新增"
@@ -226,6 +233,9 @@ msgstr "所有帳號"
 msgid "All admins"
 msgstr "所有管理員"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "所有網域"
 
@@ -277,9 +287,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr "總是插入X-Spam- *標頭"
 
-msgid "Anti Spam"
-msgstr "抗垃圾郵件"
-
 msgid "Apply"
 msgstr "套用"
 
@@ -316,6 +323,12 @@ msgstr "至少一個大寫字母"
 msgid "Attachments"
 msgstr "附件"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "可用空間配額"
 
@@ -350,6 +363,9 @@ msgstr "檢查錯誤標頭郵件"
 msgid "Banned"
 msgstr "禁止"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr "檢查禁止的檔案格式"
 
@@ -367,6 +383,12 @@ msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
 msgstr "CIDR 格式的 IP 網段"
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
+msgstr ""
 
 msgid "Catch-all"
 msgstr "Catch-all 地址"
@@ -395,6 +417,12 @@ msgstr "選擇活動類型"
 msgid "Clean"
 msgstr "正常郵件"
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr "備註"
 
@@ -411,9 +439,6 @@ msgstr "確認新密碼"
 
 msgid "Contact webmaster"
 msgstr "聯繫管理員"
-
-msgid "Contacts"
-msgstr "聯繫"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "免責聲明的內容會被自動附加到送出郵件尾部。"
@@ -461,6 +486,9 @@ msgstr "控制台"
 msgid "Date"
 msgstr "日期"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr "新建用戶接收的郵件,套用默認 bcc 地址"
 
@@ -475,6 +503,12 @@ msgid "Default language for new user"
 msgstr "新用戶的預設語言"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -722,6 +756,9 @@ msgstr "網域和帳號"
 msgid "Dump disclaimer automatically"
 msgstr "如何自動匯出免責聲明"
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "編輯帳號屬性"
 
@@ -836,8 +873,17 @@ msgstr "啟用病毒檢查"
 msgid "Enabled Services"
 msgstr "啟用的郵件服務"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "整個網域"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -967,8 +1013,14 @@ msgstr "全域垃圾郵件策略"
 msgid "Global admin"
 msgstr "全域管理員"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "域管理员"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "灰名單"
@@ -1043,13 +1095,13 @@ msgstr "繼承每域管制設置"
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
-msgstr "在下方輸入內部成員或外部成員的郵件地址，多個地址必須用逗號、空格或新的一行分隔。"
+"multiple addresses must be separated by comma, space or new line."
+msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
-msgstr "在下方輸入內部或外部仲裁者的郵件地址，多個地址必須用逗號、空格或新的一行分隔。"
+"multiple addresses must be separated by comma, space or new line."
+msgstr ""
 
 msgid "Internal Members"
 msgstr "內部成員"
@@ -1072,6 +1124,9 @@ msgstr "無效的網域名稱或郵件地址"
 msgid "Invalid domain name."
 msgstr "無效的網域名稱。"
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "無效的郵件地址。"
 
@@ -1083,6 +1138,9 @@ msgstr "無效的請求資料。"
 
 msgid "Is a global admin."
 msgstr "是全域管理員。"
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1097,6 +1155,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1139,8 +1200,14 @@ msgstr "關鍵字"
 msgid "Kind"
 msgstr "性質"
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "最後一頁"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "姓"
@@ -1173,6 +1240,9 @@ msgstr ""
 msgid "License is active"
 msgstr "許可證已啟用"
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "許可證狀態"
 
@@ -1197,6 +1267,12 @@ msgstr "登入帳號：%s"
 
 msgid "Login"
 msgstr "登入"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "需要先登入才能進行操作"
@@ -1225,9 +1301,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "郵件標頭"
 
-msgid "Mail Logs"
-msgstr "關於郵件日誌"
-
 msgid "Mail Users"
 msgstr "郵件用戶"
 
@@ -1245,8 +1318,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
-msgstr "超過 %d 天後的郵件收發記錄，會被自動刪除。"
+" deleted from database permanently."
+msgstr ""
 
 msgid "Mail posting"
 msgstr ""
@@ -1254,8 +1327,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "發送給別名的郵件將會被轉發給成員。"
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "郵箱空間配額"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1385,6 +1467,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "最長密碼長度"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "成功新增成員。"
 
@@ -1460,8 +1550,8 @@ msgstr "透過 BCC 監控外發的郵件"
 msgid "Multiple addresses are NOT supported."
 msgstr "不接受指定多個地址。"
 
-msgid "Need a random password?"
-msgstr "需要一個隨機密碼？"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "網路"
@@ -1500,11 +1590,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "下一頁"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "未選擇任何帳號"
 
 msgid "No admin log."
 msgstr "沒有管理員日誌。"
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1526,6 +1625,9 @@ msgstr "沒有進入的郵件。"
 
 msgid "No letter in password."
 msgstr "密碼未包含字母"
+
+msgid "No mail admin assigned."
+msgstr ""
 
 msgid "No mail admin available."
 msgstr "沒有郵件管理員。"
@@ -1647,17 +1749,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "每行一個 IP 位址或 CIDR 網路。"
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "每行一個域名。"
 
 msgid "One mail address per line."
 msgstr "每行一個郵件地址。"
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "每行一個記錄。"
 
 msgid "One sender per line."
 msgstr "每行一個發件人。"
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1679,6 +1792,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "或建立其它郵件帳號："
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1710,6 +1829,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "密碼必須包含"
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "郵件路徑"
@@ -1769,6 +1891,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Postfix 說明頁"
 
@@ -1817,6 +1942,9 @@ msgstr "用戶屬性："
 msgid "Profile updated failed."
 msgstr "屬性更新失敗。"
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "購買新許可證"
 
@@ -1860,11 +1988,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
-msgstr "隔離的郵件，超過 %d 天後會被自動刪除。"
+"permanently."
+msgstr ""
 
 msgid "Quota"
 msgstr "配額"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "接收"
@@ -1907,6 +2038,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1955,11 +2092,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr "從列表移除"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "更新許可證"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr "限制從指定地址登錄"
@@ -1969,6 +2124,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "撤銷管理員權限"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2135,6 +2302,10 @@ msgstr "單個用戶"
 msgid "Size"
 msgstr "大小"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "垃圾郵件"
 
@@ -2199,6 +2370,9 @@ msgstr "系統"
 
 msgid "System Information"
 msgstr "系統資訊"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "電話號碼"
@@ -2273,9 +2447,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "總共"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2409,6 +2580,9 @@ msgstr "黑/白名單"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "白名單比黑名單具有更高優先等級。"
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "白名單收件人"
 
@@ -2498,9 +2672,6 @@ msgstr "您無法在網域 %s 內建立更多的郵件別名。"
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr "您的IP地址不能以全域管理員身份登錄。"
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2518,6 +2689,9 @@ msgid ""
 "required when you specify an IP address instead of a hostname, or disable"
 " MX DNS lookup."
 msgstr "將郵件轉發到 example.com 的 25 端口。當使用 IP 作為主機名或禁用 MX 查詢時必須使用括號 []。"
+
+msgid "or longer than"
+msgstr ""
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

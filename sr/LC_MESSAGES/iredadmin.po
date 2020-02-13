@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2013-03-14 21:34+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr\n"
@@ -45,6 +45,10 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr "%d korisnik(a) nađeno."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -124,6 +128,9 @@ msgstr "Aktivan nalog"
 
 msgid "Active"
 msgstr "Aktivan"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "Dodaj"
@@ -226,6 +233,9 @@ msgstr "Svi nalozi"
 msgid "All admins"
 msgstr "Svi administratori"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "Svi domeni"
 
@@ -277,9 +287,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr ""
 
-msgid "Anti Spam"
-msgstr "Administrator domena"
-
 msgid "Apply"
 msgstr "Primeni"
 
@@ -316,6 +323,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "Prilozi"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "Kvota na raspolaganju:"
 
@@ -350,6 +363,9 @@ msgstr ""
 msgid "Banned"
 msgstr "Zabranjen"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -366,6 +382,12 @@ msgid "Block or quarantine marked spam when score is >="
 msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
+msgstr ""
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
 msgstr ""
 
 msgid "Catch-all"
@@ -395,6 +417,12 @@ msgstr "Izaberi tip aktivnosti"
 msgid "Clean"
 msgstr ""
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -411,9 +439,6 @@ msgstr "Potvrdi novu lozinku"
 
 msgid "Contact webmaster"
 msgstr "Kontaktiraj webmastera"
-
-msgid "Contacts"
-msgstr "Kontakti"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Sadržaj odricanja će biti dodati na odlazne pošte."
@@ -461,6 +486,9 @@ msgstr "Komandna tabla"
 msgid "Date"
 msgstr "Datum"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr ""
 
@@ -475,6 +503,12 @@ msgid "Default language for new user"
 msgstr "Uobičajna kvota novog korisnika"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -724,6 +758,9 @@ msgstr "Domeni i nalozi"
 msgid "Dump disclaimer automatically"
 msgstr "Automatski odbaci odricanje"
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "Uređivanje profila naloga"
 
@@ -840,8 +877,17 @@ msgstr "Omogući ovaj nalog"
 msgid "Enabled Services"
 msgstr "Omogućene usluge"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "Ceo domen"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -973,8 +1019,14 @@ msgstr "Global administrator"
 msgid "Global admin"
 msgstr "Global administrator"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "Administrator domena"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "Greylisting"
@@ -1046,17 +1098,13 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Ulazne adrese za unutrašnje ili spoljašnje članove ispod, višestruke "
-"adrese moraju se odvojiti zarezom, prazno mesto ili novim redom."
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Ulazne adrese za unutrašnje ili spoljašnje urednike ispod, višestruke "
-"adrese moraju se odvojiti zarezom, prazno mesto ili novim redom."
 
 msgid "Internal Members"
 msgstr "Unutrašnji članovi"
@@ -1079,6 +1127,9 @@ msgstr "Nevažeće ime domena ili adresa pošte."
 msgid "Invalid domain name."
 msgstr "Nevažeće ime domena."
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "Nevažeća adresa e-pošte."
 
@@ -1090,6 +1141,9 @@ msgstr "Nevažeći zahtev podataka."
 
 msgid "Is a global admin."
 msgstr "Je globalni administrator."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1104,6 +1158,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1146,8 +1203,14 @@ msgstr "Ključne reči"
 msgid "Kind"
 msgstr "Vrsta"
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Poslednja strana"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "Prezime"
@@ -1180,6 +1243,9 @@ msgstr ""
 msgid "License is active"
 msgstr "Licenca je aktivna"
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "Status licence"
 
@@ -1204,6 +1270,12 @@ msgstr "Prijaveljen kao %s"
 
 msgid "Login"
 msgstr "Prijava"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "Potreba je prijava"
@@ -1232,9 +1304,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "E-pošta zaglavlja"
 
-msgid "Mail Logs"
-msgstr "O poštankom dnevniku"
-
 msgid "Mail Users"
 msgstr "E-pošta korisnici"
 
@@ -1252,10 +1321,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
+" deleted from database permanently."
 msgstr ""
-"Dnevnici dolaznih i odlaznih pošta koje su starije od %d dana će biti "
-"obrisani iz baze zauvek."
 
 msgid "Mail posting"
 msgstr ""
@@ -1263,8 +1330,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Pošta poslata na alias će biti prosleđena članovima."
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "Kvota poštanskog sandučeta"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1394,6 +1470,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "Najveća dužina lozinke"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "Član uspešno dodeljen."
 
@@ -1469,8 +1553,8 @@ msgstr "Prati odlaznu poštu kroz BCC"
 msgid "Multiple addresses are NOT supported."
 msgstr "Višestruke adrese NISU podržane."
 
-msgid "Need a random password?"
-msgstr "Potrebna slučajna lozinka?"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "Mreža"
@@ -1509,11 +1593,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "Sledeća strana"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "Nalog nije izabran."
 
 msgid "No admin log."
 msgstr "Nema admin dnevnika."
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1534,6 +1627,9 @@ msgid "No incoming mails."
 msgstr "Dolaznih e-pošti nema."
 
 msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
 msgstr ""
 
 msgid "No mail admin available."
@@ -1656,17 +1752,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "Jedna e-pošta po liniji."
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "Jedan zapis po liniji."
 
 msgid "One mail address per line."
 msgstr "Jedna e-pošta po liniji."
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "Jedan zapis po liniji."
 
 msgid "One sender per line."
 msgstr "Jedan zapis po liniji."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1688,6 +1795,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Ili napravi drugi nalog e-pošte:"
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1719,6 +1832,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "Nova lozinka treba da sadrži barem %s karaktera."
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Putanja do poštanskog sandučeta"
@@ -1780,6 +1896,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Postfix stranica za upotrebu"
 
@@ -1828,6 +1947,9 @@ msgstr "Korisnički profil:"
 msgid "Profile updated failed."
 msgstr "Ažuriranje profila nije uspelo."
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "Obnovi licencu"
 
@@ -1872,11 +1994,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
-msgstr "Pošta u karantinu starija od %d dana će biti obrisana iz baze trajno."
+"permanently."
+msgstr ""
 
 msgid "Quota"
 msgstr "Kvota"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "Primljeno"
@@ -1919,6 +2044,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1967,11 +2098,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr "Ukloni sa liste"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "Obnovi licencu"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -1981,6 +2130,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profile administratora:"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2153,6 +2314,10 @@ msgstr "Jedan korisnik"
 msgid "Size"
 msgstr "Veličina"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "Spam"
 
@@ -2217,6 +2382,9 @@ msgstr "Sistem"
 
 msgid "System Information"
 msgstr "Informacije sistema"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "Broj telefona"
@@ -2289,9 +2457,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "Zbir"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2425,6 +2590,9 @@ msgstr "Bela/Crna lista"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Bela lista ima veći prioritet od crne liste."
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "Bele liste"
 
@@ -2514,9 +2682,6 @@ msgstr "Ne možete da pravite više e-pošta aliase pod domenom %s."
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr ""
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2537,6 +2702,9 @@ msgstr ""
 "preusmerena pošta na host example.com kroz port 25. Forma [] je potrebna "
 "kada se zadaje IP adresa umesto imena hosta, ili onesposobiti MX DNS "
 "lookup."
+
+msgid "or longer than"
+msgstr ""
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

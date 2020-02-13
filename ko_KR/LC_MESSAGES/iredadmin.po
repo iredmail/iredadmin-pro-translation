@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -44,6 +44,10 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr "%d 개의 사용자 계정이 검색되었습니다."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -123,6 +127,9 @@ msgstr "계정 활성화"
 
 msgid "Active"
 msgstr "활성화"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "추가"
@@ -225,6 +232,9 @@ msgstr "모든 계정"
 msgid "All admins"
 msgstr "모든 관리자"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "모든 도메인"
 
@@ -276,9 +286,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr ""
 
-msgid "Anti Spam"
-msgstr "도메인 관리자"
-
 msgid "Apply"
 msgstr "적용"
 
@@ -315,6 +322,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "첨부"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "사용 가능 용량"
 
@@ -349,6 +362,9 @@ msgstr ""
 msgid "Banned"
 msgstr "차단됨"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -365,6 +381,12 @@ msgid "Block or quarantine marked spam when score is >="
 msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
+msgstr ""
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
 msgstr ""
 
 msgid "Catch-all"
@@ -394,6 +416,12 @@ msgstr "유형을 선택하세요."
 msgid "Clean"
 msgstr ""
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -410,9 +438,6 @@ msgstr "신규 암호 확인"
 
 msgid "Contact webmaster"
 msgstr "웹마스트 연락처"
-
-msgid "Contacts"
-msgstr "연락처"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "발송되는 메일에 권리 사항이 추가됩니다."
@@ -460,6 +485,9 @@ msgstr "대시보드"
 msgid "Date"
 msgstr "일시"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr ""
 
@@ -474,6 +502,12 @@ msgid "Default language for new user"
 msgstr "신규 사용자의 기본 용량"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -721,6 +755,9 @@ msgstr "도메인 및 계정"
 msgid "Dump disclaimer automatically"
 msgstr "권리 사항을 자동으로 출력합니다."
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "계정 프로필 수정"
 
@@ -835,8 +872,17 @@ msgstr "계정 활성화"
 msgid "Enabled Services"
 msgstr "서비스가 활성화되었습니다."
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "모든 도메인"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -966,8 +1012,14 @@ msgstr "최상위 관리자"
 msgid "Global admin"
 msgstr "최상위 관리자"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "도메인 관리자"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "의심 설정"
@@ -1039,17 +1091,13 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"내부 또는 외부 구성원의 메일 주소를 입력하세요. \"\n"
-"\"메일 주소는 쉼표, 공란 또는 새 라인으로 구분되어야 합니다"
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"내부 또는 외부 승인자의 메일 주소를 입력하세요. \"\n"
-"\"메일 주소는 쉼표, 공란 또는 새 라인으로 구분되어야 합니다"
 
 msgid "Internal Members"
 msgstr "내부 구성원"
@@ -1072,6 +1120,9 @@ msgstr "도메인 이름이나 메일 주소가 잘못되었습니다."
 msgid "Invalid domain name."
 msgstr "도메인 이름이 잘못되었습니다."
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "메일 주소가 잘못되었습니다."
 
@@ -1083,6 +1134,9 @@ msgstr "요청 데이터가 잘못되었습니다."
 
 msgid "Is a global admin."
 msgstr "최상위 관리자 입니다."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1097,6 +1151,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1139,8 +1196,14 @@ msgstr "키워드"
 msgid "Kind"
 msgstr "종류"
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "마지막 페이지"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "성"
@@ -1173,6 +1236,9 @@ msgstr ""
 msgid "License is active"
 msgstr "라이선스가 활성화 되었습니다."
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "라이선스 상태"
 
@@ -1197,6 +1263,12 @@ msgstr "%s로 로그인했습니다."
 
 msgid "Login"
 msgstr "로그인"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "로그인이 필요합니다."
@@ -1225,9 +1297,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "메일 헤더"
 
-msgid "Mail Logs"
-msgstr "메일 로그 정보"
-
 msgid "Mail Users"
 msgstr "메일 사용자"
 
@@ -1245,8 +1314,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
-msgstr "%d 일 이상된 송수신 메일 로그는 데이터베이스에서 완전히 삭제됩니다."
+" deleted from database permanently."
+msgstr ""
 
 msgid "Mail posting"
 msgstr ""
@@ -1254,8 +1323,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "메일 별칭으로 전송된 메일은 구성원에게 전달됩니다."
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "메일 박스 용량"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1385,6 +1463,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "암호 최대 길이"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "구성원 할당 성공"
 
@@ -1460,8 +1546,8 @@ msgstr "숨은 참조로 발송되는 메일 감시"
 msgid "Multiple addresses are NOT supported."
 msgstr "여러 개의 메일 주소는 지원되지 않습니다."
 
-msgid "Need a random password?"
-msgstr "랜덤 암호는 다음과 같습니다."
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "네트워크"
@@ -1500,11 +1586,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "다음 페이지"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "계정이 선택되지 않았습니다."
 
 msgid "No admin log."
 msgstr "관리 로그가 없습니다."
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1525,6 +1620,9 @@ msgid "No incoming mails."
 msgstr "수신된 메일이 없습니다."
 
 msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
 msgstr ""
 
 msgid "No mail admin available."
@@ -1647,17 +1745,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "한줄 당 하나의 메일 주소"
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "한줄 당 하나의 레코드"
 
 msgid "One mail address per line."
 msgstr "한줄 당 하나의 메일 주소"
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "한줄 당 하나의 레코드"
 
 msgid "One sender per line."
 msgstr "한줄 당 하나의 레코드"
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1679,6 +1788,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "다른 메일 주소를 생성하십시오."
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1710,6 +1825,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "신규 암호는 최소 %s 이상이어야 합니다."
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "메일박스 경로"
@@ -1769,6 +1887,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Postfix 매뉴얼 페이지"
 
@@ -1817,6 +1938,9 @@ msgstr "사용자 프로필"
 msgid "Profile updated failed."
 msgstr "프로필 갱신 실패"
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "라이선스 갱신"
 
@@ -1858,11 +1982,14 @@ msgstr "격리된 메일이 사용자에게 전달되지 않았습니다. 삭제
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
-msgstr "%d 일 이상된 격리 메일은 데이터베이스에서 영구 삭제됩니다."
+"permanently."
+msgstr ""
 
 msgid "Quota"
 msgstr "용량"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "수신됨"
@@ -1905,6 +2032,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1953,11 +2086,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr "리스트에서 제거"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "라이선스 갱신"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -1967,6 +2118,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "관리자 프로필"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2133,6 +2296,10 @@ msgstr "단일 사용자"
 msgid "Size"
 msgstr "크기"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "스팸"
 
@@ -2197,6 +2364,9 @@ msgstr "시스템"
 
 msgid "System Information"
 msgstr "시스템 정보"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "전화번호"
@@ -2269,9 +2439,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "전체"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2405,6 +2572,9 @@ msgstr "화이트/블랙리스트"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "화이트리스트가 블랙리스트보다 우선합니다."
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "화이트리스트"
 
@@ -2494,9 +2664,6 @@ msgstr "%s 도메인에 더 이상의 메일 별칭을 생성할 수 없습니�
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr ""
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2516,6 +2683,9 @@ msgid ""
 msgstr ""
 "675 25번 포트를 통해 example.com 호스트로 메일이 전송됩니다. 호스트 네임이나 DNS의 MX 레코드를 사용하지 않고 "
 "IP 주소를 사용할 때는 [] 형태로 지정합니다."
+
+msgid "or longer than"
+msgstr ""
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

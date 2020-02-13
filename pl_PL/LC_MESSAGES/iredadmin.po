@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2013-03-15 00:53+0100\n"
 "Last-Translator: Adrian Grygier <adi@zwami.pl>\n"
 "Language: pl_PL\n"
@@ -46,6 +46,10 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr "Znaleziono %d użytkownika(ów)"
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -125,6 +129,9 @@ msgstr "Konto aktywne"
 
 msgid "Active"
 msgstr "Aktywne"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "Dodaj"
@@ -227,6 +234,9 @@ msgstr "Wszystkie konta"
 msgid "All admins"
 msgstr "Wszyscy administratorzy"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "Wszystkie domeny"
 
@@ -278,9 +288,6 @@ msgstr ""
 msgid "Always insert X-Spam-* headers"
 msgstr ""
 
-msgid "Anti Spam"
-msgstr "Ilość domen."
-
 msgid "Apply"
 msgstr "Zastosuj"
 
@@ -317,6 +324,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "Załączniki"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "Dostępna przestrzeń:"
 
@@ -351,6 +364,9 @@ msgstr ""
 msgid "Banned"
 msgstr "Zbanowany"
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -367,6 +383,12 @@ msgid "Block or quarantine marked spam when score is >="
 msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
+msgstr ""
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
 msgstr ""
 
 msgid "Catch-all"
@@ -396,6 +418,12 @@ msgstr "Wybierz typ zachowań"
 msgid "Clean"
 msgstr ""
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -412,9 +440,6 @@ msgstr "Potwierdź nowe hasło"
 
 msgid "Contact webmaster"
 msgstr "Skontaktuj się z administratorem"
-
-msgid "Contacts"
-msgstr "Aktywność na koncie"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Zawartość zrzeczenia będzie automatycznie dołączana do wiadomości."
@@ -462,6 +487,9 @@ msgstr "Podsumowanie"
 msgid "Date"
 msgstr "Data"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr ""
 
@@ -476,6 +504,12 @@ msgid "Default language for new user"
 msgstr "Domyślny przydział dyskowy dla nowych użytkowników"
 
 msgid "Default mail alias(es) of new user"
+msgstr ""
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
 msgstr ""
 
 msgid "Default mailing list(s) of new user"
@@ -725,6 +759,9 @@ msgstr "Domeny i konta"
 msgid "Dump disclaimer automatically"
 msgstr "Automatyczne zrzeczenie odpowiedzialności"
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "Zmień profil konta"
 
@@ -841,8 +878,17 @@ msgstr "Konto jest włączone"
 msgid "Enabled Services"
 msgstr "Usługi włączone"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
 msgstr "Cała domena"
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
+msgstr ""
 
 msgid "Error"
 msgstr ""
@@ -974,8 +1020,14 @@ msgstr "Administrator globalny"
 msgid "Global admin"
 msgstr "Administrator globalny"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "Ilość domen."
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "Szara lista"
@@ -1047,19 +1099,13 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Wprowadź poniżej adresy email użytkowników wewnętrznych lub zewnętrznych."
-" Przy wprowadzaniu większej liczby adresów należy je rozdzielić "
-"przecinkami, spacjami lub wprowadzić w nowej linii"
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Wprowadź poniżej adresy email moderatorów wewnętrznych lub zewnętrznych. "
-"Przy wprowadzaniu większej liczby adresów należy je rozdzielić "
-"przecinkami, spacjami lub wprowadzić w nowej linii"
 
 msgid "Internal Members"
 msgstr "Użytkownicy wewnętrzni."
@@ -1082,6 +1128,9 @@ msgstr "Niewłaściwa domena lub adres."
 msgid "Invalid domain name."
 msgstr "Niewłaściwa domena."
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "Niewłaściwy adres."
 
@@ -1093,6 +1142,9 @@ msgstr "Niewłaściwe zapytanie."
 
 msgid "Is a global admin."
 msgstr "Jest administratorem globalnym."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1107,6 +1159,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1149,8 +1204,14 @@ msgstr "Słowo kluczowe"
 msgid "Kind"
 msgstr "Rodzaj"
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Ostatnia strona"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "Nazwa hosta"
@@ -1183,6 +1244,9 @@ msgstr ""
 msgid "License is active"
 msgstr "Konto jest aktywne"
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "Status konta"
 
@@ -1207,6 +1271,12 @@ msgstr "Zalogowany jako %s"
 
 msgid "Login"
 msgstr "Logowanie"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "Trzeba się zalogować"
@@ -1235,9 +1305,6 @@ msgstr ""
 msgid "Mail Headers"
 msgstr "Nagłówki"
 
-msgid "Mail Logs"
-msgstr "O logach poczty"
-
 msgid "Mail Users"
 msgstr "Użytkownicy poczty"
 
@@ -1255,8 +1322,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
-msgstr "Logi pocztowe starsze niż %d dni zostaną trwale usunięte z bazy danych."
+" deleted from database permanently."
+msgstr ""
 
 msgid "Mail posting"
 msgstr ""
@@ -1264,8 +1331,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr "Poczta wysłana na alias zostanie przesłana do użytkowników."
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "Przydział dysku na skrzynkę pocztową"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr ""
@@ -1397,6 +1473,14 @@ msgstr ""
 msgid "Maximum password length"
 msgstr "Maksymalna długość hasła"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "Użytkownik wprowadzony prawidłowo."
 
@@ -1472,8 +1556,8 @@ msgstr "Monitoruj wychodzącą pocztę przez UDW"
 msgid "Multiple addresses are NOT supported."
 msgstr "Nie ma wsparcia dla użycia kilku adresów."
 
-msgid "Need a random password?"
-msgstr "Potrzebujesz losowego hasła?"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "Sieć"
@@ -1512,11 +1596,20 @@ msgstr ""
 msgid "Next Page"
 msgstr "Następna strona"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "Nie wybrano żadnego konta"
 
 msgid "No admin log."
 msgstr "Brak logu administracyjnego"
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr ""
@@ -1537,6 +1630,9 @@ msgid "No incoming mails."
 msgstr "Brak wiadomości przychodzących"
 
 msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
 msgstr ""
 
 msgid "No mail admin available."
@@ -1659,17 +1755,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "Jeden adres email w linii."
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "Jeden rekord w linii."
 
 msgid "One mail address per line."
 msgstr "Jeden adres email w linii."
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "Jeden rekord w linii."
 
 msgid "One sender per line."
 msgstr "Jeden rekord w linii."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr ""
@@ -1691,6 +1798,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Lub utwórz inne konta pocztowe:"
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1722,6 +1835,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "Nowe hasło musi zawierać minimum %s znaków."
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Ścieżka do skrzynki pocztowej"
@@ -1783,6 +1899,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Strona podręcznika Postfix"
 
@@ -1831,6 +1950,9 @@ msgstr "Profil użytkownika"
 msgid "Profile updated failed."
 msgstr "Aktualizacja profilu nieudana"
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "Odnów licencję"
 
@@ -1875,11 +1997,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
-msgstr "Poczta w kwarantannie starsza niż %d dni zostanie automatycznie usunięta."
+"permanently."
+msgstr ""
 
 msgid "Quota"
 msgstr "Przydział dysku"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "Otrzymane"
@@ -1922,6 +2047,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1970,11 +2101,29 @@ msgstr ""
 msgid "Remove from list"
 msgstr "Usuń z listy"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr ""
 
 msgid "Renew license"
 msgstr "Odnów licencję"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -1984,6 +2133,18 @@ msgstr ""
 
 msgid "Revoke admin privilege"
 msgstr "Profil administratora"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr ""
@@ -2156,6 +2317,10 @@ msgstr "Pojedynczy użytkownik"
 msgid "Size"
 msgstr "Wielkość"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "Spam"
 
@@ -2220,6 +2385,9 @@ msgstr "System"
 
 msgid "System Information"
 msgstr "Informacje o systemie"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "Numer telefonu"
@@ -2292,9 +2460,6 @@ msgstr ""
 
 msgid "Top Senders"
 msgstr ""
-
-msgid "Total"
-msgstr "Przydział dysku"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2428,6 +2593,9 @@ msgstr "Biała/Czarna lista"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Biała lista ma wyższy priorytet niż czarna"
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "Białe listy"
 
@@ -2519,9 +2687,6 @@ msgstr "Nie można utworzyć więcej aliasów w domenie %s."
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr ""
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2542,6 +2707,9 @@ msgstr ""
 "przekazuj emaile do hosta example.com przez port 25. Wymagane jest "
 "podanie danych w postaci [] podczas wpisywania adresu IP zamiast nazwy "
 "hosta lub należy wyłączyć wyszukiwanie MX DNS."
+
+msgid "or longer than"
+msgstr ""
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

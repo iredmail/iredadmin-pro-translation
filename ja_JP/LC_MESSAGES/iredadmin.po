@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2018-12-27 10:15+0800\n"
+"POT-Creation-Date: 2020-02-13 12:28+0800\n"
 "PO-Revision-Date: 2018-02-07 16:00+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -45,6 +45,10 @@ msgstr "%d 個 (合計 %d 個)"
 #, python-format
 msgid "%d user(s) found."
 msgstr "%d 個のユーザが見付かりました."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
 
 #, python-format
 msgid "%s account(s) exist."
@@ -124,6 +128,9 @@ msgstr "アカウントを有効化"
 
 msgid "Active"
 msgstr "有効"
+
+msgid "Activities"
+msgstr ""
 
 msgid "Add"
 msgstr "追加"
@@ -226,6 +233,9 @@ msgstr "全てのアカウント"
 msgid "All admins"
 msgstr "全ての管理者"
 
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "All domains"
 msgstr "全てのドメイン"
 
@@ -277,9 +287,6 @@ msgstr "既にメーリングリストの最大数に到達しています."
 msgid "Always insert X-Spam-* headers"
 msgstr "X-Spam-* を常にヘッダーに埋め込みます"
 
-msgid "Anti Spam"
-msgstr "迷惑メール対策"
-
 msgid "Apply"
 msgstr "適用"
 
@@ -316,6 +323,12 @@ msgstr ""
 msgid "Attachments"
 msgstr "添付ファイル"
 
+msgid "Auth Username"
+msgstr ""
+
+msgid "Authenticated user"
+msgstr ""
+
 msgid "Available quota:"
 msgstr "クォータが設定されている:"
 
@@ -350,6 +363,9 @@ msgstr "不正ヘッダーの確認"
 msgid "Banned"
 msgstr ""
 
+msgid "Banned IP Addresses"
+msgstr ""
+
 msgid "Banned file type checking"
 msgstr ""
 
@@ -367,6 +383,12 @@ msgstr ""
 
 msgid "CIDR formatted range of IP addresses"
 msgstr "IPアドレスを CIDR 形式の範囲で指定"
+
+msgid "Can not be longer than"
+msgstr ""
+
+msgid "Can not be shorter than"
+msgstr ""
 
 msgid "Catch-all"
 msgstr "Catch-all"
@@ -395,6 +417,12 @@ msgstr "利用状況の種類を選択"
 msgid "Clean"
 msgstr ""
 
+msgid "Clean Up"
+msgstr ""
+
+msgid "Client Address"
+msgstr ""
+
 msgid "Comment"
 msgstr "コメント"
 
@@ -411,9 +439,6 @@ msgstr "パスワードの再入力"
 
 msgid "Contact webmaster"
 msgstr "Web管理者に連絡"
-
-msgid "Contacts"
-msgstr "連絡先"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr ""
@@ -461,6 +486,9 @@ msgstr "ダッシュボード"
 msgid "Date"
 msgstr "日付"
 
+msgid "Days"
+msgstr ""
+
 msgid "Default bcc address for incoming emails for new user"
 msgstr "新規ユーザ向けの受信メールに設定するBCCアドレス"
 
@@ -476,6 +504,12 @@ msgstr "新規ユーザー向けのクォータ設定"
 
 msgid "Default mail alias(es) of new user"
 msgstr "新規ユーザー向けのクォータ設定"
+
+msgid "Default mailbox folder"
+msgstr ""
+
+msgid "Default mailbox format"
+msgstr ""
 
 msgid "Default mailing list(s) of new user"
 msgstr "新規ユーザー向けのクォータ設定"
@@ -722,6 +756,9 @@ msgstr "ドメインとユーザ設定"
 msgid "Dump disclaimer automatically"
 msgstr ""
 
+msgid "Dunno"
+msgstr ""
+
 msgid "Edit account profile"
 msgstr "アカウントのProfileを編集"
 
@@ -834,7 +871,16 @@ msgstr "ウイルスチェックを有効化"
 msgid "Enabled Services"
 msgstr "有効なサービス"
 
+msgid "Encryption Protocol"
+msgstr ""
+
 msgid "Entire domain"
+msgstr ""
+
+msgid "Envelope Sender"
+msgstr ""
+
+msgid "Envelope sender"
 msgstr ""
 
 msgid "Error"
@@ -965,8 +1011,14 @@ msgstr "全体迷惑メール管理者"
 msgid "Global admin"
 msgstr "全体管理者"
 
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+
 msgid "Grant admin"
 msgstr "管理者権限を付与"
+
+msgid "Greylisted"
+msgstr ""
 
 msgid "Greylisting"
 msgstr "グレイリスト"
@@ -1038,12 +1090,12 @@ msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
 
 msgid "Internal Members"
@@ -1067,6 +1119,9 @@ msgstr "無効なドメイン名かメールアドレス."
 msgid "Invalid domain name."
 msgstr "無効なドメイン名."
 
+msgid "Invalid email addresses will be silently discarded."
+msgstr ""
+
 msgid "Invalid mail address."
 msgstr "無効なメールアドレス."
 
@@ -1078,6 +1133,9 @@ msgstr "無効なリクエスト."
 
 msgid "Is a global admin."
 msgstr "全体管理者にしますか?"
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1092,6 +1150,9 @@ msgstr ""
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
 "of domain name to avoid potential looping."
+msgstr ""
+
+msgid "Jail"
 msgstr ""
 
 msgid "Job Title"
@@ -1134,8 +1195,14 @@ msgstr "キーワード"
 msgid "Kind"
 msgstr ""
 
+msgid "Last Login"
+msgstr ""
+
 msgid "Last Page"
 msgstr "最終ページ"
+
+msgid "Last login:"
+msgstr ""
 
 msgid "Last name"
 msgstr "Last name"
@@ -1168,6 +1235,9 @@ msgstr "ライセンスキー"
 msgid "License is active"
 msgstr "ライセンスは有効です."
 
+msgid "License owner(s)"
+msgstr ""
+
 msgid "License status"
 msgstr "ライセンス状況"
 
@@ -1192,6 +1262,12 @@ msgstr "%s でログイン中"
 
 msgid "Login"
 msgstr "ログイン"
+
+msgid "Login Restrictions"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
 
 msgid "Login required"
 msgstr "ログインが必要"
@@ -1220,9 +1296,6 @@ msgstr "メール配信"
 msgid "Mail Headers"
 msgstr "メールヘッダ"
 
-msgid "Mail Logs"
-msgstr "メールログ"
-
 msgid "Mail Users"
 msgstr "メールユーザー"
 
@@ -1240,7 +1313,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
+" deleted from database permanently."
 msgstr ""
 
 msgid "Mail posting"
@@ -1249,8 +1322,17 @@ msgstr ""
 msgid "Mail sent to alias will be forwarded to members."
 msgstr ""
 
+msgid "Mailbox"
+msgstr ""
+
 msgid "Mailbox Quota"
 msgstr "メールボックスのクォータ(上限サイズ)"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr ""
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
 
 msgid "Mailing List"
 msgstr "メーリングリスト"
@@ -1380,6 +1462,14 @@ msgstr "最大:"
 msgid "Maximum password length"
 msgstr "最大パスワード長"
 
+msgid "Mdbox (Multiple messages per file)"
+msgstr ""
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+
 msgid "Member assigned success."
 msgstr "メンバーの割り当てをしました."
 
@@ -1455,8 +1545,8 @@ msgstr "BCCを使って送信メールを監視"
 msgid "Multiple addresses are NOT supported."
 msgstr "複数のアドレス指定はサポートしていません."
 
-msgid "Need a random password?"
-msgstr "ランダムパスワードが必要ですか?"
+msgid "Need a strong password?"
+msgstr ""
 
 msgid "Network"
 msgstr "ネットワーク"
@@ -1495,11 +1585,20 @@ msgstr "ニュースレター"
 msgid "Next Page"
 msgstr "次のページ"
 
+msgid "No SMTP authentication activity."
+msgstr ""
+
+msgid "No SMTP rejection."
+msgstr ""
+
 msgid "No account selected."
 msgstr "アカウントが選択されていません."
 
 msgid "No admin log."
 msgstr "管理ログがありません."
+
+msgid "No banned IP address."
+msgstr ""
 
 msgid "No data available."
 msgstr "データがありません."
@@ -1520,6 +1619,9 @@ msgid "No incoming mails."
 msgstr "受信メールがありません"
 
 msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
 msgstr ""
 
 msgid "No mail admin available."
@@ -1642,17 +1744,28 @@ msgstr ""
 msgid "One IP address or CIDR network per line."
 msgstr "1行に1つのIPアドレスかCIDRネットワーク."
 
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
 msgid "One domain per line."
 msgstr "1行に1つのドメイン."
 
 msgid "One mail address per line."
 msgstr "1行に1つのメールアドレス."
 
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
 msgid "One record per line."
 msgstr "1行に1つのレコード"
 
 msgid "One sender per line."
 msgstr "1行に1つの送信者"
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr "おっと, 確認用のリンクの有効期限切れです. 再登録してください."
@@ -1674,6 +1787,12 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "他のメールアカウント:"
+
+msgid "Outbound SMTP Sessions"
+msgstr ""
+
+msgid "Outbound SMTP Sessions."
+msgstr ""
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1705,6 +1824,9 @@ msgstr ""
 
 msgid "Password must contain"
 msgstr "パスワードは次のものが含まれている必要があります:"
+
+msgid "Password policies"
+msgstr ""
 
 msgid "Path to mailbox"
 msgstr "メールボックスのパス"
@@ -1764,6 +1886,9 @@ msgid ""
 "be enabled automatically after verified."
 msgstr ""
 
+msgid "Ports"
+msgstr ""
+
 msgid "Postfix manual page"
 msgstr "Postfixのマニュアルページ"
 
@@ -1812,6 +1937,9 @@ msgstr "ユーザのProfile"
 msgid "Profile updated failed."
 msgstr "Profileの更新に失敗しました."
 
+msgid "Protocol"
+msgstr ""
+
 msgid "Purchase a new license"
 msgstr "新しいライセンスの購入"
 
@@ -1853,11 +1981,14 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
+"permanently."
 msgstr ""
 
 msgid "Quota"
 msgstr "クォータ"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
 
 msgid "Received"
 msgstr "受信"
@@ -1900,6 +2031,12 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
+msgstr ""
+
+msgid "Rejected Messages"
+msgstr ""
+
+msgid "Rejection Reason"
 msgstr ""
 
 msgid "Relay"
@@ -1948,11 +2085,29 @@ msgstr "全てのメンバーを削除"
 msgid "Remove from list"
 msgstr "リストから削除"
 
+msgid "Remove log of inbound/outbound mails older than"
+msgstr ""
+
+msgid "Remove quarantined mails older than"
+msgstr ""
+
 msgid "Remove selected members"
 msgstr "選択したメンバーを削除"
 
 msgid "Renew license"
 msgstr "ライセンス更新"
+
+msgid "Require at least one digit number"
+msgstr ""
+
+msgid "Require at least one letter"
+msgstr ""
+
+msgid "Require at least one special character"
+msgstr ""
+
+msgid "Require at least one uppercase letter"
+msgstr ""
 
 msgid "Restrict to login from specified addresses"
 msgstr ""
@@ -1962,6 +2117,18 @@ msgstr "DNSの逆引き名"
 
 msgid "Revoke admin privilege"
 msgstr "管理者権限を剥奪"
+
+msgid "SMTP Action"
+msgstr ""
+
+msgid "SMTP Authentication"
+msgstr ""
+
+msgid "SMTP Sessions"
+msgstr ""
+
+msgid "SMTP Sessions."
+msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo グループウェア (カレンダー, 連絡先, タスク, ActiveSync)"
@@ -2128,6 +2295,10 @@ msgstr "1つのユーザ"
 msgid "Size"
 msgstr "サイズ"
 
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
 msgid "Spam"
 msgstr "迷惑メール"
 
@@ -2192,6 +2363,9 @@ msgstr "システム"
 
 msgid "System Information"
 msgstr "システム情報"
+
+msgid "System Settings"
+msgstr ""
 
 msgid "Telephone Number"
 msgstr "電話番号"
@@ -2264,9 +2438,6 @@ msgstr "トップ受信者"
 
 msgid "Top Senders"
 msgstr "トップ送信者"
-
-msgid "Total"
-msgstr "合計"
 
 msgid "Tracking Data"
 msgstr ""
@@ -2400,6 +2571,9 @@ msgstr "ホワイトリスト/ブラックリスト"
 msgid "Whitelist has higher priority than blacklist."
 msgstr "ホワイトリストはブラックリストより優先度が高い"
 
+msgid "Whitelisted"
+msgstr ""
+
 msgid "Whitelisted recipients"
 msgstr "受信者のホワイトリスト"
 
@@ -2489,9 +2663,6 @@ msgstr "ドメイン %s ではこれ以上のメールエイリアスの作成�
 msgid "You can't create more mailing lists under domain %s."
 msgstr ""
 
-msgid "Your IP address is not allowed to login as global admin."
-msgstr ""
-
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
 
@@ -2508,6 +2679,9 @@ msgid ""
 "forward emails to host example.com through port 25. The [] form is "
 "required when you specify an IP address instead of a hostname, or disable"
 " MX DNS lookup."
+msgstr ""
+
+msgid "or longer than"
 msgstr ""
 
 msgid ""
