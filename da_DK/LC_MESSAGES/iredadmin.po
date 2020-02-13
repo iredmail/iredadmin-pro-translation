@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da_DK\n"
@@ -333,7 +333,7 @@ msgstr "Vedhæftede filer"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -424,9 +424,6 @@ msgstr "Vælg aktivitetstype"
 msgid "Clean"
 msgstr "Ren"
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -495,6 +492,9 @@ msgstr "DNS-forespørgselsresultatet skal indeholde bekræftelseskoden"
 
 msgid "Dashboard"
 msgstr "Oversigt"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Dato"
@@ -923,9 +923,6 @@ msgstr "Hele domænet"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr "Fejl"
 
@@ -1261,11 +1258,11 @@ msgstr "Slags"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Sidste Side"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Efternavn"
@@ -1864,9 +1861,6 @@ msgstr "Eller opret andre mailkonti:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr "Ejer vil blive indstillet til postmaster@%s."
@@ -2224,9 +2218,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

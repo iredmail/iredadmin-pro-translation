@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2017-11-02 12:34+0100\n"
 "Last-Translator: Peter <info@nuw.biz>\n"
 "Language: de_DE\n"
@@ -340,7 +340,7 @@ msgstr "Anhänge"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -431,9 +431,6 @@ msgstr "Wähle Protokoll"
 msgid "Clean"
 msgstr "Bereinigen"
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -503,6 +500,9 @@ msgstr "Das DNS-Abfrageergebnis sollte den Prüfcode enthalten:"
 
 msgid "Dashboard"
 msgstr "Übersicht"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Datum"
@@ -948,9 +948,6 @@ msgstr "Gesamte Domain"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr "Fehler"
 
@@ -1289,11 +1286,11 @@ msgstr "Typ"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Letzte Seite"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Nachname"
@@ -1913,9 +1910,6 @@ msgstr "Oder andere E-Mail Konten anlegen:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr "Inhaber wird auf E-Mail-Adresse postmaster@%s gesetzt."
@@ -2276,9 +2270,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

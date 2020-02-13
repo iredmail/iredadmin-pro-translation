@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2014-03-17 12:00+0100\n"
 "Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
 "Language: hu_HU\n"
@@ -328,7 +328,7 @@ msgstr "Csatolmányok"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -419,9 +419,6 @@ msgstr "Válassza ki a tevékenység típusát"
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -484,6 +481,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "Műszerfal"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Dátum"
@@ -890,9 +890,6 @@ msgstr "Teljes domain"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1217,11 +1214,11 @@ msgstr "Típus"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Utolsó oldal"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Vezetéknév"
@@ -1814,9 +1811,6 @@ msgstr "Vagy másik levelező fiók létrehozása:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2157,9 +2151,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -327,7 +327,7 @@ msgstr "Priloge"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -418,9 +418,6 @@ msgstr "Izberite zvrst dejavnosti"
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -483,6 +480,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "Nadzorna plošča"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Datum"
@@ -887,9 +887,6 @@ msgstr "Celotna domena"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1207,11 +1204,11 @@ msgstr "Prijazen"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Zadnja stran"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Strežniško ime"
@@ -1802,9 +1799,6 @@ msgstr "Ali pa ustvari druge poštne račune:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2140,9 +2134,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

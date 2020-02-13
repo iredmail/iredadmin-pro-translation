@@ -306,7 +306,7 @@ msgstr ""
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -397,9 +397,6 @@ msgstr ""
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -461,6 +458,9 @@ msgid "DNS query result should contain the verify code:"
 msgstr ""
 
 msgid "Dashboard"
+msgstr ""
+
+msgid "Data Clean Up"
 msgstr ""
 
 msgid "Date"
@@ -860,9 +860,6 @@ msgstr ""
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1178,10 +1175,10 @@ msgstr ""
 msgid "Last Login"
 msgstr ""
 
-msgid "Last Page"
+msgid "Last Login:"
 msgstr ""
 
-msgid "Last login:"
+msgid "Last Page"
 msgstr ""
 
 msgid "Last name"
@@ -1769,9 +1766,6 @@ msgstr ""
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2103,9 +2097,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

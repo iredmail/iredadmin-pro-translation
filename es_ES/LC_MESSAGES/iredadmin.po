@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-1.9.1\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2015-06-08 11:10+0100\n"
 "Last-Translator: Daniel Carrasco <d.carrasco@ttu.es>\n"
 "Language: es_ES\n"
@@ -328,7 +328,7 @@ msgstr "Archivos adjuntos"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -419,9 +419,6 @@ msgstr "Elegir tipo de actividad"
 msgid "Clean"
 msgstr "Limpio"
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -484,6 +481,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "Panel de control"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Fecha"
@@ -894,9 +894,6 @@ msgstr "Dominio completo"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1226,11 +1223,11 @@ msgstr "Tipo"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Última página"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Apellido"
@@ -1849,9 +1846,6 @@ msgstr "O crear otras cuentas de correo:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2194,9 +2188,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

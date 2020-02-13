@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2018-02-07 16:00+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -326,7 +326,7 @@ msgstr "添付ファイル"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -417,9 +417,6 @@ msgstr "利用状況の種類を選択"
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -482,6 +479,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "ダッシュボード"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "日付"
@@ -880,9 +880,6 @@ msgstr ""
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr "エラー:"
 
@@ -1198,11 +1195,11 @@ msgstr ""
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "最終ページ"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Last name"
@@ -1791,9 +1788,6 @@ msgstr "他のメールアカウント:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr "オーナーは postmaster@%s が設定されます."
@@ -2125,9 +2119,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

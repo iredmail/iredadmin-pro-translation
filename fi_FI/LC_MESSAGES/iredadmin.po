@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2011-09-22 08:40+0200\n"
 "Last-Translator: Teemu Harjula <teemu.harjula@tietovirta.fi>\n"
 "Language: fi_FI\n"
@@ -326,7 +326,7 @@ msgstr "Liitteet"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -417,9 +417,6 @@ msgstr "Valitse toiminnan tyyppi"
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -482,6 +479,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "Etusivu"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Päivä"
@@ -887,9 +887,6 @@ msgstr "Koko domain"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1207,11 +1204,11 @@ msgstr ""
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Edellinen sivu"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Isäntänimi"
@@ -1800,9 +1797,6 @@ msgstr "Tai luo muita sähköpostitilejä:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2139,9 +2133,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

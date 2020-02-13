@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2013-03-15 00:53+0100\n"
 "Last-Translator: Adrian Grygier <adi@zwami.pl>\n"
 "Language: pl_PL\n"
@@ -327,7 +327,7 @@ msgstr "Załączniki"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -418,9 +418,6 @@ msgstr "Wybierz typ zachowań"
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -483,6 +480,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "Podsumowanie"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "Data"
@@ -887,9 +887,6 @@ msgstr "Cała domena"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1207,11 +1204,11 @@ msgstr "Rodzaj"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Ostatnia strona"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "Nazwa hosta"
@@ -1802,9 +1799,6 @@ msgstr "Lub utwórz inne konta pocztowe:"
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2141,9 +2135,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"

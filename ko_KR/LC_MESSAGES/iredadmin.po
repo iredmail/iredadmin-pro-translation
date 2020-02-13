@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 12:28+0800\n"
+"POT-Creation-Date: 2020-02-13 13:05+0800\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -325,7 +325,7 @@ msgstr "첨부"
 msgid "Auth Username"
 msgstr ""
 
-msgid "Authenticated user"
+msgid "Authenticated User"
 msgstr ""
 
 msgid "Available quota:"
@@ -416,9 +416,6 @@ msgstr "유형을 선택하세요."
 msgid "Clean"
 msgstr ""
 
-msgid "Clean Up"
-msgstr ""
-
 msgid "Client Address"
 msgstr ""
 
@@ -481,6 +478,9 @@ msgstr ""
 
 msgid "Dashboard"
 msgstr "대시보드"
+
+msgid "Data Clean Up"
+msgstr ""
 
 msgid "Date"
 msgstr "일시"
@@ -881,9 +881,6 @@ msgstr "모든 도메인"
 msgid "Envelope Sender"
 msgstr ""
 
-msgid "Envelope sender"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
@@ -1199,11 +1196,11 @@ msgstr "종류"
 msgid "Last Login"
 msgstr ""
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "마지막 페이지"
-
-msgid "Last login:"
-msgstr ""
 
 msgid "Last name"
 msgstr "성"
@@ -1792,9 +1789,6 @@ msgstr "다른 메일 주소를 생성하십시오."
 msgid "Outbound SMTP Sessions"
 msgstr ""
 
-msgid "Outbound SMTP Sessions."
-msgstr ""
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr ""
@@ -2126,9 +2120,6 @@ msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
-msgstr ""
-
-msgid "SMTP Sessions."
 msgstr ""
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
