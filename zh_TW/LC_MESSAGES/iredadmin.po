@@ -129,7 +129,7 @@ msgid "Add"
 msgstr "新增"
 
 msgid "Add (subscribable) mailing list"
-msgstr "新增郵寄名單"
+msgstr "新增（可訂閱的）郵寄名單"
 
 msgid "Add account"
 msgstr "新增帳號"
