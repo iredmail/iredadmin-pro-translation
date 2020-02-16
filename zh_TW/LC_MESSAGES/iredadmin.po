@@ -844,13 +844,13 @@ msgid "Enable domain alias"
 msgstr "啟用網域別名"
 
 msgid "Enable greylisting service"
-msgstr ""
+msgstr "啟用灰名單服務"
 
 msgid "Enable mail forwarding"
 msgstr "啟用郵件轉發"
 
 msgid "Enable newsletter-style mailing list"
-msgstr ""
+msgstr "啟用電子報形式的郵寄名單"
 
 msgid "Enable selected domain without verification"
 msgstr "啟用所選的網域且不需確認"
@@ -1582,7 +1582,7 @@ msgid "News & Announcements"
 msgstr "新訊息與公告"
 
 msgid "Newsletter"
-msgstr ""
+msgstr "電子報"
 
 msgid "Next Page"
 msgstr "下一頁"
@@ -1767,25 +1767,25 @@ msgid "One sender per line."
 msgstr "每行一個發件人。"
 
 msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
-msgstr ""
+msgstr "只有允許字母和數字（區分大小寫），最多 20 字元。"
 
 msgid "Oops, confirm link expired. Please re-subscribe."
-msgstr ""
+msgstr "哎呀，驗證連結已過期，請重新訂閱"
 
 msgid "Oops, confirm link is invalid."
-msgstr ""
+msgstr "哎呀，無效的驗證連結"
 
 msgid "Oops, invalid action."
-msgstr ""
+msgstr "哎呀，無效的操作"
 
 msgid "Oops, the newsletter you want to subscribe does not exist."
-msgstr ""
+msgstr "哎呀，你想訂閱的電子報不存在"
 
 msgid "Operation completed."
 msgstr "操作已完成。"
 
 msgid "Or"
-msgstr ""
+msgstr "或"
 
 msgid "Or create other mail accounts:"
 msgstr "或建立其它郵件帳號："
@@ -2334,7 +2334,7 @@ msgid "Subscribe"
 msgstr "訂閱"
 
 msgid "Subscribe to newsletter"
-msgstr ""
+msgstr "訂閱電子報"
 
 msgid "Subscription Moderators"
 msgstr "訂閱仲裁者"
@@ -2369,7 +2369,7 @@ msgid "Telephone Number"
 msgstr "電話號碼"
 
 msgid "Text to introduce this newsletter on subscription page"
-msgstr ""
+msgstr "在訂閱頁面上介紹此電子報的文字"
 
 msgid "Thank you for subscribing."
 msgstr "感謝您的訂閱"
@@ -2458,7 +2458,7 @@ msgid "Unsubscribe"
 msgstr ""
 
 msgid "Unsubscribe from newsletter"
-msgstr ""
+msgstr "取消訂閱電子報"
 
 msgid "Update existing mail users"
 msgstr ""
