@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da_DK\n"
@@ -448,6 +448,9 @@ msgstr "Kontakt webmaster"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Indholdet af ansvarsfraskrivelse vil blive vedhæftet til udgående e-mails."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1102,6 +1105,9 @@ msgstr "Greylisting indstillinger er blevet opdateret."
 msgid "Hostname"
 msgstr "Værtsnavn"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP Adresse"
 
@@ -1617,6 +1623,9 @@ msgstr ""
 msgid "Network"
 msgstr "Netværk"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Ny adgangskode"
 
@@ -1874,6 +1883,9 @@ msgstr "Ejere og Moderatorer"
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "VERIFIER VENLIGST EJENSKAB"
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Adgangskode"
 
@@ -1897,6 +1909,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Sti til postkasse"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr "Afventer Alias-domæner"
@@ -2551,6 +2566,12 @@ msgstr "Top afsendere"
 
 msgid "Tracking Data"
 msgstr "Sporingsdata"
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
 
 msgid "Unlimited"
 msgstr "Ubegrænset"

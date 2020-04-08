@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tradução Português BR - Versão em desenvolvimento\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2014-10-21 12:34-0300\n"
 "Last-Translator: Douglas Medeiros <douglasmedeiros@tic.ufrj.br>\n"
 "Language: pt_BR\n"
@@ -442,6 +442,9 @@ msgstr "Contate o desenvolvedor"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "O conteúdo do aviso legal será anexada aos emails enviados"
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1075,6 +1078,9 @@ msgstr "Configurações da listagem cinza foram atualizadas."
 msgid "Hostname"
 msgstr "Nome do Host"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "Endereço IP"
 
@@ -1580,6 +1586,9 @@ msgstr ""
 msgid "Network"
 msgstr "Rede"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Nova senha"
 
@@ -1837,6 +1846,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Senha"
 
@@ -1860,6 +1872,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Caminho para a caixa de email"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2483,6 +2498,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

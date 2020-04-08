@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -438,6 +438,9 @@ msgstr "웹마스트 연락처"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "발송되는 메일에 권리 사항이 추가됩니다."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1050,6 +1053,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "호스트네임"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP 주소"
 
@@ -1549,6 +1555,9 @@ msgstr ""
 msgid "Network"
 msgstr "네트워크"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "신규 암호"
 
@@ -1802,6 +1811,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "암호변경"
 
@@ -1825,6 +1837,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "메일박스 경로"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2432,6 +2447,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

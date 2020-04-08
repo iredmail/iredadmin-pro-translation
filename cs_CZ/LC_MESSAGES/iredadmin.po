@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2013-03-14 21:23+0100\n"
 "Last-Translator: \n"
 "Language: cs_CZ\n"
@@ -441,6 +441,9 @@ msgstr "Kontaktujte správce"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Obsah patičky bude vložen do odchozích emailů."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1061,6 +1064,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "Jméno hosta"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP adresa"
 
@@ -1562,6 +1568,9 @@ msgstr ""
 msgid "Network"
 msgstr "Síť"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Nové heslo"
 
@@ -1815,6 +1824,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Heslo"
 
@@ -1838,6 +1850,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Cesta k poštovní schránce"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2452,6 +2467,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

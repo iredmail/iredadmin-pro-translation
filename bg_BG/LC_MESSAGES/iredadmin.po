@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:04+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -439,6 +439,9 @@ msgid "Contact webmaster"
 msgstr "Връзка с уебмастър"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Country"
 msgstr ""
 
 msgid ""
@@ -1095,6 +1098,9 @@ msgstr "Greylisting настройките бяха обновени."
 msgid "Hostname"
 msgstr "Име на сървъра"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP адрес"
 
@@ -1618,6 +1624,9 @@ msgstr ""
 msgid "Network"
 msgstr "Мрежа"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Нова парола"
 
@@ -1875,6 +1884,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Парола"
 
@@ -1898,6 +1910,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Директория на пощата"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2532,6 +2547,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

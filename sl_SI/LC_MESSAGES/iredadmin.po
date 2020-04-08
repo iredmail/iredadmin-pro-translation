@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -440,6 +440,9 @@ msgstr "Stik s spletnim skrbnikom"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Vsebina omejitve odgovornosti bo dodana na dno izhodnih sporočil."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1058,6 +1061,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "Strežniško ime"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "Naslov IP"
 
@@ -1559,6 +1565,9 @@ msgstr ""
 msgid "Network"
 msgstr "Omrežje"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Novo geslo"
 
@@ -1812,6 +1821,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Geslo"
 
@@ -1835,6 +1847,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Pot do poštnega predala"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2450,6 +2465,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

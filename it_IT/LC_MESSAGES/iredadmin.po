@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iRedAdmin Pro 1.6.2\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2017-10-04 17:30+0200\n"
 "Last-Translator: Francesco <frankonet@infinito.it>\n"
 "Language: it_IT\n"
@@ -449,6 +449,9 @@ msgstr "Contatta il webmaster"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Il contenuto del disclaimer sarà aggiunto ai messaggi in uscita."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1101,6 +1104,9 @@ msgstr "Impostazioni di greylisting aggiornate."
 msgid "Hostname"
 msgstr "Nome Host"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "Indirizzo IP"
 
@@ -1620,6 +1626,9 @@ msgstr ""
 msgid "Network"
 msgstr "Rete"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Nuova password"
 
@@ -1878,6 +1887,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "VERIFICARE LA PROPRIETA'"
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Password"
 
@@ -1901,6 +1913,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Percorso per la casella di posta"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr "Domini alias in sospeso"
@@ -2566,6 +2581,12 @@ msgstr "Mittenti più attivi"
 
 msgid "Tracking Data"
 msgstr "Tracciamento"
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
 
 msgid "Unlimited"
 msgstr "Illimitato"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2017-11-02 12:34+0100\n"
 "Last-Translator: Peter <info@nuw.biz>\n"
 "Language: de_DE\n"
@@ -455,6 +455,9 @@ msgstr "Webmaster kontaktieren"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Der Inhalt des Haftungsausschlusses wird an ausgehende E-Mails angehängt."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1128,6 +1131,9 @@ msgstr "Grey-Listing Einstellungen wurden aktualisiert."
 msgid "Hostname"
 msgstr "Hostname"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP-Adresse"
 
@@ -1663,6 +1669,9 @@ msgstr ""
 msgid "Network"
 msgstr "Netzwerk"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Neues Kennwort"
 
@@ -1923,6 +1932,9 @@ msgstr "Inhaber und Moderatoren"
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "BITTE EIGENTÜMER ÜBERPRÜFEN"
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Kennwort"
 
@@ -1946,6 +1958,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Pfad zum Postfach"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr "Ausstehende Alias-Domains"
@@ -2610,6 +2625,12 @@ msgstr "Top-Absender"
 
 msgid "Tracking Data"
 msgstr "Daten verfolgen"
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
 
 msgid "Unlimited"
 msgstr "Unbegrenzt"

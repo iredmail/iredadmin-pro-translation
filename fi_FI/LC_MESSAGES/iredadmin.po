@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2011-09-22 08:40+0200\n"
 "Last-Translator: Teemu Harjula <teemu.harjula@tietovirta.fi>\n"
 "Language: fi_FI\n"
@@ -439,6 +439,9 @@ msgstr "Ota yhteys ylläpitäjään"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Kuinka vastuuvapauslauseke otetaan käyttöön ulosmenevissä sähköposteissa."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1058,6 +1061,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "Isäntänimi"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP-osoite"
 
@@ -1557,6 +1563,9 @@ msgstr ""
 msgid "Network"
 msgstr "Verkko"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Uusi salasana"
 
@@ -1810,6 +1819,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Salasana"
 
@@ -1833,6 +1845,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Polku sähköpostilaatikkoon"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2451,6 +2466,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

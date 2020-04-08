@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2013-03-15 00:53+0100\n"
 "Last-Translator: Adrian Grygier <adi@zwami.pl>\n"
 "Language: pl_PL\n"
@@ -440,6 +440,9 @@ msgstr "Skontaktuj się z administratorem"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Zawartość zrzeczenia będzie automatycznie dołączana do wiadomości."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1058,6 +1061,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "Nazwa hosta"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "Adres IP"
 
@@ -1559,6 +1565,9 @@ msgstr ""
 msgid "Network"
 msgstr "Sieć"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Nowe hasło"
 
@@ -1812,6 +1821,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Hasło"
 
@@ -1835,6 +1847,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Ścieżka do skrzynki pocztowej"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2453,6 +2468,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2018-02-07 16:00+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -438,6 +438,9 @@ msgid "Contact webmaster"
 msgstr "Web管理者に連絡"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Country"
 msgstr ""
 
 msgid ""
@@ -1049,6 +1052,9 @@ msgstr "グレイリストの設定を更新しました."
 msgid "Hostname"
 msgstr "ホスト名"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IPアドレス"
 
@@ -1548,6 +1554,9 @@ msgstr ""
 msgid "Network"
 msgstr "ネットワーク"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "新しいパスワード"
 
@@ -1801,6 +1810,9 @@ msgstr "オーナーとモデレーター"
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "所有者確認を行ってください"
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "パスワード"
 
@@ -1824,6 +1836,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "メールボックスのパス"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2431,6 +2446,12 @@ msgid "Top Senders"
 msgstr "トップ送信者"
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

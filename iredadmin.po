@@ -420,6 +420,9 @@ msgstr ""
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr ""
 
+msgid "Country"
+msgstr ""
+
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
 "its value"
@@ -1029,6 +1032,9 @@ msgstr ""
 msgid "Hostname"
 msgstr ""
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr ""
 
@@ -1528,6 +1534,9 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr ""
 
@@ -1779,6 +1788,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr ""
 
@@ -1801,6 +1813,9 @@ msgid "Password policies"
 msgstr ""
 
 msgid "Path to mailbox"
+msgstr ""
+
+msgid "Pending"
 msgstr ""
 
 msgid "Pending Alias domains"
@@ -2409,6 +2424,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-17 14:33+0200\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: Juris BALANDIS <juris.balandis@gmail.com>\n"
 "Language: lv_LV\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -37,6 +37,10 @@ msgstr "Atrasts %d e-pasta aizstājvārds(i)."
 #, python-format
 msgid "%d mailing list(s) found."
 msgstr "atrasts (i) %d adresātu saraksts(i)."
+
+#, python-format
+msgid "%d of %d in total."
+msgstr ""
 
 #, python-format
 msgid "%d user(s) found."
@@ -333,8 +337,8 @@ msgstr "Pielikumi"
 msgid "Auth Username"
 msgstr "Aut. lietotājvārds"
 
-msgid "Authenticated user"
-msgstr "Autentificēts lietotājs"
+msgid "Authenticated User"
+msgstr ""
 
 msgid "Available quota:"
 msgstr "Pieejamā kvota:"
@@ -424,9 +428,6 @@ msgstr "Izvēlieties aktivitātes tipu"
 msgid "Clean"
 msgstr "Tīrīt"
 
-msgid "Clean Up"
-msgstr "Notīrīt"
-
 msgid "Client Address"
 msgstr "Klienta adrese"
 
@@ -451,6 +452,9 @@ msgstr "Sazināties ar WEBMASTER"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Atrunas saturs tiks pievienots izejošajiem e-pasta ziņojumiem."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -496,6 +500,9 @@ msgstr "DNS vaicājuma rezultātā jābūt pārbaudes kodam:"
 msgid "Dashboard"
 msgstr "Informācijas panelis"
 
+msgid "Data Clean Up"
+msgstr ""
+
 msgid "Date"
 msgstr "Datums"
 
@@ -514,6 +521,9 @@ msgstr "Noklusējums ir %s."
 
 msgid "Default language for new user"
 msgstr "Jauna lietotāja noklusējuma valoda"
+
+msgid "Default mail alias(es) of new user"
+msgstr ""
 
 msgid "Default mailbox folder"
 msgstr "Noklusējuma pastkastes mape"
@@ -750,6 +760,16 @@ msgstr "Trūkst domēna vārda vai lietotājvārda."
 msgid "Domain ownership verification"
 msgstr "Domēna īpašumtiesību pārbaude"
 
+msgid ""
+"Domain ownership verification is recommended if you can not fully trust "
+"this admin, because if domains like gmail.com, hotmail.com were added "
+"locally, all emails sent to gmail.com/hotmail.com will be delivered "
+"locally on your server instead of the real Gmail/Hotmail servers."
+msgstr ""
+
+msgid "Domain ownership verification required"
+msgstr ""
+
 msgid "Domain quota size"
 msgstr "Domēna kvotas lielums"
 
@@ -893,6 +913,9 @@ msgstr "Iespējot šo domēnu"
 msgid "Enable virus checking"
 msgstr "Iespējot vīrusu pārbaudi"
 
+msgid "Enabled Services"
+msgstr ""
+
 msgid "Encryption Protocol"
 msgstr "Šifrēšanas protokols"
 
@@ -900,9 +923,6 @@ msgid "Entire domain"
 msgstr "Viss domēns"
 
 msgid "Envelope Sender"
-msgstr "Aplokšņu sūtītājs"
-
-msgid "Envelope sender"
 msgstr "Aplokšņu sūtītājs"
 
 msgid "Error"
@@ -1086,6 +1106,9 @@ msgstr "Pelēkā saraksta uzstādījumi ir atjaunināti."
 msgid "Hostname"
 msgstr "Resursa nosaukums"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP adrese"
 
@@ -1113,6 +1136,9 @@ msgstr ""
 "Ja vēlaties novirzīt lietotāju uz abonementa lapu, šis ir abonementa "
 "lapas URL."
 
+msgid "Increase it now?"
+msgstr ""
+
 msgid "Inherit from account which has lower priority"
 msgstr "Pārmantot no konta, kam ir zemāka prioritāte"
 
@@ -1127,17 +1153,13 @@ msgstr "Pārmantot katra domēna droseles iestatījumus"
 
 msgid ""
 "Input mail addresses of either internal or external members below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Ievadiet iekšējo vai ārējo dalībnieku e-pasta adreses, vairākas adreses "
-"ir jāatdala ar komatu, atstarpi vai jaunā līnijā."
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
-"multiple addresses must be seperated by comma, space or new line."
+"multiple addresses must be separated by comma, space or new line."
 msgstr ""
-"Ievadiet iekšējo vai ārējo regulētāju e-pasta adreses, vairākas adreses "
-"ir jāatdala ar komatu, atstarpi vai jaunā līnijā."
 
 msgid "Internal Members"
 msgstr "Iekšējie dalībnieki"
@@ -1184,6 +1206,11 @@ msgid ""
 msgstr ""
 "Tā vietā labāk izveidot abonējamu pasta sūtījumu sarakstu, lai varētu "
 "ierobežot pasta grāmatošanu un piegādi."
+
+msgid ""
+"It's better create a subscribable mailing list, so that you can restrict "
+"the mail posting and delivery."
+msgstr ""
 
 msgid ""
 "It's strongly recommended to use IP address of backup MX server instead "
@@ -1238,11 +1265,11 @@ msgstr "veids"
 msgid "Last Login"
 msgstr "Pēdējā pieteikšanās"
 
+msgid "Last Login:"
+msgstr ""
+
 msgid "Last Page"
 msgstr "Pēdējā lapa"
-
-msgid "Last login:"
-msgstr "Pēdējā pieteikšanās reize:"
 
 msgid "Last name"
 msgstr "Uzvārds"
@@ -1355,10 +1382,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
-" deleted from database permanantly."
+" deleted from database permanently."
 msgstr ""
-"Ienākošo un izejošo e-pasta ziņojumu žurnāli, kas vecāki par %d dienām, "
-"tiks izdzēsti no datu bāzes."
 
 msgid "Mail posting"
 msgstr "E-pasta grāmatošana"
@@ -1393,6 +1418,10 @@ msgstr "Izveidots adresātu saraksts."
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr "Adresātu saraksti domēnā: %s"
+
+#, python-format
+msgid "Mailing lists under domain: %s."
+msgstr ""
 
 #, python-format
 msgid "Mails Sent by Domain: %s"
@@ -1491,6 +1520,9 @@ msgstr "Pārvaldīt katra lietotāja baltos/melnos sarakstus"
 msgid "Manage quarantined mails"
 msgstr "Pārvaldīt karantīnā ievietotos e-pastus"
 
+msgid "Managed Domains"
+msgstr ""
+
 msgid "Mark as backup MX"
 msgstr "Atzīmēt kā dublējumkopiju MX"
 
@@ -1525,11 +1557,9 @@ msgid "Mdbox (Multiple messages per file)"
 msgstr "Mdbox (vairāki ziņojumi vienā failā)"
 
 msgid ""
-"Mdbox has better performance, but currupted/lost index files will cause "
+"Mdbox has better performance, but corrupted/lost index files will cause "
 "data lose and can not be recovered."
 msgstr ""
-"Mdbox ir labāka veiktspēja, bet pārrautie/zaudētie indeksa faili izraisīs"
-" datu zudumu un tos nevarēs atkopt."
 
 msgid "Member assigned success."
 msgstr "Dalībnieks pievienots"
@@ -1614,6 +1644,9 @@ msgstr "Vai nepieciešama stipra parole?"
 msgid "Network"
 msgstr "Tīkls"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Jauna parole"
 
@@ -1683,6 +1716,9 @@ msgstr "Nav ienākošo e-pastu."
 
 msgid "No letter in password."
 msgstr "Parolē nav burtu."
+
+msgid "No mail admin assigned."
+msgstr ""
 
 msgid "No mail admin available."
 msgstr "Nav pieejams e-pasta administrators."
@@ -1857,9 +1893,6 @@ msgstr "Vai izveidot citus e-pasta kontus:"
 msgid "Outbound SMTP Sessions"
 msgstr "Izejošās SMTP sesijas"
 
-msgid "Outbound SMTP Sessions."
-msgstr "Izejošās SMTP sesijas."
-
 #, python-format
 msgid "Owner will be set to postmaster@%s."
 msgstr "Īpašnieks tiks iestatīts kā postmaster@%s."
@@ -1872,6 +1905,9 @@ msgstr "Īpašnieki un Regulatori"
 
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "LŪDZU PĀRBAUDIET TIESĪBAS"
+
+msgid "POP3 Login:"
+msgstr ""
 
 msgid "Password"
 msgstr "Parole"
@@ -1896,6 +1932,9 @@ msgstr "Paroles politikas"
 
 msgid "Path to mailbox"
 msgstr "Ceļš uz pastkasti"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr "Neapstiprinātie aizstājvārdu domēni"
@@ -2063,10 +2102,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Quarantined mails older than %d days will be deleted from database "
-"permanantly."
+"permanently."
 msgstr ""
-"Karantīnā ievietotie e-pasta ziņojumi, kas vecāki par %d dienām, tiks "
-"izdzēsti no datu bāzes."
 
 msgid "Quota"
 msgstr "Kvota"
@@ -2094,6 +2131,9 @@ msgid ""
 msgstr ""
 "Saņemtie e-pasta ziņojumi dublējumkopijā MX tiks pārraidīti uz primāro MX"
 " serveri, kad tā smtp pakalpojums būs tiešsaistē."
+
+msgid "Receiving mails for this account on mail server"
+msgstr ""
 
 msgid "Recipient"
 msgstr "Saņēmējs"
@@ -2217,9 +2257,6 @@ msgstr "SMTP autentifikācija"
 msgid "SMTP Sessions"
 msgstr "SMTP sesijas"
 
-msgid "SMTP Sessions."
-msgstr "SMTP sesijas."
-
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalendārs, Kontaktpersonas, Uzdevumi)"
 
@@ -2302,6 +2339,9 @@ msgstr "Atlasītie žurnāla ieraksti tika izdzēsti."
 msgid "Selected records were deleted."
 msgstr "Atlasītie ieraksti tika izdzēsti."
 
+msgid "Self-service"
+msgstr ""
+
 msgid "Send email to new members for subscription confirm"
 msgstr "Sūtīt e-pasta ziņojumu jauniem abonementa dalībniekiem"
 
@@ -2369,6 +2409,9 @@ msgstr "Iestatītā vērtība -1 nozīmē, ka nav atļauts izveidot šāda veida
 msgid "Set value to 0 for unlimited."
 msgstr "Neierobežoti, iestatīt vērtību uz 0."
 
+msgid "Set value to 0 or leave it empty for unlimited."
+msgstr ""
+
 msgid "Setting"
 msgstr "Iestatīšana"
 
@@ -2408,6 +2451,9 @@ msgstr "Statistika par 24 stundām"
 
 msgid "Store password in plain text"
 msgstr "Saglabāt paroli vienkāršā tekstā"
+
+msgid "Stored"
+msgstr ""
 
 msgid "Stored emails"
 msgstr "Saglabātie e-pasti"
@@ -2544,6 +2590,12 @@ msgstr "Populārākie sūtītāji"
 
 msgid "Tracking Data"
 msgstr "Datu izsekošana"
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
 
 msgid "Unlimited"
 msgstr "Neierobežots"
@@ -2765,6 +2817,14 @@ msgstr "Domēna profila lapā var iestatīt katra domēna droselēšanu."
 
 msgid "You can set per-user throttling in account profile page."
 msgstr "Katra lietotāja droselēšanu var iestatīt konta profila lapā."
+
+#, python-format
+msgid "You can't create mail aliases under domain %s."
+msgstr ""
+
+#, python-format
+msgid "You can't create mailing lists under domain %s."
+msgstr ""
 
 #, python-format
 msgid "You can't create more mail aliases under domain %s."

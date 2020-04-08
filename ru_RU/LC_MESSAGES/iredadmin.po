@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-LDAP-1.6.2\n"
 "Report-Msgid-Bugs-To: suds77@gmail.com\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2013-07-24 09:24+0400\n"
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language: ru_RU\n"
@@ -441,6 +441,9 @@ msgstr "Контакт вебмастера"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Содержание отказа будет добавлено к исходящей почте"
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1059,6 +1062,9 @@ msgstr ""
 msgid "Hostname"
 msgstr "Хост"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP адрес"
 
@@ -1558,6 +1564,9 @@ msgstr ""
 msgid "Network"
 msgstr "Сеть"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Новый пароль"
 
@@ -1815,6 +1824,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Пароль"
 
@@ -1838,6 +1850,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Путь до почтового ящика"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2453,6 +2468,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

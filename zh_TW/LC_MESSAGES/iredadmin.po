@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -439,6 +439,9 @@ msgstr "聯繫管理員"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "免責聲明的內容會被自動附加到送出郵件尾部。"
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1035,9 +1038,9 @@ msgid ""
 "and, if sufficient time has elapsed (usually 7 to 30 minutes), the email "
 "will be accepted."
 msgstr ""
-"灰名單是一種保護您的郵件用戶免受垃圾郵件攻擊的方法。 "
-"使用灰名單的郵件傳輸代理（MTA，例如 Postfix）將暫時拒絕來自其不能識別的發件人的任何郵件。 "
-"如果郵件合法，發送服務器將在延遲後再次嘗試，如果已經過了足夠的時間（通常為 7 到 30 分鐘），郵件將被接受。"
+"灰名單是一種保護您的郵件用戶免受垃圾郵件攻擊的方法。 使用灰名單的郵件傳輸代理（MTA，例如 "
+"Postfix）將暫時拒絕來自其不能識別的發件人的任何郵件。 如果郵件合法，發送服務器將在延遲後再次嘗試，如果已經過了足夠的時間（通常為 7 到 "
+"30 分鐘），郵件將被接受。"
 
 msgid "Greylisting service"
 msgstr "灰名單服務"
@@ -1053,6 +1056,9 @@ msgstr "灰名單設置已更新。"
 
 msgid "Hostname"
 msgstr "主機名"
+
+msgid "IMAP Login:"
+msgstr ""
 
 msgid "IP Address"
 msgstr "IP 地址"
@@ -1553,6 +1559,9 @@ msgstr "需要一個更強壯的密碼嗎？"
 msgid "Network"
 msgstr "網路"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "新密碼"
 
@@ -1806,6 +1815,9 @@ msgstr "擁有者和仲裁者"
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "請驗證所有權！"
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "密碼"
 
@@ -1829,6 +1841,9 @@ msgstr "密碼規則"
 
 msgid "Path to mailbox"
 msgstr "郵件路徑"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2440,6 +2455,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

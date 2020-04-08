@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2014-03-17 12:00+0100\n"
 "Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
 "Language: hu_HU\n"
@@ -441,6 +441,9 @@ msgstr "Kapcsolat a webmesterrel"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "A nyilatkozat tartalmát csatolni kell a kimenő emailekhez."
+
+msgid "Country"
+msgstr ""
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1068,6 +1071,9 @@ msgstr "A szürkelista beállítások frissítve lettek."
 msgid "Hostname"
 msgstr "Hosztnév"
 
+msgid "IMAP Login:"
+msgstr ""
+
 msgid "IP Address"
 msgstr "IP Cím"
 
@@ -1567,6 +1573,9 @@ msgstr ""
 msgid "Network"
 msgstr "Hálózat"
 
+msgid "New Mail Delivered:"
+msgstr ""
+
 msgid "New password"
 msgstr "Új jelszó"
 
@@ -1824,6 +1833,9 @@ msgstr ""
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr ""
 
+msgid "POP3 Login:"
+msgstr ""
+
 msgid "Password"
 msgstr "Jelszó"
 
@@ -1847,6 +1859,9 @@ msgstr ""
 
 msgid "Path to mailbox"
 msgstr "Levelesláda útvonala"
+
+msgid "Pending"
+msgstr ""
 
 msgid "Pending Alias domains"
 msgstr ""
@@ -2471,6 +2486,12 @@ msgid "Top Senders"
 msgstr ""
 
 msgid "Tracking Data"
+msgstr ""
+
+msgid "Unban"
+msgstr ""
+
+msgid "Unban IP address"
 msgstr ""
 
 msgid "Unlimited"

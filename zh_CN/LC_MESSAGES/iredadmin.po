@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-13 13:05+0800\n"
+"POT-Creation-Date: 2020-04-08 12:49+0800\n"
 "PO-Revision-Date: 2017-01-18 15:27+0000\n"
 "Last-Translator: Zhang Huangbin\n"
 "Language: zh_Hans_CN\n"
@@ -359,7 +359,7 @@ msgid "Bad-header checking"
 msgstr "不检查邮件头是否符合规范"
 
 msgid "Banned"
-msgstr "查禁"
+msgstr "封禁"
 
 msgid "Banned IP Addresses"
 msgstr "封禁的 IP 地址"
@@ -437,6 +437,9 @@ msgstr "联系管理员"
 
 msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "免责声明的内容会被自动追加到外发邮件尾部。"
+
+msgid "Country"
+msgstr "国家"
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -1051,6 +1054,9 @@ msgstr "灰名单设置已更新。"
 msgid "Hostname"
 msgstr "主机名"
 
+msgid "IMAP Login:"
+msgstr "IMAP 登录："
+
 msgid "IP Address"
 msgstr "IP 地址"
 
@@ -1550,6 +1556,9 @@ msgstr "需要一个强密码？"
 msgid "Network"
 msgstr "网络"
 
+msgid "New Mail Delivered:"
+msgstr "新邮件投递："
+
 msgid "New password"
 msgstr "新密码"
 
@@ -1803,6 +1812,9 @@ msgstr "所有者和管理员"
 msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "请验证域名所有权"
 
+msgid "POP3 Login:"
+msgstr "POP3 登录："
+
 msgid "Password"
 msgstr "密码"
 
@@ -1826,6 +1838,9 @@ msgstr "密码策略"
 
 msgid "Path to mailbox"
 msgstr "邮箱路径"
+
+msgid "Pending"
+msgstr "等待"
 
 msgid "Pending Alias domains"
 msgstr "待验证的域别名"
@@ -2440,6 +2455,12 @@ msgstr "发送最多邮件的账号"
 
 msgid "Tracking Data"
 msgstr "跟踪数据"
+
+msgid "Unban"
+msgstr "解封"
+
+msgid "Unban IP address"
+msgstr "解封 IP 地址"
 
 msgid "Unlimited"
 msgstr "无限制"
