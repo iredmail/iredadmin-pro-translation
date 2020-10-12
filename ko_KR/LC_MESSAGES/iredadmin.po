@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -65,6 +65,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "하루"
 
@@ -82,6 +85,9 @@ msgstr "메일 로그 정보"
 
 msgid "About quarantined mails"
 msgstr "격리된 메일 정보"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr ""
@@ -210,6 +216,10 @@ msgstr "추가 사항"
 msgid "Alias"
 msgstr "별칭"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr ""
 
@@ -217,6 +227,9 @@ msgid "Alias domains"
 msgstr "도메인 별칭"
 
 msgid "Alias domains:"
+msgstr ""
+
+msgid "Alias email addresses"
 msgstr ""
 
 msgid "Aliases"
@@ -298,10 +311,6 @@ msgstr ""
 #, python-format
 msgid "At least %d characters."
 msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "최소 %s 자 이상, 최대 %s 이하"
 
 #, python-format
 msgid "At least %s characters."
@@ -417,6 +426,9 @@ msgid "Clean"
 msgstr ""
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -821,8 +833,12 @@ msgstr ""
 "<em><strong>user@%s</strong></em>로 전달됩니다."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "별칭 계정으로 전송되는 메일은 %s 사용자에게 전달됩니다."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "메일 주소는 공란으로 둘 수 없습니다."
@@ -1260,6 +1276,9 @@ msgstr ""
 msgid "Lists"
 msgstr "메일 리스트"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "%s로 로그인했습니다."
@@ -1549,6 +1568,10 @@ msgstr "숨은 참조로 발송되는 메일 감시"
 msgid "Multiple addresses are NOT supported."
 msgstr "여러 개의 메일 주소는 지원되지 않습니다."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1593,9 +1616,6 @@ msgid "Next Page"
 msgstr "다음 페이지"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1644,6 +1664,12 @@ msgid "No mail user available."
 msgstr "메일 사용자를 사용할 수 없습니다."
 
 msgid "No mailing list available."
+msgstr ""
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
 msgstr ""
 
 msgid "No members."
@@ -1758,9 +1784,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "한줄 당 하나의 레코드"
-
-msgid "One mail address per line."
-msgstr "한줄 당 하나의 메일 주소"
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -1947,9 +1970,6 @@ msgstr "사용자 프로필"
 msgid "Profile updated failed."
 msgstr "프로필 갱신 실패"
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "라이선스 갱신"
 
@@ -2018,9 +2038,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr ""
-
-msgid "Receiving mails for this account on mail server"
-msgstr "메일 서버의 이 계정으로 수신된 메일"
 
 msgid "Recipient"
 msgstr "수신자"
@@ -2392,11 +2409,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr ""
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2453,6 +2465,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2580,6 +2595,9 @@ msgstr "화이트/블랙리스트"
 
 msgid "White/Blacklists"
 msgstr "화이트/블랙리스트"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "화이트리스트가 블랙리스트보다 우선합니다."

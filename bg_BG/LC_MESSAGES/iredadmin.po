@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -67,6 +67,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 ден"
 
@@ -84,6 +87,9 @@ msgstr "За логовете на писмата"
 
 msgid "About quarantined mails"
 msgstr "За писмата под карантина"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr ""
@@ -212,6 +218,10 @@ msgstr "Разширени"
 msgid "Alias"
 msgstr "Препращане"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr ""
 
@@ -219,6 +229,9 @@ msgid "Alias domains"
 msgstr "Паркирани домейни"
 
 msgid "Alias domains:"
+msgstr ""
+
+msgid "Alias email addresses"
 msgstr ""
 
 msgid "Aliases"
@@ -300,10 +313,6 @@ msgstr ""
 #, python-format
 msgid "At least %d characters."
 msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Паролата трябва да съдържа най-малко %s символа, но не повече от %s."
 
 #, python-format
 msgid "At least %s characters."
@@ -419,6 +428,9 @@ msgid "Clean"
 msgstr "Чисти"
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -855,7 +867,11 @@ msgstr ""
 "бъдат доставени до <em><strong>поща@%s</strong></em>."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
 msgstr ""
 
 msgid "Empty address is not allowed."
@@ -1309,6 +1325,9 @@ msgstr ""
 msgid "Lists"
 msgstr "БЯЛ списък"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "Влезли сте като %s"
@@ -1618,6 +1637,10 @@ msgstr ""
 "Не е възможно добавянето на повече от един адрес, до който да се изпраща "
 "скрито копие"
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1662,9 +1685,6 @@ msgid "Next Page"
 msgstr "Следваща Страница"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1713,6 +1733,12 @@ msgid "No mail user available."
 msgstr "Все още няма добавени акаунти."
 
 msgid "No mailing list available."
+msgstr ""
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
 msgstr ""
 
 msgid "No members."
@@ -1831,9 +1857,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "ЗАДЪЛЖИТЕЛНО всеки запис да е на НОВ ред."
-
-msgid "One mail address per line."
-msgstr "ЗАДЪЛЖИТЕЛНО всеки имейл адрес да е на НОВ ред."
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -2031,9 +2054,6 @@ msgstr "Настройки на поща:"
 msgid "Profile updated failed."
 msgstr "Неуспешно записване на промените."
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "Закуване на нов лиценз"
 
@@ -2106,9 +2126,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr ""
-
-msgid "Receiving mails for this account on mail server"
-msgstr "Получаване на писма за този акаунт на сървъра"
 
 msgid "Recipient"
 msgstr "Получател"
@@ -2492,11 +2509,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr ""
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2553,6 +2565,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2682,6 +2697,9 @@ msgstr "БЯЛ/ЧЕРЕН списък"
 
 msgid "White/Blacklists"
 msgstr "БЯЛ/ЧЕРЕН списък"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "БЕЛИЯ списък има по-висок приоритет от ЧЕРНИЯ."

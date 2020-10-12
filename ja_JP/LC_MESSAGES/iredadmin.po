@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2020-10-12 13:37+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -66,6 +66,9 @@ msgstr "(%d 個のメッセージ, %s)"
 msgid "(%d%% full, %d messages, %s.)"
 msgstr "(%d%% 使用, %d このメッセージ, %s)"
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 日"
 
@@ -84,6 +87,9 @@ msgstr "メールログについて"
 msgid "About quarantined mails"
 msgstr "隔離されたメールについて"
 
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
+
 msgid "Access control"
 msgstr "アクセス制御"
 
@@ -92,7 +98,9 @@ msgid ""
 "According to our <a href='%s' target='_blank' rel='noopener'>license "
 "terms</a>, you have to purchase a new license to get the latest release "
 "if your license expired."
-msgstr "<a href='%s' target='_blank' rel='noopener'>ライセンス条項</a>によれば、あなたの保持するライセンス期間は終了しているため、最新版を入手するには新しいライセンスを購入する必要があります."
+msgstr ""
+"<a href='%s' target='_blank' "
+"rel='noopener'>ライセンス条項</a>によれば、あなたの保持するライセンス期間は終了しているため、最新版を入手するには新しいライセンスを購入する必要があります."
 
 msgid "Account activities"
 msgstr "アカウントの利用状況"
@@ -211,6 +219,10 @@ msgstr "拡張設定"
 msgid "Alias"
 msgstr "エイリアス"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr "エイリアスアドレス:"
 
@@ -219,6 +231,9 @@ msgstr "エイリアスドメイン"
 
 msgid "Alias domains:"
 msgstr "エイリアスドメイン:"
+
+msgid "Alias email addresses"
+msgstr ""
 
 msgid "Aliases"
 msgstr "エイリアス"
@@ -299,10 +314,6 @@ msgstr "グループの割り当て:"
 #, python-format
 msgid "At least %d characters."
 msgstr "最低 %d 文字以上."
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "%s 文字以上, %s 文字未満."
 
 #, python-format
 msgid "At least %s characters."
@@ -419,6 +430,9 @@ msgstr ""
 
 msgid "Client Address"
 msgstr "クライアントアドレス"
+
+msgid "Client Hostname"
+msgstr ""
 
 msgid "Comment"
 msgstr "コメント"
@@ -817,11 +831,17 @@ msgstr "登録されていないメールアカウントに来たメールを ca
 msgid ""
 "Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be "
 "delivered to <em><strong>user@%s</strong></em>."
-msgstr "<em><strong>user@[ALIAS_DOMAIN]</strong></em> 宛にメールを送ると <em><strong>user@%s</strong></em> にメールが届きます."
+msgstr ""
+"<em><strong>user@[ALIAS_DOMAIN]</strong></em> 宛にメールを送ると "
+"<em><strong>user@%s</strong></em> にメールが届きます."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "エイリアスアカウントに送ったメールはユーザ %s に届きます."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "アドレス無しは設定出来ません."
@@ -1259,6 +1279,9 @@ msgstr "全てのメーリングリストを表示する."
 msgid "Lists"
 msgstr "一覧"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "%s でログイン中"
@@ -1548,6 +1571,10 @@ msgstr "BCCを使って送信メールを監視"
 msgid "Multiple addresses are NOT supported."
 msgstr "複数のアドレス指定はサポートしていません."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr "強い強度のパスワードが必要ですか?"
 
@@ -1593,9 +1620,6 @@ msgstr "次のページ"
 
 msgid "No SMTP authentication activity."
 msgstr "SMTP認証のログがありません."
-
-msgid "No SMTP rejection."
-msgstr "SMTPの拒否ログがありません."
 
 msgid "No account selected."
 msgstr "アカウントが選択されていません."
@@ -1644,6 +1668,12 @@ msgstr "メールユーザがありません."
 
 msgid "No mailing list available."
 msgstr "メーリングリストがありません."
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
+msgstr ""
 
 msgid "No members."
 msgstr "メンバーがありません."
@@ -1757,9 +1787,6 @@ msgstr "1行に1つのIPアドレスかネットワーク.不正な値は削除�
 
 msgid "One domain per line."
 msgstr "1行に1つのドメイン."
-
-msgid "One mail address per line."
-msgstr "1行に1つのメールアドレス."
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr "1行に1つのメールアドレス.不正な値は削除されます."
@@ -1946,9 +1973,6 @@ msgstr "ユーザのProfile"
 msgid "Profile updated failed."
 msgstr "Profileの更新に失敗しました."
 
-msgid "Protocol"
-msgstr "プロトコル"
-
 msgid "Purchase a new license"
 msgstr "新しいライセンスの購入"
 
@@ -2017,9 +2041,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr ""
-
-msgid "Receiving mails for this account on mail server"
-msgstr "メールサーバにある、このアカウント宛の受信メール"
 
 msgid "Recipient"
 msgstr ""
@@ -2391,14 +2412,11 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr "このドメインはbackup MXのため、カスタムリレー設定は出来ません."
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr "この機能は /opt/iredapd/tools/spf_to_greylist_whitelists.py をcronにより定期的(1時間か1日おき)に動作させることで有効になります."
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
-msgstr "この機能はiRedAPDプラグインのwblist_rdnsを使用します. /opt/iredapd/settings.py ファイル内で有効にします."
+msgstr ""
+"この機能はiRedAPDプラグインのwblist_rdnsを使用します. /opt/iredapd/settings.py "
+"ファイル内で有効にします."
 
 msgid "This is a mail alias."
 msgstr "これはメールエイリアスです."
@@ -2453,6 +2471,9 @@ msgstr "拒否解除"
 
 msgid "Unban IP address"
 msgstr "拒否解除IPアドレス"
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
+msgstr ""
 
 msgid "Unlimited"
 msgstr "無制限"
@@ -2579,6 +2600,9 @@ msgstr "許可リスト/拒否リスト"
 
 msgid "White/Blacklists"
 msgstr "許可リスト/拒否リスト"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "許可リストは拒否リストより優先度が高い"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2014-03-17 12:00+0100\n"
 "Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
 "Language: hu_HU\n"
@@ -66,6 +66,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 nap"
 
@@ -83,6 +86,9 @@ msgstr "A levelezési naplókról"
 
 msgid "About quarantined mails"
 msgstr "A karanténban lévő levelekről"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr ""
@@ -211,6 +217,10 @@ msgstr "Haladó"
 msgid "Alias"
 msgstr "Alias"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr ""
 
@@ -218,6 +228,9 @@ msgid "Alias domains"
 msgstr "Alias domainek"
 
 msgid "Alias domains:"
+msgstr ""
+
+msgid "Alias email addresses"
 msgstr ""
 
 msgid "Aliases"
@@ -301,10 +314,6 @@ msgstr ""
 #, python-format
 msgid "At least %d characters."
 msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Legalább %s karakter, de nem több mint %s."
 
 #, python-format
 msgid "At least %s characters."
@@ -420,6 +429,9 @@ msgid "Clean"
 msgstr ""
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -830,8 +842,12 @@ msgstr ""
 "levelek kézbesítése a <em><strong>felhasznalo@%s</strong></em> címre."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "Az alias fiókokba küldött emailek kézbesítése a %s felhasználónak."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "Üres cím nem megengedett."
@@ -1278,6 +1294,9 @@ msgstr ""
 msgid "Lists"
 msgstr "Listák"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "Bejelentkezve mint %s"
@@ -1567,6 +1586,10 @@ msgstr "Kimenő emailek monitorozása BCC-n keresztül"
 msgid "Multiple addresses are NOT supported."
 msgstr "Több cím megadása nem támogatott."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1611,9 +1634,6 @@ msgid "Next Page"
 msgstr "Következő oldal"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1662,6 +1682,12 @@ msgid "No mail user available."
 msgstr "Nem áll rendelkezésre levelezési felhasználó."
 
 msgid "No mailing list available."
+msgstr ""
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
 msgstr ""
 
 msgid "No members."
@@ -1780,9 +1806,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "Soronként egy bejegyzés."
-
-msgid "One mail address per line."
-msgstr "Soronként egy levelezési cím."
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -1974,9 +1997,6 @@ msgstr "Felhasználó profilja:"
 msgid "Profile updated failed."
 msgstr "Profilfrissítés sikertelen."
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "Új licensz vásárlása"
 
@@ -2049,9 +2069,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr "Fogadott emailek közvetítve a megadott szerverre."
-
-msgid "Receiving mails for this account on mail server"
-msgstr "A fiókhoz tartozó levelek a levelezőszerveren."
 
 msgid "Recipient"
 msgstr "Fogadó"
@@ -2429,11 +2446,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr ""
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2492,6 +2504,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2619,6 +2634,9 @@ msgstr "Fehér/Feketelista"
 
 msgid "White/Blacklists"
 msgstr "Fehér/Feketelista"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "A fehérlista magasabb prioritású mint a feketelist."

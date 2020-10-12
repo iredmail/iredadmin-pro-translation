@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2017-11-02 12:34+0100\n"
 "Last-Translator: Peter <info@nuw.biz>\n"
 "Language: de_DE\n"
@@ -68,6 +68,9 @@ msgstr "(%d Nachrichten, %s.)"
 msgid "(%d%% full, %d messages, %s.)"
 msgstr "(%d%% belegt, %d Nachrichten, %s.)"
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 Tag"
 
@@ -85,6 +88,9 @@ msgstr "Infos über protokollierte E-Mails"
 
 msgid "About quarantined mails"
 msgstr "Infos über E-Mails in Quarantäne"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr "Zugriffskontrolle"
@@ -221,6 +227,10 @@ msgstr "Erweitert"
 msgid "Alias"
 msgstr "Alias"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr "Alias Adresse:"
 
@@ -229,6 +239,9 @@ msgstr "Domain Aliasse"
 
 msgid "Alias domains:"
 msgstr "Alias Domänen"
+
+msgid "Alias email addresses"
+msgstr ""
 
 msgid "Aliases"
 msgstr "Aliasse"
@@ -313,10 +326,6 @@ msgstr "Zugeordnete Gruppen:"
 #, python-format
 msgid "At least %d characters."
 msgstr "Mindestens %d Zeichen."
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Mindestens <strong>%s</strong> und höchstens <strong>%s</strong> Zeichen."
 
 #, python-format
 msgid "At least %s characters."
@@ -432,6 +441,9 @@ msgid "Clean"
 msgstr "Bereinigen"
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -888,8 +900,12 @@ msgstr ""
 "sind, werden an <em><strong>user@%s</strong></em> gesendet."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "E-Mails an dieses Alias werden an die folgenden Benutzer %s gesendet."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "Es muss eine Adresse eingegeben werden."
@@ -1354,6 +1370,9 @@ msgstr "Alle Mailinglisten auflisten."
 msgid "Lists"
 msgstr "Whitelist"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "Angemeldet als %s."
@@ -1663,6 +1682,10 @@ msgstr "BCC ausgehender E-Mails aktivieren"
 msgid "Multiple addresses are NOT supported."
 msgstr "Mehrere Adressen werden <strong>NICHT</strong> unterstützt."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1707,9 +1730,6 @@ msgid "Next Page"
 msgstr "Nächste Seite"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1759,6 +1779,12 @@ msgstr "Keine Benutzer vorhanden."
 
 msgid "No mailing list available."
 msgstr "Keine Mailingliste vorhanden."
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
+msgstr ""
 
 msgid "No members."
 msgstr "Keine Mitglieder."
@@ -1879,9 +1905,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "Eine Domain pro Zeile"
-
-msgid "One mail address per line."
-msgstr "Eine E-Mail-Adresse pro Zeile"
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -2081,9 +2104,6 @@ msgstr "Profil des Benutzers:"
 msgid "Profile updated failed."
 msgstr "Aktualisierung des Profils fehlgeschlagen."
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "Lizenz erneuern"
 
@@ -2157,9 +2177,6 @@ msgstr ""
 "Die vom Backup MX Mailserver zwischengespeicherte E-Mails werden an den "
 "primären MX Mailserver weitergeleitet, sobald sein SMTP Dienst wieder "
 "verfügbar ist."
-
-msgid "Receiving mails for this account on mail server"
-msgstr "E-Mails für dieses Konto über Mail-Server empfangen"
 
 msgid "Recipient"
 msgstr "Empfänger"
@@ -2559,13 +2576,6 @@ msgstr ""
 "nicht möglich."
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-"Diese Funktion erfordert einen stündlichen oder täglichen Cron-Job, um "
-"das Skript /opt/iredapd/tools/spf_to_greylist_whitelists.py auszuführen."
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2630,6 +2640,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2767,6 +2780,9 @@ msgstr "White-/Blacklist"
 
 msgid "White/Blacklists"
 msgstr "White-/Blacklisten"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Die Whitelist hat eine höhere Priorität als die Blacklist"

@@ -1,15 +1,15 @@
 # Danish (Denmark) translations for PROJECT.
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <sm@upnavigator.dk>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"PO-Revision-Date: 2020-06-29 12:40+0100\n"
+"Last-Translator: Søren Mortensen <sm@upnavigator.dk>\n"
 "Language: da_DK\n"
 "Language-Team: da_DK <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -36,7 +36,7 @@ msgstr "%d mail alias(er) fundet."
 
 #, python-format
 msgid "%d mailing list(s) found."
-msgstr ""
+msgstr "%d mailing liste(r) fundet."
 
 #, python-format
 msgid "%d of %d in total."
@@ -49,6 +49,8 @@ msgstr "%d bruger(e) fundet."
 #, python-format
 msgid "%d users sent emails without secure connection in last %d hours."
 msgstr ""
+"%d brugere har sendt emails uden sikker forbindelse inden for de sidste "
+"%d timer."
 
 #, python-format
 msgid "%s account(s) exist."
@@ -65,6 +67,9 @@ msgstr "(%d beskeder, %s.)"
 #, python-format
 msgid "(%d%% full, %d messages, %s.)"
 msgstr "(%d%% fuld, %d beskeder, %s.)"
+
+msgid "(Mailbox is empty.)"
+msgstr ""
 
 msgid "1 Day"
 msgstr "1 Dag"
@@ -83,6 +88,9 @@ msgstr "Om mail logs"
 
 msgid "About quarantined mails"
 msgstr "Om mails i karantæne"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr "Adgangskontrol"
@@ -135,13 +143,13 @@ msgid "Active"
 msgstr "Aktiv"
 
 msgid "Activities"
-msgstr ""
+msgstr "Aktiviteter"
 
 msgid "Add"
 msgstr "Tilføj"
 
 msgid "Add (subscribable) mailing list"
-msgstr "Tilføj (abonnérbar) mailingliste"
+msgstr "Tilføj (abonnérbar) mailliste"
 
 msgid "Add account"
 msgstr "Tilføj konto"
@@ -165,10 +173,10 @@ msgid "Add mail user under domain"
 msgstr "Tilføj mail bruger til domæne"
 
 msgid "Add mailing list"
-msgstr "Tilføj mailingliste"
+msgstr "Tilføj mailliste"
 
 msgid "Add mailing list under domain"
-msgstr "Tilføj mailingliste til domæne"
+msgstr "Tilføj mailliste til domæne"
 
 msgid "Add new members"
 msgstr "Tilføj nye medlemmer"
@@ -216,6 +224,10 @@ msgstr "Avanceret"
 msgid "Alias"
 msgstr "Alias"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr "Alias adresser:"
 
@@ -224,6 +236,9 @@ msgstr "Alias domæne"
 
 msgid "Alias domains:"
 msgstr "Alias domæner"
+
+msgid "Alias email addresses"
+msgstr ""
 
 msgid "Aliases"
 msgstr "Aliasser"
@@ -240,6 +255,8 @@ msgstr "Alle admins"
 
 msgid "All admins can only login from specified IP addresses or networks"
 msgstr ""
+"Alle administratorer kan kun logge ind fra specificerede IP-adresser "
+"eller netværk"
 
 msgid "All domains"
 msgstr "Alle domæner"
@@ -289,7 +306,7 @@ msgid "Already reaches account limit (mailbox quota)."
 msgstr "Allerede nået konto grænse (postkasse kvote)"
 
 msgid "Already reaches account limit (mailing lists)."
-msgstr "Allerede nået konto grænse (mailinglister)"
+msgstr "Allerede nået konto grænse (maillister)"
 
 msgid "Always insert X-Spam-* headers"
 msgstr "Indsæt altid X-Spam-* headers"
@@ -305,39 +322,35 @@ msgstr "Tildelte grupper:"
 
 #, python-format
 msgid "At least %d characters."
-msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Mindst %s tegn, men ikke mere end %s."
+msgstr "Mindst %d tegn"
 
 #, python-format
 msgid "At least %s characters."
 msgstr "Mindst %s tegn."
 
 msgid "At least one digit number"
-msgstr ""
+msgstr "Mindst et tal"
 
 msgid "At least one letter"
-msgstr ""
+msgstr "Mindst et bogstav"
 
 msgid "At least one special character:"
-msgstr ""
+msgstr "Mindst en specialtegn:"
 
 msgid "At least one uppercase letter"
-msgstr ""
+msgstr "Mindst et stort bogstav"
 
 msgid "Attachments"
 msgstr "Vedhæftede filer"
 
 msgid "Auth Username"
-msgstr ""
+msgstr "Autent brugernavn"
 
 msgid "Authenticated User"
-msgstr ""
+msgstr "Godkendt bruger"
 
 msgid "Available quota:"
-msgstr "Tilgængelig kvote"
+msgstr "Tilgængelig kvote:"
 
 #, python-format
 msgid "Available: %d (Existing: %d, Max: %d.)"
@@ -371,7 +384,7 @@ msgid "Banned"
 msgstr "Forbudt"
 
 msgid "Banned IP Addresses"
-msgstr ""
+msgstr "Forbudte IP Adresser"
 
 msgid "Banned file type checking"
 msgstr "Forbudt filtype kontrol"
@@ -386,16 +399,16 @@ msgid "Blacklists"
 msgstr "Blacklistede"
 
 msgid "Block or quarantine marked spam when score is >="
-msgstr ""
+msgstr "Bloker eller sæt markeret spam i karantæne, når score er >="
 
 msgid "CIDR formatted range of IP addresses"
 msgstr "CIDR formateret række af IP-adresser"
 
 msgid "Can not be longer than"
-msgstr ""
+msgstr "Kan ikke være længere end"
 
 msgid "Can not be shorter than"
-msgstr ""
+msgstr "Kan ikke være kortere end"
 
 msgid "Catch-all"
 msgstr "Catch-all"
@@ -425,6 +438,9 @@ msgid "Clean"
 msgstr "Ren"
 
 msgid "Client Address"
+msgstr "Klient adresse"
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -450,7 +466,7 @@ msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Indholdet af ansvarsfraskrivelse vil blive vedhæftet til udgående e-mails."
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -482,10 +498,10 @@ msgid "Custom:"
 msgstr "Tilpas:"
 
 msgid "Customize mail filter rule"
-msgstr "Tilpas mailfilterreglen"
+msgstr "Tilpas mailfilter reglen"
 
 msgid "Customize mail filter rule over TLS/SSL"
-msgstr "Tilpas mailfilterreglen over TLS/SSL"
+msgstr "Tilpas mailfilter reglen over TLS/SSL"
 
 msgid "DISABLED"
 msgstr "DEAKTIVERET"
@@ -497,13 +513,13 @@ msgid "Dashboard"
 msgstr "Oversigt"
 
 msgid "Data Clean Up"
-msgstr ""
+msgstr "Data Rensning"
 
 msgid "Date"
 msgstr "Dato"
 
 msgid "Days"
-msgstr ""
+msgstr "Dage"
 
 msgid "Default bcc address for incoming emails for new user"
 msgstr "Standard bcc-adresse for indgående e-mails til ny bruger"
@@ -522,13 +538,13 @@ msgid "Default mail alias(es) of new user"
 msgstr "Standard mail-alias(er) for ny bruger"
 
 msgid "Default mailbox folder"
-msgstr ""
+msgstr "Standard postkasse mappe"
 
 msgid "Default mailbox format"
-msgstr ""
+msgstr "Standard postkasse format"
 
 msgid "Default mailing list(s) of new user"
-msgstr "Standard mailingliste(r) for ny bruger"
+msgstr "Standard mailliste(r) for ny bruger"
 
 msgid "Default quota of new user"
 msgstr "Standard kvote for ny bruger"
@@ -661,10 +677,10 @@ msgstr ""
 " afkrydsningsfeltet herunder."
 
 msgid "Disallow to manage quarantined mails"
-msgstr ""
+msgstr "Tillad ikke at administrere e-mails i karantæne"
 
 msgid "Disallow to view log of inbound/outbound mails"
-msgstr ""
+msgstr "Tillad ikke at se log over indgående/udgående mails"
 
 msgid "Disclaimer"
 msgstr "Ansvarsfraskrivelse"
@@ -791,7 +807,7 @@ msgid "Dump disclaimer automatically"
 msgstr "Dump ansvarsfraskrivelse automatisk"
 
 msgid "Dunno"
-msgstr ""
+msgstr "Dunno"
 
 msgid "Edit account profile"
 msgstr "Rediger konto profil"
@@ -863,8 +879,12 @@ msgstr ""
 "blive leveret til <em><strong>bruger@%s</strong></em>."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "E-mails sendt til alias-konti vil blive leveret til bruger %s."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "Tom adresse er ikke tilladt"
@@ -918,13 +938,13 @@ msgid "Enabled Services"
 msgstr "Aktivér Services"
 
 msgid "Encryption Protocol"
-msgstr ""
+msgstr "Krypteringsprotokol"
 
 msgid "Entire domain"
 msgstr "Hele domænet"
 
 msgid "Envelope Sender"
-msgstr ""
+msgstr "Konvolut afsender"
 
 msgid "Error"
 msgstr "Fejl"
@@ -967,13 +987,13 @@ msgid "Expired"
 msgstr "Udløbet"
 
 msgid "Export accounts"
-msgstr ""
+msgstr "Eksporter konti"
 
 msgid "Export all managed accounts"
-msgstr ""
+msgstr "Eksport af alle administrerede konti"
 
 msgid "Export statistics of admins"
-msgstr ""
+msgstr "Eksport statistik for admins"
 
 msgid "External Members"
 msgstr "Eksterne medlemmer"
@@ -1058,12 +1078,14 @@ msgstr "Global admin"
 
 msgid "Global admin can only login from specified IP addresses or networks"
 msgstr ""
+"Global administrator kan kun logge ind fra specificerede IP-adresser "
+"eller netværk"
 
 msgid "Grant admin"
 msgstr "Tildel admin"
 
 msgid "Greylisted"
-msgstr ""
+msgstr "Greylistede"
 
 msgid "Greylisting"
 msgstr "Greylisting"
@@ -1106,7 +1128,7 @@ msgid "Hostname"
 msgstr "Værtsnavn"
 
 msgid "IMAP Login:"
-msgstr ""
+msgstr "IMAP Login:"
 
 msgid "IP Address"
 msgstr "IP Adresse"
@@ -1152,11 +1174,15 @@ msgid ""
 "Input mail addresses of either internal or external members below, "
 "multiple addresses must be separated by comma, space or new line."
 msgstr ""
+"Input mail-adresser på enten interne eller eksterne medlemmer nedenfor, "
+"skal flere adresser adskilles af komma, mellemrum eller ny linje."
 
 msgid ""
 "Input mail addresses of either internal or external moderators below, "
 "multiple addresses must be separated by comma, space or new line."
 msgstr ""
+"Input mail-adresser på enten interne eller eksterne moderatorer nedenfor,"
+" skal flere adresser adskilles af komma, plads eller ny linje."
 
 msgid "Internal Members"
 msgstr "Interne medlemmer"
@@ -1180,7 +1206,7 @@ msgid "Invalid domain name."
 msgstr "Ugyldigt domænenavn"
 
 msgid "Invalid email addresses will be silently discarded."
-msgstr ""
+msgstr "Ugyldige e-mail-adresser kasseres uden videre."
 
 msgid "Invalid mail address."
 msgstr "Ugyldig e-mailadresse."
@@ -1195,7 +1221,7 @@ msgid "Is a global admin."
 msgstr "Er en global administrator."
 
 msgid "It affects newly created mailboxes, not existing ones."
-msgstr ""
+msgstr "Det påvirker nyoprettede postkasser, ikke eksisterende."
 
 msgid ""
 "It's better create a subscribable mailing list instead, so that you can "
@@ -1219,41 +1245,41 @@ msgstr ""
 "stedet for domænenavnet for at undgå potentiel looping."
 
 msgid "Jail"
-msgstr ""
+msgstr "Jail"
 
 msgid "Job Title"
 msgstr "Job Titel"
 
 #, python-format
 msgid "Keep mailbox for %d days"
-msgstr ""
+msgstr "Bevar postkassen i %d dage"
 
 #, python-format
 msgid "Keep mailbox for %d months"
-msgstr ""
+msgstr "Bevar postkassen i %d måneder"
 
 #, python-format
 msgid "Keep mailbox for %d weeks"
-msgstr ""
+msgstr "Bevar postkassen i %d uger"
 
 #, python-format
 msgid "Keep mailbox for %d years"
-msgstr ""
+msgstr "Bevar postkassen i %d år"
 
 msgid "Keep mailbox for 1 day"
-msgstr "Gem postkasse i 1 dag"
+msgstr "Bevar postkasse i 1 dag"
 
 msgid "Keep mailbox for 1 month "
-msgstr ""
+msgstr "Bevar postkassen i 1 måned"
 
 msgid "Keep mailbox for 1 week"
-msgstr ""
+msgstr "Bevar postkassen i 1 uge"
 
 msgid "Keep mailbox for 1 year"
-msgstr "Gem postkasse i 1 år"
+msgstr "Bevar postkasse i 1 år"
 
 msgid "Keep mailbox forever"
-msgstr "Gem postkasse evigt"
+msgstr "Bevar postkasse evigt"
 
 msgid "Keyword"
 msgstr "Nøgleord"
@@ -1262,10 +1288,10 @@ msgid "Kind"
 msgstr "Slags"
 
 msgid "Last Login"
-msgstr ""
+msgstr "Sidste login"
 
 msgid "Last Login:"
-msgstr ""
+msgstr "Sidste login:"
 
 msgid "Last Page"
 msgstr "Sidste Side"
@@ -1302,7 +1328,7 @@ msgid "License is active"
 msgstr "Licensen er aktiv"
 
 msgid "License owner(s)"
-msgstr ""
+msgstr "Licensejer(e)"
 
 msgid "License status"
 msgstr "Licens status"
@@ -1317,10 +1343,13 @@ msgid "List all mail users."
 msgstr "Liste over alle mail brugere."
 
 msgid "List all mailing lists."
-msgstr ""
+msgstr "Vis alle maillister."
 
 msgid "Lists"
 msgstr "Lister"
+
+msgid "Log"
+msgstr ""
 
 #, python-format
 msgid "Logged in as %s"
@@ -1330,10 +1359,10 @@ msgid "Login"
 msgstr "Log ind"
 
 msgid "Login Restrictions"
-msgstr ""
+msgstr "Begrænsninger for login"
 
 msgid "Login from your IP address is not allowed."
-msgstr ""
+msgstr "Login fra din IP-adresse er ikke tilladt."
 
 msgid "Login required"
 msgstr "Log ind er påkrævet"
@@ -1383,6 +1412,8 @@ msgid ""
 "Mail logs of incoming and outgoing mails which older than %d days will be"
 " deleted from database permanently."
 msgstr ""
+"E-mails med indgående og udgående mails, der er ældre end %d dage, "
+"slettes permanent fra databasen."
 
 msgid "Mail posting"
 msgstr "Mail afsendelse"
@@ -1391,36 +1422,36 @@ msgid "Mail sent to alias will be forwarded to members."
 msgstr "Mail sendt til alias bliver videresendt til medlemmerne."
 
 msgid "Mailbox"
-msgstr ""
+msgstr "Postkasse"
 
 msgid "Mailbox Quota"
 msgstr "Postkasse kvote"
 
 msgid "Maildir (One message per file). Recommended."
-msgstr ""
+msgstr "Maildir (Én meddelelse pr. fil). Anbefalet."
 
 msgid "Maildir is easy to migrate, backup and restore."
-msgstr ""
+msgstr "Maildir er let at overføre, sikkerhedskopiere og gendanne."
 
 msgid "Mailing List"
-msgstr "Mailingliste"
+msgstr "Mailliste"
 
 msgid "Mailing List (Subscribable)"
-msgstr "Maillist (abonnérbar)"
+msgstr "Mailliste (abonnérbar)"
 
 msgid "Mailing Lists"
-msgstr "Mailinglister"
+msgstr "Maillister"
 
 msgid "Mailing list created."
-msgstr ""
+msgstr "Mailliste oprettet."
 
 #, python-format
 msgid "Mailing lists under domain: %s"
-msgstr ""
+msgstr "Maillister under domæne: %s"
 
 #, python-format
 msgid "Mailing lists under domain: %s."
-msgstr "Mailingliste under domæne: %s."
+msgstr "Maillister under domæne: %s."
 
 #, python-format
 msgid "Mails Sent by Domain: %s"
@@ -1462,12 +1493,12 @@ msgstr "Mails blev slettet og afsender(e) blev whitelistet."
 msgid ""
 "Mails were deleted, recipient domain(s) and sub-domain(s) were "
 "blacklisted."
-msgstr "Mails blev slettet modtagerdomæne(r) og sub-domæne(r) blev blacklistet."
+msgstr "Mails blev slettet modtagerdomæne(r) og underdomæne(r) blev blacklistet."
 
 msgid ""
 "Mails were deleted, recipient domain(s) and sub-domain(s) were "
 "whitelisted."
-msgstr ""
+msgstr "Mails blev slettet, modtagerdomæne(r) og underdomæne(r) blev whitelisted."
 
 msgid "Mails were deleted, sender domain(s) and sub-domain(s) were blacklisted."
 msgstr ""
@@ -1514,7 +1545,7 @@ msgid "Mark as global admin"
 msgstr "Markér som global administrator"
 
 msgid "Mark mail as spam when score is >="
-msgstr ""
+msgstr "Markér mail som spam, når score er >="
 
 msgid "Mark this user as"
 msgstr "Markér denne bruger som"
@@ -1535,12 +1566,14 @@ msgid "Maximum password length"
 msgstr "Maksimal adgangskode længde"
 
 msgid "Mdbox (Multiple messages per file)"
-msgstr ""
+msgstr "Mdbox (Flere meddelelser pr. Fil)"
 
 msgid ""
 "Mdbox has better performance, but corrupted/lost index files will cause "
 "data lose and can not be recovered."
 msgstr ""
+"Mdbox har bedre ydelse, men beskadigede/mistede indeksfiler vil medføre "
+"tab af data og kan ikke gendannes."
 
 msgid "Member assigned success."
 msgstr "Medlem tilføjet."
@@ -1576,7 +1609,7 @@ msgid "Message"
 msgstr "Besked"
 
 msgid "Messages sent to mailing list will be delivered to its members."
-msgstr ""
+msgstr "Meddelelser, der sendes til maillisten, leveres til medlemmerne."
 
 msgid "Migrate Now"
 msgstr "Migrere nu"
@@ -1617,14 +1650,18 @@ msgstr "Overvåg udgående e-mails via BCC"
 msgid "Multiple addresses are NOT supported."
 msgstr "Flere adresser understøttes IKKE."
 
-msgid "Need a strong password?"
+#, python-format
+msgid "Must be %s - %s characters."
 msgstr ""
+
+msgid "Need a strong password?"
+msgstr "Har du brug for en stærk adgangskode?"
 
 msgid "Network"
 msgstr "Netværk"
 
 msgid "New Mail Delivered:"
-msgstr ""
+msgstr "Ny Mail Leveret:"
 
 msgid "New password"
 msgstr "Ny adgangskode"
@@ -1661,10 +1698,7 @@ msgid "Next Page"
 msgstr "Næste side"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
-msgstr ""
+msgstr "Ingen SMTP-godkendelsesaktivitet."
 
 msgid "No account selected."
 msgstr "Ingen konto valgt."
@@ -1673,7 +1707,7 @@ msgid "No admin log."
 msgstr "Ingen admin log."
 
 msgid "No banned IP address."
-msgstr ""
+msgstr "Ingen forbudte IP-adresse."
 
 msgid "No data available."
 msgstr "Ingen tilgængelig data."
@@ -1697,7 +1731,7 @@ msgid "No letter in password."
 msgstr "Intet bogstaver i adgangskoden."
 
 msgid "No mail admin assigned."
-msgstr ""
+msgstr "Der er ikke tildelt nogen mailadministrator."
 
 msgid "No mail admin available."
 msgstr "Ingen mail admin tilgængelig."
@@ -1714,6 +1748,12 @@ msgstr "Ingen mail bruger tilgængelig."
 msgid "No mailing list available."
 msgstr "Ingen mailingliste tilgængelig."
 
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
+msgstr ""
+
 msgid "No members."
 msgstr "Ingen medlemmer."
 
@@ -1725,7 +1765,7 @@ msgstr "Ingen moderatorer."
 
 #, python-format
 msgid "No more than %d characters."
-msgstr ""
+msgstr "Ikke mere end %d tegn."
 
 #, python-format
 msgid "No more than %s characters."
@@ -1769,7 +1809,7 @@ msgid "Not allowed to create mail user under this domain."
 msgstr "Ikke tilladt at oprette e-mail bruger under dette domæne."
 
 msgid "Not allowed to create mailing list under this domain."
-msgstr ""
+msgstr "Det er ikke tilladt at oprette maillister under dette domæne."
 
 msgid "Note: Global admin can manage all mail domains."
 msgstr "Bemærk: Global admin kan styre alle mail domæner."
@@ -1782,7 +1822,7 @@ msgid ""
 " list"
 msgstr ""
 "Underret ejeren/ejerne, når nogen abonnerer på eller afmelder sig fra "
-"mailinglisten"
+"maillisten"
 
 msgid "Notify sender if email is under moderated"
 msgstr "Informer afsender, hvis e-mail er under modereret"
@@ -1794,7 +1834,7 @@ msgid "Number of domains"
 msgstr "Antal domæner"
 
 msgid "Number of mailing lists"
-msgstr "Antal mailinglister"
+msgstr "Antal maillister"
 
 msgid "Number of max inbound emails"
 msgstr "Antal maks. indgående e-mails"
@@ -1806,7 +1846,7 @@ msgid "Number of max mail users"
 msgstr "Antal maks. mail brugere"
 
 msgid "Number of max mailing lists"
-msgstr "Antal maks. mailinglister"
+msgstr "Antal maks. maillister"
 
 msgid "Number of max outbound emails"
 msgstr "Antal maks. udgående e-mails"
@@ -1827,15 +1867,14 @@ msgid ""
 "One IP address or network per line. Invalid address or network will be "
 "discarded."
 msgstr ""
+"Én IP-adresse eller et netværk pr. linje. Ugyldig adresse eller netværk "
+"vil blive kasseret."
 
 msgid "One domain per line."
 msgstr "Et domæne pr. linje."
 
-msgid "One mail address per line."
-msgstr "En mailadresse pr. linje."
-
 msgid "One mail address per line. Invalid address will be discarded."
-msgstr ""
+msgstr "Én postadresse pr. linje. Ugyldig adresse vil blive kasseret."
 
 msgid "One record per line."
 msgstr "En post pr. linje."
@@ -1844,7 +1883,7 @@ msgid "One sender per line."
 msgstr "En afsender pr. linje."
 
 msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
-msgstr ""
+msgstr "Kun bogstaver (store og små bogstaver) og cifre er tilladt, maks. 20 tegn"
 
 msgid "Oops, confirm link expired. Please re-subscribe."
 msgstr "Ups, bekræft linket udløbet. Prøv venligst at abonnere igen."
@@ -1862,13 +1901,13 @@ msgid "Operation completed."
 msgstr "Operation fuldført."
 
 msgid "Or"
-msgstr ""
+msgstr "Eller"
 
 msgid "Or create other mail accounts:"
 msgstr "Eller opret andre mailkonti:"
 
 msgid "Outbound SMTP Sessions"
-msgstr ""
+msgstr "Udgående SMTP-sessioner"
 
 #, python-format
 msgid "Owner will be set to postmaster@%s."
@@ -1884,7 +1923,7 @@ msgid "PLEASE VERIFY OWNERSHIP"
 msgstr "VERIFIER VENLIGST EJENSKAB"
 
 msgid "POP3 Login:"
-msgstr ""
+msgstr "POP3 Login:"
 
 msgid "Password"
 msgstr "Adgangskode"
@@ -1899,19 +1938,19 @@ msgid "Password is too short."
 msgstr "Adgangskoden er for kort."
 
 msgid "Password last change:"
-msgstr ""
+msgstr "Seneste ændring af adgangskode:"
 
 msgid "Password must contain"
 msgstr "Adgangskoden skal indeholde"
 
 msgid "Password policies"
-msgstr ""
+msgstr "Politikker for adgangskoder"
 
 msgid "Path to mailbox"
 msgstr "Sti til postkasse"
 
 msgid "Pending"
-msgstr ""
+msgstr "Ventende"
 
 msgid "Pending Alias domains"
 msgstr "Afventer Alias-domæner"
@@ -1920,9 +1959,8 @@ msgid ""
 "Per-domain throttling has higher priority than default throttling set in "
 "this page, per-user throttling has the highest priority."
 msgstr ""
-"Hastighedsregulering pr. domæne har højere prioritet end "
-"hastighedsregulering, der er indstillet på denne side. "
-"Hastighedsregulering pr. bruger har højeste prioritet."
+"Begrænsning pr. domæne har højere prioritet end standard begrænsning, der"
+" er angivet på denne side. Begrænsning pr. bruger har højeste prioritet."
 
 msgid "Per-user bcc settings has higher priority than per-domain bcc settings."
 msgstr ""
@@ -1930,7 +1968,7 @@ msgstr ""
 "indstillinger."
 
 msgid "Per-user throttle setting has higher priority."
-msgstr "Hastighedsregulering pr. bruger har højere prioritet."
+msgstr "Begrænsning pr. bruger har højere prioritet."
 
 msgid ""
 "Per-user whitelists & blacklists has highest priority, then per-domain "
@@ -1983,7 +2021,7 @@ msgstr ""
 " er verificeret."
 
 msgid "Ports"
-msgstr ""
+msgstr "Porte"
 
 msgid "Postfix manual page"
 msgstr "Postfix manuel side"
@@ -2007,13 +2045,13 @@ msgid "Primary MX"
 msgstr "Primær MX"
 
 msgid "Privileges"
-msgstr ""
+msgstr "Privilegier"
 
 msgid "Product name"
 msgstr "Produkt navn"
 
 msgid "Profile has been updated."
-msgstr ""
+msgstr "Profilen er blevet opdateret."
 
 msgid "Profile of admin:"
 msgstr "Profil af admin:"
@@ -2025,16 +2063,13 @@ msgid "Profile of domain:"
 msgstr "Profil af domæne:"
 
 msgid "Profile of mailing list:"
-msgstr "Profil af mailingliste:"
+msgstr "Profil af mailliste:"
 
 msgid "Profile of user:"
 msgstr "Profil af bruger:"
 
 msgid "Profile updated failed."
 msgstr "Profil opdatering mislykkedes."
-
-msgid "Protocol"
-msgstr ""
 
 msgid "Purchase a new license"
 msgstr "Køb en ny licens"
@@ -2082,12 +2117,14 @@ msgid ""
 "Quarantined mails older than %d days will be deleted from database "
 "permanently."
 msgstr ""
+"E-mails, der er i karantæne, som er ældre end %d dage, slettes permanent "
+"fra databasen."
 
 msgid "Quota"
 msgstr "Kvote"
 
 msgid "RESTful API is accessible only from specified IP addresses or networks"
-msgstr ""
+msgstr "RESTful API er kun tilgængelig fra angivne IP-adresser eller netværk"
 
 msgid "Received"
 msgstr "Modtaget"
@@ -2109,9 +2146,6 @@ msgid ""
 msgstr ""
 "Modtagne e-mails på backup MX vil blive videresendt til primær MX-server,"
 " når dens smtp-tjeneste er tilbage online."
-
-msgid "Receiving mails for this account on mail server"
-msgstr "Modtagelse af mails til denne konto på mail server"
 
 msgid "Recipient"
 msgstr "Modtager"
@@ -2138,10 +2172,10 @@ msgstr ""
 "greylisting."
 
 msgid "Rejected Messages"
-msgstr ""
+msgstr "Afviste meddelelser"
 
 msgid "Rejection Reason"
-msgstr ""
+msgstr "Årsag til afvisning"
 
 msgid "Relay"
 msgstr "Relay"
@@ -2194,10 +2228,10 @@ msgid "Remove from list"
 msgstr "Fjern fra listen"
 
 msgid "Remove log of inbound/outbound mails older than"
-msgstr ""
+msgstr "Fjern log over indgående/udgående mails, der er ældre end"
 
 msgid "Remove quarantined mails older than"
-msgstr ""
+msgstr "Fjern mails, der er i karantæne, som er ældre end"
 
 msgid "Remove selected members"
 msgstr "Fjern udvalgte medlemmer"
@@ -2206,16 +2240,16 @@ msgid "Renew license"
 msgstr "Forny licens"
 
 msgid "Require at least one digit number"
-msgstr ""
+msgstr "Kræv mindst ét tal"
 
 msgid "Require at least one letter"
-msgstr ""
+msgstr "Kræv mindst ét bogstav"
 
 msgid "Require at least one special character"
-msgstr ""
+msgstr "Kræv mindst ét specialtegn"
 
 msgid "Require at least one uppercase letter"
-msgstr ""
+msgstr "Kræv mindst ét stort bogstav"
 
 msgid "Restrict to login from specified addresses"
 msgstr "Begræns til at logge ind fra bestemte adresser"
@@ -2227,13 +2261,13 @@ msgid "Revoke admin privilege"
 msgstr "Tilbagekald admin privilegium"
 
 msgid "SMTP Action"
-msgstr ""
+msgstr "SMTP-handling"
 
 msgid "SMTP Authentication"
-msgstr ""
+msgstr "SMTP-godkendelse"
 
 msgid "SMTP Sessions"
-msgstr ""
+msgstr "SMTP-sessioner"
 
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalender, Kontakter, Opgaver, ActiveSync)"
@@ -2303,7 +2337,7 @@ msgid "Selected accounts were unmarked as global admin."
 msgstr "De valgte konti blev umarkeret som global administrator."
 
 msgid "Selected domains have been deleted."
-msgstr ""
+msgstr "De valgte domæner er blevet slettet."
 
 msgid "Selected domains were disabled."
 msgstr "De valgte domæner blev deaktiveret."
@@ -2412,7 +2446,7 @@ msgstr "Størrelse"
 
 #, python-format
 msgid "Some addresses have been discarded because they have been used: %s."
-msgstr ""
+msgstr "Nogle adresser er blevet kasseret, fordi de er blevet brugt: %s."
 
 msgid "Spam"
 msgstr "Spam"
@@ -2421,7 +2455,7 @@ msgid "Spam Policy"
 msgstr "Spam politik"
 
 msgid "Spam checking"
-msgstr ""
+msgstr "Kontrol af spam"
 
 msgid "Standalone admin account cannot be an user of local domain."
 msgstr "Uafhængig admin konto kan ikke være en bruger af lokale domæne."
@@ -2482,7 +2516,7 @@ msgid "System Information"
 msgstr "System Information"
 
 msgid "System Settings"
-msgstr ""
+msgstr "Systemindstillinger"
 
 msgid "Telephone Number"
 msgstr "Telefon nummer"
@@ -2504,13 +2538,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr "Dette domæne er en backup MX, kan ikke indstille brugerdefineret relay."
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-"Denne funktion kræver et timevis eller dagligt cron-job, for at køre "
-"script /opt/iredapd/tools/spf_to_greylist_whitelists.py."
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2521,7 +2548,7 @@ msgid "This is a mail alias."
 msgstr "Dette er et mail-alias."
 
 msgid "This is a mailing list."
-msgstr "Dette er en mailingliste."
+msgstr "Dette er en mailliste."
 
 msgid "This is default throttling applied to all individual accounts."
 msgstr "Dette er standard hastighedsregulering anvendt på alle individuelle konti."
@@ -2553,7 +2580,7 @@ msgid "Time zone"
 msgstr "Tidszone"
 
 msgid "To add new members, please enable mailing list account first."
-msgstr "For at tilføje nye medlemmer skal du først aktivere mailinglistekonto."
+msgstr "For at tilføje nye medlemmer skal du først aktivere maillistekonto."
 
 msgid "To verify domain ownership, please choose one of methods listed below:"
 msgstr "For at bekræfte domæneejerskab skal du vælge en af nedenstående metoder:"
@@ -2568,9 +2595,12 @@ msgid "Tracking Data"
 msgstr "Sporingsdata"
 
 msgid "Unban"
-msgstr ""
+msgstr "Unban"
 
 msgid "Unban IP address"
+msgstr "Unban IP-adresse"
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2707,11 +2737,14 @@ msgstr "White/Blacklist"
 msgid "White/Blacklists"
 msgstr "White/Blacklists"
 
+msgid "Whitelist"
+msgstr ""
+
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Whitelist har højere prioritet end sortliste."
 
 msgid "Whitelisted"
-msgstr ""
+msgstr "Whitelistet"
 
 msgid "Whitelisted recipients"
 msgstr "Whitelistede modtagere"
@@ -2767,7 +2800,7 @@ msgstr "Du kan oprette <strong>%d</strong> flere mail brugere under domæne %s."
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mailing list(s) under domain %s."
-msgstr "Du kan oprette <strong>%d</ strong> flere mailinglister under domæne %s."
+msgstr "Du kan oprette <strong>%d</ strong> flere maillister under domæne %s."
 
 msgid ""
 "You can embed a mailing list signup form (HTML code below) on any page of"
@@ -2775,8 +2808,8 @@ msgid ""
 "logo image, or combine it with special offers to attract new subscribers "
 "and boost engagement."
 msgstr ""
-"Du kan indlejre en mailingliste tilmeldingsformular (HTML kode nedenfor) "
-"på en hvilken som helst side på din hjemmeside. Du er velkommen til at "
+"Du kan indlejre en mailliste tilmeldingsformular (HTML kode nedenfor) på "
+"en hvilken som helst side på din hjemmeside. Du er velkommen til at "
 "tilpasse formularen for at tilføje dit varemærke, logo billede eller "
 "kombinere det med særlige tilbud for at tiltrække nye abonnenter og øge "
 "engagementet."
@@ -2805,7 +2838,7 @@ msgstr "Du kan ikke oprette mail-aliasser under domæne %s."
 
 #, python-format
 msgid "You can't create mailing lists under domain %s."
-msgstr ""
+msgstr "Du kan ikke oprette adresselister under domænet %s."
 
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
@@ -2813,7 +2846,7 @@ msgstr "Du kan ikke oprette flere mail-aliasser under domæne %s."
 
 #, python-format
 msgid "You can't create more mailing lists under domain %s."
-msgstr ""
+msgstr "Du kan ikke oprette flere maillister under domænet %s."
 
 msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
 msgstr ""
@@ -2839,7 +2872,7 @@ msgstr ""
 "deaktiver MX DNS-opslag."
 
 msgid "or longer than"
-msgstr ""
+msgstr "eller længere end"
 
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "

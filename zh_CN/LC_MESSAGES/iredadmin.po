@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:42+0800\n"
 "PO-Revision-Date: 2017-01-18 15:27+0000\n"
 "Last-Translator: Zhang Huangbin\n"
 "Language: zh_Hans_CN\n"
@@ -62,6 +62,9 @@ msgstr "（%d 邮件，%s.）"
 msgid "(%d%% full, %d messages, %s.)"
 msgstr "（%d%% 已用，%d 邮件，%s。）"
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1天"
 
@@ -79,6 +82,9 @@ msgstr "关于邮件日志"
 
 msgid "About quarantined mails"
 msgstr "关于已隔离邮件"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr "访问控制"
@@ -209,6 +215,10 @@ msgstr "高级设置"
 msgid "Alias"
 msgstr "邮件别名"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr "别名地址："
 
@@ -217,6 +227,9 @@ msgstr "域别名"
 
 msgid "Alias domains:"
 msgstr "别名域"
+
+msgid "Alias email addresses"
+msgstr ""
 
 msgid "Aliases"
 msgstr "别名"
@@ -297,10 +310,6 @@ msgstr "分配的组："
 #, python-format
 msgid "At least %d characters."
 msgstr "只少 %d 个字符。"
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "必须是 %s - %s 个字符。"
 
 #, python-format
 msgid "At least %s characters."
@@ -417,6 +426,9 @@ msgstr "正常邮件"
 
 msgid "Client Address"
 msgstr "客户端地址"
+
+msgid "Client Hostname"
+msgstr ""
 
 msgid "Comment"
 msgstr "备注"
@@ -822,8 +834,12 @@ msgstr ""
 "<em><strong>user@%s</strong></em>。"
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "发送给别名地址的邮件将会被投递给用户 %s。"
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "邮件地址不允许为空。"
@@ -1261,6 +1277,9 @@ msgstr "列出所有邮件列表"
 msgid "Lists"
 msgstr "邮件列表"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "登录帐号：%s"
@@ -1550,6 +1569,10 @@ msgstr "通过 BCC 监控外发的邮件"
 msgid "Multiple addresses are NOT supported."
 msgstr "不支持指定多个地址。"
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr "需要一个强密码？"
 
@@ -1595,9 +1618,6 @@ msgstr "下一页"
 
 msgid "No SMTP authentication activity."
 msgstr "没有 SMTP 登录记录。"
-
-msgid "No SMTP rejection."
-msgstr "没有 SMTP 拒收记录。"
 
 msgid "No account selected."
 msgstr "未选中任何帐号。"
@@ -1646,6 +1666,12 @@ msgstr "没有用户。"
 
 msgid "No mailing list available."
 msgstr "当前没有邮件列表。"
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
+msgstr ""
 
 msgid "No members."
 msgstr "查看成员"
@@ -1759,9 +1785,6 @@ msgstr "每行填写一个 IP 地址或网段。无效地址或网段将被直�
 
 msgid "One domain per line."
 msgstr "一行填一个记录。"
-
-msgid "One mail address per line."
-msgstr "每行只能填一个邮件地址。"
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr "每行填写一个邮件地址。无效地址将被直接丢弃。"
@@ -1948,9 +1971,6 @@ msgstr "用户属性："
 msgid "Profile updated failed."
 msgstr "属性更新失败。"
 
-msgid "Protocol"
-msgstr "协议"
-
 msgid "Purchase a new license"
 msgstr "购买一个新 license"
 
@@ -2021,9 +2041,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr "主邮件服务器恢复后，后备服务器会将收到的邮件转发到主邮件服务器。"
-
-msgid "Receiving mails for this account on mail server"
-msgstr "允许在服务器上接收发送给这个帐号的邮件"
 
 msgid "Recipient"
 msgstr "收件人"
@@ -2397,13 +2414,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr "域名被标记为后备邮件服务器（Backup MX），无法自定义 relay。"
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-"该功能需要一个每小时或每天的 cron 任务运行/opt/iredapd/tools/spf_to_greylist_whitelists.py "
-"脚本"
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr "该功能需要 iRedAPD 插件 wblist_rdns 支持，请确保它已在 /opt/iredapd/settings.py 里启用。"
@@ -2461,6 +2471,9 @@ msgstr "解封"
 
 msgid "Unban IP address"
 msgstr "解封 IP 地址"
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
+msgstr ""
 
 msgid "Unlimited"
 msgstr "无限制"
@@ -2587,6 +2600,9 @@ msgstr "黑白名单"
 
 msgid "White/Blacklists"
 msgstr "黑/白名单"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "白名单比黑名单具有更高优先级。"

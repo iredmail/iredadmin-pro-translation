@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  iRedAdmin-Pro-\n"
 "Report-Msgid-Bugs-To: lverhoeven@vcn.nl\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: Luc Verhoeven <lverhoeven@vcn>\n"
 "Language: nl_NL\n"
@@ -66,6 +66,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 Dag"
 
@@ -83,6 +86,9 @@ msgstr "Over e-mail logs"
 
 msgid "About quarantined mails"
 msgstr "Over e-mails in quarantine"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr ""
@@ -211,6 +217,10 @@ msgstr "Geavanceerd"
 msgid "Alias"
 msgstr "Alias"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr ""
 
@@ -218,6 +228,9 @@ msgid "Alias domains"
 msgstr "Alias domeinen"
 
 msgid "Alias domains:"
+msgstr ""
+
+msgid "Alias email addresses"
 msgstr ""
 
 msgid "Aliases"
@@ -299,10 +312,6 @@ msgstr ""
 #, python-format
 msgid "At least %d characters."
 msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Ten minste %s karakters, maar niet meer dan %s."
 
 #, python-format
 msgid "At least %s characters."
@@ -418,6 +427,9 @@ msgid "Clean"
 msgstr ""
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -826,10 +838,12 @@ msgstr ""
 " zullen bezorgd worden bij <em><strong>gebruiker@%s</strong></em>."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
+msgid "Emails sent to alias accounts will be delivered to %s."
 msgstr ""
-"E-mails verzonden naar alias accounts zullen bezorgd worden bij gebruiker"
-" %s."
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "Leeg adres is niet toegestaan."
@@ -1271,6 +1285,9 @@ msgstr ""
 msgid "Lists"
 msgstr "E-mail lijsten"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "Ingelogd als %s"
@@ -1560,6 +1577,10 @@ msgstr "Controleer uitgaande e-mails via BCC"
 msgid "Multiple addresses are NOT supported."
 msgstr "Meerdere adressen wordt <strong>NIET</strong> ondersteund."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1604,9 +1625,6 @@ msgid "Next Page"
 msgstr "Volgende pagina"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1655,6 +1673,12 @@ msgid "No mail user available."
 msgstr "Geen e-mail gebruiker beschikbaar."
 
 msgid "No mailing list available."
+msgstr ""
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
 msgstr ""
 
 msgid "No members."
@@ -1769,9 +1793,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "Een account per regel."
-
-msgid "One mail address per line."
-msgstr "Een e-mail adres per lijn"
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -1960,9 +1981,6 @@ msgstr "Profiel van gebruiker"
 msgid "Profile updated failed."
 msgstr "Aanpassen profiel mislukt."
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "Vernieuw licentie"
 
@@ -2035,9 +2053,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr ""
-
-msgid "Receiving mails for this account on mail server"
-msgstr "E-mails voor dit account aan het ontvangen op de mailserver"
 
 msgid "Recipient"
 msgstr "Ontvanger"
@@ -2415,11 +2430,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr ""
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2476,6 +2486,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2603,6 +2616,9 @@ msgstr "White/blacklist"
 
 msgid "White/Blacklists"
 msgstr "White/blacklist"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Whitelist heeft een hogere prioriteit dan blacklist."

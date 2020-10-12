@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:42+0800\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -66,6 +66,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 天"
 
@@ -83,6 +86,9 @@ msgstr "關於郵件日誌"
 
 msgid "About quarantined mails"
 msgstr "關於已隔離郵件。"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr "存取控制"
@@ -211,6 +217,10 @@ msgstr "進階設定"
 msgid "Alias"
 msgstr "郵件別名"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr "別名地址："
 
@@ -219,6 +229,9 @@ msgstr "網域別名"
 
 msgid "Alias domains:"
 msgstr "網域別名："
+
+msgid "Alias email addresses"
+msgstr ""
 
 msgid "Aliases"
 msgstr "別名"
@@ -299,10 +312,6 @@ msgstr "指派的群組："
 #, python-format
 msgid "At least %d characters."
 msgstr "至少 %d 個字元"
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "必須是 %s - %s 個字元。"
 
 #, python-format
 msgid "At least %s characters."
@@ -419,6 +428,9 @@ msgstr "正常郵件"
 
 msgid "Client Address"
 msgstr "客戶端位址"
+
+msgid "Client Hostname"
+msgstr ""
 
 msgid "Comment"
 msgstr "備註"
@@ -822,8 +834,12 @@ msgstr ""
 "<em><strong>user@%s</strong></em>。"
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "發送給別名地址的郵件將會被遞送給用戶 %s。"
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "不允許空白地址。"
@@ -1264,6 +1280,9 @@ msgstr "列出所有郵寄名單。"
 msgid "Lists"
 msgstr "列表"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "登入帳號：%s"
@@ -1553,6 +1572,10 @@ msgstr "透過 BCC 監控外發的郵件"
 msgid "Multiple addresses are NOT supported."
 msgstr "不接受指定多個地址。"
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr "需要一個更強壯的密碼嗎？"
 
@@ -1597,9 +1620,6 @@ msgid "Next Page"
 msgstr "下一頁"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1649,6 +1669,12 @@ msgstr "沒有用戶。"
 
 msgid "No mailing list available."
 msgstr "沒有可用的郵件列表"
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
+msgstr ""
 
 msgid "No members."
 msgstr "沒有成員"
@@ -1762,9 +1788,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "每行一個域名。"
-
-msgid "One mail address per line."
-msgstr "每行一個郵件地址。"
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -1951,9 +1974,6 @@ msgstr "用戶屬性："
 msgid "Profile updated failed."
 msgstr "屬性更新失敗。"
 
-msgid "Protocol"
-msgstr "協定"
-
 msgid "Purchase a new license"
 msgstr "購買新許可證"
 
@@ -2024,9 +2044,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr "當主服務器恢復上線，收在備份MX上的郵件將中繼轉發到主MX服務器。"
-
-msgid "Receiving mails for this account on mail server"
-msgstr "在郵件服務器上接收此帳戶的電子郵件"
 
 msgid "Recipient"
 msgstr "收件人"
@@ -2398,13 +2415,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr "這個域是一個備份 MX，不能自定義為 Relay。"
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-"此功能需要每小時或每天的 cron 作業 , "
-"才能執行腳本/opt/iredapd/tools/spf_to_greylist_whitelists.py"
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2461,6 +2471,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2588,6 +2601,9 @@ msgstr "黑/白名單"
 
 msgid "White/Blacklists"
 msgstr "黑/白名單"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "白名單比黑名單具有更高優先等級。"

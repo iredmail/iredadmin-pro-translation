@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-04-08 12:49+0800\n"
+"POT-Creation-Date: 2020-10-12 12:41+0800\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -67,6 +67,9 @@ msgstr ""
 msgid "(%d%% full, %d messages, %s.)"
 msgstr ""
 
+msgid "(Mailbox is empty.)"
+msgstr ""
+
 msgid "1 Day"
 msgstr "1 dan"
 
@@ -84,6 +87,9 @@ msgstr "O poštnih dnevnikih"
 
 msgid "About quarantined mails"
 msgstr "O pošti v karanteni"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr ""
 
 msgid "Access control"
 msgstr ""
@@ -212,6 +218,10 @@ msgstr "Napredno"
 msgid "Alias"
 msgstr "Vzdevek"
 
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr ""
+
 msgid "Alias addresses:"
 msgstr ""
 
@@ -219,6 +229,9 @@ msgid "Alias domains"
 msgstr "Vzdevčne domene"
 
 msgid "Alias domains:"
+msgstr ""
+
+msgid "Alias email addresses"
 msgstr ""
 
 msgid "Aliases"
@@ -300,10 +313,6 @@ msgstr ""
 #, python-format
 msgid "At least %d characters."
 msgstr ""
-
-#, python-format
-msgid "At least %s characters, but no more than %s."
-msgstr "Vsaj %s znakov, vendar ne več kot %s."
 
 #, python-format
 msgid "At least %s characters."
@@ -419,6 +428,9 @@ msgid "Clean"
 msgstr ""
 
 msgid "Client Address"
+msgstr ""
+
+msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
@@ -827,8 +839,12 @@ msgstr ""
 "dostavljena na <em><strong>user@%s</strong></em>."
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr "Pošta, poslana na vzdevčne račune, bo dostavljena uporabniku %s."
+msgid "Emails sent to alias accounts will be delivered to %s."
+msgstr ""
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr ""
 
 msgid "Empty address is not allowed."
 msgstr "Prazen naslov ni dovoljen."
@@ -1270,6 +1286,9 @@ msgstr ""
 msgid "Lists"
 msgstr "Seznami"
 
+msgid "Log"
+msgstr ""
+
 #, python-format
 msgid "Logged in as %s"
 msgstr "Prijavljen kot %s"
@@ -1559,6 +1578,10 @@ msgstr "Nadzoruj odhajajočo pošto prek BCC"
 msgid "Multiple addresses are NOT supported."
 msgstr "Večkratni naslovi NISO podprti."
 
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
 msgid "Need a strong password?"
 msgstr ""
 
@@ -1603,9 +1626,6 @@ msgid "Next Page"
 msgstr "Naslednja stran"
 
 msgid "No SMTP authentication activity."
-msgstr ""
-
-msgid "No SMTP rejection."
 msgstr ""
 
 msgid "No account selected."
@@ -1654,6 +1674,12 @@ msgid "No mail user available."
 msgstr "Nobenega poštnega uporabnika ni na voljo."
 
 msgid "No mailing list available."
+msgstr ""
+
+msgid "No matched SMTP sessions."
+msgstr ""
+
+msgid "No matched log lines."
 msgstr ""
 
 msgid "No members."
@@ -1768,9 +1794,6 @@ msgstr ""
 
 msgid "One domain per line."
 msgstr "En zapis na vrstico."
-
-msgid "One mail address per line."
-msgstr "En poštni naslov na vrstico."
 
 msgid "One mail address per line. Invalid address will be discarded."
 msgstr ""
@@ -1959,9 +1982,6 @@ msgstr "Profil uporabnika:"
 msgid "Profile updated failed."
 msgstr "Posodobitev profila je spodletela."
 
-msgid "Protocol"
-msgstr ""
-
 msgid "Purchase a new license"
 msgstr "Obnovi licenco"
 
@@ -2032,9 +2052,6 @@ msgid ""
 "Received emails on backup MX will be relayed to primary MX server when "
 "its smtp service is back online."
 msgstr ""
-
-msgid "Receiving mails for this account on mail server"
-msgstr "Prejemam pošto v strežnik za ta račun"
 
 msgid "Recipient"
 msgstr "Prejemnik"
@@ -2410,11 +2427,6 @@ msgid "This domain is a backup MX, can not set custom relay."
 msgstr ""
 
 msgid ""
-"This feature requires a hourly or daily cron job to run script "
-"/opt/iredapd/tools/spf_to_greylist_whitelists.py."
-msgstr ""
-
-msgid ""
 "This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
 " enabled in file /opt/iredapd/settings.py."
 msgstr ""
@@ -2471,6 +2483,9 @@ msgid "Unban"
 msgstr ""
 
 msgid "Unban IP address"
+msgstr ""
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
 msgstr ""
 
 msgid "Unlimited"
@@ -2598,6 +2613,9 @@ msgstr "Prepustni/zaporni seznam"
 
 msgid "White/Blacklists"
 msgstr "Prepustni/zaporni seznam"
+
+msgid "Whitelist"
+msgstr ""
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "Prepustni seznam ima prioriteto nad zapornim seznamom"
