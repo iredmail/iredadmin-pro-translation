@@ -221,7 +221,7 @@ msgstr "エイリアス"
 
 #, python-format
 msgid "Alias addresses must end with domain name: %s"
-msgstr ""
+msgstr "エイリアスアドレスはドメイン名 %s で終わる必要があります"
 
 msgid "Alias addresses:"
 msgstr "エイリアスアドレス:"
@@ -233,7 +233,7 @@ msgid "Alias domains:"
 msgstr "エイリアスドメイン:"
 
 msgid "Alias email addresses"
-msgstr ""
+msgstr "エイリアスアドレス"
 
 msgid "Aliases"
 msgstr "エイリアス"
@@ -345,7 +345,7 @@ msgstr "クォータが設定されている:"
 
 #, python-format
 msgid "Available: %d (Existing: %d, Max: %d.)"
-msgstr ""
+msgstr "Available: %d (現在: %d, 最大: %d)"
 
 msgid "BCC"
 msgstr "BCC"
@@ -426,13 +426,13 @@ msgid "Choose activity type"
 msgstr "利用状況の種類を選択"
 
 msgid "Clean"
-msgstr ""
+msgstr "掃除"
 
 msgid "Client Address"
 msgstr "クライアントアドレス"
 
 msgid "Client Hostname"
-msgstr ""
+msgstr "クライアントホスト名"
 
 msgid "Comment"
 msgstr "コメント"
@@ -460,12 +460,12 @@ msgstr "国"
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
 "its value"
-msgstr ""
+msgstr "ドメインのDNSにTXTレコードとして認証コードを追加します"
 
 msgid ""
 "Create a text file under top directory of your web site, both file name "
 "and file content must be same as verify code"
-msgstr ""
+msgstr "Webサイトのトップディレクトに認証コードと同じファイル名とファイルの内容でテキストファイルを作成します"
 
 msgid "Create new mail domains with up to"
 msgstr ""
@@ -492,13 +492,13 @@ msgid "DISABLED"
 msgstr "無効"
 
 msgid "DNS query result should contain the verify code:"
-msgstr ""
+msgstr "DNSに登録されている認証コード:"
 
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
 msgid "Data Clean Up"
-msgstr ""
+msgstr "データの掃除"
 
 msgid "Date"
 msgstr "日付"
@@ -675,7 +675,7 @@ msgid "Do not apply greylisting on listed senders"
 msgstr ""
 
 msgid "Do not archive received emails"
-msgstr ""
+msgstr "受信メールをアーカイブしない"
 
 msgid ""
 "Do not notify sender when posting to a moderator-only mailing list was "
@@ -696,7 +696,7 @@ msgid "Do not notify subscription requestor when subscription is under moderated
 msgstr ""
 
 msgid "Do not send a copy to sender"
-msgstr ""
+msgstr "送信者に送信したメールのコピーを送らない"
 
 msgid "Domain"
 msgstr "ドメイン"
@@ -754,7 +754,7 @@ msgid ""
 msgstr ""
 
 msgid "Domain ownership verification required"
-msgstr ""
+msgstr "ドメインの所有権確認が必要です"
 
 msgid "Domain quota size"
 msgstr "ドメイン全体のクォータサイズ"
@@ -837,11 +837,11 @@ msgstr ""
 
 #, python-format
 msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
+msgstr "エイリアスアカウントに送信したメールは %s に配送されます."
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
-msgstr ""
+msgstr "エイリアスアドレスに送信したメールは %s に配送されます."
 
 msgid "Empty address is not allowed."
 msgstr "アドレス無しは設定出来ません."
@@ -874,7 +874,7 @@ msgid "Enable newsletter-style mailing list"
 msgstr "ニュース形式のメーリングリストを有効化"
 
 msgid "Enable selected domain without verification"
-msgstr ""
+msgstr "認証無しで選択したドメインを有効化"
 
 msgid "Enable spam checking"
 msgstr "迷惑メール対策を有効化"
@@ -1280,7 +1280,7 @@ msgid "Lists"
 msgstr "一覧"
 
 msgid "Log"
-msgstr ""
+msgstr "ログ"
 
 #, python-format
 msgid "Logged in as %s"
@@ -1346,7 +1346,7 @@ msgid "Mail posting"
 msgstr ""
 
 msgid "Mail sent to alias will be forwarded to members."
-msgstr ""
+msgstr "エイリアスに送ったメールは登録されたメンバーに転送されます."
 
 msgid "Mailbox"
 msgstr "メールボックス"
@@ -1530,7 +1530,7 @@ msgid "Message"
 msgstr "メッセージ"
 
 msgid "Messages sent to mailing list will be delivered to its members."
-msgstr ""
+msgstr "メーリングリストに送られたメッセージは登録されたメンバーに配送されます."
 
 msgid "Migrate Now"
 msgstr ""
@@ -1573,7 +1573,7 @@ msgstr "複数のアドレス指定はサポートしていません."
 
 #, python-format
 msgid "Must be %s - %s characters."
-msgstr ""
+msgstr "%s - %s 文字としてください."
 
 msgid "Need a strong password?"
 msgstr "強い強度のパスワードが必要ですか?"
@@ -1699,7 +1699,7 @@ msgid "No outgoing mails."
 msgstr "送信メールがありません."
 
 msgid "No pending mail domain ownership verification."
-msgstr ""
+msgstr "メールドメインの所有者権限確認待ちはありません."
 
 msgid "No quarantined mails."
 msgstr "隔離されたメールがありません."
@@ -2061,13 +2061,13 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
-msgstr ""
+msgstr "グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "rel=\"noopener\">greylisting.org</a>を参照"
 
 msgid "Rejected Messages"
-msgstr ""
+msgstr "拒否メッセージ"
 
 msgid "Rejection Reason"
-msgstr ""
+msgstr "拒否理由"
 
 msgid "Relay"
 msgstr "リレー"
@@ -2075,15 +2075,15 @@ msgstr "リレー"
 msgid ""
 "Relay emails to the server specified in A type DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "メールのリレーはDNSのAレコードに登録されているサーバのポート25からのみ受付"
 
 msgid ""
 "Relay emails to the server specified in MX type DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "メールのリレーはDNSのMXレコードに登録されているサーバのポート25からのみ受付"
 
 msgid "Relay emails to the specified IP address through port 25"
-msgstr "メールのリレーは特定のIPアドレスのポート25からのみ"
+msgstr "メールのリレーは特定のIPアドレスのポート25からのみ受付"
 
 msgid "Relay outgoing email to"
 msgstr "送信メールを次のサーバにリレーする"
@@ -2241,7 +2241,7 @@ msgid "Self-service"
 msgstr "一般ユーザ向けサービス"
 
 msgid "Send email to new members for subscription confirm"
-msgstr ""
+msgstr "新しいメンバーへの購読確認メールを送信する"
 
 msgid "Send me an email with download link"
 msgstr "ダウンロードリンクを私にメールする"
@@ -2398,7 +2398,7 @@ msgid "Telephone Number"
 msgstr "電話番号"
 
 msgid "Text to introduce this newsletter on subscription page"
-msgstr ""
+msgstr "ニュースレターの購読ページに表示する文章"
 
 msgid "Thank you for subscribing."
 msgstr "購読ありがとうございます."
@@ -2549,10 +2549,10 @@ msgid "Valid record formats"
 msgstr ""
 
 msgid "Verify Now"
-msgstr ""
+msgstr "いますぐ認証"
 
 msgid "Verify code"
-msgstr ""
+msgstr "認証コード"
 
 msgid "View members"
 msgstr "メンバーを見る"
@@ -2575,7 +2575,7 @@ msgid ""
 msgstr ""
 
 msgid "Waiting for domain ownership verification"
-msgstr ""
+msgstr "ドメインの所有者権限確認待ち"
 
 msgid "Warning"
 msgstr "警告"
@@ -2602,7 +2602,7 @@ msgid "White/Blacklists"
 msgstr "許可リスト/拒否リスト"
 
 msgid "Whitelist"
-msgstr ""
+msgstr "許可リスト"
 
 msgid "Whitelist has higher priority than blacklist."
 msgstr "許可リストは拒否リストより優先度が高い"
@@ -2723,12 +2723,12 @@ msgstr ""
 msgid ""
 "relay emails to the servers specified in A DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "メールのリレーはDNSのAレコードに登録されているサーバのポート25からのみ受付"
 
 msgid ""
 "relay emails to the servers specified in MX DNS records of domain "
 "example.com through port 25"
-msgstr ""
+msgstr "メールのリレーはDNSのMXレコードに登録されているサーバのポート25からのみ受付"
 
 msgid "without verifying local recipients"
 msgstr ""
