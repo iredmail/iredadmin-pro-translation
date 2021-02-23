@@ -1,13 +1,12 @@
-# Hungarian (Hungary) translations for PROJECT.
+# Hungarian (Hungary) translations for iRedAdmin-PrReport-Msgid-Bugs-To:.
 # Copyright (C) 2013 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2014-03-17 12:00+0100\n"
 "Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
 "Language: hu_HU\n"
@@ -112,6 +111,9 @@ msgstr "Admin nem létezik."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -239,6 +241,9 @@ msgstr "Aliasok"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Domainhez tartozó aliasok: %s"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Összes fiók"
@@ -733,6 +738,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -840,10 +848,6 @@ msgid ""
 msgstr ""
 "A <em><strong>felhasznalo@[ALIAS_DOMAIN]</strong></em> címre küldött "
 "levelek kézbesítése a <em><strong>felhasznalo@%s</strong></em> címre."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1464,6 +1468,9 @@ msgstr "Továbbengedett levelek."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Győződjön meg, hogy a nyilatkozat az elvártaknak megfelelően működik:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Fehér/Feketelista"
 
@@ -1472,6 +1479,9 @@ msgstr "Nincsennek levelek a karanténban."
 
 msgid "Managed Domains"
 msgstr "Felügyelt domainek"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Megjelölés tartalék MX-ként"
@@ -2094,6 +2104,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2177,9 +2190,6 @@ msgid "Revoke admin privilege"
 msgstr "Admin profilja:"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2269,9 +2279,6 @@ msgstr "A kiválasztott bejegyzések törölve lettek."
 
 msgid "Self-service"
 msgstr "Levelező szolgáltatás"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Küldj egy e-mailt a letöltési linkkel"

@@ -6,9 +6,7 @@
 # #######################################################
 msgid ""
 msgstr ""
-"Project-Id-Version:  iRedAdmin-Pro-SQL-2.1.3\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2015-12-23 04:19+0200\n"
 "Last-Translator: Plamen Vasilev a.k.a Paco <p.vasileff@gmail.com>\n"
 "Language: bg_BG\n"
@@ -113,6 +111,9 @@ msgstr "Акаунта не съществува."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -240,6 +241,9 @@ msgstr "Препращания"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Препращания за домейн: %s."
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Всички акаунти"
@@ -758,6 +762,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -865,10 +872,6 @@ msgid ""
 msgstr ""
 "Писмата изпратени до <em><strong>поща@[ПАРКИРАН_ДОМЕЙН]</strong></em> ще "
 "бъдат доставени до <em><strong>поща@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1513,6 +1516,9 @@ msgstr "Писмата са освободени от карантина"
 msgid "Make sure disclaimer work as expected:"
 msgstr ""
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Управление на белия/черния списък за конкретна поща"
 
@@ -1521,6 +1527,9 @@ msgstr "Управление на писмата под карантина"
 
 msgid "Managed Domains"
 msgstr "Управлявани домейни"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Домейна ползва този сървър като Backup MX"
@@ -2151,6 +2160,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2242,9 +2254,6 @@ msgstr "Премахване на админ права"
 msgid "SMTP Action"
 msgstr ""
 
-msgid "SMTP Authentication"
-msgstr ""
-
 msgid "SMTP Sessions"
 msgstr ""
 
@@ -2332,9 +2341,6 @@ msgstr "Избраните записи са изтрити."
 
 msgid "Self-service"
 msgstr "Самообслужване"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Изпрати ми имейл с линк за сваляне"

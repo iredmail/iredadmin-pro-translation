@@ -1,9 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version:  iRedAdmin-Pro\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-12 12:42+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2017-01-18 15:27+0000\n"
 "Last-Translator: Zhang Huangbin\n"
 "Language: zh_Hans_CN\n"
@@ -63,7 +61,7 @@ msgid "(%d%% full, %d messages, %s.)"
 msgstr "（%d%% 已用，%d 邮件，%s。）"
 
 msgid "(Mailbox is empty.)"
-msgstr ""
+msgstr "（邮箱是空的。)"
 
 msgid "1 Day"
 msgstr "1天"
@@ -84,7 +82,7 @@ msgid "About quarantined mails"
 msgstr "关于已隔离邮件"
 
 msgid "Accepting mails sent to this account on mail server"
-msgstr ""
+msgstr "接收发给这个账号的邮件"
 
 msgid "Access control"
 msgstr "访问控制"
@@ -111,6 +109,9 @@ msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
 msgstr "此账号尚未设置 spam policy，将使用系统的默认设置。"
+
+msgid "Account is active."
+msgstr "账号已启用。"
 
 msgid "Account is disabled."
 msgstr "帐号已禁用。"
@@ -217,7 +218,7 @@ msgstr "邮件别名"
 
 #, python-format
 msgid "Alias addresses must end with domain name: %s"
-msgstr ""
+msgstr "别名地址必须以域名 %s 结尾。"
 
 msgid "Alias addresses:"
 msgstr "别名地址："
@@ -229,14 +230,17 @@ msgid "Alias domains:"
 msgstr "别名域"
 
 msgid "Alias email addresses"
-msgstr ""
+msgstr "别名地址"
 
 msgid "Aliases"
 msgstr "别名"
 
 #, python-format
 msgid "Aliases under domain: %s."
-msgstr "域 %s 的别名帐号："
+msgstr "域 %s 的别名帐号。"
+
+msgid "All SMTP Sessions"
+msgstr "所有 SMTP 会话"
 
 msgid "All accounts"
 msgstr "所有帐号"
@@ -428,7 +432,7 @@ msgid "Client Address"
 msgstr "客户端地址"
 
 msgid "Client Hostname"
-msgstr ""
+msgstr "客户端主机名"
 
 msgid "Comment"
 msgstr "备注"
@@ -727,6 +731,9 @@ msgstr "域名已启用，但标记为 backup MX。"
 msgid "Domain is active, but relay to other host"
 msgstr "域名已启用，但转发到其它服务器"
 
+msgid "Domain is active."
+msgstr "域名已启用。"
+
 msgid "Domain is disabled."
 msgstr "域名已禁用。"
 
@@ -834,12 +841,8 @@ msgstr ""
 "<em><strong>user@%s</strong></em>。"
 
 #, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
-
-#, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
-msgstr ""
+msgstr "发送到别名地址的邮件将会被投递到 %s。"
 
 msgid "Empty address is not allowed."
 msgstr "邮件地址不允许为空。"
@@ -1278,7 +1281,7 @@ msgid "Lists"
 msgstr "邮件列表"
 
 msgid "Log"
-msgstr ""
+msgstr "日志"
 
 #, python-format
 msgid "Logged in as %s"
@@ -1447,6 +1450,9 @@ msgstr "邮件已放行。"
 msgid "Make sure disclaimer work as expected:"
 msgstr "确保免责声明正常工作："
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "管理单个用户的黑白名单"
 
@@ -1455,6 +1461,9 @@ msgstr "管理已隔离的邮件"
 
 msgid "Managed Domains"
 msgstr "管理的域"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "标记为后备邮件服务器（Backup MX）"
@@ -2068,6 +2077,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr "拒收邮件"
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr "拒收原因"
 
@@ -2152,9 +2164,6 @@ msgstr "移除管理员权限"
 
 msgid "SMTP Action"
 msgstr "SMTP 行为"
-
-msgid "SMTP Authentication"
-msgstr "SMTP 验证"
 
 msgid "SMTP Sessions"
 msgstr "SMTP 会话"
@@ -2241,9 +2250,6 @@ msgstr "所选记录已删除。"
 
 msgid "Self-service"
 msgstr "自助服务"
-
-msgid "Send email to new members for subscription confirm"
-msgstr "给新成员发送邮件确认订阅操作"
 
 msgid "Send me an email with download link"
 msgstr "发送一封含有下载链接的邮件给我"

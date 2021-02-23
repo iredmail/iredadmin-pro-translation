@@ -6,9 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: iRedAdmin Pro 1.6.2\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2017-10-04 17:30+0200\n"
 "Last-Translator: Francesco <frankonet@infinito.it>\n"
 "Language: it_IT\n"
@@ -119,6 +117,9 @@ msgid ""
 msgstr ""
 "L'account ancora non ha una policy di spam specifica, verrà applicata la "
 "policy del server."
+
+msgid "Account is active."
+msgstr ""
 
 msgid "Account is disabled."
 msgstr "L'account è disabilitato."
@@ -245,6 +246,9 @@ msgstr "Alias"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Alias del dominio: %s."
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Tutti gli account"
@@ -761,6 +765,9 @@ msgstr "Il dominio è attivo, ma è impostato come MX di backup."
 msgid "Domain is active, but relay to other host"
 msgstr "Il dominio è attivo, ma inoltra verso un altro host"
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr "Il dominio è disabilitato."
 
@@ -870,10 +877,6 @@ msgid ""
 msgstr ""
 "I messaggi inviati a <em><strong>user@[ALIAS_DOMAIN]</strong></em> "
 "saranno consegnati a <em><strong>user@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1517,6 +1520,9 @@ msgstr "I messaggi sono stati rilasciati."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Verificate che il disclaimer funzioni come previsto:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Gestisci White/Blacklist per utente"
 
@@ -1525,6 +1531,9 @@ msgstr "Gestisci messaggi in quarantena"
 
 msgid "Managed Domains"
 msgstr "Domini gestiti"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Imposta come MX di backup"
@@ -2160,6 +2169,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2249,9 +2261,6 @@ msgid "Revoke admin privilege"
 msgstr "Revoca il privilegio di amministratore"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2347,9 +2356,6 @@ msgstr "I record selezionati sono stati cancellati."
 
 msgid "Self-service"
 msgstr "Servizio fai-da-te"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Inviami un messaggio con il link di download"

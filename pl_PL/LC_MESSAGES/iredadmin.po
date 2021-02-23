@@ -1,13 +1,12 @@
-# Polish (Poland) translations for PROJECT.
+# Polish (Poland) translations for iRedAdmin-PrReport-Msgid-Bugs-To:.
 # Copyright (C) 2011 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <k.skurzynski@kospel.pl>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2013-03-15 00:53+0100\n"
 "Last-Translator: Adrian Grygier <adi@zwami.pl>\n"
 "Language: pl_PL\n"
@@ -113,6 +112,9 @@ msgstr "Konto nie istnieje."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -240,6 +242,9 @@ msgstr "Aliasy"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Aliasy w domenie: %s"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Wszystkie konta"
@@ -730,6 +735,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -837,10 +845,6 @@ msgid ""
 msgstr ""
 "Wiadomości wysłane do <em><strong>użytkownik@[ALIAS_DOMAIN]</strong></em>"
 " będą przekazanedo <em><strong>użytkownik@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1456,6 +1460,9 @@ msgstr ""
 "Upewnij się, że zrzeczenie odpowiedzialności działa zgodnie z "
 "oczekiwaniami"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Biała/Czarna lista"
 
@@ -1464,6 +1471,9 @@ msgstr "Brak wiadomości w kwarantannie"
 
 msgid "Managed Domains"
 msgstr "Zarządzane domeny"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Oznacz jako zapasowy MX"
@@ -2078,6 +2088,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2161,9 +2174,6 @@ msgid "Revoke admin privilege"
 msgstr "Profil administratora"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2253,9 +2263,6 @@ msgstr "Wybrane pola zostały usunięte."
 
 msgid "Self-service"
 msgstr "Usługi pocztowe"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Wyślij do mnie email z odnośnikiem do pobrania"

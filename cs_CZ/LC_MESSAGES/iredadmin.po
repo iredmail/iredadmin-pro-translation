@@ -5,9 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  iRedAdmin-Pro\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2013-03-14 21:23+0100\n"
 "Last-Translator: \n"
 "Language: cs_CZ\n"
@@ -112,6 +110,9 @@ msgstr "Účet neexistuje."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -239,6 +240,9 @@ msgstr "Aliasy"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Aliasy v doméně %s"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Všechny účty"
@@ -733,6 +737,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -840,10 +847,6 @@ msgid ""
 msgstr ""
 "Emaily poslané na <em><strong>uzivatel@[DOMENOVY_ALIAS]</strong></em> "
 "budou doručeny na <em><strong>uzivatel@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1459,6 +1462,9 @@ msgstr "Emaily byly uvolněny."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Ujistěte se, že zřeknutí se odpovědnosti funguje tak, jak očekáváte:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Whitelist/Blacklist"
 
@@ -1467,6 +1473,9 @@ msgstr "Žádné emaily v karanténě."
 
 msgid "Managed Domains"
 msgstr "Spravované domény"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Označit jako záložní MX"
@@ -2081,6 +2090,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2164,9 +2176,6 @@ msgid "Revoke admin privilege"
 msgstr "Profil správce"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2254,9 +2263,6 @@ msgstr "Vybrané záznamy byly smazány."
 
 msgid "Self-service"
 msgstr "Služba pošty"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Poslat mi email s odkazem ke stažení"

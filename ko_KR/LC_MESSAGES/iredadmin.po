@@ -1,12 +1,11 @@
 # Copyright (C) 2013 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2013-04-22 11:12+0800\n"
 "Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
 "Language: ko_KR\n"
@@ -111,6 +110,9 @@ msgstr "계정이 존재하지 않습니다."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -238,6 +240,9 @@ msgstr "별칭"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "%s 도메인의 별칭"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "모든 계정"
@@ -728,6 +733,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -831,10 +839,6 @@ msgid ""
 msgstr ""
 "<em><strong>user@[ALIAS_DOMAIN]</strong></em>로 전송되는 메일은 "
 "<em><strong>user@%s</strong></em>로 전달됩니다."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1446,6 +1450,9 @@ msgstr "메일이 배포되었습니다."
 msgid "Make sure disclaimer work as expected:"
 msgstr "권리 사항을 확인하십시오."
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "화이트/블랙리스트"
 
@@ -1454,6 +1461,9 @@ msgstr "격리된 메일이 없습니다."
 
 msgid "Managed Domains"
 msgstr "관리 도메인"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "백업 MX로 지정"
@@ -2063,6 +2073,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2146,9 +2159,6 @@ msgid "Revoke admin privilege"
 msgstr "관리자 프로필"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2236,9 +2246,6 @@ msgstr "선택된 기록이 삭제 되었습니다."
 
 msgid "Self-service"
 msgstr "메일 서비스"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "다운로드 링크를 메일로 보내주십시오."

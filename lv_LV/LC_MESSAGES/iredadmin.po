@@ -5,9 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  iRedAdmin-Pro-\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2011-06-10 23:46+0800\n"
 "Last-Translator: Juris BALANDIS <juris.balandis@gmail.com>\n"
 "Language: lv_LV\n"
@@ -120,6 +118,9 @@ msgid ""
 msgstr ""
 "Kontam nav konkrētas surogātpasta politikas, tiks piemērota servera "
 "mēroga politika."
+
+msgid "Account is active."
+msgstr ""
 
 msgid "Account is disabled."
 msgstr "Konts ir atspējots."
@@ -246,6 +247,9 @@ msgstr "Aizstājvārdi"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Aizstājvārdi domēnā: %s."
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Visi konti"
@@ -757,6 +761,9 @@ msgstr "Domēns ir aktīvs, bet atzīmēts kā dublējumkopija MX."
 msgid "Domain is active, but relay to other host"
 msgstr "Domēns ir aktīvs, bet relejs uz citu resursdatoru"
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr "Domēns ir atspējots."
 
@@ -872,10 +879,6 @@ msgid ""
 msgstr ""
 "<em><strong>Lietotājam @ [ALIAS_DOMAIN]</strong></em> nosūtītie e-pasta "
 "ziņojumitiks piegādāti <em><strong>lietotājam @ %s</strong></em>"
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1533,6 +1536,9 @@ msgstr "E-pasta sūtījumi tika atbrīvoti."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Pārliecinieties, vai viss darbojas kā paredzēts:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Pārvaldīt katra lietotāja baltos/melnos sarakstus"
 
@@ -1540,6 +1546,9 @@ msgid "Manage quarantined mails"
 msgstr "Pārvaldīt karantīnā ievietotos e-pastus"
 
 msgid "Managed Domains"
+msgstr ""
+
+msgid "Managed mailing lists."
 msgstr ""
 
 msgid "Mark as backup MX"
@@ -2179,6 +2188,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr "Noraidītie ziņojumi"
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr "Noraidījuma iemesls"
 
@@ -2268,9 +2280,6 @@ msgstr "Atsaukt administratora privilēģiju"
 msgid "SMTP Action"
 msgstr "SMTP darbība"
 
-msgid "SMTP Authentication"
-msgstr "SMTP autentifikācija"
-
 msgid "SMTP Sessions"
 msgstr "SMTP sesijas"
 
@@ -2358,9 +2367,6 @@ msgstr "Atlasītie ieraksti tika izdzēsti."
 
 msgid "Self-service"
 msgstr ""
-
-msgid "Send email to new members for subscription confirm"
-msgstr "Sūtīt e-pasta ziņojumu jauniem abonementa dalībniekiem"
 
 msgid "Send me an email with download link"
 msgstr "Sūtīt man e-pasta ziņojumu ar lejupielādes saiti"

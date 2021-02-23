@@ -1,13 +1,12 @@
-# Japanese (Japan) translations for PROJECT.
+# Japanese (Japan) translations for iRedAdmin-PrReport-Msgid-Bugs-To:.
 # Copyright (C) 2018 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2020-10-12 13:37+0900\n"
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
@@ -115,6 +114,9 @@ msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
 msgstr "アカウント専用のスパムポリシーがありません. サーバ側のポリシーが適用されます."
+
+msgid "Account is active."
+msgstr ""
 
 msgid "Account is disabled."
 msgstr "アカウントは無効です."
@@ -241,6 +243,9 @@ msgstr "エイリアス"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "ドメイン %s のエイリアス"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "全てのアカウント"
@@ -731,6 +736,9 @@ msgstr "ドメインは有効です, ただしバックアップMXとして設�
 msgid "Domain is active, but relay to other host"
 msgstr "ドメインは有効です, ただし他ホストへのリレーサーバです"
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr "アカウントは無効です."
 
@@ -834,10 +842,6 @@ msgid ""
 msgstr ""
 "<em><strong>user@[ALIAS_DOMAIN]</strong></em> 宛にメールを送ると "
 "<em><strong>user@%s</strong></em> にメールが届きます."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr "エイリアスアカウントに送信したメールは %s に配送されます."
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1449,6 +1453,9 @@ msgstr "メールは解放されました."
 msgid "Make sure disclaimer work as expected:"
 msgstr ""
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr ""
 
@@ -1457,6 +1464,9 @@ msgstr "隔離されたメールの管理"
 
 msgid "Managed Domains"
 msgstr "管理しているドメイン"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "バックアップMXとして設定"
@@ -2061,10 +2071,15 @@ msgid ""
 "Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a> for technical details about "
 "greylisting."
-msgstr "グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "rel=\"noopener\">greylisting.org</a>を参照"
+msgstr ""
+"グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"\"rel=\"noopener\">greylisting.org</a>を参照"
 
 msgid "Rejected Messages"
 msgstr "拒否メッセージ"
+
+msgid "Rejected SMTP Sessions"
+msgstr ""
 
 msgid "Rejection Reason"
 msgstr "拒否理由"
@@ -2151,9 +2166,6 @@ msgstr "管理者権限を剥奪"
 msgid "SMTP Action"
 msgstr ""
 
-msgid "SMTP Authentication"
-msgstr "SMTP認証"
-
 msgid "SMTP Sessions"
 msgstr "SMTP接続"
 
@@ -2239,9 +2251,6 @@ msgstr "選択したレコードは削除されました."
 
 msgid "Self-service"
 msgstr "一般ユーザ向けサービス"
-
-msgid "Send email to new members for subscription confirm"
-msgstr "新しいメンバーへの購読確認メールを送信する"
 
 msgid "Send me an email with download link"
 msgstr "ダウンロードリンクを私にメールする"

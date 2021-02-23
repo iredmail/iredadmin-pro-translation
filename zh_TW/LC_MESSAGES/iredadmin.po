@@ -1,13 +1,12 @@
-# Chinese (Taiwan) translations for PROJECT.
+# Chinese (Taiwan) translations for iRedAdmin-PrReport-Msgid-Bugs-To:.
 # Copyright (C) 2011 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:42+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2013-03-15 13:15+0800\n"
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
@@ -113,6 +112,9 @@ msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
 msgstr "帳號尚未擁有特定的垃圾郵件政策，套用伺服器範圍的政策"
+
+msgid "Account is active."
+msgstr ""
 
 msgid "Account is disabled."
 msgstr "帳號已停用。"
@@ -239,6 +241,9 @@ msgstr "別名"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "網域 %s 內的別名："
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "所有帳號"
@@ -729,6 +734,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -832,10 +840,6 @@ msgid ""
 msgstr ""
 "發送給 <em><strong>user@[ALIAS_DOMAIN]</strong></em> 的郵件將會被遞送到 "
 "<em><strong>user@%s</strong></em>。"
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1450,6 +1454,9 @@ msgstr "郵件已釋放。"
 msgid "Make sure disclaimer work as expected:"
 msgstr "確保免責聲明正常工作："
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "管理用戶的黑/白名單"
 
@@ -1458,6 +1465,9 @@ msgstr "管理已隔離的郵件。"
 
 msgid "Managed Domains"
 msgstr "管理的網域"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "標記為備份 MX"
@@ -2069,6 +2079,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2152,9 +2165,6 @@ msgid "Revoke admin privilege"
 msgstr "撤銷管理員權限"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2242,9 +2252,6 @@ msgstr "已刪除所選的記錄。"
 
 msgid "Self-service"
 msgstr "自助服務"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "發送含下載鏈接的郵件給我"

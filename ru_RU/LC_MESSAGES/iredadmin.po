@@ -5,9 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  iRedAdmin-Pro-LDAP-1.6.2\n"
-"Report-Msgid-Bugs-To: suds77@gmail.com\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2013-07-24 09:24+0400\n"
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language: ru_RU\n"
@@ -112,6 +110,9 @@ msgstr "Аккаунт не существует."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -239,6 +240,9 @@ msgstr "Алиасы"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Алиасы домена %s"
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Все аккаунты"
@@ -729,6 +733,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -836,10 +843,6 @@ msgid ""
 msgstr ""
 "Почта отосланная на <em><strong>user@[ALIAS_DOMAIN]</strong></em> будет "
 "доставлена в <em><strong>user@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1453,6 +1456,9 @@ msgstr "Почта была освобождена."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Удостоверьтесь, что disclaimer работает, как ожидалось:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Белый/Черный список"
 
@@ -1461,6 +1467,9 @@ msgstr "Нет почты на карантине."
 
 msgid "Managed Domains"
 msgstr "Управление доменами"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Отметить как архивный MX"
@@ -2078,6 +2087,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2161,9 +2173,6 @@ msgid "Revoke admin privilege"
 msgstr "Профиль администратора:"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2253,9 +2262,6 @@ msgstr "Выбранные записи были удалены."
 
 msgid "Self-service"
 msgstr "Почтовый сервис"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Выслать мне письмо с сылкой на скачивание"

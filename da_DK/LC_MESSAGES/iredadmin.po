@@ -1,13 +1,12 @@
-# Danish (Denmark) translations for PROJECT.
+# Danish (Denmark) translations for iRedAdmin-Pro
 # Copyright (C) 2018 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <sm@upnavigator.dk>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2020-06-29 12:40+0100\n"
 "Last-Translator: Søren Mortensen <sm@upnavigator.dk>\n"
 "Language: da_DK\n"
@@ -120,6 +119,9 @@ msgid ""
 msgstr ""
 "Kontoen har endnu ikke en specifik spampolitik, serverens generelle "
 "politik vil blive anvendt."
+
+msgid "Account is active."
+msgstr ""
 
 msgid "Account is disabled."
 msgstr "Kontoen er deaktiveret."
@@ -246,6 +248,9 @@ msgstr "Aliasser"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Aliasser under domæne: %s."
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Alle konti"
@@ -757,6 +762,9 @@ msgstr "Domæne er aktiv, men markeret som backup MX."
 msgid "Domain is active, but relay to other host"
 msgstr "Domæne er aktiv, men videresender til anden vært"
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr "Domænet er deaktiveret."
 
@@ -877,10 +885,6 @@ msgid ""
 msgstr ""
 "E-mails sendt til <em><strong>bruger@[ALIAS_DOMAIN]</strong></em> vil "
 "blive leveret til <em><strong>bruger@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1526,6 +1530,9 @@ msgstr "Mails blev frigivet."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Sørg for at ansvarsfraskrivelse fungerer som forventet:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Administrer pr. bruger white/blacklists"
 
@@ -1534,6 +1541,9 @@ msgstr "Administrer karantæne mails"
 
 msgid "Managed Domains"
 msgstr "Administrerede domæner"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Markér som backup MX"
@@ -2174,6 +2184,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr "Afviste meddelelser"
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr "Årsag til afvisning"
 
@@ -2263,9 +2276,6 @@ msgstr "Tilbagekald admin privilegium"
 msgid "SMTP Action"
 msgstr "SMTP-handling"
 
-msgid "SMTP Authentication"
-msgstr "SMTP-godkendelse"
-
 msgid "SMTP Sessions"
 msgstr "SMTP-sessioner"
 
@@ -2353,9 +2363,6 @@ msgstr "De valgte poster blev slettet"
 
 msgid "Self-service"
 msgstr "Selvbetjening"
-
-msgid "Send email to new members for subscription confirm"
-msgstr "Send e-mail til nye medlemmer for abonnementsbekræftelse"
 
 msgid "Send me an email with download link"
 msgstr "Send mig en e-mail med download link"

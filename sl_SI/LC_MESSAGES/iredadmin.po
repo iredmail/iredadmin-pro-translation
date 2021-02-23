@@ -1,13 +1,12 @@
-# Slovenian (Slovenia) translations for PROJECT.
+# Slovenian (Slovenia) translations for iRedAdmin-PrReport-Msgid-Bugs-To:.
 # Copyright (C) 2011 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the
+# iRedAdmin-PrReport-Msgid-Bugs-To: project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
-"POT-Creation-Date: 2020-10-12 12:41+0800\n"
+"Project-Id-Version: iRedAdmin-Pro\n"
 "PO-Revision-Date: 2012-03-29 10:33+0800\n"
 "Last-Translator: Marko Kobal <marko.kobal@arctur.si>\n"
 "Language: sl_SI\n"
@@ -113,6 +112,9 @@ msgstr "Račun ne obstaja."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
+msgstr ""
+
+msgid "Account is active."
 msgstr ""
 
 msgid "Account is disabled."
@@ -240,6 +242,9 @@ msgstr "Vzdevki"
 #, python-format
 msgid "Aliases under domain: %s."
 msgstr "Vzdevki v domeni: %s."
+
+msgid "All SMTP Sessions"
+msgstr ""
 
 msgid "All accounts"
 msgstr "Vsi računi"
@@ -730,6 +735,9 @@ msgstr ""
 msgid "Domain is active, but relay to other host"
 msgstr ""
 
+msgid "Domain is active."
+msgstr ""
+
 msgid "Domain is disabled."
 msgstr ""
 
@@ -837,10 +845,6 @@ msgid ""
 msgstr ""
 "Pošta, poslana na <em><strong>user@[VZDEVČNA_DOMENA]</strong></em>, bo "
 "dostavljena na <em><strong>user@%s</strong></em>."
-
-#, python-format
-msgid "Emails sent to alias accounts will be delivered to %s."
-msgstr ""
 
 #, python-format
 msgid "Emails sent to alias addresses will be delivered to %s."
@@ -1456,6 +1460,9 @@ msgstr "Pošta je bila sproščena."
 msgid "Make sure disclaimer work as expected:"
 msgstr "Preverite, da omejitev odgovornosti deluje kot pričakovano:"
 
+msgid "Manage moderated or owned mailing lists"
+msgstr ""
+
 msgid "Manage per-user white/blacklists"
 msgstr "Prepustni/zaporni seznam"
 
@@ -1464,6 +1471,9 @@ msgstr "Ni pošte v karanteni."
 
 msgid "Managed Domains"
 msgstr "Upravljane domene"
+
+msgid "Managed mailing lists."
+msgstr ""
 
 msgid "Mark as backup MX"
 msgstr "Označi kot Backup MX"
@@ -2077,6 +2087,9 @@ msgstr ""
 msgid "Rejected Messages"
 msgstr ""
 
+msgid "Rejected SMTP Sessions"
+msgstr ""
+
 msgid "Rejection Reason"
 msgstr ""
 
@@ -2160,9 +2173,6 @@ msgid "Revoke admin privilege"
 msgstr "Profil upravitelja:"
 
 msgid "SMTP Action"
-msgstr ""
-
-msgid "SMTP Authentication"
 msgstr ""
 
 msgid "SMTP Sessions"
@@ -2252,9 +2262,6 @@ msgstr "Izbrani zapisi so bili izbrisani."
 
 msgid "Self-service"
 msgstr "Poštna storitev"
-
-msgid "Send email to new members for subscription confirm"
-msgstr ""
 
 msgid "Send me an email with download link"
 msgstr "Pošlji mi e-pošto s povezavo za prenos"
