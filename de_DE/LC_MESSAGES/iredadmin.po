@@ -12,11 +12,11 @@ msgstr ""
 "Last-Translator: Peter <info@nuw.biz>\n"
 "Language: de_DE\n"
 "Language-Team: de_DE <zhb@iredmail.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -251,7 +251,7 @@ msgstr "Aliasse"
 msgid "Aliases under domain: %s."
 msgstr "Aliasse für die Domain: %s."
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -282,8 +282,23 @@ msgstr "Alle E-Mails"
 msgid "All sub-domains"
 msgstr "Alle Subdomains"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "vorgesehen"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr "Erlaube diesem Administrator, neue E-Mail-Domains mit bis zu"
@@ -360,7 +375,7 @@ msgid "Available quota:"
 msgstr "Verfügbarer Speicherplatz:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr "Verfügbar: %d (Vorhanden: %d, Max: %d.)"
 
 msgid "BCC"
@@ -386,6 +401,9 @@ msgstr "Unzulässiger MIME Typ"
 
 msgid "Bad-header checking"
 msgstr "Bad-Header-Prüfung"
+
+msgid "Ban rules"
+msgstr ""
 
 msgid "Banned"
 msgstr "Gesperrt"
@@ -501,6 +519,9 @@ msgstr "Gesamtgröße aller ausgehenden E-Mails"
 
 msgid "Current password is incorrect."
 msgstr "Das aktuelle Kennwort ist nicht korrekt."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "eigener Wert:"
@@ -1308,10 +1329,16 @@ msgstr "Suchbegriff"
 msgid "Kind"
 msgstr "Typ"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr ""
 
 msgid "Last Login:"
+msgstr ""
+
+msgid "Last Logins"
 msgstr ""
 
 msgid "Last Page"
@@ -1468,6 +1495,10 @@ msgstr "Mailinglisten"
 msgid "Mailing list created."
 msgstr "Mailingliste erstellt."
 
+
+msgid "Mailing list:"
+msgstr "Mailingliste"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr "Mailinglisten der Domain: %s"
@@ -1596,6 +1627,9 @@ msgstr "Maximale Nachrichtengröße"
 
 msgid "Max quota of mail user"
 msgstr "Maximales Quota für Benutzer"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "Maximale Größe einer einzelnen E-Mail"
@@ -1746,6 +1780,9 @@ msgstr "Kein Konto ausgewählt."
 
 msgid "No admin log."
 msgstr "Kein Administrator Protokoll."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr ""
@@ -1947,6 +1984,9 @@ msgstr "Oder"
 
 msgid "Or create other mail accounts:"
 msgstr "Oder andere E-Mail Konten anlegen:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr ""
@@ -2211,6 +2251,9 @@ msgstr ""
 "href=\"http://www.greylisting.org/\" target=\"_blank\" rel=\"noopener\"> "
 "greylisting.org </a>."
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr ""
 
@@ -2313,8 +2356,20 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr ""
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalender, Kontakte, Aufgaben, ActiveSync)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
+msgstr ""
 
 msgid "Sample"
 msgstr "Beispiel"
@@ -2833,6 +2888,9 @@ msgstr "Ihre installierte Version ist %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "Sie können keine weiteren Benutzer für die Domain %s anlegen."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

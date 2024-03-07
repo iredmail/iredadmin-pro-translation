@@ -10,11 +10,11 @@ msgstr ""
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language: ru_RU\n"
 "Language-Team: ru_RU <suds77@gmail.com>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -241,7 +241,7 @@ msgstr "Алиасы"
 msgid "Aliases under domain: %s."
 msgstr "Алиасы домена %s"
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -270,8 +270,23 @@ msgstr ""
 msgid "All sub-domains"
 msgstr "Все почтовые под-домены"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "Размещен"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr ""
@@ -346,7 +361,7 @@ msgid "Available quota:"
 msgstr "Доступные квота:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr ""
 
 msgid "BCC"
@@ -371,6 +386,9 @@ msgid "Bad Mime"
 msgstr ""
 
 msgid "Bad-header checking"
+msgstr ""
+
+msgid "Ban rules"
 msgstr ""
 
 msgid "Banned"
@@ -480,6 +498,9 @@ msgstr "Размер квоты для всех исходящих писем"
 
 msgid "Current password is incorrect."
 msgstr "Текущий пароль неверен."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "Пользовательский:"
@@ -1225,10 +1246,16 @@ msgstr "Ключевое слово"
 msgid "Kind"
 msgstr "Тип"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr ""
 
 msgid "Last Login:"
+msgstr ""
+
+msgid "Last Logins"
 msgstr ""
 
 msgid "Last Page"
@@ -1379,6 +1406,10 @@ msgstr ""
 msgid "Mailing list created."
 msgstr ""
 
+
+msgid "Mailing list:"
+msgstr "Добавить почтовый список"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr ""
@@ -1491,6 +1522,9 @@ msgstr ""
 
 msgid "Max quota of mail user"
 msgstr "Квота по умолчанию для нового пользователя"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "Макс. размер одного исходящего письма"
@@ -1639,6 +1673,9 @@ msgstr "Не выбран аккаунт"
 
 msgid "No admin log."
 msgstr "Нет логов администратора."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr ""
@@ -1837,6 +1874,9 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Или создать другой почтовый аккаунт:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr ""
@@ -2084,6 +2124,9 @@ msgid ""
 "greylisting."
 msgstr ""
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr ""
 
@@ -2178,7 +2221,19 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr ""
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
 msgstr ""
 
 msgid "Sample"
@@ -2663,6 +2718,9 @@ msgstr "Вы используйте версию %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "Вы не можете создавать больше пользователей в домене %s."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

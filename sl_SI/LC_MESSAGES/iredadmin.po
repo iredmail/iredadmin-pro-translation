@@ -12,11 +12,11 @@ msgstr ""
 "Language: sl_SI\n"
 "Language-Team: Marko Kobal <marko.kobal@arctur.si>\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
-"|| n%100==4 ? 2 : 3)\n"
+"|| n%100==4 ? 2 : 3);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -243,7 +243,7 @@ msgstr "Vzdevki"
 msgid "Aliases under domain: %s."
 msgstr "Vzdevki v domeni: %s."
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -272,8 +272,23 @@ msgstr ""
 msgid "All sub-domains"
 msgstr "Vse poddomene"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "Dodeljeno"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr ""
@@ -348,7 +363,7 @@ msgid "Available quota:"
 msgstr "Dostopna kvota:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr ""
 
 msgid "BCC"
@@ -373,6 +388,9 @@ msgid "Bad Mime"
 msgstr ""
 
 msgid "Bad-header checking"
+msgstr ""
+
+msgid "Ban rules"
 msgstr ""
 
 msgid "Banned"
@@ -482,6 +500,9 @@ msgstr "Velikostna kvota vse odhajajoče pošte"
 
 msgid "Current password is incorrect."
 msgstr "Trenutno geslo ne velja."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "Po meri:"
@@ -1227,10 +1248,16 @@ msgstr "Ključna beseda"
 msgid "Kind"
 msgstr "Prijazen"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr ""
 
 msgid "Last Login:"
+msgstr ""
+
+msgid "Last Logins"
 msgstr ""
 
 msgid "Last Page"
@@ -1383,6 +1410,10 @@ msgstr ""
 msgid "Mailing list created."
 msgstr ""
 
+
+msgid "Mailing list:"
+msgstr "Dodaj poštni seznam"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr ""
@@ -1495,6 +1526,9 @@ msgstr ""
 
 msgid "Max quota of mail user"
 msgstr "Privzeta kvota novega uporabnika"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "Velikost največjega izhodnega sporočila"
@@ -1643,6 +1677,9 @@ msgstr "Noben račun ni izbran."
 
 msgid "No admin log."
 msgstr "Ni upraviteljskega dnevnika."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr ""
@@ -1837,6 +1874,9 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "Ali pa ustvari druge poštne račune:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr ""
@@ -2084,6 +2124,9 @@ msgid ""
 "greylisting."
 msgstr ""
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr ""
 
@@ -2178,7 +2221,19 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr ""
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
 msgstr ""
 
 msgid "Sample"
@@ -2663,6 +2718,9 @@ msgstr "Uporabljate različico %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "NE morete ustvariti dodatnih uporabnikov v domeni %s."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

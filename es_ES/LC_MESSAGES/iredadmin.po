@@ -10,11 +10,11 @@ msgstr ""
 "Last-Translator: Daniel Carrasco <d.carrasco@ttu.es>\n"
 "Language: es_ES\n"
 "Language-Team: es_ES\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -248,7 +248,7 @@ msgstr "Alias"
 msgid "Aliases under domain: %s."
 msgstr "Alias bajo el dominio: %s."
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -281,8 +281,23 @@ msgstr "Todos los correos"
 msgid "All sub-domains"
 msgstr "Todos los subdominios"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "Asignado"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr "Permitir que este administrador cree nuevos dominios de correo con hasta"
@@ -359,7 +374,7 @@ msgid "Available quota:"
 msgstr "Cuota disponible:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr "Disponible: %d (Existente: %d, Max: %d.)"
 
 msgid "BCC"
@@ -385,6 +400,9 @@ msgstr "Tipo Mime no válido"
 
 msgid "Bad-header checking"
 msgstr "Verificacion de cabeceras erróneas"
+
+msgid "Ban rules"
+msgstr ""
 
 msgid "Banned"
 msgstr "Bloqueado"
@@ -500,6 +518,9 @@ msgstr "Tamaño acumulativo de todos los correos salientes"
 
 msgid "Current password is incorrect."
 msgstr "El password actual es incorrecto."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "Personalizado:"
@@ -1315,11 +1336,17 @@ msgstr "Palabra clave"
 msgid "Kind"
 msgstr "Tipo"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr "Último acceso"
 
 msgid "Last Login:"
 msgstr "Último acceso:"
+
+msgid "Last Logins"
+msgstr ""
 
 msgid "Last Page"
 msgstr "Última página"
@@ -1473,6 +1500,10 @@ msgstr "Listas de correo"
 msgid "Mailing list created."
 msgstr "Lista de correo creada."
 
+
+msgid "Mailing list:"
+msgstr "Lista de correo"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr "Listas de correo bajo el dominio:%s"
@@ -1617,6 +1648,9 @@ msgstr "Tamaño máximo del mensaje"
 
 msgid "Max quota of mail user"
 msgstr "Cuota máxima para un usuario"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "Tamaño máximo por mensaje enviado"
@@ -1767,6 +1801,9 @@ msgstr "Ninguna cuenta seleccionada."
 
 msgid "No admin log."
 msgstr "Sin log de administrador."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr "Sin dirección IP bloqueada."
@@ -1971,6 +2008,9 @@ msgstr "O"
 
 msgid "Or create other mail accounts:"
 msgstr "O crear otras cuentas de correo:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr "Sesiones SMTP salientes"
@@ -2237,6 +2277,9 @@ msgstr ""
 "rel=\"noopener\">greylisting.org</a> para obtener detalles técnicos sobre"
 " listas grises."
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr "Mensajes rechazados"
 
@@ -2339,8 +2382,20 @@ msgstr "Acción SMTP"
 msgid "SMTP Sessions"
 msgstr "Sesiones SMTP"
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Calendario, Contactos, Tareas, ActiveSync)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
+msgstr ""
 
 msgid "Sample"
 msgstr "Ejemplo"
@@ -2856,6 +2911,9 @@ msgstr "Estás ejecutando la versión %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "No puedes crear más usuarios bajo el dominio %s."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

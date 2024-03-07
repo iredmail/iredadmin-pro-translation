@@ -11,11 +11,11 @@ msgstr ""
 "Last-Translator: OSAKANA TARO <osakanataro@gmail.com>\n"
 "Language: ja_JP\n"
 "Language-Team: ja_JP <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -244,7 +244,7 @@ msgstr "エイリアス"
 msgid "Aliases under domain: %s."
 msgstr "ドメイン %s のエイリアス"
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -273,8 +273,23 @@ msgstr "全てのメール"
 msgid "All sub-domains"
 msgstr "全てのサブドメイン"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "使用容量"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr "この管理者に次の数までのメールドメインの作成を許可"
@@ -349,7 +364,7 @@ msgid "Available quota:"
 msgstr "クォータが設定されている:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr "Available: %d (現在: %d, 最大: %d)"
 
 msgid "BCC"
@@ -375,6 +390,9 @@ msgstr "不正なMIME"
 
 msgid "Bad-header checking"
 msgstr "不正ヘッダーの確認"
+
+msgid "Ban rules"
+msgstr ""
 
 msgid "Banned"
 msgstr "拒否"
@@ -483,6 +501,9 @@ msgstr ""
 
 msgid "Current password is incorrect."
 msgstr "現在のパスワードが異なります."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "カスタム:"
@@ -1222,11 +1243,17 @@ msgstr "キーワード"
 msgid "Kind"
 msgstr ""
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr "最新のログイン"
 
 msgid "Last Login:"
 msgstr "最新のログイン:"
+
+msgid "Last Logins"
+msgstr ""
 
 msgid "Last Page"
 msgstr "最終ページ"
@@ -1376,6 +1403,10 @@ msgstr "メーリングリスト"
 msgid "Mailing list created."
 msgstr "メーリングリストを作成しました."
 
+
+msgid "Mailing list:"
+msgstr "メーリングリスト"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr "ドメイン %s メーリングリスト"
@@ -1488,6 +1519,9 @@ msgstr "最大メッセージサイズ"
 
 msgid "Max quota of mail user"
 msgstr "ユーザーユーザのクォータ設定"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "1通のメールの最大サイズ"
@@ -1636,6 +1670,9 @@ msgstr "アカウントが選択されていません."
 
 msgid "No admin log."
 msgstr "管理ログがありません."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr "拒否IPアドレスはありません."
@@ -1830,6 +1867,9 @@ msgstr ""
 
 msgid "Or create other mail accounts:"
 msgstr "他のメールアカウント:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr "外部へのSMTP接続"
@@ -2075,6 +2115,9 @@ msgstr ""
 "グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "\"rel=\"noopener\">greylisting.org</a>を参照"
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr "拒否メッセージ"
 
@@ -2169,8 +2212,20 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr "SMTP接続"
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo グループウェア (カレンダー, 連絡先, タスク, ActiveSync)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
+msgstr ""
 
 msgid "Sample"
 msgstr "サンプル"
@@ -2652,6 +2707,9 @@ msgstr "このシステムは version %s で稼働中"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "ドメイン %s ではこれ以上のユーザの作成はできません."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

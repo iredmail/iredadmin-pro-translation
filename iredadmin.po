@@ -223,7 +223,7 @@ msgstr ""
 msgid "Aliases under domain: %s."
 msgstr ""
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -252,7 +252,22 @@ msgstr ""
 msgid "All sub-domains"
 msgstr ""
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
+msgstr ""
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
 msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
@@ -328,7 +343,7 @@ msgid "Available quota:"
 msgstr ""
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr ""
 
 msgid "BCC"
@@ -353,6 +368,9 @@ msgid "Bad Mime"
 msgstr ""
 
 msgid "Bad-header checking"
+msgstr ""
+
+msgid "Ban rules"
 msgstr ""
 
 msgid "Banned"
@@ -461,6 +479,9 @@ msgid "Cumulative size of all outbound emails"
 msgstr ""
 
 msgid "Current password is incorrect."
+msgstr ""
+
+msgid "Custom ban rules"
 msgstr ""
 
 msgid "Custom:"
@@ -1199,10 +1220,16 @@ msgstr ""
 msgid "Kind"
 msgstr ""
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr ""
 
 msgid "Last Login:"
+msgstr ""
+
+msgid "Last Logins"
 msgstr ""
 
 msgid "Last Page"
@@ -1353,6 +1380,9 @@ msgstr ""
 msgid "Mailing list created."
 msgstr ""
 
+msgid "Mailing list:"
+msgstr ""
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr ""
@@ -1464,6 +1494,9 @@ msgid "Max message size"
 msgstr ""
 
 msgid "Max quota of mail user"
+msgstr ""
+
+msgid "Max recipients of single email"
 msgstr ""
 
 msgid "Max size of single email"
@@ -1610,6 +1643,9 @@ msgid "No account selected."
 msgstr ""
 
 msgid "No admin log."
+msgstr ""
+
+msgid "No any login or mail delivery yet."
 msgstr ""
 
 msgid "No banned IP address."
@@ -1804,6 +1840,9 @@ msgid "Or"
 msgstr ""
 
 msgid "Or create other mail accounts:"
+msgstr ""
+
+msgid "Outbound"
 msgstr ""
 
 msgid "Outbound SMTP Sessions"
@@ -2048,6 +2087,9 @@ msgid ""
 "greylisting."
 msgstr ""
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr ""
 
@@ -2142,7 +2184,19 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr ""
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
 msgstr ""
 
 msgid "Sample"
@@ -2622,6 +2676,9 @@ msgstr ""
 
 #, python-format
 msgid "You can NOT create more users under domain %s."
+msgstr ""
+
+msgid "You can change the kept days here:"
 msgstr ""
 
 #, python-format

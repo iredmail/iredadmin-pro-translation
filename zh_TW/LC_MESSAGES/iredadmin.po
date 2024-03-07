@@ -11,11 +11,11 @@ msgstr ""
 "Last-Translator: Ho <ho.iredmail@gmail.com>\n"
 "Language: zh_Hant_TW\n"
 "Language-Team: zh_TW <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -242,7 +242,7 @@ msgstr "別名"
 msgid "Aliases under domain: %s."
 msgstr "網域 %s 內的別名："
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -271,8 +271,23 @@ msgstr "所有電子郵件"
 msgid "All sub-domains"
 msgstr "所有子網域"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "已分配"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr ""
@@ -347,7 +362,7 @@ msgid "Available quota:"
 msgstr "可用空間配額"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr "可用： %d （已有： %d，最大： %d。）"
 
 msgid "BCC"
@@ -373,6 +388,9 @@ msgstr ""
 
 msgid "Bad-header checking"
 msgstr "檢查錯誤標頭郵件"
+
+msgid "Ban rules"
+msgstr ""
 
 msgid "Banned"
 msgstr "禁止"
@@ -481,6 +499,9 @@ msgstr "所有外發郵件的總容量"
 
 msgid "Current password is incorrect."
 msgstr "當前密碼錯誤。"
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "自訂："
@@ -1223,11 +1244,17 @@ msgstr "關鍵字"
 msgid "Kind"
 msgstr "性質"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr "上次登入"
 
 msgid "Last Login:"
 msgstr "上次登入："
+
+msgid "Last Logins"
+msgstr ""
 
 msgid "Last Page"
 msgstr "最後一頁"
@@ -1377,6 +1404,10 @@ msgstr ""
 msgid "Mailing list created."
 msgstr ""
 
+
+msgid "Mailing list:"
+msgstr "新增郵件列表"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr ""
@@ -1489,6 +1520,9 @@ msgstr ""
 
 msgid "Max quota of mail user"
 msgstr "用戶最大空間配額"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "單封郵件的最大容量"
@@ -1637,6 +1671,9 @@ msgstr "未選擇任何帳號"
 
 msgid "No admin log."
 msgstr "沒有管理員日誌。"
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr "沒有被禁止的 IP 地址"
@@ -1831,6 +1868,9 @@ msgstr "或"
 
 msgid "Or create other mail accounts:"
 msgstr "或建立其它郵件帳號："
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr ""
@@ -2076,6 +2116,9 @@ msgid ""
 "greylisting."
 msgstr ""
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr ""
 
@@ -2170,7 +2213,19 @@ msgstr ""
 msgid "SMTP Sessions"
 msgstr ""
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
 msgstr ""
 
 msgid "Sample"
@@ -2651,6 +2706,9 @@ msgstr "您正在使用版本 %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "您無法在網域 %s 內建立更多的郵件用戶。"
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."

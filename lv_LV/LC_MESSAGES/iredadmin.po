@@ -10,11 +10,11 @@ msgstr ""
 "Last-Translator: Juris BALANDIS <juris.balandis@gmail.com>\n"
 "Language: lv_LV\n"
 "Language-Team: lv_LV <juris.balandis@gmail.com>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.13.1\n"
 
 #, python-format
 msgid "%d admin(s) found."
@@ -248,7 +248,7 @@ msgstr "Aizstājvārdi"
 msgid "Aliases under domain: %s."
 msgstr "Aizstājvārdi domēnā: %s."
 
-msgid "All SMTP Sessions"
+msgid "All"
 msgstr ""
 
 msgid "All accounts"
@@ -281,8 +281,23 @@ msgstr "Visi e-pasta ziņojumi"
 msgid "All sub-domains"
 msgstr "Visi apakšdomēni"
 
+msgid "All users"
+msgstr ""
+
 msgid "Allocated"
 msgstr "Piešķirtais"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr ""
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr ""
+
+msgid "Allow Microsoft Office Word documents"
+msgstr ""
+
+msgid "Allow all Microsoft Office documents"
+msgstr ""
 
 msgid "Allow this admin to create new mail domains with up to"
 msgstr "Atļaut šim administratoram izveidot jaunus pasta domēnus līdz"
@@ -357,7 +372,7 @@ msgid "Available quota:"
 msgstr "Pieejamā kvota:"
 
 #, python-format
-msgid "Available: %d (Existing: %d, Max: %d.)"
+msgid "Available: %d (Allocated: %d, Max: %d.)"
 msgstr "Pieejams: %d (esošs: %d, maks.: %d.)"
 
 msgid "BCC"
@@ -383,6 +398,9 @@ msgstr "Nederīgs MIME"
 
 msgid "Bad-header checking"
 msgstr "Slikta virsraksta pārbaude"
+
+msgid "Ban rules"
+msgstr ""
 
 msgid "Banned"
 msgstr "Aizliegts"
@@ -497,6 +515,9 @@ msgstr "Visu izejošo e-pasta ziņojumu kumulatīvais lielums"
 
 msgid "Current password is incorrect."
 msgstr "Pašreizējā parole nav pareiza."
+
+msgid "Custom ban rules"
+msgstr ""
 
 msgid "Custom:"
 msgstr "Pielāgot:"
@@ -1281,10 +1302,16 @@ msgstr "Atslēgvārds"
 msgid "Kind"
 msgstr "veids"
 
+msgid "Last Email Delivery"
+msgstr ""
+
 msgid "Last Login"
 msgstr "Pēdējā pieteikšanās"
 
 msgid "Last Login:"
+msgstr ""
+
+msgid "Last Logins"
 msgstr ""
 
 msgid "Last Page"
@@ -1437,6 +1464,10 @@ msgstr "Adresātu saraksti"
 msgid "Mailing list created."
 msgstr "Izveidots adresātu saraksts."
 
+
+msgid "Mailing list:"
+msgstr "Adresātu saraksts"
+
 #, python-format
 msgid "Mailing lists under domain: %s"
 msgstr "Adresātu saraksti domēnā: %s"
@@ -1571,6 +1602,9 @@ msgstr "Maksimālais ziņojuma lielums"
 
 msgid "Max quota of mail user"
 msgstr "Maksimālā e-pasta lietotāja kvota"
+
+msgid "Max recipients of single email"
+msgstr ""
 
 msgid "Max size of single email"
 msgstr "Maksimālais viena e-pasta lielums"
@@ -1721,6 +1755,9 @@ msgstr "Nav atlasīts neviens konts."
 
 msgid "No admin log."
 msgstr "Nav administratora žurnāla."
+
+msgid "No any login or mail delivery yet."
+msgstr ""
 
 msgid "No banned IP address."
 msgstr "Nav aizliegta IP adrese."
@@ -1921,6 +1958,9 @@ msgstr "Vai"
 
 msgid "Or create other mail accounts:"
 msgstr "Vai izveidot citus e-pasta kontus:"
+
+msgid "Outbound"
+msgstr ""
 
 msgid "Outbound SMTP Sessions"
 msgstr "Izejošās SMTP sesijas"
@@ -2185,6 +2225,9 @@ msgstr ""
 "href=\"http://www.greylisting.org/\" target=\"_blank\" "
 "rel=\"noopener\">greylisting.org</a>."
 
+msgid "Rejected"
+msgstr ""
+
 msgid "Rejected Messages"
 msgstr "Noraidītie ziņojumi"
 
@@ -2283,8 +2326,20 @@ msgstr "SMTP darbība"
 msgid "SMTP Sessions"
 msgstr "SMTP sesijas"
 
+msgid "SOGo ActiveSync"
+msgstr ""
+
+msgid "SOGo Calendar"
+msgstr ""
+
 msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
 msgstr "SOGo Groupware (Kalendārs, Kontaktpersonas, Uzdevumi)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr ""
+
+msgid "SOGo Webmail"
+msgstr ""
 
 msgid "Sample"
 msgstr "Paraugs"
@@ -2794,6 +2849,9 @@ msgstr "Jūs lietojiet versiju %s"
 #, python-format
 msgid "You can NOT create more users under domain %s."
 msgstr "Vairāk lietotāju nevar izveidot domēnā %s."
+
+msgid "You can change the kept days here:"
+msgstr ""
 
 #, python-format
 msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."
