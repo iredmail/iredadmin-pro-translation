@@ -1,0 +1,2939 @@
+# English (United States) translations for .
+# Copyright (C) 2010 ORGANIZATION
+# This file is distributed under the same license as the  project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iRedAdmin-Pro\n"
+"PO-Revision-Date: 2024-07-04 11:42+0700\n"
+"Last-Translator: Pham Hoang Ha <haph@matbao.com>\n"
+"Language: vi_VN\n"
+"Language-Team: vi_VN <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#, python-format
+msgid "%d admin(s) found."
+msgstr "đã tìm thấy%d quản trị viên."
+
+#, python-format
+msgid "%d domain(s) found."
+msgstr "Đã tìm thấy %d tên miền."
+
+#, python-format
+msgid "%d in total."
+msgstr "Tổng cộng %d."
+
+#, python-format
+msgid "%d mail alias(es) found."
+msgstr "Đã tìm thấy %d (các) bí danh thư."
+
+#, python-format
+msgid "%d mailing list(s) found."
+msgstr "Đã tìm thấy %d danh sách gửi thư."
+
+#, python-format
+msgid "%d of %d in total."
+msgstr "Tổng cộng %d trên %d."
+
+#, python-format
+msgid "%d user(s) found."
+msgstr "đã tìm thấy %d người dùng."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr "%d người dùng đã gửi email mà không có kết nối an toàn trong %d giờ qua."
+
+#, python-format
+msgid "%s account(s) exist."
+msgstr "%s tài khoản đã tồn tại."
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s ngày, %s giờ, %s phút."
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr "(%d tin nhắn, %s.)"
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr "(%d%% đầy, %d tin nhắn, %s.)"
+
+msgid "(Mailbox is empty.)"
+msgstr "(Hộp thư trống.)"
+
+msgid "1 Day"
+msgstr "1 ngày"
+
+msgid "1 Hour"
+msgstr "1 giờ"
+
+msgid "1 Minute"
+msgstr "1 Phút"
+
+msgid "About greylisting"
+msgstr "Giới thiệu về Greylisting"
+
+msgid "About mail logs"
+msgstr "Giới thiệu về nhật ký thư"
+
+msgid "About quarantined mails"
+msgstr "Giới thiệu về thư bị cách ly"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr "Đang chấp nhận thư được gửi tới tài khoản này trên máy chủ thư"
+
+msgid "Access control"
+msgstr "Kiểm soát truy cập"
+
+#, python-format
+msgid ""
+"According to our <a href='%s' target='_blank' rel='noopener'>license "
+"terms</a>, you have to purchase a new license to get the latest release "
+"if your license expired."
+msgstr ""
+"Theo <a href='%s' target='_blank' rel='noopener'>giấy phép của chúng tôi "
+"điều khoản</a>, bạn phải mua giấy phép mới để có được bản phát hành mới nhất "
+"nếu giấy phép của bạn hết hạn."
+
+msgid "Account activities"
+msgstr "Hoạt động tài khoản"
+
+msgid "Account already exists, please choose another one."
+msgstr "Tài khoản đã tồn tại, vui lòng chọn tài khoản khác."
+
+msgid "Account does not exist."
+msgstr "Tài khoản không tồn tại."
+
+msgid ""
+"Account does not have specific spam policy yet, server-wide policy will "
+"be applied."
+msgstr ""
+"Tài khoản chưa có chính sách spam cụ thể, chính sách toàn máy chủ sẽ "
+"được áp dụng."
+
+msgid "Account is active."
+msgstr "Tài khoản đang hoạt động."
+
+msgid "Account is disabled."
+msgstr "Tài khoản bị vô hiệu hóa."
+
+msgid "Account is domain admin"
+msgstr "Tài khoản là quản trị viên miền"
+
+msgid "Account is global admin"
+msgstr "Tài khoản là quản trị viên toàn cầu"
+
+msgid "Account status"
+msgstr "Trạng thái tài khoản"
+
+msgid "Account type"
+msgstr "Loại tài khoản"
+
+msgid "Activate account"
+msgstr "Kích hoạt tài khoản"
+
+msgid "Active"
+msgstr "Đang hoạt động"
+
+msgid "Activities"
+msgstr "Hoạt động"
+
+msgid "Add"
+msgstr "Thêm"
+
+msgid "Add (subscribable) mailing list"
+msgstr "Thêm danh sách gửi thư (có thể đăng ký)"
+
+msgid "Add account"
+msgstr "Thêm tài khoản"
+
+msgid "Add admin"
+msgstr "Thêm quản trị viên"
+
+msgid "Add domain"
+msgstr "Thêm tên miền"
+
+msgid "Add mail alias"
+msgstr "Thêm bí danh"
+
+msgid "Add mail alias under domain"
+msgstr "Thêm bí danh theo tên miền"
+
+msgid "Add mail user"
+msgstr "Thêm người dùng"
+
+msgid "Add mail user under domain"
+msgstr "Thêm người dùng theo miền"
+
+msgid "Add mailing list"
+msgstr "Thêm danh sách gửi thư"
+
+msgid "Add mailing list under domain"
+msgstr "Thêm danh sách gửi thư theo tên miền"
+
+msgid "Add new members"
+msgstr "Thêm thành viên mới"
+
+msgid "Add new moderators"
+msgstr "Thêm người kiểm duyệt mới"
+
+msgid "Add one"
+msgstr "Thêm một"
+
+msgid "Add one more?"
+msgstr "Thêm nhiều hơn?"
+
+msgid "Add whitelist and blacklist"
+msgstr "Thêm danh sách ưu tiên và danh sách chặn"
+
+msgid "Address"
+msgstr "Địa chỉ"
+
+msgid "Address format"
+msgstr "Định dạng địa chỉ"
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin Log"
+msgstr "Nhật ký quản trị"
+
+msgid "Admin created."
+msgstr "Quản trị viên đã tạo."
+
+msgid "Admin login"
+msgstr "Đăng nhập quản trị viên"
+
+msgid "Admins"
+msgstr "Quản trị viên"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "Quản trị viên thuộc miền: %s"
+
+msgid "Advanced"
+msgstr "Nâng cao"
+
+msgid "Alias"
+msgstr "Bí danh"
+
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr "Địa chỉ bí danh phải kết thúc bằng tên miền: %s"
+
+msgid "Alias addresses:"
+msgstr "Địa chỉ bí danh:"
+
+msgid "Alias domains"
+msgstr "Tên miền bí danh"
+
+msgid "Alias domains:"
+msgstr "Các tên miền bí danh:"
+
+msgid "Alias email addresses"
+msgstr "Địa chỉ email bí danh"
+
+msgid "Aliases"
+msgstr "Bí danh"
+
+#, python-format
+msgid "Aliases under domain: %s."
+msgstr "Bí danh trong miền: %s."
+
+msgid "All"
+msgstr "Tất cả"
+
+msgid "All accounts"
+msgstr "Tất cả tài khoản"
+
+msgid "All admins"
+msgstr "Tất cả quản trị viên"
+
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr "Tất cả quản trị viên chỉ có thể đăng nhập từ địa chỉ IP hoặc mạng được chỉ định"
+
+msgid "All domains"
+msgstr "Tất cả tên miền"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+"Tất cả các miền do quản trị viên này quản lý đều chia sẻ hạn ngạch và giới hạn hộp thư "
+"tài khoản thư."
+
+msgid "All domains under your control."
+msgstr "Tất cả các miền thuộc quyền kiểm soát của bạn."
+
+msgid "All emails"
+msgstr "Tất cả email"
+
+msgid "All sub-domains"
+msgstr "Tất cả tên miền phụ"
+
+msgid "All users"
+msgstr "Tất cả người dùng"
+
+msgid "Allocated"
+msgstr "Đã phân bổ"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr "Cho phép tài liệu Microsoft Office Excel"
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr "Cho phép tài liệu Microsoft Office PowerPoint"
+
+msgid "Allow Microsoft Office Word documents"
+msgstr "Cho phép tài liệu Microsoft Office Word"
+
+msgid "Allow all Microsoft Office documents"
+msgstr "Cho phép tất cả tài liệu Microsoft Office"
+
+msgid "Allow this admin to create new mail domains with up to"
+msgstr "Cho phép quản trị viên này tạo các miền thư mới có tối đa"
+
+msgid "Allow this admin to mark other mail user as domain admin"
+msgstr "Cho phép quản trị viên này đánh dấu người dùng thư khác là quản trị viên miền"
+
+msgid "Almost finished."
+msgstr "Gần xong rồi."
+
+#, python-format
+msgid "Already exceed max number of account limit (%d)."
+msgstr "Đã vượt quá số lượng giới hạn tài khoản tối đa (%d)."
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr "Đã đạt đến giới hạn tài khoản (bí danh thư)."
+
+msgid "Already reaches account limit (mail domains)."
+msgstr "Đã đạt đến giới hạn tài khoản (miền thư)."
+
+msgid "Already reaches account limit (mail users)."
+msgstr "Đã đạt đến giới hạn tài khoản (người dùng thư)."
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr "Đã đạt đến giới hạn tài khoản (hạn ngạch hộp thư)."
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr "Đã đạt đến giới hạn tài khoản (danh sách gửi thư)."
+
+msgid "Always insert X-Spam-* headers"
+msgstr "Luôn chèn tiêu đề X-Spam-*"
+
+msgid "Apply"
+msgstr "Áp dụng"
+
+msgid "Archive"
+msgstr "Lưu trữ"
+
+msgid "Assigned groups:"
+msgstr "Các nhóm đã được chỉ định:"
+
+#, python-format
+msgid "At least %d characters."
+msgstr "Ít nhất %d ký tự."
+
+#, python-format
+msgid "At least %s characters."
+msgstr "Ít nhất %s ký tự."
+
+msgid "At least one digit number"
+msgstr "Ít nhất một chữ số"
+
+msgid "At least one letter"
+msgstr "Ít nhất một chữ cái"
+
+msgid "At least one special character:"
+msgstr "Ít nhất một ký tự đặc biệt:"
+
+msgid "At least one uppercase letter"
+msgstr "Ít nhất một chữ cái viết hoa"
+
+msgid "Attachments"
+msgstr "Tệp đính kèm"
+
+msgid "Auth Username"
+msgstr "Tên người dùng xác thực"
+
+msgid "Authenticated User"
+msgstr "Người dùng đã xác thực"
+
+msgid "Available quota:"
+msgstr "Dung lượng khả dụng:"
+
+#, python-format
+msgid "Available: %d (Allocated: %d, Max: %d.)"
+msgstr "Có sẵn: %d (Đã phân bổ: %d, Tối đa: %d.)"
+
+msgid "BCC"
+msgstr ""
+
+msgid "BCC incoming emails to other address"
+msgstr "BCC email nhận tới địa chỉ khác"
+
+msgid "BCC outgoing emails to other address"
+msgstr "BCC email gửi tới địa chỉ khác"
+
+msgid "Backup"
+msgstr "Sao lưu"
+
+msgid "Backup MX"
+msgstr "MX dự phòng"
+
+msgid "Bad Header"
+msgstr "Tiêu đề xấu"
+
+msgid "Bad Mime"
+msgstr "Mime không đúng định dạng"
+
+msgid "Bad-header checking"
+msgstr "Kiểm tra tiêu đề sai"
+
+msgid "Ban rules"
+msgstr "Các quy tắc cấm"
+
+msgid "Banned"
+msgstr "Bị cấm"
+
+msgid "Banned IP Addresses"
+msgstr "Địa chỉ IP bị cấm"
+
+msgid "Banned file type checking"
+msgstr "Kiểm tra loại tập tin bị cấm"
+
+msgid "Blacklisted recipients"
+msgstr "Người nhận bị liệt vào danh sách chặn"
+
+msgid "Blacklisted senders"
+msgstr "Người gửi bị liệt vào danh sách chặn"
+
+msgid "Blacklists"
+msgstr "Danh sách chặn"
+
+msgid "Block or quarantine marked spam when score is >="
+msgstr "Chặn hoặc cách ly thư rác được đánh dấu khi điểm là >="
+
+msgid "CIDR formatted range of IP addresses"
+msgstr "Dải địa chỉ IP được định dạng CIDR"
+
+msgid "Can not be longer than"
+msgstr "Không thể dài hơn"
+
+msgid "Can not be shorter than"
+msgstr "Không thể ngắn hơn"
+
+msgid "Catch-all"
+msgstr ""
+
+msgid "Catch-all Addresses"
+msgstr "Địa chỉ Catch-all"
+
+msgid "Catch-all address may receive many spam emails."
+msgstr "Địa chỉ Catch-all có thể nhận nhiều email rác."
+
+msgid "Change email address"
+msgstr "Thay đổi địa chỉ email"
+
+msgid "Change email address to"
+msgstr "Đổi địa chỉ email thành"
+
+msgid "Change password"
+msgstr "Đổi mật khẩu"
+
+msgid "Choose Action"
+msgstr "Chọn hành động"
+
+msgid "Choose activity type"
+msgstr "Chọn loại hoạt động"
+
+msgid "Clean"
+msgstr ""
+
+msgid "Client Address"
+msgstr "Địa chỉ khách hàng"
+
+msgid "Client Hostname"
+msgstr "Tên máy chủ của khách hàng"
+
+msgid "Comment"
+msgstr "Bình luận"
+
+msgid "Company/Organization Name"
+msgstr "Tên công ty/tổ chức"
+
+msgid ""
+"Confirm email has been sent to new members. Members will appear below "
+"after they confirmed the subscription."
+msgstr ""
+"Email xác nhận đã được gửi tới thành viên mới. Thành viên sẽ xuất hiện bên dưới "
+"sau khi họ xác nhận đăng ký."
+
+msgid "Confirm new password"
+msgstr "Xác nhận mật khẩu mới"
+
+msgid "Contact webmaster"
+msgstr "Liên hệ với quản trị trang web"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr "Nội dung từ chối trách nhiệm sẽ được thêm vào email gửi đi."
+
+msgid "Country"
+msgstr "Quốc gia"
+
+msgid ""
+"Create a TXT type DNS record of the domain name, use the verify code as "
+"its value"
+msgstr ""
+"Tạo bản ghi DNS loại TXT của tên miền, sử dụng mã xác minh là "
+"Giá trị của nó"
+
+msgid ""
+"Create a text file under top directory of your web site, both file name "
+"and file content must be same as verify code"
+msgstr ""
+"Tạo một tệp văn bản trong thư mục trên cùng của trang web của bạn, cả tên tệp "
+"và nội dung tệp phải giống với mã xác minh"
+
+msgid "Create new mail domains with up to"
+msgstr "Tạo tên miền thư mới có tối đa"
+
+msgid "Cumulative size of all inbound emails"
+msgstr "Kích thước tích lũy của tất cả các email gửi đến"
+
+msgid "Cumulative size of all outbound emails"
+msgstr "Kích thước tích lũy của tất cả email gửi đi"
+
+msgid "Current password is incorrect."
+msgstr "Mật khẩu hiện tại không đúng."
+
+msgid "Custom ban rules"
+msgstr "Quy tắc cấm tùy chỉnh"
+
+msgid "Custom:"
+msgstr "Tùy chỉnh:"
+
+msgid "Customize mail filter rule"
+msgstr "Tùy chỉnh quy tắc lọc thư"
+
+msgid "Customize mail filter rule over TLS/SSL"
+msgstr "Tùy chỉnh quy tắc lọc thư qua TLS/SSL"
+
+msgid "DISABLED"
+msgstr "Vô hiệu hóa"
+
+msgid "DNS query result should contain the verify code:"
+msgstr "Kết quả truy vấn DNS phải chứa mã xác minh:"
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+msgid "Data Clean Up"
+msgstr "Dọn dẹp dữ liệu"
+
+msgid "Date"
+msgstr "Ngày"
+
+msgid "Days"
+msgstr "Ngày"
+
+msgid "Default bcc address for incoming emails for new user"
+msgstr "Địa chỉ bcc mặc định cho email đến của người dùng mới"
+
+msgid "Default bcc address for outgoing emails for new user"
+msgstr "Địa chỉ bcc mặc định cho email gửi đi cho người dùng mới"
+
+#, python-format
+msgid "Default is %s."
+msgstr "Mặc định là %s."
+
+msgid "Default language for new user"
+msgstr "Ngôn ngữ mặc định cho người dùng mới"
+
+msgid "Default mail alias(es) of new user"
+msgstr "(Các) bí danh thư mặc định của người dùng mới"
+
+msgid "Default mailbox folder"
+msgstr "Thư mục hộp thư mặc định"
+
+msgid "Default mailbox format"
+msgstr "Định dạng hộp thư mặc định"
+
+msgid "Default mailing list(s) of new user"
+msgstr "(Các) danh sách gửi thư mặc định của người dùng mới"
+
+msgid "Default quota of new user"
+msgstr "Hạn ngạch mặc định của người dùng mới"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Delete account"
+msgstr "Xóa tài khoản"
+
+msgid "Delete all in database"
+msgstr "Xóa tất cả trong cơ sở dữ liệu"
+
+msgid "Delete and archive"
+msgstr "Xóa và lưu trữ"
+
+msgid "Delete mailboxes"
+msgstr "Xóa hộp thư"
+
+msgid "Delete policy and use default settings"
+msgstr "Xóa chính sách và sử dụng cài đặt mặc định"
+
+msgid "Delete selected"
+msgstr "Xóa đã chọn"
+
+msgid "Delete selected log"
+msgstr "Xóa nhật ký đã chọn"
+
+msgid "Delete selected, and blacklist entire recipient domain(s)"
+msgstr "Xóa đã chọn và đưa vào danh sách chặn toàn bộ (các) miền của người nhận"
+
+msgid "Delete selected, and blacklist entire sender domain(s)"
+msgstr "Xóa đã chọn và đưa vào danh sách chặn toàn bộ (các) miền của người gửi"
+
+msgid "Delete selected, and blacklist recipient domain(s) and all sub-domains"
+msgstr "Xóa (các) miền người nhận đã chọn và đưa vào danh sách chặn cũng như tất cả các miền phụ"
+
+msgid "Delete selected, and blacklist recipient(s)"
+msgstr "Xóa những người nhận đã chọn và đưa vào danh sách chặn"
+
+msgid "Delete selected, and blacklist sender domain(s) and all its sub-domains"
+msgstr "Xóa đã chọn và đưa vào danh sách chặn (các) miền của người gửi cũng như tất cả các miền phụ của nó"
+
+msgid "Delete selected, and blacklist sender domain(s) and all sub-domains"
+msgstr "Xóa đã chọn và đưa (các) miền của người gửi vào danh sách chặn cũng như tất cả các miền phụ"
+
+msgid "Delete selected, and blacklist sender(s)"
+msgstr "Xóa những người gửi đã chọn và đưa vào danh sách chặn"
+
+msgid "Delete selected, and whitelist entire recipient domain(s)"
+msgstr "Xóa đã chọn và đưa toàn bộ tên miền của người nhận vào danh sách ưu tiên"
+
+msgid "Delete selected, and whitelist entire sender domain(s)"
+msgstr "Xóa đã chọn và đưa toàn bộ miền của người gửi vào danh sách ưu tiên"
+
+msgid "Delete selected, and whitelist recipient domain(s) and all sub-domains"
+msgstr "Xóa (các) miền của người nhận đã chọn và đưa vào danh sách ưu tiên cũng như tất cả các miền phụ"
+
+msgid "Delete selected, and whitelist recipient(s)"
+msgstr "Xóa người nhận đã chọn và đưa vào danh sách ưu tiên"
+
+msgid "Delete selected, and whitelist sender domain(s) and all sub-domains"
+msgstr "Xóa đã chọn và đưa (các) miền của người gửi vào danh sách ưu tiên cũng như tất cả các miền phụ"
+
+msgid "Delete selected, and whitelist sender(s)"
+msgstr "Xóa người gửi đã chọn và đưa vào danh sách ưu tiên"
+
+msgid "Delete without archiving"
+msgstr "Xóa mà không lưu trữ"
+
+msgid "Delivery Attempts"
+msgstr "Cố gắng phân phối thư"
+
+msgid "Digest"
+msgstr "Digest"
+
+msgid "Directory of mailbox storage"
+msgstr "Thư mục lưu trữ hộp thư"
+
+msgid "Disable"
+msgstr "Tắt"
+
+msgid "Disable account"
+msgstr "Vô hiệu hóa tài khoản"
+
+msgid "Disable greylisting service"
+msgstr "Tắt dịch vụ đưa vào Greylisting"
+
+msgid ""
+"Disable subscription and unsubscription via email (existing subscribers "
+"are still able to send to list)"
+msgstr ""
+"Vô hiệu hóa đăng ký và hủy đăng ký qua email (người đăng ký hiện tại "
+"vẫn có thể gửi vào danh sách)"
+
+msgid "Disable subscription but allow unsubscription via email"
+msgstr "Tắt đăng ký nhưng cho phép hủy đăng ký qua email"
+
+msgid "Disable subscription confirm"
+msgstr "Tắt xác nhận đăng ký"
+
+msgid "Disabled"
+msgstr "Đã tắt"
+
+msgid "Disabled accounts"
+msgstr "Tài khoản bị vô hiệu hóa"
+
+msgid "Disabled domain profiles"
+msgstr "Cấu hình miền bị vô hiệu hóa"
+
+msgid "Disabled domains"
+msgstr "Các miền bị vô hiệu hóa"
+
+msgid "Disabled mail services"
+msgstr "Dịch vụ thư đã bị vô hiệu hóa"
+
+msgid "Disabled self-service preferences"
+msgstr "Đã tắt tùy chọn tự phục vụ"
+
+msgid "Disabled user profiles"
+msgstr "Hồ sơ người dùng bị vô hiệu hóa"
+
+msgid ""
+"Disabling service will be applied to newly created mail user by default. "
+"If you want to update existing mail users, please toggle on checkbox "
+"below."
+msgstr ""
+"Theo mặc định, việc tắt dịch vụ sẽ được áp dụng cho người dùng thư mới tạo."
+"Nếu bạn muốn cập nhật người dùng thư hiện có, vui lòng bật hộp kiểm "
+"dưới."
+
+msgid "Disallow to manage quarantined mails"
+msgstr "Không cho phép quản lý thư bị cách ly"
+
+msgid "Disallow to view log of inbound/outbound mails"
+msgstr "Không cho phép xem nhật ký thư đến/đi"
+
+msgid "Disclaimer"
+msgstr "Tuyên bố từ chối trách nhiệm"
+
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+msgid "Do not apply greylisting on emails sent from domains listed below"
+msgstr "Không áp dụng Greylisting cho các email được gửi từ các miền được liệt kê bên dưới"
+
+msgid "Do not apply greylisting on listed senders"
+msgstr "Không áp dụng Greylisting cho những người gửi được liệt kê"
+
+msgid "Do not archive received emails"
+msgstr "Không lưu trữ email đã nhận"
+
+msgid ""
+"Do not notify sender when posting to a moderator-only mailing list was "
+"denied"
+msgstr ""
+"Không thông báo cho người gửi khi đăng bài lên danh sách gửi thư chỉ dành cho người kiểm duyệt "
+"từ chối"
+
+msgid ""
+"Do not notify sender when posting to a subscriber-only mailing list was "
+"denied"
+msgstr ""
+"Không thông báo cho người gửi khi đăng bài lên danh sách gửi thư chỉ dành cho người đăng ký "
+"từ chối"
+
+msgid ""
+"Do not notify sender when posting was denied due to exceed max message "
+"size"
+msgstr ""
+"Không thông báo cho người gửi khi bài đăng bị từ chối do vượt quá số lượng tin nhắn tối đa"
+"kích cỡ"
+
+msgid "Do not notify subscription requestor when subscription is under moderated"
+msgstr "Không thông báo cho người yêu cầu đăng ký khi đăng ký đang ở mức kiểm duyệt"
+
+msgid "Do not send a copy to sender"
+msgstr "Đừng gửi bản sao cho người gửi"
+
+msgid "Domain"
+msgstr "Tên miền"
+
+msgid "Domain Admins"
+msgstr "Quản trị viên tên miền"
+
+msgid "Domain Name"
+msgstr "Tên miền"
+
+msgid "Domain activities"
+msgstr "Hoạt động của miền"
+
+msgid "Domain admin"
+msgstr "Quản trị viên tên miền"
+
+msgid "Domain admin cannot assign more than max quota to a mail user."
+msgstr "Quản trị viên tên miền không thể chỉ định nhiều hơn hạn ngạch tối đa cho một người dùng thư."
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr "Tên miền đã tồn tại. Vui lòng kiểm tra cả tên miền chính hoặc bí danh."
+
+msgid "Domain and its sub-domains"
+msgstr "Tên miền và các tên miền phụ của nó"
+
+msgid "Domain created."
+msgstr "Tên miền đã được tạo."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr "Miền đang hoạt động nhưng được đánh dấu là MX dự phòng."
+
+msgid "Domain is active, but relay to other host"
+msgstr "Miền đang hoạt động nhưng chuyển tiếp tới máy chủ khác"
+
+msgid "Domain is active."
+msgstr "Miền đang hoạt động."
+
+msgid "Domain is disabled."
+msgstr "Miền bị vô hiệu hóa."
+
+msgid "Domain name is empty."
+msgstr "Tên miền trống."
+
+msgid "Domain name or mail address"
+msgstr "Tên miền hoặc địa chỉ thư"
+
+msgid "Domain name or username is missed."
+msgstr "Tên miền hoặc tên người dùng bị thiếu."
+
+msgid "Domain ownership verification"
+msgstr "Xác minh quyền sở hữu tên miền"
+
+msgid ""
+"Domain ownership verification is recommended if you can not fully trust "
+"this admin, because if domains like gmail.com, hotmail.com were added "
+"locally, all emails sent to gmail.com/hotmail.com will be delivered "
+"locally on your server instead of the real Gmail/Hotmail servers."
+msgstr ""
+"Nên xác minh quyền sở hữu tên miền nếu bạn không thể hoàn toàn tin tưởng "
+"quản trị viên này, vì nếu các miền như gmail.com, hotmail.com được thêm vào "
+"tại địa phương, tất cả email gửi tới gmail.com/hotmail.com sẽ được gửi "
+"cục bộ trên máy chủ của bạn thay vì máy chủ Gmail/Hotmail thực sự."
+
+msgid "Domain ownership verification required"
+msgstr "Yêu cầu xác minh quyền sở hữu tên miền"
+
+msgid "Domain quota size"
+msgstr "Kích thước khả dụng tên miền"
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Đã vượt quá kích thước khả dụng của miền. Vui lòng liên hệ với quản trị viên hoặc dịch vụ của bạn "
+"nhà cung cấp để nâng cấp."
+
+msgid "Domains"
+msgstr "Tên miền"
+
+msgid "Domains and Accounts"
+msgstr "Tên miền và Tài khoản"
+
+msgid "Dump disclaimer automatically"
+msgstr "Tự động hủy tuyên bố từ chối trách nhiệm"
+
+msgid "Dunno"
+msgstr "Không biết"
+
+msgid "Edit account profile"
+msgstr "Chỉnh sửa hồ sơ tài khoản"
+
+msgid "Edit domain profile"
+msgstr "Chỉnh sửa hồ sơ tên miền"
+
+msgid "Edit quota setting"
+msgstr "Chỉnh sửa cài đặt dung lượng khả dụng"
+
+msgid "Email"
+msgstr "Email"
+
+#, python-format
+msgid "Email address of alias account must end with domain name(s): %s."
+msgstr "Địa chỉ email của tài khoản bí danh phải kết thúc bằng (các) tên miền: %s."
+
+msgid "Email address or domain names"
+msgstr "Địa chỉ email hoặc tên miền"
+
+msgid "Email address was changed."
+msgstr "Địa chỉ email đã bị thay đổi."
+
+msgid "Email addresses of alias accounts"
+msgstr "Địa chỉ email của tài khoản bí danh"
+
+msgid ""
+"Email addresses of the mailing list moderators which need to be contacted"
+" when there is some email under moderated. If empty, mailing list owners "
+"will be used instead."
+msgstr ""
+"Địa chỉ email của người điều hành danh sách gửi thư cần liên hệ"
+" khi có một số email đang được kiểm duyệt. Nếu trống, chủ sở hữu danh sách gửi thư "
+"sẽ được sử dụng thay thế."
+
+msgid ""
+"Email addresses of the mailing list moderators which need to be contacted"
+" when there is someone subscribing to the list and under moderated. If "
+"empty, mailing list moderators will be used instead."
+msgstr ""
+"Địa chỉ email của người điều hành danh sách gửi thư cần liên hệ"
+" khi có ai đó đăng ký vào danh sách và được kiểm duyệt. Nếu "
+"trống, người kiểm duyệt danh sách gửi thư sẽ được sử dụng thay thế."
+
+#, python-format
+msgid ""
+"Email addresses of the mailing list owners which need to be contacted via"
+" email %s, either by the system or by end users."
+msgstr ""
+"Địa chỉ email của chủ sở hữu danh sách gửi thư cần liên hệ qua"
+" gửi email %s, bởi hệ thống hoặc bởi người dùng cuối."
+
+msgid "Emails"
+msgstr "Emails"
+
+msgid ""
+"Emails delivered to non-exist mail accounts will be forwarded to catch-"
+"all address(es)."
+msgstr ""
+"Email được gửi đến các tài khoản thư không tồn tại sẽ được chuyển tiếp đến địa"
+"chỉ Catch-all."
+
+#, python-format
+msgid ""
+"Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be "
+"delivered to <em><strong>user@%s</strong></em>."
+msgstr ""
+"Email được gửi tới <em><strong>user@[ALIAS_DOMAIN]</strong></em> sẽ là "
+"đã gửi tới <em><strong>user@%s</strong></em>."
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr "Email gửi tới địa chỉ bí danh sẽ được gửi tới %s."
+
+msgid "Empty address is not allowed."
+msgstr "Không cho phép địa chỉ trống."
+
+msgid "Empty password is not allowed."
+msgstr "Không được phép để trống mật khẩu."
+
+msgid "Enable"
+msgstr "Bật"
+
+msgid "Enable alias account"
+msgstr "Bật tài khoản bí danh"
+
+msgid "Enable bad-header checking"
+msgstr "Bật tính năng kiểm tra tiêu đề sai"
+
+msgid "Enable banned file type checking"
+msgstr "Bật tính năng kiểm tra loại tập tin bị cấm"
+
+msgid "Enable domain alias"
+msgstr "Bật bí danh tên miền"
+
+msgid "Enable greylisting service"
+msgstr "Bật dịch vụ Greylisting"
+
+msgid "Enable mail forwarding"
+msgstr "Bật chuyển tiếp thư"
+
+msgid "Enable newsletter-style mailing list"
+msgstr "Bật danh sách gửi thư kiểu bản tin"
+
+msgid "Enable selected domain without verification"
+msgstr "Bật miền đã chọn mà không cần xác minh"
+
+msgid "Enable spam checking"
+msgstr "Bật tính năng kiểm tra thư rác"
+
+msgid "Enable subscription and unsubscription from website"
+msgstr "Cho phép đăng ký và hủy đăng ký khỏi trang web"
+
+msgid "Enable this account"
+msgstr "Bật tài khoản này"
+
+msgid "Enable this domain"
+msgstr "Bật miền này"
+
+msgid "Enable virus checking"
+msgstr "Bật tính năng kiểm tra virus"
+
+msgid "Enabled Services"
+msgstr "Dịch vụ đã kích hoạt"
+
+msgid "Encryption Protocol"
+msgstr "Giao thức mã hóa"
+
+msgid "Entire domain"
+msgstr "Toàn bộ miền"
+
+msgid "Envelope Sender"
+msgstr "Người gửi phong bì"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Error while checking new version of iRedAdmin-Pro:"
+msgstr "Lỗi khi kiểm tra phiên bản mới của iRedAdmin-Pro:"
+
+msgid "Error while getting license info:"
+msgstr "Lỗi khi lấy thông tin giấy phép:"
+
+msgid "Error, you entered an invalid email address."
+msgstr "Lỗi, bạn đã nhập địa chỉ email không hợp lệ."
+
+msgid "Error:"
+msgstr "Lỗi:"
+
+msgid "Events"
+msgstr "Sự kiện"
+
+msgid "Everyone can send mail to this address"
+msgstr "Mọi người đều có thể gửi thư đến địa chỉ này"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr ""
+"Đã vượt quá giới hạn tài khoản miền. Vui lòng liên hệ với quản trị viên của bạn hoặc "
+"nhà cung cấp dịch vụ để tăng nó."
+
+msgid "Exceeded:"
+msgstr "Đã vượt quá:"
+
+msgid "Expire"
+msgstr "Hết hạn"
+
+msgid "Expire date"
+msgstr "Ngày hết hạn"
+
+msgid "Expired"
+msgstr "Đã hết hạn"
+
+msgid "Export accounts"
+msgstr "Xuất tài khoản"
+
+msgid "Export all managed accounts"
+msgstr "Xuất tất cả tài khoản được quản lý"
+
+msgid "Export statistics of admins"
+msgstr "Xuất số liệu thống kê của quản trị viên"
+
+msgid "External Members"
+msgstr "Thành viên bên ngoài"
+
+msgid "External moderators"
+msgstr "Người kiểm duyệt bên ngoài"
+
+msgid "Fetching mails via IMAP"
+msgstr "Đang tìm nạp thư qua IMAP"
+
+msgid "Fetching mails via IMAP over TLS/SSL"
+msgstr "Đang tìm nạp thư qua IMAP qua TLS/SSL"
+
+msgid "Fetching mails via POP3"
+msgstr "Đang tìm nạp thư qua POP3"
+
+msgid "Fetching mails via POP3 over TLS/SSL"
+msgstr "Đang tìm nạp thư qua POP3 qua TLS/SSL"
+
+msgid "Filter accounts by first character in email addresses"
+msgstr "Lọc tài khoản theo ký tự đầu tiên trong địa chỉ email"
+
+msgid "Filter domains by first character in mail domain name"
+msgstr "Lọc tên miền theo ký tự đầu tiên trong tên miền thư"
+
+msgid "Filter:"
+msgstr "Bộ lọc:"
+
+msgid "First Attempt"
+msgstr "Lần thử đầu tiên"
+
+msgid "First Page"
+msgstr "Trang đầu tiên"
+
+msgid "First name"
+msgstr "Tên"
+
+msgid "Footer text (HTML format)"
+msgstr "Văn bản chân trang (định dạng HTML)"
+
+msgid "Footer text (plain text format)"
+msgstr "Văn bản chân trang (định dạng văn bản thuần túy)"
+
+msgid "For Inbound Mails"
+msgstr "Đối với thư đến"
+
+msgid "For Outbound Mails"
+msgstr "Đối với thư gửi đi"
+
+msgid "For advanced settings and further information please see"
+msgstr "Để biết các cài đặt nâng cao và thông tin thêm, vui lòng xem"
+
+msgid "Forward mails to address"
+msgstr "Chuyển tiếp thư tới địa chỉ"
+
+msgid "Forwarding"
+msgstr "Chuyển tiếp"
+
+msgid "Forwarding addresses (saved a copy in mailbox)"
+msgstr "Chuyển tiếp địa chỉ (đã lưu một bản sao trong hộp thư)"
+
+msgid "Forwarding addresses (without saving a copy in mailbox)"
+msgstr "Chuyển tiếp địa chỉ (không lưu bản sao vào hộp thư)"
+
+msgid "Full name"
+msgstr "Tên đầy đủ"
+
+msgid "General"
+msgstr "Chung"
+
+msgid "Get a newsletter signup form"
+msgstr "Nhận mẫu đăng ký bản tin"
+
+msgid "Global Admin"
+msgstr "Quản trị viên toàn cầu"
+
+msgid "Global Spam Policy"
+msgstr "Chính sách thư rác toàn cầu"
+
+msgid "Global admin"
+msgstr "Quản trị viên toàn cầu"
+
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr "Quản trị viên toàn cầu chỉ có thể đăng nhập từ các địa chỉ IP hoặc mạng được chỉ định"
+
+msgid "Grant admin"
+msgstr "Cấp quyền quản trị"
+
+msgid "Greylisted"
+msgstr "Greylisted"
+
+msgid "Greylisting"
+msgstr "Greylisting"
+
+msgid ""
+"Greylisting helps block out huge amounts of spam, not recommended to turn"
+" it off."
+msgstr ""
+"Greylisting giúp chặn số lượng lớn thư rác, không nên chuyển"
+"tắt đi."
+
+msgid ""
+"Greylisting is a method of defending your email users against spam. A "
+"mail transfer agent (MTA, e.g. Postfix) using greylisting will "
+"temporarily reject any email from a sender it does not recognize. If the "
+"mail is legitimate the originating server will, after a delay, try again "
+"and, if sufficient time has elapsed (usually 7 to 30 minutes), the email "
+"will be accepted."
+msgstr ""
+"Greylisting là một phương pháp bảo vệ người dùng email của bạn khỏi thư rác. A "
+"đại lý chuyển thư (MTA, ví dụ Postfix) sử dụng greylisting sẽ "
+"tạm thời từ chối bất kỳ email nào từ người gửi mà nó không nhận ra. Nếu "
+"thư là hợp pháp, máy chủ gốc sẽ thử lại sau một khoảng thời gian trì hoãn "
+"và, nếu đủ thời gian trôi qua (thường là 7 đến 30 phút), email "
+"sẽ được chấp nhận."
+
+msgid "Greylisting service"
+msgstr "Dịch vụ Greylisting"
+
+msgid "Greylisting service for this domain"
+msgstr "Dịch vụ Greylisting cho miền này"
+
+msgid "Greylisting service for this user"
+msgstr "Dịch vụ Greylisting cho người dùng này"
+
+msgid "Greylisting settings have been updated."
+msgstr "Cài đặt Greylisting đã được cập nhật."
+
+msgid "Hostname"
+msgstr "Tên máy chủ"
+
+msgid "IMAP Login:"
+msgstr "Đăng nhập IMAP:"
+
+msgid "IP Address"
+msgstr "Địa chỉ IP"
+
+msgid "IP CIDR Network"
+msgstr "Mạng IP CIDR"
+
+msgid ""
+"If many clean mails were marked as spam, please slightly increase the "
+"score."
+msgstr ""
+"Nếu nhiều thư sạch bị đánh dấu là thư rác, vui lòng tăng nhẹ "
+"điểm."
+
+msgid ""
+"If many spam message were not classified, please slightly decrease the "
+"score."
+msgstr ""
+"Nếu nhiều tin nhắn rác không được phân loại, vui lòng giảm nhẹ "
+"điểm."
+
+msgid ""
+"If you prefer redirecting user to a subscription page, this is the url of"
+" subscription page."
+msgstr ""
+"Nếu bạn muốn chuyển hướng người dùng đến trang đăng ký thì đây là url của"
+" trang đăng ký."
+
+msgid "Increase it now?"
+msgstr "Tăng nó ngay bây giờ?"
+
+msgid "Inherit from account which has lower priority"
+msgstr "Kế thừa từ tài khoản có mức độ ưu tiên thấp hơn"
+
+msgid "Inherit global setting"
+msgstr "Kế thừa cài đặt chung"
+
+msgid "Inherit global throttle setting"
+msgstr "Kế thừa cài đặt điều tiết chung"
+
+msgid "Inherit per-domain throttle setting"
+msgstr "Kế thừa cài đặt điều tiết theo từng miền"
+
+msgid ""
+"Input mail addresses of either internal or external members below, "
+"multiple addresses must be separated by comma, space or new line."
+msgstr ""
+"Nhập địa chỉ thư của các thành viên nội bộ hoặc bên ngoài bên dưới,"
+"nhiều địa chỉ phải được phân tách bằng dấu phẩy, dấu cách hoặc dòng mới."
+
+msgid ""
+"Input mail addresses of either internal or external moderators below, "
+"multiple addresses must be separated by comma, space or new line."
+msgstr ""
+"Nhập địa chỉ thư của người điều hành nội bộ hoặc bên ngoài bên dưới,"
+"nhiều địa chỉ phải được phân tách bằng dấu phẩy, dấu cách hoặc dòng mới."
+
+msgid "Internal Members"
+msgstr "Thành viên nội bộ"
+
+msgid "Internal Moderators"
+msgstr "Người điều hành nội bộ"
+
+msgid "Internal server error, please contact server admin to fix it."
+msgstr "Lỗi máy chủ nội bộ, vui lòng liên hệ với quản trị viên máy chủ để khắc phục."
+
+msgid "Invalid account."
+msgstr "Tài khoản không hợp lệ."
+
+msgid "Invalid action."
+msgstr "Hành động không hợp lệ."
+
+msgid "Invalid domain name or mail address."
+msgstr "Tên miền hoặc địa chỉ thư không hợp lệ."
+
+msgid "Invalid domain name."
+msgstr "Tên miền không hợp lệ."
+
+msgid "Invalid email addresses will be silently discarded."
+msgstr "Địa chỉ email không hợp lệ sẽ bị âm thầm loại bỏ."
+
+msgid "Invalid mail address."
+msgstr "Địa chỉ thư không hợp lệ."
+
+msgid "Invalid product id."
+msgstr "Id sản phẩm không hợp lệ."
+
+msgid "Invalid request data."
+msgstr "Dữ liệu yêu cầu không hợp lệ."
+
+msgid "Is a global admin."
+msgstr "Là quản trị viên toàn cầu."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr "Nó ảnh hưởng đến các hộp thư mới tạo, không ảnh hưởng đến các hộp thư hiện có."
+
+msgid ""
+"It's better create a subscribable mailing list instead, so that you can "
+"restrict the mail posting and delivery."
+msgstr ""
+"Tốt hơn hết là hãy tạo một danh sách gửi thư có thể đăng ký để bạn có thể "
+"hạn chế gửi thư và gửi thư."
+
+msgid ""
+"It's better create a subscribable mailing list, so that you can restrict "
+"the mail posting and delivery."
+msgstr ""
+"Tốt hơn hết hãy tạo một danh sách gửi thư có thể đăng ký để bạn có thể hạn chế "
+"việc gửi thư và chuyển phát."
+
+msgid ""
+"It's strongly recommended to use IP address of backup MX server instead "
+"of domain name to avoid potential looping."
+msgstr ""
+"Thay vào đó, chúng tôi thực sự khuyên bạn nên sử dụng địa chỉ IP của máy chủ MX dự phòng "
+"của tên miền để tránh khả năng lặp lại."
+
+msgid "Jail"
+msgstr "Nhà giam"
+
+msgid "Job Title"
+msgstr "Chức vụ"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr "Giữ hộp thư trong %d ngày"
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr "Giữ hộp thư trong %d tháng"
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr "Giữ hộp thư trong %d tuần"
+
+#, python-format
+msgstr "Giữ hộp thư trong %d năm"
+msgstr "Giữ hộp thư trong %d năm"
+
+msgid "Keep mailbox for 1 day"
+msgstr "Giữ hộp thư trong 1 ngày"
+
+msgid "Keep mailbox for 1 month "
+msgstr "Giữ hộp thư trong 1 tháng"
+
+msgid "Keep mailbox for 1 week"
+msgstr "Giữ hộp thư trong 1 tuần"
+
+msgid "Keep mailbox for 1 year"
+msgstr "Giữ hộp thư trong 1 năm"
+
+msgid "Keep mailbox forever"
+msgstr "Giữ hộp thư mãi mãi"
+
+msgid "Keyword"
+msgstr "Từ khóa"
+
+msgid "Kind"
+msgstr "Loại"
+
+msgid "Last Email Delivery"
+msgstr "Gửi email lần cuối"
+
+msgid "Last Login"
+msgstr "Đăng nhập lần cuối"
+
+msgid "Last Login:"
+msgstr "Đăng nhập lần cuối:"
+
+msgid "Last Logins"
+msgstr "Lần đăng nhập cuối cùng"
+
+msgid "Last Page"
+msgstr "Trang cuối cùng"
+
+msgid "Last name"
+msgstr "Họ"
+
+msgid "Last verify status"
+msgstr "Trạng thái xác minh lần cuối"
+
+msgid "Last verify time"
+msgstr "Thời gian xác minh lần cuối"
+
+msgid "Latest version"
+msgstr "Phiên bản mới nhất"
+
+#, python-format
+msgid "Leave it empty to use <a href='%s'>domain setting</a>."
+msgstr "Hãy để trống để sử dụng <a href='%s'>cài đặt tên miền</a>."
+
+msgid "Leave it empty to use max value."
+msgstr "Để trống để sử dụng giá trị tối đa."
+
+msgid "Leave it empty to use server-wide default setting."
+msgstr "Để trống để sử dụng cài đặt mặc định trên toàn máy chủ."
+
+msgid "License"
+msgstr "Giấy phép"
+
+msgid "License Key"
+msgstr "Khóa cấp phép"
+
+msgid "License is active"
+msgstr "Giấy phép đang hoạt động"
+
+msgid "License owner(s)"
+msgstr "(Các) chủ sở hữu giấy phép"
+
+msgid "License status"
+msgstr "Trạng thái giấy phép"
+
+msgid "Lifetime license"
+msgstr "Giấy phép trọn đời"
+
+msgid "List all mail aliases."
+msgstr "Liệt kê tất cả bí danh thư."
+
+msgid "List all mail users."
+msgstr "Liệt kê tất cả người dùng thư."
+
+msgid "List all mailing lists."
+msgstr "Liệt kê tất cả danh sách gửi thư."
+
+msgid "Lists"
+msgstr "Danh sách"
+
+msgid "Log"
+msgstr "Nhật ký"
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "Đã đăng nhập với tên %s"
+
+msgid "Login"
+msgstr "Đăng nhập"
+
+msgid "Login Restrictions"
+msgstr "Hạn chế đăng nhập"
+
+msgid "Login from your IP address is not allowed."
+msgstr "Không được phép đăng nhập từ địa chỉ IP của bạn."
+
+msgid "Login required"
+msgstr "Yêu cầu đăng nhập"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "Đăng nhập để quản lý tên miền và tài khoản thư của bạn"
+
+msgid "Logout"
+msgstr "Đăng xuất"
+
+msgid "Mail Address"
+msgstr "Địa chỉ thư"
+
+msgid "Mail Aliases"
+msgstr "Bí danh thư"
+
+msgid "Mail Body"
+msgstr "Nội dung thư"
+
+msgid "Mail Deliver Restriction"
+msgstr "Hạn chế gửi thư"
+
+msgid "Mail Delivery"
+msgstr "Gửi thư"
+
+msgid "Mail Headers"
+msgstr "Tiêu đề thư"
+
+msgid "Mail Users"
+msgstr "Người dùng thư"
+
+msgid "Mail alias created."
+msgstr "Bí danh thư đã được tạo."
+
+msgid "Mail deliver restriction will be migrated."
+msgstr "Hạn chế gửi thư sẽ được di chuyển."
+
+msgid ""
+"Mail delivery restriction will be set to allow email from any sender by "
+"default."
+msgstr ""
+"Hạn chế gửi thư sẽ được đặt để cho phép gửi email từ bất kỳ người gửi nào bằng "
+"mặc định."
+
+#, python-format
+msgid ""
+"Mail logs of incoming and outgoing mails which older than %d days will be"
+" deleted from database permanently."
+msgstr ""
+"Nhật ký thư của các thư đến và đi cũ hơn %d ngày sẽ có"
+" đã bị xóa khỏi cơ sở dữ liệu vĩnh viễn."
+
+msgid "Mail posting"
+msgstr "Đăng thư"
+
+msgid "Mail sent to alias will be forwarded to members."
+msgstr "Thư gửi tới bí danh sẽ được chuyển tiếp tới các thành viên."
+
+msgid "Mailbox"
+msgstr "Hộp thư"
+
+msgid "Mailbox Quota"
+msgstr "Dung lượng hộp thư"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr "Maildir (Một thư cho mỗi tập tin). Khuyến nghị."
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr "Maildir rất dễ di chuyển, sao lưu và khôi phục."
+
+msgid "Mailing List"
+msgstr "Danh sách gửi thư"
+
+msgid "Mailing List (Subscribable)"
+msgstr "Danh sách gửi thư (Có thể đăng ký)"
+
+msgid "Mailing Lists"
+msgstr "Danh sách gửi thư"
+
+msgid "Mailing list created."
+msgstr "Danh sách gửi thư đã được tạo."
+
+msgid "Mailing list:"
+msgstr "Danh sách gửi thư:"
+
+#, python-format
+msgid "Mailing lists under domain: %s"
+msgstr "Danh sách gửi thư trong miền: %s"
+
+#, python-format
+msgid "Mailing lists under domain: %s."
+msgstr "Danh sách gửi thư trong miền: %s."
+
+#, python-format
+msgid "Mails Sent by Domain: %s"
+msgstr "Thư được gửi theo miền: %s"
+
+#, python-format
+msgid "Mails Sent by User: %s"
+msgstr "Thư được người dùng gửi: %s"
+
+msgid "Mails sent from blacklisted senders will be quarantined by default."
+msgstr "Thư gửi từ người gửi nằm trong danh sách chặn sẽ bị cách ly theo mặc định."
+
+msgid "Mails were deleted, and recipient domain(s) were blacklisted."
+msgstr "Thư đã bị xóa và tên miền của người nhận bị đưa vào danh sách chặn."
+
+msgid "Mails were deleted, and recipient domain(s) were whitelisted."
+msgstr "Thư đã bị xóa và tên miền của người nhận đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were deleted, and recipient(s) were blacklisted."
+msgstr "Thư đã bị xóa và người nhận bị đưa vào danh sách chặn."
+
+msgid "Mails were deleted, and recipient(s) were whitelisted."
+msgstr "Thư đã bị xóa và người nhận đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were deleted, and sender domain(s) were blacklisted."
+msgstr "Thư đã bị xóa và tên miền của người gửi đã bị đưa vào danh sách chặn."
+
+msgid "Mails were deleted, and sender domain(s) were whitelisted."
+msgstr "Thư đã bị xóa và tên miền của người gửi đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were deleted, and sender(s) were blacklisted."
+msgstr "Thư đã bị xóa và người gửi bị đưa vào danh sách chặn."
+
+msgid "Mails were deleted, and sender(s) were whitelisted."
+msgstr "Thư đã bị xóa và người gửi đã được đưa vào danh sách ưu tiên."
+
+msgid ""
+"Mails were deleted, recipient domain(s) and sub-domain(s) were "
+"blacklisted."
+msgstr ""
+"Thư đã bị xóa, (các) tên miền người nhận và (các) tên miền phụ là "
+"danh sách chặn."
+
+msgid ""
+"Mails were deleted, recipient domain(s) and sub-domain(s) were "
+"whitelisted."
+msgstr ""
+"Thư đã bị xóa, (các) tên miền người nhận và (các) tên miền phụ là "
+"danh sách ưu tiên."
+
+msgid "Mails were deleted, sender domain(s) and sub-domain(s) were blacklisted."
+msgstr "Thư đã bị xóa, (các) tên miền người gửi và (các) tên miền phụ đã bị đưa vào danh sách chặn."
+
+msgid "Mails were deleted, sender domain(s) and sub-domain(s) were whitelisted."
+msgstr "Thư đã bị xóa, (các) tên miền người gửi và (các) tên miền phụ đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were deleted."
+msgstr "Thư đã bị xóa."
+
+msgid "Mails were released, and sender domain(s) were whitelisted."
+msgstr "Thư đã được giải phóng và tên miền của người gửi đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were released, and sender(s) were whitelisted."
+msgstr "Thư đã được giải phóng và người gửi đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were released, sender domain(s) and sub-domains were whitelisted."
+msgstr "Thư đã được phát hành, tên miền của người gửi và tên miền phụ đã được đưa vào danh sách ưu tiên."
+
+msgid "Mails were released."
+msgstr "Thư đã được giải phóng."
+
+msgid "Make sure disclaimer work as expected:"
+msgstr "Đảm bảo tuyên bố từ chối trách nhiệm hoạt động như mong đợi:"
+
+msgid "Manage moderated or owned mailing lists"
+msgstr "Quản lý danh sách gửi thư được kiểm duyệt hoặc sở hữu"
+
+msgid "Manage per-user white/blacklists"
+msgstr "Quản lý danh sách ưu tiên/chặn theo từng người dùng"
+
+msgid "Manage quarantined mails"
+msgstr "Quản lý thư bị cách ly"
+
+msgid "Managed Domains"
+msgstr "Miền được quản lý"
+
+msgid "Managed mailing lists."
+msgstr "Danh sách gửi thư được quản lý."
+
+msgid "Mark as backup MX"
+msgstr "Đánh dấu là MX dự phòng"
+
+msgid "Mark as domain admin"
+msgstr "Đánh dấu là quản trị viên tên miền"
+
+msgid "Mark as global admin"
+msgstr "Đánh dấu là quản trị viên toàn cầu"
+
+msgid "Mark mail as spam when score is >="
+msgstr "Đánh dấu thư là thư rác khi điểm là >="
+
+msgid "Mark this user as"
+msgstr "Đánh dấu người dùng này là"
+
+msgid "Max message size"
+msgstr "Kích thước tin nhắn tối đa"
+
+msgid "Max quota of mail user"
+msgstr "Hạn ngạch tối đa của người dùng thư"
+
+msgid "Max recipients of single email"
+msgstr "Số người nhận tối đa của một email"
+
+msgid "Max size of single email"
+msgstr "Kích thước tối đa của một email"
+
+msgid "Max:"
+msgstr "Tối đa:"
+
+msgid "Maximum password length"
+msgstr "Độ dài mật khẩu tối đa"
+
+msgid "Mdbox (Multiple messages per file)"
+msgstr "Mdbox (Nhiều thư cho mỗi tập tin)"
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause "
+"data lose and can not be recovered."
+msgstr ""
+"Mdbox có hiệu suất tốt hơn, nhưng các tập tin chỉ mục bị hỏng/bị mất sẽ gây ra "
+"dữ liệu bị mất và không thể phục hồi được."
+
+msgid "Member assigned success."
+msgstr "Gán thành viên thành công."
+
+msgid "Member of Mail Aliases"
+msgstr "Bí danh thành viên của thư"
+
+msgid "Member of Mailing Lists"
+msgstr "Thành viên của danh sách gửi thư"
+
+msgid "Member of mailing lists:"
+msgstr "Thành viên của danh sách gửi thư:"
+
+msgid "Member removed success."
+msgstr "Xóa thành viên thành công."
+
+msgid "Members"
+msgstr "Thành viên"
+
+msgid "Members and moderators"
+msgstr "Thành viên và người điều hành"
+
+msgid "Members and moderators will be fully migrated."
+msgstr "Các thành viên và người điều hành sẽ được di chuyển hoàn toàn."
+
+msgid "Members has been added to mailing list."
+msgstr "Thành viên đã được thêm vào danh sách gửi thư."
+
+msgid "Members will be fully migrated."
+msgstr "Các thành viên sẽ được di chuyển hoàn toàn."
+
+msgid "Message"
+msgstr "Tin nhắn"
+
+msgid "Messages sent to mailing list will be delivered to its members."
+msgstr "Thư gửi tới danh sách gửi thư sẽ được gửi đến các thành viên trong danh sách đó."
+
+msgid "Migrate Now"
+msgstr "Di chuyển ngay"
+
+msgid "Migrate to subscribable mailing list"
+msgstr "Di chuyển sang danh sách gửi thư có thể đăng ký"
+
+msgid "Migrate to subscribable mailing list?"
+msgstr "Di chuyển sang danh sách gửi thư có thể đăng ký được?"
+
+msgid "Minimum password length"
+msgstr "Độ dài mật khẩu tối thiểu"
+
+msgid "Mobile"
+msgstr "Di động"
+
+msgid "Moderate all posts (Moderators are required)"
+msgstr "Kiểm duyệt tất cả bài viết (Cần có người kiểm duyệt)"
+
+msgid "Moderate subscriptions"
+msgstr "Kiểm duyệt đăng ký"
+
+msgid "Moderators"
+msgstr "Người kiểm duyệt"
+
+msgid "Moderators assigned success."
+msgstr "Người điều hành đã chỉ định thành công."
+
+msgid "Moderators removed success."
+msgstr "Người điều hành đã loại bỏ thành công."
+
+msgid "Monitor incoming emails via BCC"
+msgstr "Theo dõi email đến qua BCC"
+
+msgid "Monitor outgoing emails via BCC"
+msgstr "Theo dõi email gửi đi qua BCC"
+
+msgid "Multiple addresses are NOT supported."
+msgstr "KHÔNG hỗ trợ nhiều địa chỉ."
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr "Phải là %s - %s ký tự."
+
+msgid "Need a strong password?"
+msgstr "Cần mật khẩu mạnh?"
+
+msgid "Network"
+msgstr "Mạng"
+
+msgid "New Mail Delivered:"
+msgstr "Thư Mới Đã Được Gửi:"
+
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "Mật khẩu mới KHÔNG được chứa nhiều hơn %s ký tự."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "Mật khẩu mới phải chứa ít nhất %s ký tự."
+
+msgid "New passwords are not match."
+msgstr "Mật khẩu mới không khớp."
+
+msgid "New version is available."
+msgstr "Đã có phiên bản mới."
+
+#, python-format
+msgid ""
+"New version of iRedAdmin-Pro, %s, is now available for upgrading. <a "
+"href='%s/system/license' class='button green'>Details</a>"
+msgstr ""
+"Phiên bản mới của iRedAdmin-Pro, %s, hiện đã có sẵn để nâng cấp. <a "
+"href='%s/system/license' class='button green'>Chi tiết</a>"
+
+msgid "News & Announcements"
+msgstr "Tin tức & Thông báo"
+
+msgid "Newsletter"
+msgstr "Bản tin"
+
+msgid "Next Page"
+msgstr "Trang tiếp theo"
+
+msgid "No SMTP authentication activity."
+msgstr "Không có hoạt động xác thực SMTP."
+
+msgid "No account selected."
+msgstr "Chưa có tài khoản nào được chọn."
+
+msgid "No admin log."
+msgstr "Không có nhật ký quản trị."
+
+msgid "No any login or mail delivery yet."
+msgstr "Chưa có thông tin đăng nhập hoặc gửi thư nào."
+
+msgid "No banned IP address."
+msgstr "Không có địa chỉ IP bị cấm."
+
+msgid "No data available."
+msgstr "Không có dữ liệu."
+
+msgid "No digit number in password."
+msgstr "Không có chữ số trong mật khẩu."
+
+msgid "No domain under control."
+msgstr "Không có tên miền nào được kiểm soát."
+
+msgid "No email"
+msgstr "Không có email"
+
+msgid "No free domain quota left."
+msgstr "Không còn hạn ngạch miền miễn phí."
+
+msgid "No incoming mails."
+msgstr "Không có thư đến."
+
+msgid "No letter in password."
+msgstr "Không có chữ cái trong mật khẩu."
+
+msgid "No mail admin assigned."
+msgstr "Chưa chỉ định quản trị viên thư."
+
+msgid "No mail admin available."
+msgstr "Không có quản trị viên thư."
+
+msgid "No mail alias available."
+msgstr "Không có bí danh thư nào."
+
+msgid "No mail domain available."
+msgstr "Không có miền thư."
+
+msgid "No mail user available."
+msgstr "Không có người sử dụng thư."
+
+msgid "No mailing list available."
+msgstr "Không có danh sách gửi thư."
+
+msgid "No matched SMTP sessions."
+msgstr "Không có phiên SMTP phù hợp."
+
+msgid "No matched log lines."
+msgstr "Không có dòng nhật ký trùng khớp."
+
+msgid "No members."
+msgstr "Không có thành viên."
+
+msgid "No moderator selected."
+msgstr "Chưa chọn người kiểm duyệt."
+
+msgid "No moderators."
+msgstr "Không có người kiểm duyệt."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr "Không quá %d ký tự."
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "Không quá %s ký tự."
+
+msgid "No need to verify ownership for new domain"
+msgstr "Không cần xác minh quyền sở hữu tên miền mới"
+
+msgid "No outgoing mails."
+msgstr "Không có thư gửi đi."
+
+msgid "No pending mail domain ownership verification."
+msgstr "Không có xác minh quyền sở hữu tên miền thư đang chờ xử lý."
+
+msgid "No quarantined mails."
+msgstr "Không có thư bị cách ly."
+
+msgid "No special character in password."
+msgstr "Không có ký tự đặc biệt trong mật khẩu."
+
+msgid "No uppercase letter in password."
+msgstr "Không có chữ hoa trong mật khẩu."
+
+msgid ""
+"Normal admin cannot view and update disabled profiles in account profile "
+"page."
+msgstr ""
+"Quản trị viên bình thường không thể xem và cập nhật hồ sơ bị vô hiệu hóa trong hồ sơ tài khoản"
+"trang."
+
+msgid "Normal mail user cannot view and update disabled preferences."
+msgstr "Người dùng thư thông thường không thể xem và cập nhật các tùy chọn bị tắt."
+
+msgid "Not a global admin."
+msgstr "Không phải là quản trị viên toàn cầu."
+
+msgid "Not allowed to create mail alias under this domain."
+msgstr "Không được phép tạo bí danh thư trong miền này."
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "Không được phép tạo người dùng thư trong miền này."
+
+msgid "Not allowed to create mailing list under this domain."
+msgstr "Không được phép tạo danh sách gửi thư trong miền này."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr "Lưu ý: Quản trị viên toàn cầu có thể quản lý tất cả các miền thư."
+
+msgid "Notifications"
+msgstr "Thông báo"
+
+msgid ""
+"Notify owner(s) when someone subscribe to or unsubscribe from the mailing"
+" list"
+msgstr ""
+"Thông báo cho (các) chủ sở hữu khi ai đó đăng ký hoặc hủy đăng ký nhận thư"
+" danh sách"
+
+msgid "Notify sender if email is under moderated"
+msgstr "Thông báo cho người gửi nếu email chưa được kiểm duyệt"
+
+msgid "Number of aliases"
+msgstr "Số bí danh"
+
+msgid "Number of domains"
+msgstr "Số miền"
+
+msgid "Number of mailing lists"
+msgstr "Số danh sách gửi thư"
+
+msgid "Number of max inbound emails"
+msgstr "Số lượng email gửi đến tối đa"
+
+msgid "Number of max mail aliases"
+msgstr "Số bí danh thư tối đa"
+
+msgid "Number of max mail users"
+msgstr "Số lượng người dùng thư tối đa"
+
+msgid "Number of max mailing lists"
+msgstr "Số danh sách gửi thư tối đa"
+
+msgid "Number of max outbound emails"
+msgstr "Số lượng email gửi đi tối đa"
+
+msgid "Number of users"
+msgstr "Số lượng người dùng"
+
+msgid "Old password"
+msgstr "Mật khẩu cũ"
+
+msgid "Old records will be cleaned up regularly."
+msgstr "Các bản ghi cũ sẽ được dọn dẹp thường xuyên."
+
+msgid "One IP address or CIDR network per line."
+msgstr "Một địa chỉ IP hoặc mạng CIDR trên mỗi dòng."
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+"Một địa chỉ IP hoặc mạng trên mỗi dòng. Địa chỉ hoặc mạng không hợp lệ sẽ bị "
+"từ chối."
+
+msgid "One domain per line."
+msgstr "Mỗi dòng một tên miền."
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr "Mỗi dòng một địa chỉ thư. Địa chỉ không hợp lệ sẽ bị loại bỏ."
+
+msgid "One record per line."
+msgstr "Mỗi dòng một bản ghi."
+
+msgid "One sender per line."
+msgstr "Mỗi dòng một người gửi."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr "Chỉ cho phép các chữ cái (phân biệt chữ hoa chữ thường) và chữ số, tối đa 20 ký tự."
+
+msgid "Oops, confirm link expired. Please re-subscribe."
+msgstr "Rất tiếc, xác nhận liên kết đã hết hạn. Vui lòng đăng ký lại."
+
+msgid "Oops, confirm link is invalid."
+msgstr "Rất tiếc, xác nhận liên kết không hợp lệ."
+
+msgid "Oops, invalid action."
+msgstr "Rất tiếc, hành động không hợp lệ."
+
+msgid "Oops, the newsletter you want to subscribe does not exist."
+msgstr "Rất tiếc, bản tin bạn muốn đăng ký không tồn tại."
+
+msgid "Operation completed."
+msgstr "Thao tác đã hoàn tất."
+
+msgid "Or"
+msgstr "Hoặc"
+
+msgid "Or create other mail accounts:"
+msgstr "Hoặc tạo tài khoản thư khác:"
+
+msgid "Outbound"
+msgstr "Ra ngoài"
+
+msgid "Outbound SMTP Sessions"
+msgstr "Phiên SMTP gửi đi"
+
+#, python-format
+msgid "Owner will be set to postmaster@%s."
+msgstr "Chủ sở hữu sẽ được đặt thành postmaster@%s."
+
+msgid "Owners"
+msgstr "Chủ sở hữu"
+
+msgid "Owners and Moderators"
+msgstr "Chủ sở hữu và người điều hành"
+
+msgid "PLEASE VERIFY OWNERSHIP"
+msgstr "VUI LÒNG XÁC MINH QUYỀN SỞ HỮU"
+
+msgid "POP3 Login:"
+msgstr "Đăng nhập POP3:"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Password is empty."
+msgstr "Mật khẩu trống."
+
+msgid "Password is too long."
+msgstr "Mật khẩu quá dài."
+
+msgid "Password is too short."
+msgstr "Mật khẩu quá ngắn."
+
+msgid "Password last change:"
+msgstr "Thay đổi mật khẩu lần cuối:"
+
+msgid "Password must contain"
+msgstr "Mật khẩu phải chứa"
+
+msgid "Password policies"
+msgstr "Chính sách mật khẩu"
+
+msgid "Path to mailbox"
+msgstr "Đường dẫn tới hộp thư"
+
+msgid "Pending"
+msgstr "Đang chờ xử lý"
+
+msgid "Pending Alias domains"
+msgstr "Các tên miền bí danh đang chờ xử lý"
+
+msgid ""
+"Per-domain throttling has higher priority than default throttling set in "
+"this page, per-user throttling has the highest priority."
+msgstr ""
+"Điều chỉnh theo tên miền có mức độ ưu tiên cao hơn điều chỉnh mặc định được đặt trong "
+"trang này, việc điều chỉnh theo người dùng có mức độ ưu tiên cao nhất."
+
+msgid "Per-user bcc settings has higher priority than per-domain bcc settings."
+msgstr "Cài đặt bcc theo người dùng có mức độ ưu tiên cao hơn cài đặt bcc theo tên miền."
+
+msgid "Per-user throttle setting has higher priority."
+msgstr "Cài đặt giới hạn cho mỗi người dùng có mức độ ưu tiên cao hơn."
+
+msgid ""
+"Per-user whitelists & blacklists has highest priority, then per-domain "
+"setting, then global setting."
+msgstr ""
+"Danh sách ưu tiên và danh sách chặn theo mỗi người dùng có mức độ ưu tiên cao nhất, sau đó là theo tên miền "
+"cài đặt, rồi cài đặt chung."
+
+msgid "Period of time"
+msgstr "Khoảng thời gian"
+
+msgid "Permission denied."
+msgstr "Quyền bị từ chối."
+
+msgid "Personal information"
+msgstr "Thông tin cá nhân"
+
+msgid "Plain text only"
+msgstr "Chỉ văn bản thuần túy"
+
+msgid "Please choose managed domains below."
+msgstr "Vui lòng chọn tên miền được quản lý bên dưới."
+
+msgid "Please do not use non-ascii character in password."
+msgstr "Xin vui lòng không sử dụng ký tự không phải mã ascii trong mật khẩu."
+
+msgid ""
+"Please either mark mail user as domain admin or create a separate admin "
+"account."
+msgstr ""
+"Vui lòng đánh dấu người dùng thư là quản trị viên tên miền hoặc tạo một quản trị viên riêng "
+"tài khoản."
+
+msgid "Please select at least one account."
+msgstr "Hãy chọn ít nhất một tài khoản."
+
+msgid "Please select at least one domain."
+msgstr "Hãy chọn ít nhất một miền."
+
+msgid ""
+"Please verify mail domains listed below, to ensure that it is an valid "
+"domain and you have the required privileges in the domain to manage the "
+"email services. Mail services are disabled for pending domains, and will "
+"be enabled automatically after verified."
+msgstr ""
+"Hãy xác minh các miền thư được liệt kê bên dưới để đảm bảo rằng đó là miền hợp lệ "
+"tên miền và bạn có các đặc quyền cần thiết trong tên miền để quản lý "
+"dịch vụ email. Dịch vụ thư bị vô hiệu hóa đối với các miền đang chờ xử lý và sẽ "
+"được kích hoạt tự động sau khi xác minh."
+
+msgid "Ports"
+msgstr "Các cổng"
+
+msgid "Postfix manual page"
+msgstr "Trang hướng dẫn postfix"
+
+msgid "Preferences"
+msgstr "Sở thích"
+
+msgid "Preferred language"
+msgstr "Ngôn ngữ ưa thích"
+
+msgid "Prefix text [SPAM] to the subject of spam"
+msgstr "Thêm tiền tố văn bản [SPAM] vào chủ đề thư rác"
+
+msgid "Prefix text to mail subject"
+msgstr "Thêm tiền tố vào chủ đề thư"
+
+msgid "Previous Page"
+msgstr "Trang trước"
+
+msgid "Primary MX"
+msgstr "MX Chính"
+
+msgid "Privileges"
+msgstr "Đặc quyền"
+
+msgid "Product name"
+msgstr "Tên sản phẩm"
+
+msgid "Profile has been updated."
+msgstr "Hồ sơ đã được cập nhật."
+
+msgid "Profile of admin:"
+msgstr "Hồ sơ của quản trị viên:"
+
+msgid "Profile of alias:"
+msgstr "Hồ sơ bí danh:"
+
+msgid "Profile of domain:"
+msgstr "Hồ sơ tên miền:"
+
+msgid "Profile of mailing list:"
+msgstr "Hồ sơ của danh sách gửi thư:"
+
+msgid "Profile of user:"
+msgstr "Hồ sơ người dùng:"
+
+msgid "Profile updated failed."
+msgstr "Cập nhật hồ sơ không thành công."
+
+msgid "Purchase a new license"
+msgstr "Mua giấy phép mới"
+
+msgid "Purchase date"
+msgstr "Ngày mua"
+
+msgid "Quarantine bad-header email"
+msgstr "Cách ly email có tiêu đề sai"
+
+msgid "Quarantine email which contains banned file types"
+msgstr "Email cách ly chứa các loại tập tin bị cấm"
+
+msgid "Quarantine spam"
+msgstr "Cách ly thư rác"
+
+msgid "Quarantine virus"
+msgstr "Cách ly virus"
+
+msgid "Quarantined"
+msgstr "Đã cách ly"
+
+msgid "Quarantined Mails"
+msgstr "Thư bị cách ly"
+
+#, python-format
+msgid "Quarantined Mails of Domain: %s"
+msgstr "Thư tên miền đã được cách ly: %s"
+
+#, python-format
+msgid "Quarantined Mails of User: %s"
+msgstr "Thư đã cách ly của người dùng: %s"
+
+msgid ""
+"Quarantined mails are not delivered to users' mailboxes yet, you can "
+"either delete them or release them. Mails will be delivered to user "
+"mailboxes after released."
+msgstr ""
+"Thư bị cách ly chưa được gửi đến hộp thư của người dùng, bạn có thể "
+"xóa hoặc thả chúng ra. Thư sẽ được gửi tới người dùng "
+"hộp thư sau khi được phát hành."
+
+#, python-format
+msgid ""
+"Quarantined mails older than %d days will be deleted from database "
+"permanently."
+msgstr ""
+"Thư bị cách ly cũ hơn %d ngày sẽ bị xóa khỏi cơ sở dữ liệu "
+"vĩnh viễn."
+
+msgid "Quota"
+msgstr "Dung lượng"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr "API RESTful chỉ có thể truy cập được từ các địa chỉ IP hoặc mạng được chỉ định"
+
+msgid "Received"
+msgstr "Đã nhận"
+
+msgid "Received Mails"
+msgstr "Thư đã nhận"
+
+#, python-format
+msgid "Received Mails of Domain: %s"
+msgstr "Đã nhận được thư của miền: %s"
+
+#, python-format
+msgid "Received Mails of User: %s"
+msgstr "Thư đã nhận của người dùng: %s"
+
+msgid ""
+"Received emails on backup MX will be relayed to primary MX server when "
+"its smtp service is back online."
+msgstr ""
+"Email đã nhận trên MX dự phòng sẽ được chuyển tiếp tới máy chủ MX chính khi "
+"dịch vụ smtp của nó đã trực tuyến trở lại."
+
+msgid "Recipient"
+msgstr "Người nhận"
+
+msgid "Record comment can be added after a #"
+msgstr "Bản ghi nhận xét có thể được thêm vào sau dấu #"
+
+msgid "Records were successfully added."
+msgstr "Bản ghi đã được thêm thành công."
+
+msgid "Records were successfully updated."
+msgstr "Bản ghi đã được cập nhật thành công."
+
+msgid "Redirect user to subscription page"
+msgstr "Chuyển hướng người dùng đến trang đăng ký"
+
+msgid ""
+"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"rel=\"noopener\">greylisting.org</a> for technical details about "
+"greylisting."
+msgstr ""
+"Tham khảo <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"rel=\"noopener\">greylisting.org</a> để biết chi tiết kỹ thuật về "
+"danh sách xám."
+
+msgid "Rejected"
+msgstr "Bị từ chối"
+
+msgid "Rejected Messages"
+msgstr "Tin nhắn bị từ chối"
+
+msgid "Rejected SMTP Sessions"
+msgstr "Phiên SMTP bị từ chối"
+
+msgid "Rejection Reason"
+msgstr "Lý do từ chối"
+
+msgid "Relay"
+msgstr "Định tuyến"
+
+msgid ""
+"Relay emails to the server specified in A type DNS records of domain "
+"example.com through port 25"
+msgstr ""
+"Định tuyến email đến máy chủ được chỉ định trong bản ghi DNS loại A của miền"
+"example.com qua cổng 25"
+
+msgid ""
+"Relay emails to the server specified in MX type DNS records of domain "
+"example.com through port 25"
+msgstr ""
+"Định tuyến email đến máy chủ được chỉ định trong bản ghi DNS loại MX của miền "
+"example.com qua cổng 25"
+
+msgid "Relay emails to the specified IP address through port 25"
+msgstr "Định tuyến email tới địa chỉ IP được chỉ định qua cổng 25"
+
+msgid "Relay outgoing email to"
+msgstr "Định tuyến email gửi đi tới"
+
+msgid "Relay received email to"
+msgstr "Định tuyến email đã nhận tới"
+
+msgid "Relay without verifying local recipients"
+msgstr "Định tuyến mà không xác minh người nhận cục bộ"
+
+msgid "Release Notes and Upgrade Tutorials"
+msgstr "Ghi chú phát hành và hướng dẫn nâng cấp"
+
+msgid "Release selected"
+msgstr "Đã phát hành"
+
+msgid "Release selected, and whitelist entire sender domain(s)"
+msgstr "Đã phát hành và đưa toàn bộ miền của người gửi vào danh sách ưu tiên"
+
+msgid "Release selected, and whitelist sender domain(s) and all sub-domains"
+msgstr "Đã phát hành và đưa (các) miền của người gửi vào danh sách ưu tiên cũng như tất cả các miền phụ"
+
+msgid "Release selected, and whitelist sender(s)"
+msgstr "Đã phát hành và đưa (những) người gửi vào danh sách ưu tiên"
+
+msgid "Remove ALL members"
+msgstr "Xóa TẤT CẢ thành viên"
+
+msgid "Remove from list"
+msgstr "Xóa khỏi danh sách"
+
+msgid "Remove log of inbound/outbound mails older than"
+msgstr "Xóa nhật ký của các thư đến/đi cũ hơn"
+
+msgid "Remove quarantined mails older than"
+msgstr "Xóa các thư đã cách ly cũ hơn"
+
+msgid "Remove selected members"
+msgstr "Xóa thành viên đã chọn"
+
+msgid "Renew license"
+msgstr "Gia hạn giấy phép"
+
+msgid "Require at least one digit number"
+msgstr "Yêu cầu ít nhất một số có chữ số"
+
+msgid "Require at least one letter"
+msgstr "Yêu cầu ít nhất một chữ cái"
+
+msgid "Require at least one special character"
+msgstr "Yêu cầu ít nhất một ký tự đặc biệt"
+
+msgid "Require at least one uppercase letter"
+msgstr "Yêu cầu ít nhất một chữ hoa"
+
+msgid "Restrict to login from specified addresses"
+msgstr "Hạn chế đăng nhập từ các địa chỉ được chỉ định"
+
+msgid "Reverse DNS Name"
+msgstr "Tên DNS đảo ngược"
+
+msgid "Revoke admin privilege"
+msgstr "Thu hồi đặc quyền quản trị viên"
+
+msgid "SMTP Action"
+msgstr "Hành động SMTP"
+
+msgid "SMTP Sessions"
+msgstr "Phiên SMTP"
+
+msgid "SOGo ActiveSync"
+msgstr "SOGo ActiveSync"
+
+msgid "SOGo Calendar"
+msgstr "Lịch SOGo"
+
+msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr "Phần mềm nhóm SOGo (Lịch, Danh bạ, Tác vụ, ActiveSync)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr "Phần mềm nhóm SOGo (Webmail, Lịch, ActiveSync)"
+
+msgid "SOGo Webmail"
+msgstr "Webmail SOGo"
+
+msgid "Sample"
+msgstr "Mẫu"
+
+msgid "Sample Settings"
+msgstr "Cài đặt mẫu"
+
+msgid "Sample Settings of Primary MX"
+msgstr "Cài đặt mẫu của MX chính"
+
+msgid "Save a copy in mailbox"
+msgstr "Lưu một bản sao vào hộp thư"
+
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+msgid "Score"
+msgstr "Điểm"
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "Search activities"
+msgstr "Hoạt động tìm kiếm"
+
+msgid "Search keyword could not be empty."
+msgstr "Từ khóa tìm kiếm không được để trống."
+
+msgid "Search mail accounts"
+msgstr "Tìm kiếm tài khoản thư"
+
+msgid "Search results."
+msgstr "Kết quả tìm kiếm."
+
+msgid "Seconds"
+msgstr "Giây"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr ""
+"Mã thông báo bảo mật không khớp. Vui lòng làm mới trang hiện tại và thực hiện lại "
+"mẫu hành động."
+
+msgid "Selected accounts were deleted."
+msgstr "Những tài khoản được chọn đã bị xóa."
+
+msgid "Selected accounts were disabled."
+msgstr "Các tài khoản được chọn đã bị vô hiệu hóa."
+
+msgid "Selected accounts were enabled."
+msgstr "Các tài khoản được chọn đã được kích hoạt."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "Các tài khoản được chọn đã được đánh dấu là quản trị viên miền."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "Những tài khoản được chọn đã được đánh dấu là quản trị viên toàn cầu."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "Các tài khoản đã chọn đã được bỏ đánh dấu là quản trị viên miền."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "Các tài khoản đã chọn đã được bỏ đánh dấu là quản trị viên toàn cầu."
+
+msgid "Selected domains have been deleted."
+msgstr "Các tên miền được chọn đã bị xóa."
+
+msgid "Selected domains were disabled."
+msgstr "Các tên miền được chọn đã bị vô hiệu hóa."
+
+msgid "Selected domains were enabled."
+msgstr "Các tên miền được chọn đã được kích hoạt."
+
+msgid "Selected log records were deleted."
+msgstr "Bản ghi nhật ký được chọn đã bị xóa."
+
+msgid "Selected records were deleted."
+msgstr "Bản ghi được chọn đã bị xóa."
+
+msgid "Self-service"
+msgstr "Self-service"
+
+msgid "Send me an email with download link"
+msgstr "Gửi cho tôi email kèm theo liên kết tải xuống"
+
+msgid "Sender"
+msgstr "Người gửi"
+
+msgid "Sender Addresses"
+msgstr "Địa chỉ người gửi"
+
+msgid "Sender Domain"
+msgstr "Miền người gửi"
+
+msgid "Sender address format"
+msgstr "Định dạng địa chỉ người gửi"
+
+msgid "Sender domains listed below have not passed greylisting service yet."
+msgstr "Các tên miền của người gửi được liệt kê bên dưới vẫn chưa vượt qua được dịch vụ đưa vào Greylisting."
+
+msgid "Sending mails via SMTP"
+msgstr "Gửi thư qua SMTP"
+
+msgid "Sending mails via SMTP over TLS/SSL"
+msgstr "Gửi thư qua SMTP qua TLS/SSL"
+
+msgid "Sent"
+msgstr "Đã gửi"
+
+msgid "Sent Mails"
+msgstr "Thư đã gửi"
+
+msgid "Server Load"
+msgstr "Tải máy chủ"
+
+msgid ""
+"Server will NOT apply greylisting on IP addresses or networks specified "
+"in the SPF and MX DNS records of listed mail domains."
+msgstr ""
+"Máy chủ sẽ KHÔNG áp dụng Greylisting trên các địa chỉ IP hoặc mạng được chỉ định "
+"trong bản ghi DNS SPF và MX của các miền thư được liệt kê."
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr ""
+"Đã vượt quá giới hạn kích thước phía máy chủ. Vui lòng tăng \"sizelimit\" trong "
+"Máy chủ LDAP."
+
+msgid "Session expired, please re-login."
+msgstr "Phiên đã hết hạn, vui lòng đăng nhập lại."
+
+msgid "Set mail forwarding"
+msgstr "Đặt chuyển tiếp thư"
+
+msgid "Set to 0 for unlimited."
+msgstr "Đặt về 0 để không giới hạn."
+
+msgid "Set value to -1 means not allowed to create this kind of account."
+msgstr "Đặt giá trị thành -1 nghĩa là không được phép tạo loại tài khoản này."
+
+msgid "Set value to 0 for unlimited."
+msgstr "Đặt giá trị thành 0 cho không giới hạn."
+
+msgid "Set value to 0 or leave it empty for unlimited."
+msgstr "Đặt giá trị về 0 hoặc để trống không giới hạn."
+
+msgid "Setting"
+msgstr "Cài đặt"
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Show in Global Address Book"
+msgstr "Hiển thị trong danh bạ toàn cầu"
+
+msgid "Single IP Address"
+msgstr "Địa chỉ IP đơn"
+
+msgid "Single user"
+msgstr "Một người dùng"
+
+msgid "Size"
+msgstr "Kích thước"
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr "Một số địa chỉ đã bị loại bỏ vì chúng đã được sử dụng: %s."
+
+msgid "Spam"
+msgstr "Thư rác"
+
+msgid "Spam Policy"
+msgstr "Chính sách thư rác"
+
+msgid "Spam checking"
+msgstr "Kiểm tra thư rác"
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr "Tài khoản quản trị độc lập không thể là người dùng của miền cục bộ."
+
+msgid "Statistics of latest 24 hours"
+msgstr "Thống kê trong 24 giờ gần nhất"
+
+msgid "Store password in plain text"
+msgstr "Lưu mật khẩu ở dạng văn bản thuần túy"
+
+msgid "Stored"
+msgstr "Đã lưu trữ"
+
+msgid "Stored emails"
+msgstr "Email đã lưu trữ"
+
+msgid "Subject"
+msgstr "Chủ đề"
+
+msgid "Submit"
+msgstr "Gửi"
+
+msgid "Submited domain name is incorrect."
+msgstr "Tên miền đã gửi không chính xác."
+
+msgid "Subscribe"
+msgstr "Đăng ký"
+
+msgid "Subscribe to newsletter"
+msgstr "Đăng ký nhận bản tin"
+
+msgid "Subscription Moderators"
+msgstr "Người điều hành đăng ký"
+
+msgid ""
+"Subscription and unsubscription will be disabled by default, feel free to"
+" enable them after migration."
+msgstr ""
+"Việc đăng ký và hủy đăng ký sẽ bị tắt theo mặc định, vui lòng"
+" kích hoạt chúng sau khi di chuyển."
+
+msgid "Subscription control"
+msgstr "Kiểm soát đăng ký"
+
+msgid "Successfully migrated."
+msgstr "Đã di chuyển thành công."
+
+msgid "Successfully unsubscribed."
+msgstr "Hủy đăng ký thành công."
+
+msgid "Support"
+msgstr "Hỗ trợ"
+
+msgid "System"
+msgstr "Hệ thống"
+
+msgid "System Information"
+msgstr "Thông tin hệ thống"
+
+msgid "System Settings"
+msgstr "Cài đặt hệ thống"
+
+msgid "Telephone Number"
+msgstr "Số điện thoại"
+
+msgid "Text to introduce this newsletter on subscription page"
+msgstr "Văn bản giới thiệu bản tin này trên trang đăng ký"
+
+msgid "Thank you for subscribing."
+msgstr "Cảm ơn bạn đã đăng ký."
+
+msgid ""
+"These addresses will be assigned to newly created mail user as per-user "
+"bcc address."
+msgstr ""
+"Những địa chỉ này sẽ được gán cho người dùng thư mới được tạo theo từng người dùng "
+"địa chỉ bcc."
+
+msgid "This domain is a backup MX, can not set custom relay."
+msgstr "Miền này là MX dự phòng, không thể đặt chuyển tiếp tùy chỉnh."
+
+msgid ""
+"This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's"
+" enabled in file /opt/iredapd/settings.py."
+msgstr ""
+"Tính năng này yêu cầu plugin iRedAPD 'wblist_rdns', vui lòng đảm bảo là có"
+" được bật trong tệp /opt/iredapd/settings.py."
+
+msgid "This is a mail alias."
+msgstr "Đây là bí danh thư."
+
+msgid "This is a mailing list."
+msgstr "Đây là danh sách gửi thư."
+
+msgid "This is default throttling applied to all individual accounts."
+msgstr "Đây là tính năng điều chỉnh mặc định được áp dụng cho tất cả các tài khoản cá nhân."
+
+#, python-format
+msgid ""
+"This throttle setting will be applied to all individual accounts under "
+"domain %s."
+msgstr ""
+"Cài đặt điều tiết này sẽ được áp dụng cho tất cả các tài khoản cá nhân trong "
+"tên miền %s."
+
+msgid "Throttle"
+msgstr "Điều tiết"
+
+msgid "Throttle inbound mails"
+msgstr "Kiểm soát thư gửi đến"
+
+msgid "Throttle outbound mails"
+msgstr "Kiểm soát thư gửi đi"
+
+msgid "Throttling"
+msgstr "Điều tiết"
+
+msgid "Time"
+msgstr "Thời gian"
+
+msgid "Time zone"
+msgstr "Múi giờ"
+
+msgid "To add new members, please enable mailing list account first."
+msgstr "Để thêm thành viên mới, trước tiên hãy kích hoạt tài khoản danh sách gửi thư."
+
+msgid "To verify domain ownership, please choose one of methods listed below:"
+msgstr "Để xác minh quyền sở hữu tên miền, vui lòng chọn một trong các phương pháp được liệt kê bên dưới:"
+
+msgid "Top Recipients"
+msgstr "Người nhận hàng đầu"
+
+msgid "Top Senders"
+msgstr "Người gửi hàng đầu"
+
+msgid "Tracking Data"
+msgstr "Dữ liệu theo dõi"
+
+msgid "Unban"
+msgstr "Bỏ cấm"
+
+msgid "Unban IP address"
+msgstr "Bỏ cấm địa chỉ IP"
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
+msgstr "Việc bỏ cấm địa chỉ IP có thể mất tới một phút, hãy kiên nhẫn."
+
+msgid "Unlimited"
+msgstr "Không giới hạn"
+
+msgid "Unmark as domain admin"
+msgstr "Bỏ đánh dấu là quản trị viên miền"
+
+msgid "Unmark as global admin"
+msgstr "Bỏ đánh dấu là quản trị viên toàn cầu"
+
+msgid "Unrestricted"
+msgstr "Không hạn chế"
+
+msgid "Unsubscribe"
+msgstr "Hủy đăng ký"
+
+msgid "Unsubscribe from newsletter"
+msgstr "Hủy đăng ký nhận bản tin"
+
+msgid "Update existing mail users"
+msgstr "Cập nhật người dùng thư hiện có"
+
+msgid "Update whitelists and blacklists"
+msgstr "Cập nhật danh sách ưu tiên và danh sách chặn"
+
+msgid "Uptime"
+msgstr "Thời gian hoạt động"
+
+msgid "Use this password"
+msgstr "Sử dụng mật khẩu này"
+
+msgid "Used"
+msgstr "Đã sử dụng"
+
+msgid "User"
+msgstr "Người dùng"
+
+msgid "User created."
+msgstr "Người dùng đã tạo."
+
+msgid "User login (self-service)"
+msgstr "Người dùng đăng nhập (self-service)"
+
+msgid "User with wildcard"
+msgstr "Người dùng có ký tự đại diện"
+
+msgid "User/Employee ID"
+msgstr "ID người dùng/nhân viên"
+
+msgid "Username"
+msgstr "Tên người dùng"
+
+msgid "Username must be an valid email address."
+msgstr "Tên người dùng phải là địa chỉ email hợp lệ."
+
+msgid "Username or password is incorrect."
+msgstr "Tên người dùng hoặc mật khẩu không đúng."
+
+msgid "Users"
+msgstr "Người dùng"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "Người dùng trong miền: %s"
+
+msgid "Users under same domain"
+msgstr "Người dùng trong cùng một miền"
+
+msgid "Users under same domain and its sub-domains"
+msgstr "Người dùng trong cùng một miền và các miền phụ của nó"
+
+msgid "Valid record formats"
+msgstr "Các định dạng bản ghi hợp lệ"
+
+msgid "Verify Now"
+msgstr "Xác minh ngay"
+
+msgid "Verify code"
+msgstr "Xác minh mã"
+
+msgid "View members"
+msgstr "Xem thành viên"
+
+msgid "View or hide mail body and headers"
+msgstr "Xem hoặc ẩn nội dung và tiêu đề thư"
+
+msgid "View received mails and white/blacklist senders"
+msgstr "Xem thư đã nhận và người gửi trong danh sách ưu tiên/chặn"
+
+msgid "Virus"
+msgstr "Virus"
+
+msgid "Virus checking"
+msgstr "Đang kiểm tra virus"
+
+msgid ""
+"Visit URLs below with a web browser should display verify code as page "
+"content:"
+msgstr ""
+"Truy cập các URL bên dưới bằng trình duyệt web sẽ hiển thị mã xác minh dưới dạng trang "
+"nội dung:"
+
+msgid "Waiting for domain ownership verification"
+msgstr "Đang chờ xác minh quyền sở hữu tên miền"
+
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgid ""
+"We need to confirm your email address. To complete the subscription "
+"process, please click the link in the email we just sent you."
+msgstr ""
+"Chúng tôi cần xác nhận địa chỉ email của bạn. Để hoàn tất đăng ký "
+"xử lý, vui lòng nhấp vào liên kết trong email chúng tôi vừa gửi cho bạn."
+
+msgid ""
+"We need to confirm your email address. To complete the unsubscription "
+"process, please click the link in the email we just sent you."
+msgstr ""
+"Chúng tôi cần xác nhận địa chỉ email của bạn. Để hoàn tất việc hủy đăng ký "
+"xử lý, vui lòng nhấp vào liên kết trong email chúng tôi vừa gửi cho bạn."
+
+msgid ""
+"When smtp service on primary MX mail server is down, emails sent to this "
+"domain will be delivered to backup MX server."
+msgstr ""
+"Khi dịch vụ smtp trên máy chủ thư MX chính không hoạt động, các email sẽ được gửi tới đây "
+"tên miền sẽ được gửi đến máy chủ MX dự phòng."
+
+msgid "White/Blacklist"
+msgstr "Danh sách ưu tiên/chặn"
+
+msgid "White/Blacklists"
+msgstr "Danh sách ưu tiên/chặn"
+
+msgid "Whitelist"
+msgstr "Danh sách ưu tiên"
+
+msgid "Whitelist has higher priority than blacklist."
+msgstr "Danh sách ưu tiên có mức độ ưu tiên cao hơn danh sách chặn."
+
+msgid "Whitelisted"
+msgstr "Đã đưa vào danh sách ưu tiên"
+
+msgid "Whitelisted recipients"
+msgstr "Người nhận thuộc danh sách ưu tiên"
+
+msgid "Whitelisted senders"
+msgstr "Người gửi thuộc danh sách ưu tiên"
+
+msgid "Whitelists"
+msgstr "Danh sách ưu tiên"
+
+msgid "Whitelists & Blacklists"
+msgstr "Danh sách ưu tiên và danh sách chặn"
+
+msgid ""
+"Whitelists and Blacklists based on reverse DNS name of sender server IP "
+"address"
+msgstr ""
+"Danh sách ưu tiên và danh sách chặn dựa trên tên DNS ngược của IP máy chủ người gửi"
+"Địa chỉ"
+
+msgid "Whitelists and Blacklists based on sender addresses"
+msgstr "Danh sách ưu tiên và danh sách chặn dựa trên địa chỉ người gửi"
+
+msgid "Who can send email to this list"
+msgstr "Ai có thể gửi email tới danh sách này"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr "Bạn không được phép cập nhật hồ sơ của quản trị viên miền toàn cầu."
+
+#, python-format
+msgid "You are running version %s"
+msgstr "Bạn đang chạy phiên bản %s"
+
+#, python-format
+msgid "You can NOT create more users under domain %s."
+msgstr "Bạn KHÔNG thể tạo thêm người dùng trong miền %s."
+
+msgid "You can change the kept days here:"
+msgstr "Bạn có thể thay đổi số ngày được lưu giữ tại đây:"
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."
+msgstr "Bạn có thể tạo thêm <strong>%d</strong> bí danh thư trong miền %s."
+
+#, python-format
+msgid ""
+"You can create <strong>%d</strong> more mail domains (Existing: %d, Max: "
+"%d)"
+msgstr ""
+"Bạn có thể tạo thêm <strong>%d</strong> tên miền thư (Hiện tại: %d, Max: "
+"%d)"
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
+msgstr "Bạn có thể tạo thêm <strong>%d</strong> người dùng thư trong miền %s."
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mailing list(s) under domain %s."
+msgstr "Bạn có thể tạo thêm <strong>%d</strong> danh sách gửi thư trong miền %s."
+
+msgid ""
+"You can embed a mailing list signup form (HTML code below) on any page of"
+" your website. Feel free to customize the form to add your brand name, "
+"logo image, or combine it with special offers to attract new subscribers "
+"and boost engagement."
+msgstr ""
+"Bạn có thể nhúng biểu mẫu đăng ký danh sách gửi thư (mã HTML bên dưới) vào bất kỳ trang nào của"
+" trang web của bạn. Vui lòng tùy chỉnh biểu mẫu để thêm tên thương hiệu của bạn,"
+"hình ảnh logo hoặc kết hợp với các ưu đãi đặc biệt để thu hút người đăng ký mới"
+"và tăng cường sự tương tác."
+
+msgid ""
+"You can enable self-service (per-domain setting) to allow users to manage"
+" their own preferences and more."
+msgstr ""
+"Bạn có thể bật tính năng self-service (cài đặt theo tên miền) để cho phép người dùng quản lý"
+" sở thích riêng của họ và hơn thế nữa."
+
+msgid "You can set per-domain and per-user throttling in account profile page."
+msgstr "Bạn có thể đặt giới hạn theo tên miền và theo người dùng trong trang hồ sơ tài khoản."
+
+msgid "You can set per-domain throttling in domain profile page."
+msgstr "Bạn có thể đặt giới hạn cho mỗi tên miền trong trang hồ sơ tên miền."
+
+msgid "You can set per-user throttling in account profile page."
+msgstr "Bạn có thể đặt giới hạn cho mỗi người dùng trong trang hồ sơ tài khoản."
+
+#, python-format
+msgid "You can't create mail aliases under domain %s."
+msgstr "Bạn không thể tạo bí danh thư trong miền %s."
+
+#, python-format
+msgid "You can't create mailing lists under domain %s."
+msgstr "Bạn không thể tạo danh sách gửi thư trong miền %s."
+
+#, python-format
+msgid "You can't create more mail aliases under domain %s."
+msgstr "Bạn không thể tạo thêm bí danh thư trong miền %s."
+
+#, python-format
+msgid "You can't create more mailing lists under domain %s."
+msgstr "Bạn không thể tạo thêm danh sách gửi thư trong miền %s."
+
+msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
+msgstr "Giấy phép của bạn không hợp lệ. Vui lòng liên hệ support@iredmail.org để khắc phục."
+
+msgid "Your search returned no hits."
+msgstr "Tìm kiếm của bạn không trả lại kết quả nào."
+
+msgid "default transport"
+msgstr "vận chuyển mặc định"
+
+msgid "discard received email"
+msgstr "hủy email đã nhận"
+
+msgid ""
+"forward emails to host example.com through port 25. The [] form is "
+"required when you specify an IP address instead of a hostname, or disable"
+" MX DNS lookup."
+msgstr ""
+"chuyển tiếp email tới máy chủ example.com qua cổng 25. Biểu mẫu [] là "
+"bắt buộc khi bạn chỉ định địa chỉ IP thay vì tên máy chủ hoặc tắt"
+" Tra cứu DNS MX."
+
+msgid "or longer than"
+msgstr "hoặc dài hơn"
+
+msgid ""
+"relay emails to the servers specified in A DNS records of domain "
+"example.com through port 25"
+msgstr ""
+"chuyển tiếp email đến các máy chủ được chỉ định trong bản ghi DNS của miền "
+"example.com qua cổng 25"
+
+msgid ""
+"relay emails to the servers specified in MX DNS records of domain "
+"example.com through port 25"
+msgstr ""
+"chuyển tiếp email đến các máy chủ được chỉ định trong bản ghi MX DNS của miền "
+"example.com qua cổng 25"
+
+msgid "without verifying local recipients"
+msgstr "không xác minh người nhận nội bộ"
+
