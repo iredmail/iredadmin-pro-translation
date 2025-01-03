@@ -1,1 +1,2977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iredAdmin\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kaya Zeren <translator@zeron.net>\n"
+"Language-Team: translator@zeron.net\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
 
+#, python-format
+msgid "%d admin(s) found."
+msgstr "%d yönetici bulundu."
+
+#, python-format
+msgid "%d domain(s) found."
+msgstr "%d etki alanı bulundu."
+
+#, python-format
+msgid "%d in total."
+msgstr "%d toplam."
+
+#, python-format
+msgid "%d mail alias(es) found."
+msgstr "%d e-posta takma adı bulundu."
+
+#, python-format
+msgid "%d mailing list(s) found."
+msgstr "%d e-posta listesi bulundu."
+
+#, python-format
+msgid "%d of %d in total."
+msgstr "%d / %d toplam."
+
+#, python-format
+msgid "%d user(s) found."
+msgstr "%d kullanıcı bulundu."
+
+#, python-format
+msgid "%d users sent emails without secure connection in last %d hours."
+msgstr ""
+"%d kullanıcı, son %d saatte güvenli bağlantı kullanmadan e-posta gönderdi."
+
+#, python-format
+msgid "%s account(s) exist."
+msgstr "%s hesap var."
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s gün %s saat %s dakika."
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr "(%d ileti, %s.)"
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr "(%d%% dolu, %d ileti, %s.)"
+
+msgid "(Mailbox is empty.)"
+msgstr "(Posta kutusu boş.)"
+
+msgid "1 Day"
+msgstr "1 gün"
+
+msgid "1 Hour"
+msgstr "1 saat"
+
+msgid "1 Minute"
+msgstr "1 dakika"
+
+msgid "About greylisting"
+msgstr "Gri liste hakkında"
+
+msgid "About mail logs"
+msgstr "E-posta günlükleri hakkında"
+
+msgid "About quarantined mails"
+msgstr "Karantinadaki e-postalar hakkında"
+
+msgid "Accepting mails sent to this account on mail server"
+msgstr "E-posta sunucusunda bu hesaba gönderilen e-postalar kabul ediliyor"
+
+msgid "Access control"
+msgstr "Erişim denetimi"
+
+#, python-format
+msgid ""
+"According to our <a href='%s' target='_blank' rel='noopener'>license terms</a>, "
+"you have to purchase a new license to get the latest release if your license "
+"expired."
+msgstr ""
+"<a href='%s' target='_blank' rel='noopener'>Lisans koşullarımıza</a> göre, "
+"lisansınızın süresi geçtiğinde son sürümü edinebilmek için yeni bir lisans "
+"satın almanız gerekir."
+
+msgid "Account activities"
+msgstr "Hesap etkinlikleri"
+
+msgid "Account already exists, please choose another one."
+msgstr "Hesap zaten var. Lütfen başka bir hesap seçin."
+
+msgid "Account does not exist."
+msgstr "Hesap bulunamadı."
+
+msgid ""
+"Account does not have specific spam policy yet, server-wide policy will be "
+"applied."
+msgstr ""
+"Hesabın henüz bir özel istenmeyen e-posta ilkesi yok. Sunucu tarafındaki ilke "
+"uygulanacak."
+
+msgid "Account is active."
+msgstr "Hesap kullanımda."
+
+msgid "Account is disabled."
+msgstr "Hesap kullanım dışı."
+
+msgid "Account is domain admin"
+msgstr "Hesap etki alanı yöneticisi"
+
+msgid "Account is global admin"
+msgstr "Hesap genel yönetici"
+
+msgid "Account status"
+msgstr "Hesap durumu"
+
+msgid "Account type"
+msgstr "Hesap türü"
+
+msgid "Activate account"
+msgstr "Hesabı etkinleştir"
+
+msgid "Active"
+msgstr "Etkin"
+
+msgid "Activities"
+msgstr "Etkinlikler"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Add (subscribable) mailing list"
+msgstr "E-posta listesi ekle (abone olunabilen)"
+
+msgid "Add account"
+msgstr "Hesap ekle"
+
+msgid "Add admin"
+msgstr "Yönetici ekle"
+
+msgid "Add domain"
+msgstr "Etki alanı ekle"
+
+msgid "Add mail alias"
+msgstr "E-posta takma adı ekle"
+
+msgid "Add mail alias under domain"
+msgstr "Etki alanı altına e-posta takma adı ekle"
+
+msgid "Add mail user"
+msgstr "E-posta kullanıcısı ekle"
+
+msgid "Add mail user under domain"
+msgstr "Etki alanı altına e-posta kullanıcısı ekle"
+
+msgid "Add mailing list"
+msgstr "E-posta listesi ekle"
+
+msgid "Add mailing list under domain"
+msgstr "Etki alanı altına e-posta listesi ekle"
+
+msgid "Add new members"
+msgstr "Yeni üye ekle"
+
+msgid "Add new moderators"
+msgstr "Yeni sorumlu ekle"
+
+msgid "Add one"
+msgstr "Bir tane ekle"
+
+msgid "Add one more?"
+msgstr "Bir tane daha eklensin mi?"
+
+msgid "Add whitelist and blacklist"
+msgstr "Beyaz liste ve kara liste ekle"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Address format"
+msgstr "Adres biçimi"
+
+msgid "Admin"
+msgstr "Yönetici"
+
+msgid "Admin Log"
+msgstr "Yönetici günlüğü"
+
+msgid "Admin created."
+msgstr "Yönetici oluşturuldu."
+
+msgid "Admin login"
+msgstr "Yönetici girişi"
+
+msgid "Admins"
+msgstr "Yöneticiler"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "Etki alanı yöneticileri: %s"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Alias"
+msgstr "Takma ad"
+
+#, python-format
+msgid "Alias addresses must end with domain name: %s"
+msgstr "Takma ad adresleri etki alanı ile bitmelidir: %s"
+
+msgid "Alias addresses:"
+msgstr "Takma ad adresleri:"
+
+msgid "Alias domains"
+msgstr "Takma ad etki alanları"
+
+msgid "Alias domains:"
+msgstr "Takma ad etki alanları:"
+
+msgid "Alias email addresses"
+msgstr "Takma ad e-posta adresleri"
+
+msgid "Aliases"
+msgstr "Takma adlar"
+
+#, python-format
+msgid "Aliases under domain: %s."
+msgstr "Etki alanı altındaki takma adlar: %s."
+
+msgid "All"
+msgstr "Tümü"
+
+msgid "All accounts"
+msgstr "Tüm hesaplar"
+
+msgid "All admins"
+msgstr "Tüm yöneticiler"
+
+msgid "All admins can only login from specified IP addresses or networks"
+msgstr ""
+"Tüm yöneticiler yalnızca belirtilen IP adresleri ya da ağlar üzerinden giriş "
+"yapabilir"
+
+msgid "All domains"
+msgstr "Tüm etki alanları"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of mail "
+"accounts."
+msgstr ""
+"Bu yönetici tarafından yönetilen tüm etki alanları e-posta kutusu kotasını ve e-"
+"posta hesaplarının sınırını paylaşır."
+
+msgid "All domains under your control."
+msgstr "Tüm etki alanlarını siz kontrol ediyorsunuz."
+
+msgid "All emails"
+msgstr "Tüm e-postalar"
+
+msgid "All sub-domains"
+msgstr "Tüm alt etki alanları"
+
+msgid "All users"
+msgstr "Tüm kullanıcılar"
+
+msgid "Allocated"
+msgstr "Kullanılan"
+
+msgid "Allow Microsoft Office Excel documents"
+msgstr "Microsoft Office Excel belgeleri kullanılabilsin"
+
+msgid "Allow Microsoft Office PowerPoint documents"
+msgstr "Microsoft Office PowerPoint belgeleri kullanılabilsin"
+
+msgid "Allow Microsoft Office Word documents"
+msgstr "Microsoft Office Word belgeleri kullanılabilsin"
+
+msgid "Allow all Microsoft Office documents"
+msgstr "Tüm Microsoft Office belgeleri kullanılabilsin"
+
+msgid "Allow this admin to create new mail domains with up to"
+msgstr "Bu yönetici şu kadar sayıda yeni e-posta etki alanı oluşturabilsin"
+
+msgid "Allow this admin to mark other mail user as domain admin"
+msgstr "Bu yönetici başka bir e-posta kullanıcısını yönetici olarak atayabilsin"
+
+msgid "Almost finished."
+msgstr "Neredeyse bitti."
+
+#, python-format
+msgid "Already exceed max number of account limit (%d)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (%d)."
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (e-posta takma adları)."
+
+msgid "Already reaches account limit (mail domains)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (e-posta etki alanları)."
+
+msgid "Already reaches account limit (mail users)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (e-posta kullanıcıları)."
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (e-posta kutusu kotası)."
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr "Hesap sayısı sınırına ulaşılmak üzere (e-posta listeleri)."
+
+msgid "Always insert X-Spam-* headers"
+msgstr "X-Spam-* üst bilgileri herzaman eklensin"
+
+msgid "Apply"
+msgstr "Uygula"
+
+msgid "Archive"
+msgstr "Arşiv"
+
+msgid "Assigned groups:"
+msgstr "Atanmış gruplar:"
+
+#, python-format
+msgid "At least %d characters."
+msgstr "En az %d karakter."
+
+#, python-format
+msgid "At least %s characters."
+msgstr "En az %s karakter."
+
+msgid "At least one digit number"
+msgstr "En az bir rakam"
+
+msgid "At least one letter"
+msgstr "En az bir harf"
+
+msgid "At least one special character:"
+msgstr "En az bir özel karakter:"
+
+msgid "At least one uppercase letter"
+msgstr "En az bir büyük harf"
+
+msgid "Attachments"
+msgstr "Ek dosyalar"
+
+msgid "Auth Username"
+msgstr "Etkin kullanıcı adı"
+
+msgid "Authenticated User"
+msgstr "Etkin kullanıcı"
+
+msgid "Available quota:"
+msgstr "Kullanılabilecek kota:"
+
+#, python-format
+msgid "Available: %d (Allocated: %d, Max: %d.)"
+msgstr "Kullanılabilir: %d (Kullanılan: %d, En fazla: %d.)"
+
+msgid "BCC"
+msgstr "Gizli kopya"
+
+msgid "BCC incoming emails to other address"
+msgstr "Gelen e-postalar gizli kopya olarak gönderilsin"
+
+msgid "BCC outgoing emails to other address"
+msgstr "Giden e-postalar gizli kopya olarak gönderilsin"
+
+msgid "Backup"
+msgstr "Yedek"
+
+msgid "Backup MX"
+msgstr "MX kaydını yedekle"
+
+msgid "Bad Header"
+msgstr "Üst bilgi bozuk"
+
+msgid "Bad Mime"
+msgstr "MIME verisi bozuk"
+
+msgid "Bad-header checking"
+msgstr "Bozuk üst bilgi denetleniyor"
+
+msgid "Ban rules"
+msgstr "Engelleme kuralları"
+
+msgid "Banned"
+msgstr "Engellenmiş"
+
+msgid "Banned IP Addresses"
+msgstr "Engellenmiş IP adresleri"
+
+msgid "Banned file type checking"
+msgstr "Engellenmiş dosya türü denetleniyor"
+
+msgid "Blacklisted recipients"
+msgstr "Kara listedeki alıcılar"
+
+msgid "Blacklisted senders"
+msgstr "Kara listedeki göndericiler"
+
+msgid "Blacklists"
+msgstr "Kara listeler"
+
+msgid "Block or quarantine marked spam when score is >="
+msgstr ""
+"Puanı şundan eşit ya da büyük e-postalar engellensin ya da karantinaya atılsın"
+
+msgid "CIDR formatted range of IP addresses"
+msgstr "CIDR biçiminde IP adresi aralığı"
+
+msgid "Can not be longer than"
+msgstr "Şundan uzun olamaz"
+
+msgid "Can not be shorter than"
+msgstr "Şundan kısa olamaz"
+
+msgid "Catch-all"
+msgstr "Tümünü topla"
+
+msgid "Catch-all Addresses"
+msgstr "Tümünü toplama adresleri"
+
+msgid "Catch-all address may receive many spam emails."
+msgstr "Tümünü toplama adresine çok sayıda istenmeyen e-posta gelebilir."
+
+msgid "Change email address"
+msgstr "E-posta adresini değiştir"
+
+msgid "Change email address to"
+msgstr "E-posta adresini şuna değiştir"
+
+msgid "Change password"
+msgstr "Parolayı değiştir"
+
+msgid "Choose Action"
+msgstr "İşlem seçin"
+
+msgid "Choose activity type"
+msgstr "Etkinlik türü seçin"
+
+msgid "Clean"
+msgstr "Temizle"
+
+msgid "Client Address"
+msgstr "İstemci adresi"
+
+msgid "Client Hostname"
+msgstr "İstemci sunucu adı"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Company/Organization Name"
+msgstr "Şirket/Kuruluş adı"
+
+msgid ""
+"Confirm email has been sent to new members. Members will appear below after "
+"they confirmed the subscription."
+msgstr ""
+"Yeni üyelere onay e-postası gönderildi. Üyeler aboneliklerini onayladıktan "
+"sonra aşağıda görüntülenecek."
+
+msgid "Confirm new password"
+msgstr "Yeni parola onayı"
+
+msgid "Contact webmaster"
+msgstr "Yönetici ile görüş"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr "Sorumluluk reddi metni giden e-postalara eklenecek."
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid ""
+"Create a TXT type DNS record of the domain name, use the verify code as its "
+"value"
+msgstr ""
+"Etki alanı için TXT türünde bir DNS kaydı oluşturun ve değeri olarak doğrulama "
+"kodunu kullanın"
+
+msgid ""
+"Create a text file under top directory of your web site, both file name and "
+"file content must be same as verify code"
+msgstr ""
+"Sitenizin en üst klasöründe bir metin dosyası oluşturun. Hem dosya adı hem de "
+"dosya içeriği doğrulama koduyla aynı olmalıdır"
+
+msgid "Create new mail domains with up to"
+msgstr "Şu kadar yeni e-posta etki alanı oluşturabilir"
+
+msgid "Cumulative size of all inbound emails"
+msgstr "Tüm gelen e-postaların toplam boyutu"
+
+msgid "Cumulative size of all outbound emails"
+msgstr "Tüm giden e-postaların toplam boyutu"
+
+msgid "Current password is incorrect."
+msgstr "Geçerli parola yanlış."
+
+msgid "Custom ban rules"
+msgstr "Özel engelleme kuralları"
+
+msgid "Custom:"
+msgstr "Özel:"
+
+msgid "Customize mail filter rule"
+msgstr "E-posta süzme kuralını özelleştir"
+
+msgid "Customize mail filter rule over TLS/SSL"
+msgstr "TLS/SSL üzerinden e-posta süzme kuralını özelleştir"
+
+msgid "DISABLED"
+msgstr "KULLANILMIYOR"
+
+msgid "DNS query result should contain the verify code:"
+msgstr "DNS sorgusu sonucunda doğrulama kodu bulunmalıdır:"
+
+msgid "Dashboard"
+msgstr "Pano"
+
+msgid "Data Clean Up"
+msgstr "Veri temizliği"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Days"
+msgstr "Gün"
+
+msgid "Default bcc address for incoming emails for new user"
+msgstr "Yeni kullanıcıların gelen e-postaları için varsayılan gizli kopya adresi"
+
+msgid "Default bcc address for outgoing emails for new user"
+msgstr "Yeni kullanıcıların giden e-postaları için varsayılan gizli kopya adresi"
+
+#, python-format
+msgid "Default is %s."
+msgstr "Varsayılan %s."
+
+msgid "Default language for new user"
+msgstr "Yeni kullanıcılar için varsayılan dil"
+
+msgid "Default mail alias(es) of new user"
+msgstr "Yeni kullanıcılar için varsayılan e-posta takma adları"
+
+msgid "Default mailbox folder"
+msgstr "Varsayılan e-posta kutusu klasörü"
+
+msgid "Default mailbox format"
+msgstr "Varsayılan e-posta kutusu biçimi"
+
+msgid "Default mailing list(s) of new user"
+msgstr "Yeni kullanıcıların varsayılan e-posta listeleri"
+
+msgid "Default quota of new user"
+msgstr "Yeni kullanıcıların varsayılan kotası"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Delete account"
+msgstr "Hesabı sil"
+
+msgid "Delete all in database"
+msgstr "Veri tabanındakilerin tümünü sil"
+
+msgid "Delete and archive"
+msgstr "Sil ve arşivle"
+
+msgid "Delete mailboxes"
+msgstr "E-posta kutularını sil"
+
+msgid "Delete policy and use default settings"
+msgstr "İlkeyi sil ve varsayılan ayarları kullan"
+
+msgid "Delete selected"
+msgstr "Seçilmişleri sil"
+
+msgid "Delete selected log"
+msgstr "Seçilmiş günlüğü sil"
+
+msgid "Delete selected, and blacklist entire recipient domain(s)"
+msgstr "Seçilmişleri sil ve tüm alıcı etki alanlarını kara listeye ekle"
+
+msgid "Delete selected, and blacklist entire sender domain(s)"
+msgstr "Seçilmişleri sil ve tüm gönderici etki alanlarını kara listeye ekle"
+
+msgid "Delete selected, and blacklist recipient domain(s) and all sub-domains"
+msgstr ""
+"Seçilmişleri sil ve tüm alıcı etki alanları ile alt etki alanlarını kara "
+"listeye ekle"
+
+msgid "Delete selected, and blacklist recipient(s)"
+msgstr "Seçilmişleri sil ve alıcıları kara listeye ekle"
+
+msgid "Delete selected, and blacklist sender domain(s) and all its sub-domains"
+msgstr ""
+"Seçilmişleri sil ve tüm gönderici etki alanları ile alt etki alanlarını kara "
+"listeye ekle"
+
+msgid "Delete selected, and blacklist sender domain(s) and all sub-domains"
+msgstr ""
+"Seçilmişleri sil ve gönderici etki alanları ile alt etki alanlarını kara "
+"listeye ekle"
+
+msgid "Delete selected, and blacklist sender(s)"
+msgstr "Seçilmişleri sil ve göndericileri kara listeye ekle"
+
+msgid "Delete selected, and whitelist entire recipient domain(s)"
+msgstr "Seçilmişleri sil ve tüm alıcı etki alanlarını beyaz listeye ekle"
+
+msgid "Delete selected, and whitelist entire sender domain(s)"
+msgstr "Seçilmişleri sil ve tüm gönderici etki alanlarını beyaz listeye ekle"
+
+msgid "Delete selected, and whitelist recipient domain(s) and all sub-domains"
+msgstr ""
+"Seçilmişleri sil ve alıcı etki alanları ile alt etki alanlarını beyaz listeye "
+"ekle"
+
+msgid "Delete selected, and whitelist recipient(s)"
+msgstr "Seçilmişleri sil ve alıcıları beyaz listeye ekle"
+
+msgid "Delete selected, and whitelist sender domain(s) and all sub-domains"
+msgstr ""
+"Seçilmişleri sil ve gönderici etki alanları ile alt etki alanlarını beyaz "
+"listeye ekle"
+
+msgid "Delete selected, and whitelist sender(s)"
+msgstr "Seçilmişleri sil ve göndericileri beyaz listeye ekle"
+
+msgid "Delete without archiving"
+msgstr "Arşivlemeden sil"
+
+msgid "Delivery Attempts"
+msgstr "Teslim etme denemeleri"
+
+msgid "Digest"
+msgstr "Özet"
+
+msgid "Directory of mailbox storage"
+msgstr "E-posta kutusu depolama alanı klasörü"
+
+msgid "Disable"
+msgstr "Kullanımdan kaldır"
+
+msgid "Disable account"
+msgstr "Hesabı kullanımdan kaldır"
+
+msgid "Disable greylisting service"
+msgstr "Gri liste hizmetini kullanımdan kaldır"
+
+msgid ""
+"Disable subscription and unsubscription via email (existing subscribers are "
+"still able to send to list)"
+msgstr ""
+"Kullanıcılar e-posta ile abone olamasın ve ayrılamasın (var olan aboneler hala "
+"listeye gönderim yapabilir)"
+
+msgid "Disable subscription but allow unsubscription via email"
+msgstr "Kullanıcılar e-posta ile abone olamasın ancak abonelikten ayrılabilsin"
+
+msgid "Disable subscription confirm"
+msgstr "Abonelik onayı istenmesin"
+
+msgid "Disabled"
+msgstr "Kullanılmıyor"
+
+msgid "Disabled accounts"
+msgstr "Kullanımdan kaldırılmış hesaplar"
+
+msgid "Disabled domain profiles"
+msgstr "Kullanımdan kaldırılmış etki alanı profilleri"
+
+msgid "Disabled domains"
+msgstr "Kullanımdan kaldırılmış etki alanları"
+
+msgid "Disabled mail services"
+msgstr "Kullanımdan kaldırılmış e-posta hizmetleri"
+
+msgid "Disabled self-service preferences"
+msgstr "Kullanımdan kaldırılmış kendin yap ayarları"
+
+msgid "Disabled user profiles"
+msgstr "Kullanımdan kaldırılmış kullanıcı profilleri"
+
+msgid ""
+"Disabling service will be applied to newly created mail user by default. If you "
+"want to update existing mail users, please toggle on checkbox below."
+msgstr ""
+"Hizmeti kullanımdan kaldırmak varsayılan olarak yeni oluşturulan kullanıcılara "
+"uygulanır. Var olan e-posta kullanıcılarını güncellemek istiyorsanız aşağıdaki "
+"kutuyu işaretleyin."
+
+msgid "Disallow to manage quarantined mails"
+msgstr "Karantinadaki e-postaları yönetemesin"
+
+msgid "Disallow to view log of inbound/outbound mails"
+msgstr "Gelen/giden e-posta günlüğünü görüntüleyemesin"
+
+msgid "Disclaimer"
+msgstr "Sorumluluk reddi"
+
+msgid "Display Name"
+msgstr "Görüntülenecek ad"
+
+msgid "Do not apply greylisting on emails sent from domains listed below"
+msgstr ""
+"Aşağıdaki listedeki etki alanlarından gönderilen e-postalara gri liste "
+"uygulanmasın"
+
+msgid "Do not apply greylisting on listed senders"
+msgstr "Listedeki göndericilere gri liste uygulanmasın"
+
+msgid "Do not archive received emails"
+msgstr "Alınan e-postalar arşivlenmesin"
+
+msgid ""
+"Do not notify sender when posting to a moderator-only mailing list was denied"
+msgstr ""
+"Yalnızca sorumlular e-posta listesine gönderim yapılamadığı göndericiye "
+"bildirim gönderilmesin"
+
+msgid ""
+"Do not notify sender when posting to a subscriber-only mailing list was denied"
+msgstr ""
+"Yalnızca aboneler e-posta listesine gönderim yapılamadığı göndericiye bildirim "
+"gönderilmesin"
+
+msgid ""
+"Do not notify sender when posting was denied due to exceed max message size"
+msgstr ""
+"En büyük ileti boyutu aşıldığı için gönderim yapılamadığı göndericiye "
+"bildirilmesin"
+
+msgid "Do not notify subscription requestor when subscription is under moderated"
+msgstr ""
+"Abonelik sorumlu onayına bağlı olduğunda abonelik isteği yapana bildirim "
+"gönderilmesin"
+
+msgid "Do not send a copy to sender"
+msgstr "Göndericiye bir kopyası gönderilmesin"
+
+msgid "Domain"
+msgstr "Etki alanı"
+
+msgid "Domain Admins"
+msgstr "Etki alanı yöneticileri"
+
+msgid "Domain Name"
+msgstr "Etki alanı adı"
+
+msgid "Domain activities"
+msgstr "Etki alanı etkinlikleri"
+
+msgid "Domain admin"
+msgstr "Etki alanı yöneticisi"
+
+msgid "Domain admin cannot assign more than max quota to a mail user."
+msgstr ""
+"Etki alanı yöneticisi e-posta kullanıcısına boyut kotasından büyük bir değer "
+"atayamaz."
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr ""
+"Etki alanı zaten var. Lütfen birincil ve takma ad etki alanlarını kontrol edin."
+
+msgid "Domain and its sub-domains"
+msgstr "Etki alanı ve alt etki alanları"
+
+msgid "Domain created."
+msgstr "Etki alanı oluşturuldu."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr "Etki alanı kullanılıyor ancak yedek MX olarak işaretlenmiş."
+
+msgid "Domain is active, but relay to other host"
+msgstr "Etki alanı kullanılıyor ancak başka bir sunucuya aktarılıyor"
+
+msgid "Domain is active."
+msgstr "Etki alanı kullanılıyor."
+
+msgid "Domain is disabled."
+msgstr "Etki alanı kullanılmıyor."
+
+msgid "Domain name is empty."
+msgstr "Etki alanı boş."
+
+msgid "Domain name or mail address"
+msgstr "Etki alanı ya da e-posta adresi"
+
+msgid "Domain name or username is missed."
+msgstr "Etki alanı adı ya da kullanıcı adı eksik."
+
+msgid "Domain ownership verification"
+msgstr "Etki alanı sahipliği doğrulama"
+
+msgid ""
+"Domain ownership verification is recommended if you can not fully trust this "
+"admin, because if domains like gmail.com, hotmail.com were added locally, all "
+"emails sent to gmail.com/hotmail.com will be delivered locally on your server "
+"instead of the real Gmail/Hotmail servers."
+msgstr ""
+"Bu yöneticiye tam olarak güvenemiyorsanız etki alanı sahipliğini doğrulamanız "
+"önerilir. Çünkü gmail.com, hotmail.com gibi etki alanlarını yerel olarak "
+"eklediğinizde, gmail.com/hotmail.com adresine gönderilen tüm e-postalar gerçek "
+"Gmail/Hotmail sunucuları yerine yerel sunucunuza iletilir."
+
+msgid "Domain ownership verification required"
+msgstr "Etki alanı sahipliğinin doğrulanması gerekli"
+
+msgid "Domain quota size"
+msgstr "Etki alanı boyut kotası"
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Etki alanı boyut kotası aşıldı. Artırmaları için lütfen yöneticiniz ya da "
+"hizmet sağlayıcınız ile görüşün."
+
+msgid "Domains"
+msgstr "Etki alanları"
+
+msgid "Domains and Accounts"
+msgstr "Etki alanları ve hesaplar"
+
+msgid "Dump disclaimer automatically"
+msgstr "Sorumluluk reddi beyanı otomatik olarak kaldırılsın"
+
+msgid "Dunno"
+msgstr "Bilmiyorum"
+
+msgid "Edit account profile"
+msgstr "Hesap profilini düzenle"
+
+msgid "Edit domain profile"
+msgstr "Etki alanı profilini düzenle"
+
+msgid "Edit quota setting"
+msgstr "Kota ayarını düzenle"
+
+msgid "Email"
+msgstr "E-posta"
+
+#, python-format
+msgid "Email address of alias account must end with domain name(s): %s."
+msgstr "Takma ad hesabının e-posta adresi şu etki alanları ile bitmelidir: %s."
+
+msgid "Email address or domain names"
+msgstr "E-posta adresi ya da etki alanı adları"
+
+msgid "Email address was changed."
+msgstr "E-posta adresi değiştirildi."
+
+msgid "Email addresses of alias accounts"
+msgstr "Takma ad hesaplarının e-posta adresleri"
+
+msgid ""
+"Email addresses of the mailing list moderators which need to be contacted when "
+"there is some email under moderated. If empty, mailing list owners will be used "
+"instead."
+msgstr ""
+"Bazı e-postaların denetlenmesi gerektiğinde görüşülmesi gereken e-posta listesi "
+"sorumlularının e-posta adresleri. Boş bırakılmışsa bunun yerine e-posta "
+"listesinin sahipleri kullanılır."
+
+msgid ""
+"Email addresses of the mailing list moderators which need to be contacted when "
+"there is someone subscribing to the list and under moderated. If empty, mailing "
+"list moderators will be used instead."
+msgstr ""
+"Listeye yeni abone geldiğinde ve denetlenmesi gerektiğinde görüşülmesi gereken "
+"e-posta listesi sorumlularının e-posta adresleri. Boş bırakılmışsa bunun yerine "
+"e-posta listesinin sorumluları kullanılır."
+
+#, python-format
+msgid ""
+"Email addresses of the mailing list owners which need to be contacted via email "
+"%s, either by the system or by end users."
+msgstr ""
+"Sistem veya son kullanıcılar tarafından %s e-posta adresi aracılığıyla "
+"görüşülmesi gereken e-posta listesi sahiplerinin e-posta adresleri."
+
+msgid "Emails"
+msgstr "E-postalar"
+
+msgid ""
+"Emails delivered to non-exist mail accounts will be forwarded to catch-all "
+"address(es)."
+msgstr ""
+"Var olmayan e-posta hesaplarına iletilen e-postalar, tümünü toplama adresine "
+"yönlendirilir."
+
+#, python-format
+msgid ""
+"Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be delivered "
+"to <em><strong>user@%s</strong></em>."
+msgstr ""
+"<em><strong>kullanici@[ALIAS_DOMAIN]</strong></em> adresine gönderilen e-"
+"postalar <em><strong>user@%s</strong></em> adresine iletilir."
+
+#, python-format
+msgid "Emails sent to alias addresses will be delivered to %s."
+msgstr "Takma ad adreslerine gönderilen e-postalar %s adresine iletilir."
+
+msgid "Empty address is not allowed."
+msgstr "Adres boş bırakılamaz."
+
+msgid "Empty password is not allowed."
+msgstr "Parola boş bırakılamaz."
+
+msgid "Enable"
+msgstr "Kullanıma al"
+
+msgid "Enable alias account"
+msgstr "Takma ad hesabı kullanılsın"
+
+msgid "Enable bad-header checking"
+msgstr "Bozuk üst bilgi denetimi yapılsın"
+
+msgid "Enable banned file type checking"
+msgstr "Engellenmiş dosya türü denetimi yapılsın"
+
+msgid "Enable domain alias"
+msgstr "Etki alanı takma adı kullanılsın"
+
+msgid "Enable greylisting service"
+msgstr "Gri liste hizmeti kullanılsın"
+
+msgid "Enable mail forwarding"
+msgstr "E-posta iletme kullanılsın"
+
+msgid "Enable newsletter-style mailing list"
+msgstr "E-posta listesi duyuru biçiminde olsun"
+
+msgid "Enable selected domain without verification"
+msgstr "Seçilmiş etki alanını doğrulamadan kullanıma al"
+
+msgid "Enable spam checking"
+msgstr "İstenmeyen e-posta denetimi yapılsın"
+
+msgid "Enable subscription and unsubscription from website"
+msgstr "Siteden abone olma ve ayrılma işlemleri yapılabilsin"
+
+msgid "Enable this account"
+msgstr "Bu hesabı kullanıma al"
+
+msgid "Enable this domain"
+msgstr "Bu etki alanını kullanıma al"
+
+msgid "Enable virus checking"
+msgstr "Virüs denetimi yapılsın"
+
+msgid "Enabled Services"
+msgstr "Kullanıma alınmış hizmetler"
+
+msgid "Encryption Protocol"
+msgstr "Şifreleme iletişim kuralı"
+
+msgid "Entire domain"
+msgstr "Tüm etki alanı"
+
+msgid "Envelope Sender"
+msgstr "Zarf göndericisi"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Error while checking new version of iRedAdmin-Pro:"
+msgstr "Yeni iRedAdmin-Pro sürümü denetlenirken sorun çıktı:"
+
+msgid "Error while getting license info:"
+msgstr "Lisans bilgileri alınırken sorun çıktı:"
+
+msgid "Error, you entered an invalid email address."
+msgstr "Geçersiz bir e-posta adresi yazdınız."
+
+msgid "Error:"
+msgstr "Hata:"
+
+msgid "Events"
+msgstr "Etkinlikler"
+
+msgid "Everyone can send mail to this address"
+msgstr "Herkes bu adrese e-posta gönderebilir"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Etki alanının hesap sayısı sınırına ulaşıldı. Sınırı artırması için yöneticiniz "
+"ya da hizmet sağlayıcınız ile görüşün."
+
+msgid "Exceeded:"
+msgstr "Sınır aşıldı:"
+
+msgid "Expire"
+msgstr "Geçerlilik sonu"
+
+msgid "Expire date"
+msgstr "Geçerlilik sonu tarihi"
+
+msgid "Expired"
+msgstr "Geçerlilik süresi dolmuş"
+
+msgid "Export accounts"
+msgstr "Hesapları dışa aktar"
+
+msgid "Export all managed accounts"
+msgstr "Tüm yönetilen hesapları dışa aktar"
+
+msgid "Export statistics of admins"
+msgstr "Yönetici istatistiklerini dışa aktar"
+
+msgid "External Members"
+msgstr "Dış üyeler"
+
+msgid "External moderators"
+msgstr "Dış sorumlular"
+
+msgid "Fetching mails via IMAP"
+msgstr "E-postalar IMAP ile alınıyor"
+
+msgid "Fetching mails via IMAP over TLS/SSL"
+msgstr "E-postalar TLS/SSL üzerinden IMAP ile alınıyor"
+
+msgid "Fetching mails via POP3"
+msgstr "E-postalar POP3 ile alınıyor"
+
+msgid "Fetching mails via POP3 over TLS/SSL"
+msgstr "E-postalar TLS/SSL üzerinden POP3 ile alınıyor"
+
+msgid "Filter accounts by first character in email addresses"
+msgstr "Hesapları e-posta adresinin ilk karakterine göre süzün"
+
+msgid "Filter domains by first character in mail domain name"
+msgstr "Etki alanlarını e-posta etki alanı adının ilk karakterine göre süzün"
+
+msgid "Filter:"
+msgstr "Süzgeç:"
+
+msgid "First Attempt"
+msgstr "İlk deneme"
+
+msgid "First Page"
+msgstr "İlk sayfa"
+
+msgid "First name"
+msgstr "Ad"
+
+msgid "Footer text (HTML format)"
+msgstr "Alt bilgi metni (HTML biçiminde)"
+
+msgid "Footer text (plain text format)"
+msgstr "Alt bilgi metni (düz metin biçiminde)"
+
+msgid "For Inbound Mails"
+msgstr "Gelen e-postalar için"
+
+msgid "For Outbound Mails"
+msgstr "Giden e-postalar için"
+
+msgid "For advanced settings and further information please see"
+msgstr "Gelişmiş ayarlar ve diğer bilgiler için şuraya bakabilirsiniz"
+
+msgid "Forward mails to address"
+msgstr "E-postaları adrese ilet"
+
+msgid "Forwarding"
+msgstr "İletiliyor"
+
+msgid "Forwarding addresses (saved a copy in mailbox)"
+msgstr "İletme adresleri (kopyasını e-posta kutusuna kaydeder)"
+
+msgid "Forwarding addresses (without saving a copy in mailbox)"
+msgstr "İletme adresleri (kopyasını e-posta kutusuna kaydetmez)"
+
+msgid "Full name"
+msgstr "Tam ad"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Get a newsletter signup form"
+msgstr "Duyuru kaydı formu alın"
+
+msgid "Global Admin"
+msgstr "Genel yönetici"
+
+msgid "Global Spam Policy"
+msgstr "Genel istenmeyen e-posta ilkesi"
+
+msgid "Global admin"
+msgstr "Genel yönetici"
+
+msgid "Global admin can only login from specified IP addresses or networks"
+msgstr ""
+"Genel yönetici yalnızca belirtilen IP adresi ya da ağlardan giriş yapabilir"
+
+msgid "Grant admin"
+msgstr "Yönetici yap"
+
+msgid "Greylisted"
+msgstr "Gri listede"
+
+msgid "Greylisting"
+msgstr "Gri liste"
+
+msgid ""
+"Greylisting helps block out huge amounts of spam, not recommended to turn it "
+"off."
+msgstr ""
+"Gri liste çok sayıda istenmeyen e-postanın engellenmesini sağlar. Kapatılması "
+"önerilmez."
+
+msgid ""
+"Greylisting is a method of defending your email users against spam. A mail "
+"transfer agent (MTA, e.g. Postfix) using greylisting will temporarily reject "
+"any email from a sender it does not recognize. If the mail is legitimate the "
+"originating server will, after a delay, try again and, if sufficient time has "
+"elapsed (usually 7 to 30 minutes), the email will be accepted."
+msgstr ""
+"Gri liste, e-posta kullanıcılarınızı istenmeyen e-postalardan korumak için bir "
+"yöntemdir. Gri liste kullanan bir e-posta aktarıcısı (MTA, örneğin Postfix), "
+"tanımadığı bir göndericiden gelen tüm e-postaları geçici olarak reddeder. E-"
+"posta geçerliyse, kaynak sunucu bir gecikme süresinden sonra yeniden dener ve "
+"yeterli zaman geçmişse (genellikle 7 ila 30 dakika), e-posta kabul edilir."
+
+msgid "Greylisting service"
+msgstr "Gri liste hizmeti"
+
+msgid "Greylisting service for this domain"
+msgstr "Bu etki alanı için gri liste hizmeti"
+
+msgid "Greylisting service for this user"
+msgstr "Bu kullanıcı için gri liste hizmeti"
+
+msgid "Greylisting settings have been updated."
+msgstr "Gri liste ayarları güncellendi."
+
+msgid "Hostname"
+msgstr "Sunucu adı"
+
+msgid "IMAP Login:"
+msgstr "IMAP girişi:"
+
+msgid "IP Address"
+msgstr "IP adresi"
+
+msgid "IP CIDR Network"
+msgstr "IP CIDR ağı"
+
+msgid ""
+"If many clean mails were marked as spam, please slightly increase the score."
+msgstr ""
+"Çok sayıda temiz e-posta istenmeyen olarak işaretleniyorsa puanı biraz "
+"yükseltin."
+
+msgid ""
+"If many spam message were not classified, please slightly decrease the score."
+msgstr "Çok sayıda istenmeyen ileti ayırt edilemiyorsa puanı biraz düşürün."
+
+msgid ""
+"If you prefer redirecting user to a subscription page, this is the url of "
+"subscription page."
+msgstr ""
+"Kullanıcıyı bir abonelik sayfasına yönlendirmek isterseniz, kullanılacak "
+"abonelik sayfasının adresi."
+
+msgid "Increase it now?"
+msgstr "Şimdi artırılsın mı?"
+
+msgid "Inherit from account which has lower priority"
+msgstr "Daha düşük önceliği olan bir hesaptan devralınsın"
+
+msgid "Inherit global setting"
+msgstr "Genel ayar devralınsın"
+
+msgid "Inherit global throttle setting"
+msgstr "Genel yavaşlatma ayarı"
+
+msgid "Inherit per-domain throttle setting"
+msgstr "Her etki alanının kendi yavaşlatma ayarı devralınsın"
+
+msgid ""
+"Input mail addresses of either internal or external members below, multiple "
+"addresses must be separated by comma, space or new line."
+msgstr ""
+"Aşağıya iç veya dış üyelerin e-posta adreslerini yazın. Birden fazla adresi "
+"virgül, boşluk veya yeni satırla ayırarak yazabilirsiniz."
+
+msgid ""
+"Input mail addresses of either internal or external moderators below, multiple "
+"addresses must be separated by comma, space or new line."
+msgstr ""
+"Aşağıya iç veya dış sorumluların e-posta adreslerini yazın. Birden fazla adresi "
+"virgül, boşluk veya yeni satırla ayırarak yazabilirsiniz."
+
+msgid "Internal Members"
+msgstr "İç üyeler"
+
+msgid "Internal Moderators"
+msgstr "İç sorumlular"
+
+msgid "Internal server error, please contact server admin to fix it."
+msgstr "Sunucuda sorun var. Lütfen düzeltmesi için sunucu yöneticinizle görüşün."
+
+msgid "Invalid account."
+msgstr "Hesap geçersiz."
+
+msgid "Invalid action."
+msgstr "İşlem geçersiz."
+
+msgid "Invalid domain name or mail address."
+msgstr "Etki alanı adı ya da e-posta adresi geçersiz."
+
+msgid "Invalid domain name."
+msgstr "Etki alanı adı geçersiz."
+
+msgid "Invalid email addresses will be silently discarded."
+msgstr "Geçersiz e-posta adresleri sessizce yok sayılır."
+
+msgid "Invalid mail address."
+msgstr "E-posta adresi geçersiz."
+
+msgid "Invalid product id."
+msgstr "Ürün kimliği geçersiz."
+
+msgid "Invalid request data."
+msgstr "İstek verileri geçersiz."
+
+msgid "Is a global admin."
+msgstr "Bir genel yönetici."
+
+msgid "It affects newly created mailboxes, not existing ones."
+msgstr ""
+"Bu işlem yeni oluşturulan e-posta kutularını etkiler. Var olan kutuları "
+"etkilemez."
+
+msgid ""
+"It's better create a subscribable mailing list instead, so that you can "
+"restrict the mail posting and delivery."
+msgstr ""
+"Bunun yerine abone olunabilen bir e-posta listesi oluşturmanız daha iyi olur. "
+"Böylece e-posta gönderimini ve dağıtımını kısıtlayabilirsiniz."
+
+msgid ""
+"It's better create a subscribable mailing list, so that you can restrict the "
+"mail posting and delivery."
+msgstr ""
+"Abone olunabilen bir e-posta listesi oluşturmanız daha iyi olur. Böylece e-"
+"posta gönderimini ve dağıtımını kısıtlayabilirsiniz."
+
+msgid ""
+"It's strongly recommended to use IP address of backup MX server instead of "
+"domain name to avoid potential looping."
+msgstr ""
+"Olası döngüyü önlemek için etki alanı adı yerine yedek MX sunucusunun IP "
+"adresini kullanmanız önemle önerilir."
+
+msgid "Jail"
+msgstr "Hapset"
+
+msgid "Job Title"
+msgstr "Unvanı"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr "E-posta kutusu %d gün tutulsun"
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr "E-posta kutusu %d ay tutulsun"
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr "E-posta kutusu %d hafta tutulsun"
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr "E-posta kutusu %d yıl tutulsun"
+
+msgid "Keep mailbox for 1 day"
+msgstr "E-posta kutusu 1 gün tutulsun"
+
+msgid "Keep mailbox for 1 month "
+msgstr "E-posta kutusu 1 ay tutulsun "
+
+msgid "Keep mailbox for 1 week"
+msgstr "E-posta kutusu 1 hafta tutulsun"
+
+msgid "Keep mailbox for 1 year"
+msgstr "E-posta kutusu 1 yıl tutulsun"
+
+msgid "Keep mailbox forever"
+msgstr "E-posta kutusu süresiz tutulsun"
+
+msgid "Keyword"
+msgstr "Anahtar sözcük"
+
+msgid "Kind"
+msgstr "Tür"
+
+msgid "Last Email Delivery"
+msgstr "Son e-posta gönderimi"
+
+msgid "Last Login"
+msgstr "Son giriş"
+
+msgid "Last Login:"
+msgstr "Son giriş:"
+
+msgid "Last Logins"
+msgstr "Son girişler"
+
+msgid "Last Page"
+msgstr "Son sayfa"
+
+msgid "Last name"
+msgstr "Soyad"
+
+msgid "Last verify status"
+msgstr "Son doğrulama durumu"
+
+msgid "Last verify time"
+msgstr "Son doğrulama zamanı"
+
+msgid "Latest version"
+msgstr "Son sürüm"
+
+#, python-format
+msgid "Leave it empty to use <a href='%s'>domain setting</a>."
+msgstr "<a href='%s'>Etki alanı ayarının</a> kullanılması için boş bırakın."
+
+msgid "Leave it empty to use max value."
+msgstr "En büyük değerin kullanılması için boş bırakın."
+
+msgid "Leave it empty to use server-wide default setting."
+msgstr "Sunucu geneli varsayılan ayarının kullanılması için boş bırakın."
+
+msgid "License"
+msgstr "Lisans"
+
+msgid "License Key"
+msgstr "Lisans anahtarı"
+
+msgid "License is active"
+msgstr "Lisans etkin"
+
+msgid "License owner(s)"
+msgstr "Lisans sahipleri"
+
+msgid "License status"
+msgstr "Lisans durumu"
+
+msgid "Lifetime license"
+msgstr "Ömür boyu lisans"
+
+msgid "List all mail aliases."
+msgstr "Tüm e-posta takma adlarını görüntüler."
+
+msgid "List all mail users."
+msgstr "Tüm e-posta kullanıcılarını görüntüler."
+
+msgid "List all mailing lists."
+msgstr "Tüm e-posta listelerini görüntüler."
+
+msgid "Lists"
+msgstr "Listeler"
+
+msgid "Log"
+msgstr "Günlük"
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "Etkin kullanıcı: %s"
+
+msgid "Login"
+msgstr "Giriş"
+
+msgid "Login Restrictions"
+msgstr "Giriş kısıtlamaları"
+
+msgid "Login from your IP address is not allowed."
+msgstr "IP adresinizden giriş yapılmasına izin verilmiyor."
+
+msgid "Login required"
+msgstr "Giriş yapmalısınız"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "E-posta etki alanlarınızı ve hesaplarınızı yönetmek için giriş yapın"
+
+msgid "Logout"
+msgstr "Çıkış"
+
+msgid "Mail Address"
+msgstr "E-posta adresi"
+
+msgid "Mail Aliases"
+msgstr "E-posta takma adları"
+
+msgid "Mail Body"
+msgstr "E-posta içeriği"
+
+msgid "Mail Deliver Restriction"
+msgstr "E-posta aktarımı kısıtlaması"
+
+msgid "Mail Delivery"
+msgstr "E-posta aktarımı"
+
+msgid "Mail Headers"
+msgstr "E-posta üst bilgileri"
+
+msgid "Mail Users"
+msgstr "E-posta kullanıcıları"
+
+msgid "Mail alias created."
+msgstr "E-posta takma adı oluşturuldu."
+
+msgid "Mail deliver restriction will be migrated."
+msgstr "E-posta aktarımı kısıtlaması dönüştürülecek."
+
+msgid ""
+"Mail delivery restriction will be set to allow email from any sender by default."
+msgstr ""
+"E-posta dağıtımı kısıtlaması varsayılan olarak herhangi bir göndericiden gelen "
+"e-postalara izin verecek şekilde ayarlanacak."
+
+#, python-format
+msgid ""
+"Mail logs of incoming and outgoing mails which older than %d days will be "
+"deleted from database permanently."
+msgstr ""
+"%d günden eski gelen ve giden e-postaların kayıtları veri tabanından kalıcı "
+"olarak silinecek."
+
+msgid "Mail posting"
+msgstr "E-posta gönderme"
+
+msgid "Mail sent to alias will be forwarded to members."
+msgstr "Takma ada gönderilen e-postalar üyelere gönderilir."
+
+msgid "Mailbox"
+msgstr "E-posta kutusu"
+
+msgid "Mailbox Quota"
+msgstr "E-posta kutusu kotası"
+
+msgid "Maildir (One message per file). Recommended."
+msgstr "Maildir (her dosyada bir ileti bulunur). Önerilir."
+
+msgid "Maildir is easy to migrate, backup and restore."
+msgstr ""
+"Maildir kullanımının aktarılması, yedeklenmesi ve geri yüklenmesi kolaydır."
+
+msgid "Mailing List"
+msgstr "E-posta listesi"
+
+msgid "Mailing List (Subscribable)"
+msgstr "E-posta listesi (abone olunabilir)"
+
+msgid "Mailing Lists"
+msgstr "E-posta listeleri"
+
+msgid "Mailing list created."
+msgstr "E-posta listesi oluşturuldu."
+
+msgid "Mailing list:"
+msgstr "E-posta listesi:"
+
+#, python-format
+msgid "Mailing lists under domain: %s"
+msgstr "Etki alanının e-posta listesi sayısı: %s"
+
+#, python-format
+msgid "Mailing lists under domain: %s."
+msgstr "Etki alanının e-posta listesi sayısı: %s."
+
+#, python-format
+msgid "Mails Sent by Domain: %s"
+msgstr "Etki alanının gönderdiği e-posta sayısı: %s"
+
+#, python-format
+msgid "Mails Sent by User: %s"
+msgstr "Kullanıcının gönderdiği e-posta sayısı: %s"
+
+msgid "Mails sent from blacklisted senders will be quarantined by default."
+msgstr ""
+"Kara listeye eklenmiş göndericilerden gelen e-postalar varsayılan olarak "
+"karantinaya alınır."
+
+msgid "Mails were deleted, and recipient domain(s) were blacklisted."
+msgstr "E-postalar silindi ve alıcı etki alanları kara listeye eklendi."
+
+msgid "Mails were deleted, and recipient domain(s) were whitelisted."
+msgstr "E-postalar silindi ve alıcı etki alanları beyaz listeye eklendi."
+
+msgid "Mails were deleted, and recipient(s) were blacklisted."
+msgstr "E-postalar silindi ve alıcılar kara listeye eklendi."
+
+msgid "Mails were deleted, and recipient(s) were whitelisted."
+msgstr "E-postalar silindi ve alıcılar beyaz listeye eklendi."
+
+msgid "Mails were deleted, and sender domain(s) were blacklisted."
+msgstr "E-postalar silindi ve gönderici etki alanları kara listeye eklendi."
+
+msgid "Mails were deleted, and sender domain(s) were whitelisted."
+msgstr "E-postalar silindi ve gönderici etki alanları beyaz listeye eklendi."
+
+msgid "Mails were deleted, and sender(s) were blacklisted."
+msgstr "E-postalar silindi ve göndericiler kara listeye eklendi."
+
+msgid "Mails were deleted, and sender(s) were whitelisted."
+msgstr "E-postalar silindi ve göndericiler beyaz listeye eklendi."
+
+msgid ""
+"Mails were deleted, recipient domain(s) and sub-domain(s) were blacklisted."
+msgstr ""
+"E-postalar silindi ve alıcı etki alanları ile alt etki alanları kara listeye "
+"eklendi."
+
+msgid ""
+"Mails were deleted, recipient domain(s) and sub-domain(s) were whitelisted."
+msgstr ""
+"E-postalar silindi ve alıcı etki alanları ile alt etki alanları beyaz listeye "
+"eklendi."
+
+msgid "Mails were deleted, sender domain(s) and sub-domain(s) were blacklisted."
+msgstr ""
+"E-postalar silindi ve gönderici etki alanları ile alt etki alanları kara "
+"listeye eklendi."
+
+msgid "Mails were deleted, sender domain(s) and sub-domain(s) were whitelisted."
+msgstr ""
+"E-postalar silindi ve gönderici etki alanları ile alt etki alanları beyaz "
+"listeye eklendi."
+
+msgid "Mails were deleted."
+msgstr "E-postalar silindi."
+
+msgid "Mails were released, and sender domain(s) were whitelisted."
+msgstr ""
+"E-postalar serbest bırakıldı ve gönderici etki alanları beyaz listeye eklendi."
+
+msgid "Mails were released, and sender(s) were whitelisted."
+msgstr "E-postalar serbest bırakıldı ve göndericiler beyaz listeye eklendi."
+
+msgid "Mails were released, sender domain(s) and sub-domains were whitelisted."
+msgstr ""
+"E-postalar serbest bırakıldı ve gönderici etki alanları ile alt etki alanları "
+"beyaz listeye eklendi."
+
+msgid "Mails were released."
+msgstr "E-postalar serbest bırakıldı."
+
+msgid "Make sure disclaimer work as expected:"
+msgstr "Sorumluluk reddi metinin olması gerektiği gibi göründüğünden emin olun:"
+
+msgid "Manage moderated or owned mailing lists"
+msgstr "Sorumlusu ya da yöneticisi olduğunuz e-posta listelerini yönetin"
+
+msgid "Manage per-user white/blacklists"
+msgstr "Kullanıcı bazında beyaz/kara listeleri yönetin"
+
+msgid "Manage quarantined mails"
+msgstr "Karantinadaki e-postaları yönetin"
+
+msgid "Managed Domains"
+msgstr "Yönetilen etki alanları"
+
+msgid "Managed mailing lists."
+msgstr "Yönetilen e-posta listeleri."
+
+msgid "Mark as backup MX"
+msgstr "Yedek MX olarak ayarla"
+
+msgid "Mark as domain admin"
+msgstr "Etki alanı yöneticilerine ekle"
+
+msgid "Mark as global admin"
+msgstr "Genel yöneticilere ekle"
+
+msgid "Mark mail as spam when score is >="
+msgstr "Puan şu değere eşit ya da büyükse e-posta istenmeyen olarak işaretlensin"
+
+msgid "Mark this user as"
+msgstr "Bu kullanıcı şöyle işaretle"
+
+msgid "Max message size"
+msgstr "En büyük ileti boyutu"
+
+msgid "Max quota of mail user"
+msgstr "E-posta kullanıcısının en fazla kotası"
+
+msgid "Max recipients of single email"
+msgstr "Tek bir e-postada olabilecek en fazla alıcı sayısı"
+
+msgid "Max size of single email"
+msgstr "Tek bir e-postanın en fazla boyutu"
+
+msgid "Max:"
+msgstr "En fazla:"
+
+msgid "Maximum password length"
+msgstr "En fazla parola uzunluğu"
+
+msgid "Mdbox (Multiple messages per file)"
+msgstr "Mdbox (her dosyada birden fazla ileti)"
+
+msgid ""
+"Mdbox has better performance, but corrupted/lost index files will cause data "
+"lose and can not be recovered."
+msgstr ""
+"Mdbox başarımı daha yüksektir. Ancak bozulan ya da kaybolan dizin dosyaları "
+"veri kaybına neden olur ve kurtarılamaz."
+
+msgid "Member assigned success."
+msgstr "Üye atandı."
+
+msgid "Member of Mail Aliases"
+msgstr "Üyesi olunan e-posta takma adları"
+
+msgid "Member of Mailing Lists"
+msgstr "Üyesi olunan e-posta listeleri"
+
+msgid "Member of mailing lists:"
+msgstr "Üyesi olunan e-posta listeleri:"
+
+msgid "Member removed success."
+msgstr "Üye kaldırıldı."
+
+msgid "Members"
+msgstr "Üyeler"
+
+msgid "Members and moderators"
+msgstr "Üyeler ve sorumlular"
+
+msgid "Members and moderators will be fully migrated."
+msgstr "Üyeler ve sorumlular tümüyle dönüştürülecek."
+
+msgid "Members has been added to mailing list."
+msgstr "Üyeler e-posta listesine eklendi."
+
+msgid "Members will be fully migrated."
+msgstr "Tüm üyeler dönüştürülecek."
+
+msgid "Message"
+msgstr "İleti"
+
+msgid "Messages sent to mailing list will be delivered to its members."
+msgstr "E-posta listesine gönderilen iletiler listenin üyelerine gönderilecek."
+
+msgid "Migrate Now"
+msgstr "Dönüştür"
+
+msgid "Migrate to subscribable mailing list"
+msgstr "Abone olunabilen e-posta listesine dönüştür"
+
+msgid "Migrate to subscribable mailing list?"
+msgstr "Abone olunabilen e-posta listesine dönüştürülsün mü?"
+
+msgid "Minimum password length"
+msgstr "En kısa parola uzunluğu"
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Moderate all posts (Moderators are required)"
+msgstr "Tüm iletiler değerlendirilsin (sorumlular olmalıdır)"
+
+msgid "Moderate subscriptions"
+msgstr "Abonelik yönetimi"
+
+msgid "Moderators"
+msgstr "Sorumlular"
+
+msgid "Moderators assigned success."
+msgstr "Sorumlular atandı."
+
+msgid "Moderators removed success."
+msgstr "Sorumlular kaldırıldı."
+
+msgid "Monitor incoming emails via BCC"
+msgstr "Gelen e-postalar gizli kopya olarak izlensin"
+
+msgid "Monitor outgoing emails via BCC"
+msgstr "Giden e-postalar gizli kopya olarak izlensin"
+
+msgid "Multiple addresses are NOT supported."
+msgstr "Birden çok adres desteklenmez."
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr "%s ile %s karakter arasında olmalıdır."
+
+msgid "Need a strong password?"
+msgstr "Güçlü bir parola ister misiniz?"
+
+msgid "Network"
+msgstr "Ağ"
+
+msgid "New Mail Delivered:"
+msgstr "Yeni e-posta aktarıldı:"
+
+msgid "New password"
+msgstr "Yeni parola"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "Yeni parola %s karakterden uzun olmamalıdır."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "Yeni parola en az %s karakter uzunluğunda olmalıdır."
+
+msgid "New passwords are not match."
+msgstr "Yeni parola ile onayı aynı değil."
+
+msgid "New version is available."
+msgstr "Yeni sürüm yayınlanmış."
+
+#, python-format
+msgid ""
+"New version of iRedAdmin-Pro, %s, is now available for upgrading. <a href='%s/"
+"system/license' class='button green'>Details</a>"
+msgstr ""
+"iRedAdmin-Pro %s sürümü yayınlanmış ve yükseltme yapabilirsiniz. <a href='%s/"
+"system/license' class='button green'>Ayrıntılar</a>"
+
+msgid "News & Announcements"
+msgstr "Haberler ve duyurular"
+
+msgid "Newsletter"
+msgstr "Duyuru"
+
+msgid "Next Page"
+msgstr "Sonraki sayfa"
+
+msgid "No SMTP authentication activity."
+msgstr "Herhangi bir SMTP kimlik doğrulama etkinliği yok."
+
+msgid "No account selected."
+msgstr "Herhangi bir hesap seçilmemiş."
+
+msgid "No admin log."
+msgstr "Yönetici günlüğünde herhangi bir kayıt yok."
+
+msgid "No any login or mail delivery yet."
+msgstr "Henüz bir giriş ya da e-posta aktarımı yok."
+
+msgid "No banned IP address."
+msgstr "Herhangi bir yasaklanmış IP adresi yok."
+
+msgid "No data available."
+msgstr "Kullanılabilecek bir veri yok."
+
+msgid "No digit number in password."
+msgstr "Parolada bir rakam yok."
+
+msgid "No domain under control."
+msgstr "Herhangi bir yönetilen etki alanı yok."
+
+msgid "No email"
+msgstr "Herhangi bir e-posta yok"
+
+msgid "No free domain quota left."
+msgstr "Kullanılabilecek etki alanı kotası kalmamış."
+
+msgid "No incoming mails."
+msgstr "Herhangi bir gelen e-posta yok."
+
+msgid "No letter in password."
+msgstr "Parolada bir harf yok."
+
+msgid "No mail admin assigned."
+msgstr "Herhangi bir e-posta yöneticisi ayarlanmamış."
+
+msgid "No mail admin available."
+msgstr "Herhangi bir e-posta yöneticisi yok."
+
+msgid "No mail alias available."
+msgstr "Herhangi bir e-posta takma adı yok."
+
+msgid "No mail domain available."
+msgstr "Herhangi bir etki alanı yok."
+
+msgid "No mail user available."
+msgstr "Herhangi bir e-posta kullanıcısı yok."
+
+msgid "No mailing list available."
+msgstr "Herhangi bir e-posta listesi yok."
+
+msgid "No matched SMTP sessions."
+msgstr "Eşleşen bir SMTP oturumu yok."
+
+msgid "No matched log lines."
+msgstr "Eşleşen bir günlük kaydı yok."
+
+msgid "No members."
+msgstr "Herhangi bir üye yok."
+
+msgid "No moderator selected."
+msgstr "Herhangi bir sorumlu seçilmemiş."
+
+msgid "No moderators."
+msgstr "Herhangi bir sorumlu yok."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr "%d karakterden uzun olamaz."
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "%s karakterden uzun olamaz."
+
+msgid "No need to verify ownership for new domain"
+msgstr "Yeni etki alanının sahipliğinin doğrulanması gerekmiyor"
+
+msgid "No outgoing mails."
+msgstr "Herhangi bir giden e-posta yok."
+
+msgid "No pending mail domain ownership verification."
+msgstr "Bekleyen herhangi bir e-posta etki alanı sahipliği doğrulaması yok."
+
+msgid "No quarantined mails."
+msgstr "Karantinada herhangi bir e-posta yok."
+
+msgid "No special character in password."
+msgstr "Parolada herhangi bir özel karakter yok."
+
+msgid "No uppercase letter in password."
+msgstr "Parolada herhangi bir büyük harf yok."
+
+msgid ""
+"Normal admin cannot view and update disabled profiles in account profile page."
+msgstr ""
+"Normal yönetici, hesap profili sayfasında kullanım dışı bırakılmış profilleri "
+"görüntüleyemez ve güncelleyemez."
+
+msgid "Normal mail user cannot view and update disabled preferences."
+msgstr ""
+"Normal e-posta kullanıcısı kullanımdan kaldırılmış ayarları ​​görüntüleyemez ve "
+"güncelleyemez."
+
+msgid "Not a global admin."
+msgstr "Bir genel yönetici değil."
+
+msgid "Not allowed to create mail alias under this domain."
+msgstr "Bu etki alanı altında e-posta takma adı oluşturma izni yok."
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "Bu etki alanı altında e-posta kullanıcısı oluşturma izni yok."
+
+msgid "Not allowed to create mailing list under this domain."
+msgstr "Bu etki alanı altında e-posta listesi oluşturma izni yok."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr "Not: Genel yönetici tüm e-posta etki alanlarını yönetebilir."
+
+msgid "Notifications"
+msgstr "Bildirimler"
+
+msgid ""
+"Notify owner(s) when someone subscribe to or unsubscribe from the mailing list"
+msgstr ""
+"Biri e-posta listesine abone olduğunda veya aboneliğini iptal ettiğinde "
+"sahibine bildirimde bulunulsun"
+
+msgid "Notify sender if email is under moderated"
+msgstr "E-posta değerlendirilmediğinde gönderici bilgilendirilsin"
+
+msgid "Number of aliases"
+msgstr "Takma ad sayısı"
+
+msgid "Number of domains"
+msgstr "Etki alanı sayısı"
+
+msgid "Number of mailing lists"
+msgstr "E-posta listesi sayısı"
+
+msgid "Number of max inbound emails"
+msgstr "En fazla gelen e-posta sayısı"
+
+msgid "Number of max mail aliases"
+msgstr "En fazla e-posta takma adı sayısı"
+
+msgid "Number of max mail users"
+msgstr "En fazla e-posta kullanıcısı sayısı"
+
+msgid "Number of max mailing lists"
+msgstr "En fazla e-posta listesi sayısı"
+
+msgid "Number of max outbound emails"
+msgstr "En fazla giden e-posta sayısı"
+
+msgid "Number of users"
+msgstr "Kullanıcı sayısı"
+
+msgid "Old password"
+msgstr "Eski parola"
+
+msgid "Old records will be cleaned up regularly."
+msgstr "Eski kayıtlar düzenli olarak temizlenecek."
+
+msgid "One IP address or CIDR network per line."
+msgstr "Her IP adresini ya da CIDR aralığını ayrı satırlara yazın."
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+"Her IP adresini ya da CIDR aralığını ayrı satırlara yazın. Geçersiz adres ya da "
+"aralıklar yok sayılır."
+
+msgid "One domain per line."
+msgstr "Her etki alanını ayrı satıra yazın."
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr "Her etki alanını ayrı satıra yazın. Geçersiz adresler yok sayılır."
+
+msgid "One record per line."
+msgstr "Her kaydı ayrı satıra yazın."
+
+msgid "One sender per line."
+msgstr "Her göndericiyi ayrı satıra yazın."
+
+msgid "Only letters (case sensitive) and digits are allowed, max 20 chars."
+msgstr ""
+"Yalnızca harfler (büyük/küçük harfe duyarlı) ve rakamlar kullanılabilir. En "
+"fazla 20 karakter."
+
+msgid "Oops, confirm link expired. Please re-subscribe."
+msgstr ""
+"Doğrulama bağlantısının geçerlilik süresi dolmuş. Lütfen yeniden abone olun."
+
+msgid "Oops, confirm link is invalid."
+msgstr "Doğrulama bağlantısı geçersiz."
+
+msgid "Oops, invalid action."
+msgstr "İşlem geçersiz."
+
+msgid "Oops, the newsletter you want to subscribe does not exist."
+msgstr "Abone olmak istediğiniz duyuru bulunamadı."
+
+msgid "Operation completed."
+msgstr "İşlem tamamlandı."
+
+msgid "Or"
+msgstr "Ya da"
+
+msgid "Or create other mail accounts:"
+msgstr "Ya da başka e-posta hesapları oluşturun:"
+
+msgid "Outbound"
+msgstr "Giden"
+
+msgid "Outbound SMTP Sessions"
+msgstr "Giden SMTP oturumları"
+
+#, python-format
+msgid "Owner will be set to postmaster@%s."
+msgstr "Sahip postmaster@%s olarak ayarlanacak."
+
+msgid "Owners"
+msgstr "Sahipler"
+
+msgid "Owners and Moderators"
+msgstr "Sahipler ve sorumlular"
+
+msgid "PLEASE VERIFY OWNERSHIP"
+msgstr "LÜTFEN SAHİPLİĞİ DOĞRULAYIN"
+
+msgid "POP3 Login:"
+msgstr "POP3 girişi:"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "Password is empty."
+msgstr "Parola boş."
+
+msgid "Password is too long."
+msgstr "Parola çok uzun."
+
+msgid "Password is too short."
+msgstr "Parola çok kısa."
+
+msgid "Password last change:"
+msgstr "Son parola değişikliği:"
+
+msgid "Password must contain"
+msgstr "Parolada şunlar bulunmalıdır"
+
+msgid "Password policies"
+msgstr "Parola ilkeleri"
+
+msgid "Path to mailbox"
+msgstr "E-posta kutusunun yolu"
+
+msgid "Pending"
+msgstr "Bekliyor"
+
+msgid "Pending Alias domains"
+msgstr "Bekleyen takma ad etki alanları"
+
+msgid ""
+"Per-domain throttling has higher priority than default throttling set in this "
+"page, per-user throttling has the highest priority."
+msgstr ""
+"Her etki alanının kendi yavaşlatma ayarının önceliği, bu sayfadaki varsayılan "
+"yavaşlatma değerinden daha yüksektir. Her kullanıcının kendi yavaşlatma "
+"ayarının önceliği en yükseğidir."
+
+msgid "Per-user bcc settings has higher priority than per-domain bcc settings."
+msgstr ""
+"Her kullanıcının gizli e-posta ayarlarının önceliği, her etki alanının gizli e-"
+"posta ayarlarından daha yüksektir."
+
+msgid "Per-user throttle setting has higher priority."
+msgstr "Her kullanıcının yavaşlatma ayarının önceliği daha yüksektir."
+
+msgid ""
+"Per-user whitelists & blacklists has highest priority, then per-domain setting, "
+"then global setting."
+msgstr ""
+"Her kullanıcının beyaz ve kara listelerinin önceliği en yükseğidir. Ardından "
+"her etki alanının ayarları ve son olarak da genel ayarlar gelir."
+
+msgid "Period of time"
+msgstr "Zaman aralığı"
+
+msgid "Permission denied."
+msgstr "İzin verilmedi."
+
+msgid "Personal information"
+msgstr "Kişisel bilgiler"
+
+msgid "Plain text only"
+msgstr "Yalnızca düz metin"
+
+msgid "Please choose managed domains below."
+msgstr "Lütfen aşağıdan yönetilen etki alanlarını seçin."
+
+msgid "Please do not use non-ascii character in password."
+msgstr "Parolada lütfen ASCII dışındaki karakterleri kullanmayın."
+
+msgid ""
+"Please either mark mail user as domain admin or create a separate admin account."
+msgstr ""
+"Lütfen e-posta kullanıcısını etki alanı yöneticisi olarak ayarlayın ya da ayrı "
+"bir yönetici hesabı oluşturun."
+
+msgid "Please select at least one account."
+msgstr "Lütfen en az bir hesap seçin."
+
+msgid "Please select at least one domain."
+msgstr "Lütfen en az bir etki alanı seçin."
+
+msgid ""
+"Please verify mail domains listed below, to ensure that it is an valid domain "
+"and you have the required privileges in the domain to manage the email "
+"services. Mail services are disabled for pending domains, and will be enabled "
+"automatically after verified."
+msgstr ""
+"Lütfen aşağıda listelenen e-posta etki alanlarını doğrulayın. Etki alanının "
+"geçerli olduğundan ve e-posta hizmetlerini yönetmek için etki alanı üzerinde "
+"gerekli izinlerinizin olduğundan emin olun. Etki alanları doğrulanmadan e-posta "
+"hizmetleri kullanım dışıdır ve doğrulama sonrası otomatik olarak kullanıma "
+"alınır."
+
+msgid "Ports"
+msgstr "Bağlantı noktaları"
+
+msgid "Postfix manual page"
+msgstr "Postfix rehber sayfası"
+
+msgid "Preferences"
+msgstr "Ayarlar"
+
+msgid "Preferred language"
+msgstr "Yeğlenen dil"
+
+msgid "Prefix text [SPAM] to the subject of spam"
+msgstr "İstenmeyen ileti konusunun başına [SPAM] eklensin"
+
+msgid "Prefix text to mail subject"
+msgstr "E-posta konusunun başına eklenecek metin"
+
+msgid "Previous Page"
+msgstr "Önceki sayfa"
+
+msgid "Primary MX"
+msgstr "Birincil MX"
+
+msgid "Privileges"
+msgstr "İzinler"
+
+msgid "Product name"
+msgstr "Ürün adı"
+
+msgid "Profile has been updated."
+msgstr "Profil güncellendi."
+
+msgid "Profile of admin:"
+msgstr "Yöneticinin profili:"
+
+msgid "Profile of alias:"
+msgstr "Takma adın profili:"
+
+msgid "Profile of domain:"
+msgstr "Etki alanının profili:"
+
+msgid "Profile of mailing list:"
+msgstr "E-posta listesinin profili:"
+
+msgid "Profile of user:"
+msgstr "Kullanıcının profili:"
+
+msgid "Profile updated failed."
+msgstr "Profil güncellenemedi."
+
+msgid "Purchase a new license"
+msgstr "Yeni bir lisans satın alın"
+
+msgid "Purchase date"
+msgstr "Satın alma tarihi"
+
+msgid "Quarantine bad-header email"
+msgstr "Üst bilgileri bozuk olan e-postalar karantinaya alınsın"
+
+msgid "Quarantine email which contains banned file types"
+msgstr "Engellenmiş dosya türlerinin bulunduğu e-postalar karantinaya alınsın"
+
+msgid "Quarantine spam"
+msgstr "İstenmeyen e-postalar karantinaya alınsın"
+
+msgid "Quarantine virus"
+msgstr "Virüsler karantinaya alınsın"
+
+msgid "Quarantined"
+msgstr "Karantinada"
+
+msgid "Quarantined Mails"
+msgstr "Karantinadaki e-postalar"
+
+#, python-format
+msgid "Quarantined Mails of Domain: %s"
+msgstr "Etki alanının karantinadaki e-posta sayısı: %s"
+
+#, python-format
+msgid "Quarantined Mails of User: %s"
+msgstr "Kullanıcının karantinadaki e-posta sayısı: %s"
+
+msgid ""
+"Quarantined mails are not delivered to users' mailboxes yet, you can either "
+"delete them or release them. Mails will be delivered to user mailboxes after "
+"released."
+msgstr ""
+"Karantinaya alınmış e-postalar henüz kullanıcıların e-posta kutularına "
+"iletilmemiştir. Bunları silebilir ya da serbest bırakabilirsiniz. Serbest "
+"bırakılan e-postalar kullanıcıların e-posta kutularına iletilir."
+
+#, python-format
+msgid ""
+"Quarantined mails older than %d days will be deleted from database permanently."
+msgstr ""
+"Karantinaya alınmış %d günden eski e-postalar veri tabanından kalıcı olarak "
+"silinir."
+
+msgid "Quota"
+msgstr "Kota"
+
+msgid "RESTful API is accessible only from specified IP addresses or networks"
+msgstr ""
+"RESTful API üzerine yalnızca belirtilen IP adreslerinden veya aralıklardan "
+"erişilebilir"
+
+msgid "Received"
+msgstr "Alınan"
+
+msgid "Received Mails"
+msgstr "Alınan e-postalar"
+
+#, python-format
+msgid "Received Mails of Domain: %s"
+msgstr "Etki alanının aldığı e-postalar: %s"
+
+#, python-format
+msgid "Received Mails of User: %s"
+msgstr "Kullanıcının aldığı e-postalar: %s"
+
+msgid ""
+"Received emails on backup MX will be relayed to primary MX server when its smtp "
+"service is back online."
+msgstr ""
+"Yedek MX sunucusundan alınan e-postalar, SMTP hizmeti yeniden çevrim içi "
+"olduğunda birincil MX sunucusuna iletilir."
+
+msgid "Recipient"
+msgstr "Alıcı"
+
+msgid "Record comment can be added after a #"
+msgstr "Kayıt açıklaması # karakterinden sonra yazılabilir"
+
+msgid "Records were successfully added."
+msgstr "Kayıtlar eklendi."
+
+msgid "Records were successfully updated."
+msgstr "Kayıtlar güncellendi."
+
+msgid "Redirect user to subscription page"
+msgstr "Kullanıcı abonelik sayfasına yönlendirilsin"
+
+msgid ""
+"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"rel=\"noopener\">greylisting.org</a> for technical details about greylisting."
+msgstr ""
+"Gri liste hakkında ayrıntılı bilgi almak için <a href=\"http://www.greylisting."
+"org/\" target=\"_blank\" rel=\"noopener\">greylisting.org</a> adresine "
+"bakabilirsiniz."
+
+msgid "Rejected"
+msgstr "Reddedilen"
+
+msgid "Rejected Messages"
+msgstr "Reddedilen iletiler"
+
+msgid "Rejected SMTP Sessions"
+msgstr "Reddedilen SMTP oturumları"
+
+msgid "Rejection Reason"
+msgstr "Reddedilme nedeni"
+
+msgid "Relay"
+msgstr "Aktarıcı"
+
+msgid ""
+"Relay emails to the server specified in A type DNS records of domain example."
+"com through port 25"
+msgstr ""
+"E-postalar ornek.com etki alanının A türü DNS kayıtlarında belirtilen sunucuya "
+"25 numaralı bağlantı noktası üzerinden aktarılsın"
+
+msgid ""
+"Relay emails to the server specified in MX type DNS records of domain example."
+"com through port 25"
+msgstr ""
+"E-postalar ornek.com etki alanının MX türü DNS kayıtlarında belirtilen sunucuya "
+"25 numaralı bağlantı noktası üzerinden aktarılsın"
+
+msgid "Relay emails to the specified IP address through port 25"
+msgstr ""
+"E-postalar belirtilen IP adresine 25 numaralı bağlantı noktası üzerinden "
+"aktarılsın"
+
+msgid "Relay outgoing email to"
+msgstr "Giden e-postalar şuraya aktarılsın"
+
+msgid "Relay received email to"
+msgstr "Gelen e-postalar şuraya aktarılsın"
+
+msgid "Relay without verifying local recipients"
+msgstr "Yerel alıcılar doğrulanmadan aktarılsın"
+
+msgid "Release Notes and Upgrade Tutorials"
+msgstr "Yayın notları ve güncelleme rehberi"
+
+msgid "Release selected"
+msgstr "Seçilmişleri serbest bırak"
+
+msgid "Release selected, and whitelist entire sender domain(s)"
+msgstr ""
+"Seçilmişleri serbest bırak ve tüm gönderici etki alanlarını beyaz listeye ekle"
+
+msgid "Release selected, and whitelist sender domain(s) and all sub-domains"
+msgstr ""
+"Seçilmişleri serbest bırak ve tüm gönderici etki alanları ile alt etki "
+"alanlarını beyaz listeye ekle"
+
+msgid "Release selected, and whitelist sender(s)"
+msgstr "Seçilmişleri serbest bırak ve göndericileri beyaz listeye ekle"
+
+msgid "Remove ALL members"
+msgstr "Tüm üyeleri kaldır"
+
+msgid "Remove from list"
+msgstr "Listeden kaldır"
+
+msgid "Remove log of inbound/outbound mails older than"
+msgstr "Şundan eski e-postaların gelen/giden günlük kayıtları silinsin"
+
+msgid "Remove quarantined mails older than"
+msgstr "Şundan eski karantinaya alınmış e-postalar silinsin"
+
+msgid "Remove selected members"
+msgstr "Seçilmiş üyeleri kaldır"
+
+msgid "Renew license"
+msgstr "Lisansı yenile"
+
+msgid "Require at least one digit number"
+msgstr "En az bir rakam bulunmalıdır"
+
+msgid "Require at least one letter"
+msgstr "En az bir harf bulunmalıdır"
+
+msgid "Require at least one special character"
+msgstr "En az bir özel karakter bulunmalıdır"
+
+msgid "Require at least one uppercase letter"
+msgstr "En az bir büyük harf bulunmalıdır"
+
+msgid "Restrict to login from specified addresses"
+msgstr "Giriş yapmak belirtilen adreslerle kısıtlansın"
+
+msgid "Reverse DNS Name"
+msgstr "Ters DNS adı"
+
+msgid "Revoke admin privilege"
+msgstr "Yönetici yetkisini kaldır"
+
+msgid "SMTP Action"
+msgstr "SMTP işlemi"
+
+msgid "SMTP Sessions"
+msgstr "SMTP oturumları"
+
+msgid "SOGo ActiveSync"
+msgstr "SOGo ActiveSync"
+
+msgid "SOGo Calendar"
+msgstr "SOGo Calendar"
+
+msgid "SOGo Groupware (Calendar, Contacts, Tasks, ActiveSync)"
+msgstr "SOGo Groupware (Takvim, Kişiler, Görevler, ActiveSync)"
+
+msgid "SOGo Groupware (Webmail, Calendar, ActiveSync)"
+msgstr "SOGo Groupware (İnternet e-posta, Takvim, ActiveSync)"
+
+msgid "SOGo Webmail"
+msgstr "SOGo İnternet e-posta"
+
+msgid "Sample"
+msgstr "Örnek"
+
+msgid "Sample Settings"
+msgstr "Örnek ayarlar"
+
+msgid "Sample Settings of Primary MX"
+msgstr "Birincil MX için örnek ayarlar"
+
+msgid "Save a copy in mailbox"
+msgstr "Bir kopyası e-posta kutusuna kaydedilsin"
+
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+msgid "Score"
+msgstr "Puan"
+
+msgid "Search"
+msgstr "Ara"
+
+msgid "Search activities"
+msgstr "Etkinlik ara"
+
+msgid "Search keyword could not be empty."
+msgstr "Arama ifadesi boş olamaz."
+
+msgid "Search mail accounts"
+msgstr "E-posta hesabı ara"
+
+msgid "Search results."
+msgstr "Arama sonuçları."
+
+msgid "Seconds"
+msgstr "Saniye"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform form "
+"action."
+msgstr ""
+"Güvenlik kodu eşleşmiyor. Lütfen geçerli sayfayı yenileyin ve form işlemini "
+"yeniden yapın."
+
+msgid "Selected accounts were deleted."
+msgstr "Seçilmiş hesaplar silindi."
+
+msgid "Selected accounts were disabled."
+msgstr "Seçilmiş hesaplar kullanımdan kaldırıldı."
+
+msgid "Selected accounts were enabled."
+msgstr "Seçilmiş hesaplar kullanıma alındı."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "Seçilmiş hesaplar etki alanı yöneticilerine eklendi."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "Seçilmiş hesaplar genel yöneticilere eklendi."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "Seçilmiş hesaplar etki alanı yöneticilerinden kaldırıldı."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "Seçilmiş hesaplar genel yöneticilerden kaldırıldı."
+
+msgid "Selected domains have been deleted."
+msgstr "Seçilmiş etki alanları silindi."
+
+msgid "Selected domains were disabled."
+msgstr "Seçilmiş etki alanları kullanımdan kaldırıldı."
+
+msgid "Selected domains were enabled."
+msgstr "Seçilmiş etki alanları kullanıma alındı."
+
+msgid "Selected log records were deleted."
+msgstr "Seçilmiş günlük kayıtları silindi."
+
+msgid "Selected records were deleted."
+msgstr "Seçilmiş kayıtlar silindi."
+
+msgid "Self-service"
+msgstr "Kendin yap"
+
+msgid "Send me an email with download link"
+msgstr "İndirme bağlantısını bana e-posta ile gönder"
+
+msgid "Sender"
+msgstr "Gönderici"
+
+msgid "Sender Addresses"
+msgstr "Gönderici adresleri"
+
+msgid "Sender Domain"
+msgstr "Gönderici etki alanı"
+
+msgid "Sender address format"
+msgstr "Gönderici adres biçimi"
+
+msgid "Sender domains listed below have not passed greylisting service yet."
+msgstr "Aşağıdaki gönderici etki alanları henüz gri liste hizmetine aktarılmadı."
+
+msgid "Sending mails via SMTP"
+msgstr "SMTP ile e-posta gönderme"
+
+msgid "Sending mails via SMTP over TLS/SSL"
+msgstr "TLS/SSL üzerinden SMTP ile e-posta gönderme"
+
+msgid "Sent"
+msgstr "Gönderilen"
+
+msgid "Sent Mails"
+msgstr "Gönderilen e-postalar"
+
+msgid "Server Load"
+msgstr "Sunucu yükü"
+
+msgid ""
+"Server will NOT apply greylisting on IP addresses or networks specified in the "
+"SPF and MX DNS records of listed mail domains."
+msgstr ""
+"Sunucu, listelenen e-posta etki alanlarının SPF ve MX DNS kayıtlarında "
+"belirtilen IP adreslerine veya ağlara gri liste uygulamaz."
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your LDAP "
+"server."
+msgstr ""
+"Sunucu tarafı boyut sınırı aşıldı. Lütfen LDAP sunucunuzdaki \"sizelimit\" "
+"değerini artırın."
+
+msgid "Session expired, please re-login."
+msgstr "Oturumun süresi dolmuş. Lütfen yeniden giriş yapın."
+
+msgid "Set mail forwarding"
+msgstr "E-posta iletmeyi ayarla"
+
+msgid "Set to 0 for unlimited."
+msgstr "Sınırsız olması için 0 olarak ayarlayın."
+
+msgid "Set value to -1 means not allowed to create this kind of account."
+msgstr "-1 olarak ayarlandığında bu türde hesaplar oluşturulamaz."
+
+msgid "Set value to 0 for unlimited."
+msgstr "Sınırsız olması için değeri 0 olarak ayarlayın."
+
+msgid "Set value to 0 or leave it empty for unlimited."
+msgstr "Sınırsız olması için değeri 0 olarak ayarlayın ya da boş bırakın."
+
+msgid "Setting"
+msgstr "Ayar"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Show in Global Address Book"
+msgstr "Genel adres defterinde görüntülensin"
+
+msgid "Single IP Address"
+msgstr "Tek IP adresi"
+
+msgid "Single user"
+msgstr "Tek kullanıcı"
+
+msgid "Size"
+msgstr "Boyut"
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr "Bazı adresler kullanılmış olduğundan silindi: %s."
+
+msgid "Spam"
+msgstr "İstenmeyen e-posta"
+
+msgid "Spam Policy"
+msgstr "İstenmeyen e-posta ilkesi"
+
+msgid "Spam checking"
+msgstr "İstenmeyen e-postalar denetleniyor"
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr "Bağımsız yönetici hesabı yerel etki alanının bir kullanıcısı olamaz."
+
+msgid "Statistics of latest 24 hours"
+msgstr "Son 24 saatin istatistikleri"
+
+msgid "Store password in plain text"
+msgstr "Parola düz metin olarak kaydedilsin"
+
+msgid "Stored"
+msgstr "Kaydedildi"
+
+msgid "Stored emails"
+msgstr "Kaydedilmiş e-postalar"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "Submit"
+msgstr "Gönder"
+
+msgid "Submited domain name is incorrect."
+msgstr "Gönderilen etki alanı adı yanlış."
+
+msgid "Subscribe"
+msgstr "Abone ol"
+
+msgid "Subscribe to newsletter"
+msgstr "Duyuruya abone ol"
+
+msgid "Subscription Moderators"
+msgstr "Abonelik sorumluları"
+
+msgid ""
+"Subscription and unsubscription will be disabled by default, feel free to "
+"enable them after migration."
+msgstr ""
+"Abone olma ve abonelikten ayrılma varsayılan olarak kullanım dışı bırakılacak. "
+"Aktarım sonrası bunları kullanıma alabilirsiniz."
+
+msgid "Subscription control"
+msgstr "Abonelik denetimi"
+
+msgid "Successfully migrated."
+msgstr "Dönüşüm tamamlandı."
+
+msgid "Successfully unsubscribed."
+msgstr "Abonelik sona erdirildi."
+
+msgid "Support"
+msgstr "Destek"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "System Information"
+msgstr "Sistem bilgileri"
+
+msgid "System Settings"
+msgstr "Sistemi ayarları"
+
+msgid "Telephone Number"
+msgstr "Telefon numarası"
+
+msgid "Text to introduce this newsletter on subscription page"
+msgstr "Bu duyurunun abonelik sayfasında görüntülenecek metin"
+
+msgid "Thank you for subscribing."
+msgstr "Abone olduğunuz için teşekkürler."
+
+msgid ""
+"These addresses will be assigned to newly created mail user as per-user bcc "
+"address."
+msgstr ""
+"Bu adresler yeni oluşturulacak her e-posta kullanıcısına gizli e-posta adresi "
+"olarak atanır."
+
+msgid "This domain is a backup MX, can not set custom relay."
+msgstr "Bu etki alanı yedek MX sunucusudur. Özel aktarıcı ayarlanamaz."
+
+msgid ""
+"This feature requires iRedAPD plugin 'wblist_rdns', please make sure it's "
+"enabled in file /opt/iredapd/settings.py."
+msgstr ""
+"Bu özellik için 'wblist_rdns' iRedAPD eklentisi gereklidir. Lütfen /opt/iredapd/"
+"settings.py dosyasında etkinleştirildiğinden emin olun."
+
+msgid "This is a mail alias."
+msgstr "Bu bir e-posta takma adıdır."
+
+msgid "This is a mailing list."
+msgstr "Bu bir e-posta listesidir."
+
+msgid "This is default throttling applied to all individual accounts."
+msgstr "Tüm bireysel hesaplara uygulanacak varsayılan yavaşlatma."
+
+#, python-format
+msgid ""
+"This throttle setting will be applied to all individual accounts under domain "
+"%s."
+msgstr ""
+"Bu yavaşlatma ayarı %s etki alanı altındaki tüm bireysel hesaplara uygulanır."
+
+msgid "Throttle"
+msgstr "Yavaşlat"
+
+msgid "Throttle inbound mails"
+msgstr "Gelen e-postalar yavaşlatılsın"
+
+msgid "Throttle outbound mails"
+msgstr "Giden e-postalar yavaşlatılsın"
+
+msgid "Throttling"
+msgstr "Yavaşlatma"
+
+msgid "Time"
+msgstr "Zaman"
+
+msgid "Time zone"
+msgstr "Saat dilimi"
+
+msgid "To add new members, please enable mailing list account first."
+msgstr ""
+"Yeni üyeler eklemek için lütfen önce e-posta listesi hesabını kullanıma alın."
+
+msgid "To verify domain ownership, please choose one of methods listed below:"
+msgstr ""
+"Aşağıdan etki alanı sahipliğini doğrulamak için kullanılacak yöntemi seçin:"
+
+msgid "Top Recipients"
+msgstr "En fazla alanlar"
+
+msgid "Top Senders"
+msgstr "En fazla gönderenler"
+
+msgid "Tracking Data"
+msgstr "İzleme verileri"
+
+msgid "Unban"
+msgstr "Engellemeyi kaldır"
+
+msgid "Unban IP address"
+msgstr "IP adresinin engellemesini kaldır"
+
+msgid "Unbanning IP address may take up to one minute, please be patient."
+msgstr ""
+"IP adresinin engellemesinin kaldırılması bir dakika kadar sürebilir. Lütfen "
+"sabırlı olun."
+
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+msgid "Unmark as domain admin"
+msgstr "Etki alanı yöneticilerinden kaldır"
+
+msgid "Unmark as global admin"
+msgstr "Genel yöneticilerden kaldır"
+
+msgid "Unrestricted"
+msgstr "Kısıtlanmamış"
+
+msgid "Unsubscribe"
+msgstr "Abonelikten ayrıl"
+
+msgid "Unsubscribe from newsletter"
+msgstr "Duyuru aboneliğinden ayrıl"
+
+msgid "Update existing mail users"
+msgstr "Var olan e-posta kullanıcılarını güncelle"
+
+msgid "Update whitelists and blacklists"
+msgstr "Beyaz listeyi ve kara listeyi güncelle"
+
+msgid "Uptime"
+msgstr "Çalışma süresi"
+
+msgid "Use this password"
+msgstr "Bu parolayı kullan"
+
+msgid "Used"
+msgstr "Kullanılan"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "User created."
+msgstr "Kullanıcı oluşturuldu."
+
+msgid "User login (self-service)"
+msgstr "Kullanıcı girişi (kendin yap)"
+
+msgid "User with wildcard"
+msgstr "Genel arama karakteri ile kullanıcı"
+
+msgid "User/Employee ID"
+msgstr "Kullanıcı/Çalışan kimliği"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Username must be an valid email address."
+msgstr "Kullanıcı adı geçerli bir e-posta adresi olmalıdır."
+
+msgid "Username or password is incorrect."
+msgstr "Kullanıcı adı ya da parola yanlış."
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "Etki alanındaki kullanısı sayısı: %s"
+
+msgid "Users under same domain"
+msgstr "Aynı etki alanındaki kullanıcı sayısı"
+
+msgid "Users under same domain and its sub-domains"
+msgstr "Aynı etki alanı ile alt etki alanlarındaki kullanıcı sayısı"
+
+msgid "Valid record formats"
+msgstr "Geçerli kayıt biçimleri"
+
+msgid "Verify Now"
+msgstr "Şimdi doğrula"
+
+msgid "Verify code"
+msgstr "Doğrulama kodu"
+
+msgid "View members"
+msgstr "Üyeleri görüntüle"
+
+msgid "View or hide mail body and headers"
+msgstr "E-posta gövdesi ve üst bilgisini görüntüle/gizle"
+
+msgid "View received mails and white/blacklist senders"
+msgstr "Alınan e-postaları görüntüle ve göndericileri beyaz/kara listeye ekle"
+
+msgid "Virus"
+msgstr "Virus"
+
+msgid "Virus checking"
+msgstr "Virus denetleniyor"
+
+msgid ""
+"Visit URLs below with a web browser should display verify code as page content:"
+msgstr ""
+"Aşağıdaki adreslere tarayıcı ile bakıldığında sayfa içeriği olarak doğrulama "
+"kodu görüntülenmelidir:"
+
+msgid "Waiting for domain ownership verification"
+msgstr "Etki alanı sahipliğinin doğrulanması bekleniyor"
+
+msgid "Warning"
+msgstr "Uyarı"
+
+msgid ""
+"We need to confirm your email address. To complete the subscription process, "
+"please click the link in the email we just sent you."
+msgstr ""
+"E-posta adresinizi doğrulamamız gerekiyor. Abonelik işlemini tamamlamak için "
+"lütfen az önce size gönderdiğimiz e-postadaki bağlantıya tıklayın."
+
+msgid ""
+"We need to confirm your email address. To complete the unsubscription process, "
+"please click the link in the email we just sent you."
+msgstr ""
+"E-posta adresinizi doğrulamamız gerekiyor. Abonelikten ayrılma işlemini "
+"tamamlamak için lütfen az önce size gönderdiğimiz e-postadaki bağlantıya "
+"tıklayın."
+
+msgid ""
+"When smtp service on primary MX mail server is down, emails sent to this domain "
+"will be delivered to backup MX server."
+msgstr ""
+"Birincil MX e-posta sunucusundaki SMTP hizmeti çalışmadığında, bu etki alanına "
+"gönderilen e-postalar yedek MX sunucusuna iletilir."
+
+msgid "White/Blacklist"
+msgstr "Beyaz/Kara liste"
+
+msgid "White/Blacklists"
+msgstr "Beyaz/Kara listeler"
+
+msgid "Whitelist"
+msgstr "Beyaz liste"
+
+msgid "Whitelist has higher priority than blacklist."
+msgstr "Beyaz liste kara listeye göre önceliklidir."
+
+msgid "Whitelisted"
+msgstr "Beyaz listeye eklendi"
+
+msgid "Whitelisted recipients"
+msgstr "Beyaz listeye eklenmiş alıcılar"
+
+msgid "Whitelisted senders"
+msgstr "Beyaz listeye eklenmiş göndericiler"
+
+msgid "Whitelists"
+msgstr "Beyaz listeler"
+
+msgid "Whitelists & Blacklists"
+msgstr "Beyaz/Kara listeler"
+
+msgid ""
+"Whitelists and Blacklists based on reverse DNS name of sender server IP address"
+msgstr ""
+"Gönderici sunucu IP adresinin ters DNS adına göre beyaz listeler ve kara "
+"listeler"
+
+msgid "Whitelists and Blacklists based on sender addresses"
+msgstr "Gönderici adresine göre beyaz listeler ve kara listeler"
+
+msgid "Who can send email to this list"
+msgstr "Bu listeye e-posta gönderebilecek kişiler"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr "Genel etki alanı yöneticisinin profilini güncelleme izniniz yok."
+
+#, python-format
+msgid "You are running version %s"
+msgstr "%s sürümünü kullanıyorsunuz"
+
+#, python-format
+msgid "You can NOT create more users under domain %s."
+msgstr "%s etki alanı altında daha fazla kullanıcı oluşturamazsınız."
+
+msgid "You can change the kept days here:"
+msgstr "Tutulacak gün sayısını buradan değiştirebilirsiniz:"
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mail alias(es) under domain %s."
+msgstr ""
+"<strong>%d</strong> tane daha e-posta takma adını %s etki alanı altında "
+"oluşturabilirsiniz."
+
+#, python-format
+msgid ""
+"You can create <strong>%d</strong> more mail domains (Existing: %d, Max: %d)"
+msgstr ""
+"<strong>%d</strong> tane daha e-posta etki alanı oluşturabilirsiniz "
+"(Kullanılan: %d, En fazla: %d)"
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
+msgstr ""
+"<strong>%d</strong> tane daha e-posta kullanıcısını %s etki alanı altında "
+"oluşturabilirsiniz."
+
+#, python-format
+msgid "You can create <strong>%d</strong> more mailing list(s) under domain %s."
+msgstr ""
+"<strong>%d</strong> tane daha e-posta listesini %s etki alanı altında "
+"oluşturabilirsiniz."
+
+msgid ""
+"You can embed a mailing list signup form (HTML code below) on any page of your "
+"website. Feel free to customize the form to add your brand name, logo image, or "
+"combine it with special offers to attract new subscribers and boost engagement."
+msgstr ""
+"Sitenizin herhangi bir sayfasına bir e-posta listesi kayıt formu "
+"yerleştirebilirsiniz (aşağıdaki HTML kodu ile). Marka adınızı, logo görselinizi "
+"eklemek veya yeni aboneler alarak etkileşimi artıracak özel teklifler sunmak "
+"için formu özelleştirebilirsiniz."
+
+msgid ""
+"You can enable self-service (per-domain setting) to allow users to manage their "
+"own preferences and more."
+msgstr ""
+"Kendin yap seçeneğini kullanıma alarak (her etki alanı için ayarlanabilir) "
+"kullanıcıların kendi ayarlarını yapmasını sağlayabilirsiniz."
+
+msgid "You can set per-domain and per-user throttling in account profile page."
+msgstr ""
+"Hesap profili bölümünden her etki alanı ve her kullanıcı için ayrı yavaşlatma "
+"ayarlayabilirsiniz."
+
+msgid "You can set per-domain throttling in domain profile page."
+msgstr ""
+"Etki alanı profili bölümünden her etki alanı için ayrı yavaşlatma "
+"ayarlayabilirsiniz."
+
+msgid "You can set per-user throttling in account profile page."
+msgstr ""
+"Hesap profili bölümünden her kullanıcı için ayrı yavaşlatma ayarlayabilirsiniz."
+
+#, python-format
+msgid "You can't create mail aliases under domain %s."
+msgstr "%s etki alanı altında e-posta takma adları oluşturamazsınız."
+
+#, python-format
+msgid "You can't create mailing lists under domain %s."
+msgstr "%s etki alanı altında e-posta listeleri oluşturamazsınız."
+
+#, python-format
+msgid "You can't create more mail aliases under domain %s."
+msgstr "%s etki alanı altında daha fazla e-posta takma adı oluşturamazsınız."
+
+#, python-format
+msgid "You can't create more mailing lists under domain %s."
+msgstr "%s etki alanı altında daha fazla e-posta listesi oluşturamazsınız."
+
+msgid "Your license is invalid. Please contact support@iredmail.org to fix it."
+msgstr ""
+"Lisansınız geçersiz. Sorunu çözmek için lütfen support@iredmail.org adresine "
+"yazın."
+
+msgid "Your search returned no hits."
+msgstr "Aramanız herhangi bir sonuç vermedi."
+
+msgid "default transport"
+msgstr "varsayılan taşıyıcı"
+
+msgid "discard received email"
+msgstr "alınan e-posta yok sayılsın"
+
+msgid ""
+"forward emails to host example.com through port 25. The [] form is required "
+"when you specify an IP address instead of a hostname, or disable MX DNS lookup."
+msgstr ""
+"e-postalar 25 numaralı bağlantı noktası üzerinden ornek.com sunucusuna "
+"iletilsin. Bir sunucu adı yerine bir IP adresi belirttiğinizde ya da MX DNS "
+"aramasını kullanımdan kaldırdığınızda [] biçimi gereklidir."
+
+msgid "or longer than"
+msgstr "veya şundan uzun"
+
+msgid ""
+"relay emails to the servers specified in A DNS records of domain example.com "
+"through port 25"
+msgstr ""
+"e-postalar, ornek.com etki alanının A DNS kayıtlarında belirtilen sunuculara 25 "
+"numaralı bağlantı noktası üzerinden aktarılsın"
+
+msgid ""
+"relay emails to the servers specified in MX DNS records of domain example.com "
+"through port 25"
+msgstr ""
+"e-postalar, ornek.com etki alanının MX DNS kayıtlarında belirtilen sunuculara "
+"25 numaralı bağlantı noktası üzerinden aktarılsın"
+
+msgid "without verifying local recipients"
+msgstr "yerel alıcılar doğrulanmadan"
