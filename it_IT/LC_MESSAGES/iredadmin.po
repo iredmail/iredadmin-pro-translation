@@ -449,6 +449,16 @@ msgstr "Cambia indirizzo di posta in"
 msgid "Change password"
 msgstr "Cambia password"
 
+msgid ""
+"Check <a "
+"href=\"http://projects.puremagic.com/greylisting/whitepaper.html\" "
+"target=\"_blank\" rel=\"noopener\">Greylisting Whitepaper</a> for "
+"technical details."
+msgstr ""
+"Fare riferimento a <a href=\"http://www.greylisting.org/\" "
+"target=\"_blank\" rel=\"noopener\">greylisting.org</a> per i dettagli "
+"riguardo al greylisting."
+
 msgid "Choose Action"
 msgstr "Scegli Azione"
 
@@ -1456,7 +1466,6 @@ msgstr "Mailing List"
 msgid "Mailing list created."
 msgstr ""
 
-
 msgid "Mailing list:"
 msgstr "Mailing List"
 
@@ -2196,15 +2205,6 @@ msgstr "I record sono stati aggiornati con successo."
 
 msgid "Redirect user to subscription page"
 msgstr ""
-
-msgid ""
-"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for technical details about "
-"greylisting."
-msgstr ""
-"Fare riferimento a <a href=\"http://www.greylisting.org/\" "
-"target=\"_blank\" rel=\"noopener\">greylisting.org</a> per i dettagli "
-"riguardo al greylisting."
 
 msgid "Rejected"
 msgstr ""

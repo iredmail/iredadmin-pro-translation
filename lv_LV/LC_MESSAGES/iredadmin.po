@@ -450,6 +450,16 @@ msgstr "Mainīt e-pasta adresi uz"
 msgid "Change password"
 msgstr "Paroles maiņa"
 
+msgid ""
+"Check <a "
+"href=\"http://projects.puremagic.com/greylisting/whitepaper.html\" "
+"target=\"_blank\" rel=\"noopener\">Greylisting Whitepaper</a> for "
+"technical details."
+msgstr ""
+"Lai iegūtu tehnisku informāciju par pelēko sarakstu, skatiet <a "
+"href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"rel=\"noopener\">greylisting.org</a>."
+
 msgid "Choose Action"
 msgstr "Izvēlieties darbību"
 
@@ -1464,7 +1474,6 @@ msgstr "Adresātu saraksti"
 msgid "Mailing list created."
 msgstr "Izveidots adresātu saraksts."
 
-
 msgid "Mailing list:"
 msgstr "Adresātu saraksts"
 
@@ -2215,15 +2224,6 @@ msgstr "Ieraksti tika veiksmīgi atjaunināti."
 
 msgid "Redirect user to subscription page"
 msgstr "Novirzīt lietotāju uz abonementa lapu"
-
-msgid ""
-"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for technical details about "
-"greylisting."
-msgstr ""
-"Lai iegūtu tehnisku informāciju par pelēko sarakstu, skatiet <a "
-"href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a>."
 
 msgid "Rejected"
 msgstr ""

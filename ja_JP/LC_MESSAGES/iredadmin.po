@@ -442,6 +442,15 @@ msgstr "メールアドレスを次のものに変更"
 msgid "Change password"
 msgstr "パスワードを変更"
 
+msgid ""
+"Check <a "
+"href=\"http://projects.puremagic.com/greylisting/whitepaper.html\" "
+"target=\"_blank\" rel=\"noopener\">Greylisting Whitepaper</a> for "
+"technical details."
+msgstr ""
+"グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"\"rel=\"noopener\">greylisting.org</a>を参照"
+
 msgid "Choose Action"
 msgstr "実施内容を選択"
 
@@ -1403,7 +1412,6 @@ msgstr "メーリングリスト"
 msgid "Mailing list created."
 msgstr "メーリングリストを作成しました."
 
-
 msgid "Mailing list:"
 msgstr "メーリングリスト"
 
@@ -2106,14 +2114,6 @@ msgstr ""
 
 msgid "Redirect user to subscription page"
 msgstr ""
-
-msgid ""
-"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for technical details about "
-"greylisting."
-msgstr ""
-"グレイリストの技術的詳細は<a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"\"rel=\"noopener\">greylisting.org</a>を参照"
 
 msgid "Rejected"
 msgstr ""

@@ -448,6 +448,15 @@ msgstr "Ändra e-postadress till"
 msgid "Change password"
 msgstr "Byt lösenord"
 
+msgid ""
+"Check <a "
+"href=\"http://projects.puremagic.com/greylisting/whitepaper.html\" "
+"target=\"_blank\" rel=\"noopener\">Greylisting Whitepaper</a> for "
+"technical details."
+msgstr ""
+"Se <a href=”http://www.greylisting.org/” target=”_blank” rel=”noopener”> "
+"greylisting.org </a> för tekniska detaljer om greylisting."
+
 msgid "Choose Action"
 msgstr "Välj åtgärd"
 
@@ -1482,7 +1491,6 @@ msgstr "Postlistor"
 msgid "Mailing list created."
 msgstr "E-postlista skapad."
 
-
 msgid "Mailing list:"
 msgstr "E-postlista"
 
@@ -2228,14 +2236,6 @@ msgstr "Post har uppdaterats."
 
 msgid "Redirect user to subscription page"
 msgstr "Omdirigera användare till prenumerationssidan"
-
-msgid ""
-"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for technical details about "
-"greylisting."
-msgstr ""
-"Se <a href=”http://www.greylisting.org/” target=”_blank” rel=”noopener”> "
-"greylisting.org </a> för tekniska detaljer om greylisting."
 
 msgid "Rejected"
 msgstr "Obegränsad"

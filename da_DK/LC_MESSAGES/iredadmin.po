@@ -451,6 +451,16 @@ msgstr "Skift e-mailadresse til"
 msgid "Change password"
 msgstr "Skift adgangskode"
 
+msgid ""
+"Check <a "
+"href=\"http://projects.puremagic.com/greylisting/whitepaper.html\" "
+"target=\"_blank\" rel=\"noopener\">Greylisting Whitepaper</a> for "
+"technical details."
+msgstr ""
+"Se <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
+"rel=\"noopener\">greylisting.org</a> for tekniske detaljer om "
+"greylisting."
+
 msgid "Choose Action"
 msgstr "Vælg handling"
 
@@ -1476,7 +1486,6 @@ msgstr "Maillister"
 msgid "Mailing list created."
 msgstr "Mailliste oprettet."
 
-
 msgid "Mailing list:"
 msgstr "Mailliste"
 
@@ -2211,15 +2220,6 @@ msgstr "Poster blev opdateret."
 
 msgid "Redirect user to subscription page"
 msgstr "Omdirigér bruger til abonnementsside"
-
-msgid ""
-"Refer to <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for technical details about "
-"greylisting."
-msgstr ""
-"Se <a href=\"http://www.greylisting.org/\" target=\"_blank\" "
-"rel=\"noopener\">greylisting.org</a> for tekniske detaljer om "
-"greylisting."
 
 msgid "Rejected"
 msgstr ""
